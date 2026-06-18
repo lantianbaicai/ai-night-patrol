@@ -1,153 +1,79 @@
-# 🔭 AI赚钱夜巡 · 2026-06-18 12:00
-
-> 本期来源：GitHub Trending（日榜 + 周榜对比）| ProductHunt（Cloudflare拦截）| 36氪（JS渲染，提取失败）  
-> 5指标：①客户明确 ②7天可Demo ③30天可收费 ④复用资产 ⑤长期壁垒  
-> ≥3项 → 重点  
-> ⚠️ 本期为今日第二次夜巡（上次 04:00），重点聚焦日榜新发现
+# 🔭 AI赚钱夜巡 · 2026-06-18 20:05
 
 ---
 
-## 🆕 日榜新发现（04:00夜巡未覆盖）
+## 📡 选题雷达（5指标评分：客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒）
 
-### 1. ⭐⭐⭐⭐⭐ Google TimesFM — 时序预测API（5/5）🆕
-**来源：** google-research/timesfm（Google Research官方）  
-**信号：** Google推出的预训练时序预测基础模型。时序预测是金融、零售、供应链、运维的通用刚需——每家公司都有时序数据，但不是每家公司都能做AI预测。  
-**可做：**
-- **时序预测SaaS** — 用户上传CSV，自动选模型+预测+可视化，按调用收费
-- **垂直场景包装** — 电商销量预测、股票辅助分析、服务器流量预测、电力负荷预测
-- **中文金融时序API** — 针对A股/期货市场的时序预测微调
+### 🔥 重点追踪（≥3项达标）
 
-| 标准 | 得分 |
+| # | 选题 | 客户 | 7d | 30d | 复用 | 壁垒 | 分 |
+|---|------|------|-----|------|------|------|-----|
+| 1 | **用户痛点雷达（SaaS化）** — GitHub user-pain-radar 开源，11+平台爬取用户吐槽→AI评分变现潜力→生成机会报告 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4 |
+| 2 | **AI Affiliate 站点流水线** — indie-affiliate-site-playbook：90天从idea到收入，AI原生建站+SOP，MIT开源 | ✅ | ✅ | ✅ | ✅ | ❌ | 4 |
+| 3 | **创始人AI董事会（1founder）** — 40+AI agents并行分析创业idea（战略/GTM/财务/法律/风险），Chief of Staff汇总 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4 |
+| 4 | **Character.AI 式创作者平台** — 角色创建者面板+粉丝通知+变现，已验证模式可复制到垂类（如小说角色/虚拟博主） | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4 |
+| 5 | **AI风格插画API** — orange-line-illustration，纽约客风格极简插画，开源免费/闭源商业双授权 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4 |
+| 6 | **Claude Design生态机会** — Anthropic推出类Figma编辑器，直接导出Adobe/Canva，与Claude Code联动 → 上游模板/插件/教程生意 | ⚠️ | ✅ | ✅ | ✅ | ✅ | 4 |
+
+### 📊 趋势信号（可关注但不急于下手）
+
+| 选题 | 信号 |
 |------|------|
-| 客户明确 | ✅ 金融/零售/运维/供应链全行业 |
-| 7天Demo | ✅ 预训练模型即开即用 |
-| 30天收费 | ✅ API调用/订阅，计费模型成熟 |
-| 复用资产 | ✅ 模型+数据积累 |
-| 长期壁垒 | ✅ Google技术底子+时序数据飞轮 |
-
-### 2. ⭐⭐⭐⭐ OpenMontage — AI视频自动化生产（4/5）🆕
-**来源：** calesthio/OpenMontage（5.4K⭐ +98/日，12条流水线、52个工具、500+agent技能）  
-**信号：** 全球首个开源Agentic视频生产系统。老大已有remotion项目和视频分析项目，这个方向与现有资产高度契合。  
-**可做：**
-- **中文视频自动剪辑服务** — 基于OpenMontage做中文版，自动剪辑+字幕+配音
-- **短视频批量生产** — 输入文案→自动生成视频，服务自媒体/电商
-- **整合到Remotion工作流** — OpenMontage + Remotion = 从脚本到成品全自动
-
-| 标准 | 得分 |
-|------|------|
-| 客户明确 | ✅ 自媒体/电商/教育/企业宣传 |
-| 7天Demo | ✅ 开源可部署 |
-| 30天收费 | ✅ 按视频/订阅收费 |
-| 复用资产 | ✅ 视频模板+流水线 |
-| 长期壁垒 | ⚠️ 开源，但中文场景适配+模板库是壁垒 |
-
-### 3. ⭐⭐⭐⭐ 字节UI-TARS桌面Agent生态（4/5）🆕
-**来源：** bytedance/UI-TARS-desktop（36.7K⭐ +150/日）  
-**信号：** 字节跳动开源的多模态AI Agent桌面端。Agent操控桌面的基础设施。中国企业自动化市场正在被字节定义。  
-**可做：**
-- **企业RPA+AI咨询** — 基于UI-TARS帮企业做桌面自动化
-- **UI-TARS培训/课程** — 教企业怎么用Agent自动化重复操作
-- **垂直场景Agent** — 财税/HR/客服等场景的专用Agent
-
-| 标准 | 得分 |
-|------|------|
-| 客户明确 | ✅ 企业自动化刚需 |
-| 7天Demo | ⚠️ 技术栈复杂 |
-| 30天收费 | ✅ 咨询/订阅模式 |
-| 复用资产 | ✅ 行业解决方案 |
-| 长期壁垒 | ⚠️ 字节开源，但行业know-how是壁垒 |
+| **金融AI合规工具** | 国家金融监管总局发布AI安全开发应用指导意见，要求供应链安全/开源审查 → 合规即服务 |
+| **AI数据中心热潮** | 美国AI数据中心建设持续，xAI密西西比数据中心被DOJ认定为"军事关键" |
+| **AI设计工具大战** | Anthropic(Claude Design) vs Figma vs Canva → 工具链上游机会：模板市场、插件生态 |
+| **Agent框架泛滥** | AurixAgent等新Agent框架大量涌现，打差异化难，但做Agent之上的垂直应用有机会 |
 
 ---
 
-## 🔁 04:00夜巡重点追踪
+## 🗞️ 原始速览
 
-### Token压缩API — 持续验证
-- headroom：31.8K⭐，今日+800+星，增速保持
-- 日榜虽未进TOP，但周榜仍在高位
-- **状态：P0维持，建议本周启动MVP**
+### GitHub（最近2周新仓库）
 
-### Agent技能经济 — 信号加强
-- mattpocock/skills 新上榜（日榜）
-- obra/superpowers 新上榜（日榜，agentic skills framework）
-- **从04:00至今8小时内，又有2个新skills仓库上榜** → 技能经济爆发正在加速
+**1. [user-pain-radar](https://github.com/heysourin/user-pain-radar)** · 2026-06-10
+AI Agent 自动发现用户痛点：爬取 Reddit/Twitter/App Store 等11+平台 → AI分类+变现评分 → 生成优先级排序的机会报告。**和我们夜巡做的事高度重合，是竞争也是验证。**
 
-### Agent-Reach — 日榜TOP持续
-- 日榜1,161星，日增速最高
-- Agent联网需求已成确定方向
+**2. [indie-affiliate-site-playbook](https://github.com/David-DL-Space/indie-affiliate-site-playbook)** · 最近
+"从创意到收入90天"完整SOP：AI原生工作流搭建盈利affiliate站点。MIT开源，适合独立开发者/一人公司快速启动。
 
----
+**3. [1founder-public](https://github.com/1founderai/1founder-public)** · 2026-05
+AI版创始人董事会：输入创业idea → 40+专家Agent并行分析 → 健康分+盲点+排序行动项。Star数增长中。
 
-## 📊 选题雷达（更新）
+**4. [orange-line-illustration](https://github.com/orange2ai/orange-line-illustration)** · 2026-06
+AI生成纽约客风格极简插画Skill。开源免费/商用付费双授权模式清晰。
 
-```
-高紧迫 ─────────────────────────────────────────
-        │                                   
-        │  Token压缩API ★★★★★ (连续验证)    
-        │  Agent技能安全审计 ★★★★★          
-        │  Google时序预测API ★★★★★ 🆕       
-        │                                    
-        │  技能分发市场 ★★★★★               
-        │  技能培训认证 ★★★★★               
-        │  AI视频自动化 ★★★★ 🆕              
-        │  UI-TARS企业自动化 ★★★★ 🆕         
-        │  Agent Reach ★★★★                 
-        │                                    
-低紧迫 ─────────────────────────────────────────
-        低确定性                              高确定性
-```
+**5. [AurixAgent](https://github.com/DekaPrayoga/AurixAgent)** · 2026-06-10
+终端内多Agent自主工作空间，40+工具/280+技能，含验证码视觉识别+浏览器控制。17 stars，竞争激烈。
 
----
-
-## 🧠 洞察（≤3句）
-
-1. **Google入场时序预测不是学术行为，是产业化信号**——TimesFM的发布意味着Google认为时序预测的产业化时机已经成熟。2026年会出现一批"时序预测API"创业公司，趁现在模型层开源但应用层空缺，是进入的最佳窗口。
-
-2. **Agent技能经济在8小时内出现2个新仓库（mattpocock/skills、obra/superpowers）**——技能生态的爆发速度远超预期，从"有没有人做"变成了"做的人太多，缺的是分类、审核、分发"。做平台比做内容更有壁垒。
-
-3. **OpenMontage的出现对老大的视频项目是催化剂而非威胁**——500+agent技能、52个工具、12条流水线的开源视频生产系统，可以直接接入Remotion工作流。与其从零写视频自动化，不如站在OpenMontage肩膀上做中文+垂直场景优化。
-
----
-
-## 📋 下一步建议（更新）
-
-| 优先级 | 动作 | 理由 | 变化 |
-|--------|------|------|------|
-| **P0** | 启动Token压缩中文版MVP | 连续3次夜巡验证，MVP最简单 | 维持 |
-| **P0** | 调研TimesFM时序预测API | Google官方，预训练即用，变现最快 | 🆕 |
-| **P1** | 调研Agent技能安全审计 | NVIDIA入场，合规刚需 | 维持 |
-| **P1** | 评估OpenMontage + Remotion整合 | 与现有资产高度契合 | 🆕 |
-| **P2** | 搭建技能分发市场原型 | 技能经济爆发前夜 | 维持 |
-| **P2** | 关注UI-TARS企业咨询机会 | 字节定义赛道 | 🆕 |
-
----
-
-## 📡 原始速览
-
-### GitHub 日榜（今日新上榜项目）
-
-| 项目 | Star | 今日 | 类型 | 机会评分 |
-|------|------|------|------|---------|
-| DeusData/codebase-memory-mcp | 5.6K | +371 | AI工具 | ⭐⭐⭐ |
-| n0-computer/iroh | 9.7K | +421 | 网络栈 | 低 |
-| Panniantong/Agent-Reach | 33.4K | +1,161 | AI联网 | ⭐⭐⭐⭐ |
-| obra/superpowers | — | — | AI技能框架 | ⭐⭐⭐⭐ |
-| google-research/timesfm | — | — | 时序预测 | ⭐⭐⭐⭐⭐ 🆕 |
-| continuedev/continue | 33.9K | +49 | AI编程 | ⭐⭐⭐ |
-| bytedance/UI-TARS-desktop | 36.7K | +150 | AI Agent | ⭐⭐⭐⭐ 🆕 |
-| mattpocock/skills | — | — | AI技能 | ⭐⭐⭐ |
-| calesthio/OpenMontage | 5.4K | +98 | AI视频 | ⭐⭐⭐⭐ 🆕 |
-| alexzhang13/rlm | 4.9K | +43 | 递归语言模型 | ⭐⭐ |
-| RocketChat/Rocket.Chat | — | — | 通讯 | 低 |
-| krahets/hello-algo | — | — | 教育 | 低 |
-| plane | 51.3K | +89 | 项目管理 | 低 |
+**6. [Ai-Tools-to-make-money](https://github.com/moonlitemoney/Ai-Tools-to-make-money)** · 2026-06
+AI赚钱工具合集（listicle型repo），信息密度低，不推荐深入。
 
 ### ProductHunt
-- ⛔ Cloudflare拦截（403），持续不可用
+⚠️ 本周受Cloudflare防护影响无法直接抓取PH数据，后续考虑用RSS/API Key方案。
 
 ### 36氪
-- ⛔ JS渲染页面，提取失败（仅页脚）
-- 建议：切换为RSS订阅或其他API
+- **金融AI监管新规**：国家金融监管总局发布《银行业保险业AI安全开发应用指导意见》— 强调供应链安全、开源审查、大机构向中小机构输出算力
+- **Robo.ai** 以6000万美元收购AI科技控股平台QC Capital
+- **追觅**战略聚焦智能家庭/户外庭院/智能出行/具身智能四大AI赛道
+
+### The Verge AI
+- **Claude Design升级**：新增直接拖拽编辑器、Adobe/Canva导出、Claude Code双向联动 → 设计师+开发者协作新范式
+- **Noam Shazeer（Gemini联合负责人）加入OpenAI**：Google曾花27亿美元回购Character.AI团队，现核心人物再次出走
+- **Character.AI创作者工具**：新增面板+粉丝通知 → 创作者经济变现
+- **OpenAI Sunset Pulse**：关停AI日报功能，推动用户转向定时任务
+- **Allbirds→Smartbird**：鞋业公司彻底转型AI基础设施
 
 ---
 
-*生成时间：2026-06-18 12:00 CST | 模型：deepseek-v4-pro | 下次夜巡：2026-06-18 20:00*
+## 💡 洞察（≤3句）
+
+1. **用户痛点雷达是直接竞品，更是验证信号**：有人在开源社区做了和我们夜巡几乎一样的事，说明"AI自动发现赚钱机会"这个方向被市场认可。差异化在于：我们可以做得更深（中文生态+垂类+可执行指令），而他们止步于报告层。
+
+2. **AI Agent泛滥 → 垂直应用才是金矿**：AurixAgent/Mythos等Agent框架每周都在出新，卷框架没前途。但在Agent之上做垂直可收费产品（创始人顾问、角色变现平台、风格API）才是正解——1founder和Character.AI已验证。
+
+3. **AI设计工具链上游是蓝海**：Claude Design杀入Figma腹地，工具成熟后会催生模板市场/插件/教程需求，类似Canva模板倒卖模式，可以用AI批量生成设计资产抢先卡位。
+
+---
+
+*下次夜巡：2026-06-19 20:00*
+*数据源：GitHub API · The Verge · 36氪快讯*
