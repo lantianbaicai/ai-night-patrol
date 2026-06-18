@@ -17,6 +17,7 @@
 | 🎵 抖音选题脚本 | 待开发 | 热点追踪→选题策划→脚本生成→BGM匹配 | 🚧 规划中 |
 | 💬 微信私域运营 | 待开发 | 公众号排版+朋友圈运营+社群管理+自动回复 | 🚧 规划中 |
 | 🛒 闲鱼商品优化 | 待开发 | 标题优化+定价策略+自动擦亮+竞品分析 | 🚧 规划中 |
+| 🎨 中文手绘配图 | Codex | 自动生成中文文章的小黑怪诞手绘插图 | [ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) 5.1K⭐ |
 
 ---
 
