@@ -1,4 +1,4 @@
-# 🔭 AI赚钱夜巡 · 2026-06-18 20:05
+# 🔭 AI赚钱夜巡 · 2026-06-19 04:00
 
 ---
 
@@ -8,72 +8,81 @@
 
 | # | 选题 | 客户 | 7d | 30d | 复用 | 壁垒 | 分 |
 |---|------|------|-----|------|------|------|-----|
-| 1 | **用户痛点雷达（SaaS化）** — GitHub user-pain-radar 开源，11+平台爬取用户吐槽→AI评分变现潜力→生成机会报告 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4 |
-| 2 | **AI Affiliate 站点流水线** — indie-affiliate-site-playbook：90天从idea到收入，AI原生建站+SOP，MIT开源 | ✅ | ✅ | ✅ | ✅ | ❌ | 4 |
-| 3 | **创始人AI董事会（1founder）** — 40+AI agents并行分析创业idea（战略/GTM/财务/法律/风险），Chief of Staff汇总 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4 |
-| 4 | **Character.AI 式创作者平台** — 角色创建者面板+粉丝通知+变现，已验证模式可复制到垂类（如小说角色/虚拟博主） | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4 |
-| 5 | **AI风格插画API** — orange-line-illustration，纽约客风格极简插画，开源免费/闭源商业双授权 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4 |
-| 6 | **Claude Design生态机会** — Anthropic推出类Figma编辑器，直接导出Adobe/Canva，与Claude Code联动 → 上游模板/插件/教程生意 | ⚠️ | ✅ | ✅ | ✅ | ✅ | 4 |
+| 1 | **AI八字/紫微斗数算命Skill** — bazi-ziwei-skill：算法精准排盘+AI解读+一键生成水墨风HTML命盘海报，兼容Claude/Codex/Cursor | ✅ | ✅ | ✅ | ✅ | ✅ | 5 |
+| 2 | **AI游戏精灵生成API** — perfectpixel-studio：文字提示→8方向100+动作角色精灵表，Wails+Go+React | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4 |
+| 3 | **AI模型路由/成本优化SaaS** — value-for-fable思路："Opus品质Sonnet单价"，做国内模型serving成本优化层 | ⚠️ | ✅ | ✅ | ✅ | ⚠️ | 3 |
+| 4 | **AI提示词上下文工作台** — Prompt Foundry：VS Code扩展+动态上下文块+MCP反馈回路，解决Agent通用性问题 | ✅ | ✅ | ⚠️ | ✅ | ❌ | 3 |
 
 ### 📊 趋势信号（可关注但不急于下手）
 
 | 选题 | 信号 |
 |------|------|
-| **金融AI合规工具** | 国家金融监管总局发布AI安全开发应用指导意见，要求供应链安全/开源审查 → 合规即服务 |
-| **AI数据中心热潮** | 美国AI数据中心建设持续，xAI密西西比数据中心被DOJ认定为"军事关键" |
-| **AI设计工具大战** | Anthropic(Claude Design) vs Figma vs Canva → 工具链上游机会：模板市场、插件生态 |
-| **Agent框架泛滥** | AurixAgent等新Agent框架大量涌现，打差异化难，但做Agent之上的垂直应用有机会 |
+| **中国AI追赶加速** | 马斯克预测中国大模型2027Q1追上Fable水平，业内人士认为差距不到7个月 → 国产模型生态将爆发，工具链/middleware是机会 |
+| **SaaS信仰危机** | HN热帖讨论"AI进步下SaaS还能是可行商业模式吗" — 说明市场在重新定价传统SaaS，AI native SaaS才是方向 |
+| **AI Agent元框架井喷** | Omnigent一周3770⭐，Agent编排层竞争白热化 → 不要在框架层竞争，在垂直应用层赚钱 |
+| **玄学AI已验证** | bazi-ziwei-skill获关注，证明AI+玄学=付费意愿极高的利基市场 |
 
 ---
 
 ## 🗞️ 原始速览
 
-### GitHub（最近2周新仓库）
+### GitHub（最近1周新仓库）
 
-**1. [user-pain-radar](https://github.com/heysourin/user-pain-radar)** · 2026-06-10
-AI Agent 自动发现用户痛点：爬取 Reddit/Twitter/App Store 等11+平台 → AI分类+变现评分 → 生成优先级排序的机会报告。**和我们夜巡做的事高度重合，是竞争也是验证。**
+**1. [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** · ⭐3770 · 2026-06-11
+开源AI Agent元框架：统一编排Claude Code/Codex/Cursor/Pi等编码Agent，支持热切换、策略执行、沙箱隔离、实时协作。Python + Apache 2.0。**一周近4000星，Agent编排是当前最热赛道，但要变现得往上走做垂直应用。**
 
-**2. [indie-affiliate-site-playbook](https://github.com/David-DL-Space/indie-affiliate-site-playbook)** · 最近
-"从创意到收入90天"完整SOP：AI原生工作流搭建盈利affiliate站点。MIT开源，适合独立开发者/一人公司快速启动。
+**2. [eli-labz/Third-Eye](https://github.com/eli-labz/Third-Eye)** · ⭐302 · 2026-06-13
+生产级OSINT（开源情报）平台，多情报域态势感知。TypeScript + MIT。面向安全分析市场，偏B2G/B2B。
 
-**3. [1founder-public](https://github.com/1founderai/1founder-public)** · 2026-05
-AI版创始人董事会：输入创业idea → 40+专家Agent并行分析 → 健康分+盲点+排序行动项。Star数增长中。
+**3. [gykim80/perfectpixel-studio](https://github.com/gykim80/perfectpixel-studio)** · 2026-06
+AI动画精灵工作室：一条文字提示→生成8方向100+动作角色精灵表。Wails+Go+React。**游戏开发者的真实痛点，可做API/商业授权收费。**
 
-**4. [orange-line-illustration](https://github.com/orange2ai/orange-line-illustration)** · 2026-06
-AI生成纽约客风格极简插画Skill。开源免费/商用付费双授权模式清晰。
+**4. [dzcmemory-web/bazi-ziwei-skill](https://github.com/dzcmemory-web/bazi-ziwei-skill)** · 2026-06
+AI八字+紫微斗数Skill：算法精准排盘（不靠LLM猜），三种分析模式，一键生成水墨风HTML命盘海报。**这个方向极好——玄学AI用户付费意愿极高，且可复制到奇门遁甲/六爻/风水等品类。**
 
-**5. [AurixAgent](https://github.com/DekaPrayoga/AurixAgent)** · 2026-06-10
-终端内多Agent自主工作空间，40+工具/280+技能，含验证码视觉识别+浏览器控制。17 stars，竞争激烈。
+**5. [itsinseong/value-for-fable](https://github.com/itsinseong/value-for-fable)** · 2026-06
+韩语项目："Opus品质Sonnet单价" — AI模型成本优化方案。**模型路由/成本优化的idea是可复用的，可以做国内版。**
 
-**6. [Ai-Tools-to-make-money](https://github.com/moonlitemoney/Ai-Tools-to-make-money)** · 2026-06
-AI赚钱工具合集（listicle型repo），信息密度低，不推荐深入。
+**6. [lokkucharunya/agentic-ai-startup-simulator](https://github.com/lokkucharunya/agentic-ai-startup-simulator)** · 2026-06-02
+AI VC模拟器：自动分析创业idea → 市场洞察+风险分析+变现策略+投资建议。Python。但0星，没有PMF信号。
+
+### Hacker News（6月17-18日）
+
+**Show HN:**
+- **Prompt Foundry** (2pt) — VS Code/Cursor扩展：用liquid语法拼装专注上下文+指令=更精准的AI输出。含MCP server更新上下文块，形成反馈回路。作者用Claude Code较多，还做了TUI集成。
+  - GH: github.com/simondevries/prompt-foundry
+
+- **The AI App That Does the Work** (1pt) — runner.now/download，概念模糊无实质信息
+
+- **Agentbrowse** (1pt) — 从终端驱动任意网站，为AI coding agent设计。npm: agentbrowse
+
+**讨论/趋势:**
+- **Self-Improving Agents Still Need Humans** (2pt) — goose-docs.ai发文：自进化Agent仍需人类监督。与我们的OpenClaw经验一致。
+- **AWS WAF announces AI traffic monetization** (2pt) — AWS开始帮网站主将AI爬虫流量变现，信号：AI流量经济正在形成商业模式。
+- **Ask HN: Conflicted about founding engineer role** — 热帖隐含SaaS信仰危机，有人直言"AI进步下不确定SaaS是否还是可行商业模式"。
+- **Medical AI scores high on exams but stumbles on real patient care** — AI"考试高分、实战拉胯"再次被验证，垂直领域AI需要domain expert调优。
+- **Amazon Quick Desktop** — Amazon的新AI桌面产品获好评，AI硬件在升温。
+
+### 36氪（6月18日快讯）
+
+- **马斯克预测中国AI**：中国大模型可能在2027年Q1赶上Anthropic Fable水平。AI业内人士认为差距不到7个月。智谱GLM-5.2被点名。
+- **追觅战略转型**：全面聚焦智能家庭/户外庭院/智能出行/具身智能四大赛道。割草机器人销售额环比增长240%，洗地机出货超1000万台。AI硬件真实赚钱案例。
+- **AI融资活跃**：澜起科技推进PCIe 7.0 Retimer研发（AI算力基础设施需求）
 
 ### ProductHunt
-⚠️ 本周受Cloudflare防护影响无法直接抓取PH数据，后续考虑用RSS/API Key方案。
-
-### 36氪
-- **金融AI监管新规**：国家金融监管总局发布《银行业保险业AI安全开发应用指导意见》— 强调供应链安全、开源审查、大机构向中小机构输出算力
-- **Robo.ai** 以6000万美元收购AI科技控股平台QC Capital
-- **追觅**战略聚焦智能家庭/户外庭院/智能出行/具身智能四大AI赛道
-
-### The Verge AI
-- **Claude Design升级**：新增直接拖拽编辑器、Adobe/Canva导出、Claude Code双向联动 → 设计师+开发者协作新范式
-- **Noam Shazeer（Gemini联合负责人）加入OpenAI**：Google曾花27亿美元回购Character.AI团队，现核心人物再次出走
-- **Character.AI创作者工具**：新增面板+粉丝通知 → 创作者经济变现
-- **OpenAI Sunset Pulse**：关停AI日报功能，推动用户转向定时任务
-- **Allbirds→Smartbird**：鞋业公司彻底转型AI基础设施
+⚠️ Cloudflare反爬持续拦截，需考虑API Key或第三方聚合方案替代直接抓取。
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **用户痛点雷达是直接竞品，更是验证信号**：有人在开源社区做了和我们夜巡几乎一样的事，说明"AI自动发现赚钱机会"这个方向被市场认可。差异化在于：我们可以做得更深（中文生态+垂类+可执行指令），而他们止步于报告层。
+1. **玄学AI是最被低估的利基市场**：bazi-ziwei-skill证明AI+算命的技术可行性，而算命用户付费意愿和客单价远超普通SaaS。从八字和紫微起步，可快速复制到风水/六爻/星座/塔罗，用同一套算法+可视化管道做产品矩阵，7天可出MVP，30天可收费。
 
-2. **AI Agent泛滥 → 垂直应用才是金矿**：AurixAgent/Mythos等Agent框架每周都在出新，卷框架没前途。但在Agent之上做垂直可收费产品（创始人顾问、角色变现平台、风格API）才是正解——1founder和Character.AI已验证。
+2. **AI模型成本优化（模型路由）是人人需要的中间层**：value-for-fable的思路——花Sonnet的钱拿Opus的品质——对国内AI用户同样成立。每家大模型价格差异巨大，做一个"自动路由到最便宜但效果达标的模型"的服务，本质是AI算力套利，门槛低但规模化后有壁垒。
 
-3. **AI设计工具链上游是蓝海**：Claude Design杀入Figma腹地，工具成熟后会催生模板市场/插件/教程需求，类似Canva模板倒卖模式，可以用AI批量生成设计资产抢先卡位。
+3. **不要再做Agent框架了**：Omnigent一周3700⭐说明市场在疯狂投Agent框架，但这个赛道和"淘金热中卖铲子"不同——铲子太多且大部分免费。真正赚钱的是用铲子挖到金矿的人（垂直应用层：算命/游戏资产/角色生成），做框架之上的收费产品才是我们的路。
 
 ---
 
-*下次夜巡：2026-06-19 20:00*
-*数据源：GitHub API · The Verge · 36氪快讯*
+*下次夜巡：2026-06-19 12:00*
+*数据源：GitHub API · Hacker News Algolia API · 36氪快讯*
