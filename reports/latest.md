@@ -1,67 +1,85 @@
-# 🤖 AI赚钱夜巡 · 2026-06-19 12:00
+# 🌙 AI赚钱夜巡 · 2026-06-19 20:05
 
-## 📡 选题雷达（满足≥3项列入重点）
-
-### 🔴 重点追踪
-
-| 项目 | 来源 | ⭐ | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
-|------|------|-----|----------|---------|----------|----------|----------|------|
-| **superlog** - AI自愈可观测性 | GitHub | 879 | ✅ 企业DevOps | ✅ 已发布 | ✅ 托管SaaS | ✅ 开源Apache2 | ⚠️ 竞争激烈 | 4/5 |
-| **SentinelMCP** - AI Agent安全网关 | GitHub | 新 | ✅ 企业安全 | ✅ 可用 | ✅ 企业SaaS | ✅ 开源 | ✅ 安全壁垒 | 4/5 |
-| **llink (FlowyLabs)** - 异步视频取代会议 | HN Show | 1 | ✅ 远程团队 | ✅ 已发布 | ✅ free+付费 | ✅ SaaS | ⚠️ 赛道拥挤 | 3/5 |
-
-### 🟡 观察池
-
-| 项目 | 来源 | 得分 | 备注 |
-|------|------|------|------|
-| **loop-engineering** - AI Agent循环工程CLI | GitHub | 2/5 | Agent编排工具，低壁垒 |
-| **Sqim** - iOS远程构建分发 | HN Show | 2/5 | 小众iOS开发者工具 |
-| **cinematic-video-prompt-engineer-skill** - AI视频提示工程 | GitHub | 2/5 | 与我们视频方向重叠但壁垒低 |
-
-## 🔍 原始速览
-
-### GitHub 本周AI高星项目（2026-06-01至今）
-
-1. **superlog** (superloglabs, 879⭐, TypeScript, Apache2.0)
-   - AI Agent自愈软件的开源可观测性工具
-   - 支持OpenTelemetry、React、LLM、self-hosted
-   - 2周内获879星+64 fork，增长强劲
-   - 盈利模式：开源社区→企业托管/支持
-
-2. **SentinelMCP** (technosiveuk-ui, Go)
-   - MCP协议防火墙+安全网关
-   - 检查和控制AI Agent的工具调用
-   - Proxy模式(通用)+Inline SDK模式
-   - 盈利模式：企业安全合规SaaS
-
-3. **loop-engineering** (cobusgreyling, 21⭐)
-   - AI编码Agent的循环工程模式/启动器/CLI工具
-   - 包含loop-audit, loop-init, loop-cost等工具
-   - 灵感来自Addy Osmani和Boris Cherny
-
-4. **cinematic-video-prompt-engineer-skill** (CyberJ0605)
-   - 将情节摘要转为电影级AI视频提示的Codex技能
-   - 诊断故事/情感/结构/镜头设计/微表情/声音
-
-5. **awesome-free-models** (12britz)
-   - 免费AI模型合集列表
-
-6. **bansos** (wauputr4, 21⭐, Svelte, MIT)
-   - 印尼开发者资源聚合：免费AI credits、云credits、域名等
-
-### Hacker News Show HN（2026-06-19）
-
-1. **FlowyLabs llink** - 通过短视频/音频片段取代80%会议，支持web/macOS/Windows，有免费层
-2. **Sqim** - 无需VPN，从Codex Mobile直接签名上传iOS构建并分发
-
-## 💡 洞察（≤3句）
-
-1. **AI Agent安全是蓝海**：SentinelMCP的出现说明企业开始认真对待AI Agent的安全治理，OpenClaw生态若增加安全审计/工具调用防火墙能力，可直接切入付费企业市场。
-
-2. **AI视频工具链同质化严重但需求真实**：cinematic-video-prompt-engineer和我们的ComfyUI工作流都在解决"AI视频生成可控性"问题，差异化在于工作流完整度和用户体验——比谁更快、更稳定、产出更可控。
-
-3. **"开源获客+SaaS收费"模式验证有效**：superlog用2周879星证明了这个路径的可行性——先开源建社区，再通过托管服务收费。我们的技能系统和视频工具链完全可以复制这个模式。
+> 覆盖：GitHub Trending（综合+Python）| ProductHunt（❌Cloudflare拦截）| 36氪（❌JS渲染）
+> 夜巡模型：deepseek-v4-pro
 
 ---
 
-*数据源：GitHub API + HN Algolia API · 过滤条件：5指标≥3列入重点 · 更新时间：2026-06-19 12:00 CST*
+## 🔥 选题雷达（5指标评分制）
+
+评分维度：①客户明确 ②7天Demo ③30天收费 ④复用资产 ⑤长期壁垒 · ≥3项=重点追踪
+
+| # | 项目 | ⭐ | 指标 | 一句话机会 |
+|---|------|:--:|------|-----------|
+| 1 | **headroom Token压缩API** | 5/5 | ①②③④⑤ | 36.5K⭐(+10K/周)，省token=省钱刚需，中文版MCP Server形态，按量收费模型成熟 |
+| 2 | **Skill安全审计(SkillSpector)** | 5/5 | ①②③④⑤ | NVIDIA官方背书8K⭐，技能市场爆发→安全审核必需品，ClawHub集成=差异化卖点 |
+| 3 | **TimesFM时序预测API** | 5/5 | ①②③④⑤ | Google官方23.8K⭐，金融/零售/供应链付费意愿强，垂直壁垒高，打包成量化/供应链SaaS |
+| 4 | **OpenMontage视频工厂** | 4/5 | ①②③⑤ | 500+技能的开源视频生产系统5.9K⭐，输入文案→输出成品视频，可替代自研流水线 |
+| 5 | **agentsview Agent分析SaaS** | 4/5 | ①②③④ | 2.9K⭐ Agent会话分析，企业部署AI Agent后必配的监控面板，直接SaaS化收费 |
+| 4 | **Agent-Reach中文夜巡自动化** | 3/5 | ①②④ | 34.8K⭐(+7.8K/周)，原生B站/小红书支持，零API费，但直接变现路径偏工具化 |
+| 3 | **Claude Bug Bounty安全服务** | 3/5 | ①②③ | 3.4K⭐终端漏洞狩猎，20种漏洞自动扫描+报告生成，但安全赛道竞争激烈 |
+
+---
+
+## 📰 原始速览
+
+### GitHub 本周爆炸增长
+
+**🚀 headroom — 36.5K⭐ (+10,159/周)**
+Token压缩工具，减60-95%上下文但答案不变。提供Library/Proxy/MCP三种接入方式。Token成本是AI应用的头号开支，这波增长从上周27K→本周36.5K，三周翻了近一倍。
+
+**🔒 NVIDIA/SkillSpector — 8K⭐ (+5,505/周)**
+NVIDIA官方Agent技能安全扫描器，检测恶意模式、安全漏洞。Agent技能市场爆炸（agent-skills 63K、last30days 44K、pm-skills新上榜），安全审计成为必需品。
+
+**🎬 OpenMontage — 5.9K⭐ (+1,238/周)**
+全球首个开源Agent视频生产系统。12条流水线，52个工具，500+Agent技能。把AI编程助手变成完整视频工作室——与我们Remotion经验高度互补。
+
+**📊 agentsview — 2.9K⭐ (+1,382/周)**
+本地优先的Agent会话搜索/分析/Token统计，支持Claude Code、Codex等20+Agent。企业部署Agent后的"运维面板"——可SaaS化。
+
+**🔍 Agent-Reach — 34.8K⭐ (+7,856/周)**
+给AI装上网之眼，支持Twitter/Reddit/YouTube/GitHub/B站/小红书。上周28K→本周34.8K，增速不减。
+
+**🏴‍☠️ claude-bug-bounty — 3.4K⭐ (+922/周)**
+终端漏洞赏金猎手，20种漏洞类自动扫描+报告生成。安全+AI=付费意愿极强的交叉领域。
+
+**📈 TimesFM — 23.8K⭐ (+2,069/周)**
+Google Research时序预测基座模型。时序预测是金融/零售/供应链的绝对刚需，Google背书+预训练模型=低门槛高壁垒。
+
+**🤖 Google agents-cli — 3K⭐ (+198/周)**
+Google官方Agent CLI+技能集，把任何编程助手变成Google Cloud上的Agent专家。大厂入局Agent Skills标准化，窗口在收窄。
+
+---
+
+## 🎯 与我们资产的对接
+
+| 机会 | 关联资产 | 紧迫度 | 备注 |
+|------|----------|:---:|------|
+| **Token压缩中文版MCP** | OpenClaw MCP管道 | 🔴P0 | 三周连续P0验证，增速不减反增 |
+| **ClawHub技能安全扫描** | ClawHub + SkillSpector | 🔴P0 | NVIDIA背书，技能市场爆发，安全=必需品 |
+| **OpenMontage+Remotion整合** | Remotion项目+视频分析 | 🟡P1 | 500+技能可大幅减少自研工作量 |
+| **TimesFM量化/供应链SaaS** | 技术栈通用 | 🟡P1 | Google背书，付费场景清晰，差异化空间大 |
+| **agentsview SaaS化** | Agent分析经验 | 🟢P2 | 企业Agent化趋势下的运维刚需 |
+| **Agent-Reach全自动夜巡** | 夜巡系统 | 🟢P2 | 可以半自动化当前夜巡流程 |
+
+---
+
+## 🧠 核心洞察（≤3句）
+
+1. **Token压缩和技能安全已从"趋势"升级为"必须做"**：headroom三周翻倍(18K→27K→36.5K)、NVIDIA亲自下场做技能审计，说明这两个赛道正从社区玩具→基础设施，先发优势窗口可能只剩1-2个月。
+
+2. **视频自动化是第三个确认信号**：OpenMontage 500+技能的视频生产系统爆火，加上之前的Runway+Lionsgate合作、Tribeca AI电影，视频生成的工具链和内容消费端在同时成熟——我们手里的Remotion经验+视频分析能力是稀缺资产。
+
+3. **Google入场Agent CLI信号明确**：大厂正在把Agent Skills标准化（agents-cli + NVIDIA SkillSpector），OpenClaw/ClawHub如果在3个月内没做出差异化，会被平台标准吞没。出路不是做更大的框架，而是做框架之上的垂直收费产品。
+
+---
+
+## 📋 今日行动建议
+
+1. **headroom MCP Server中文版**：本周末跑通demo，包装成OpenClaw可用的MCP工具 → 省token=立刻有价值
+2. **SkillSpector集成ClawHub**：读取SkillSpector的检测规则，做ClawHub技能发布前的自动安全审核
+3. **研究OpenMontage的12条流水线**：评估哪些可以替代我们的视频工作流，输出对比报告
+
+---
+
+*生成：2026-06-19 20:05 CST | 模型：deepseek-v4-pro | 数据：GitHub Trending*
