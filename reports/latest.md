@@ -1,102 +1,121 @@
-# 🌙 AI赚钱夜巡 — 2026-06-22 11:24 (周一 · 第1轮)
+# 🌙 AI赚钱夜巡 · 2026-06-22
 
-> 数据源：GitHub API（6组搜索）| 36氪快讯（✅部分）| ProductHunt（❌Cloudflare拦截）
-> 滤波器：5指标（客户明确/7天Demo/30天收费/复用资产/长期壁垒），≥3入重点
-> 上日背景：昨日3轮确认P0赛道——Token压缩/Agent Skill市场/跨境电商AI
-
----
-
-## 🎯 选题雷达
-
-| # | 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 总分 |
-|---|------|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | **aliexpress-auto-listing** — 速卖通AI自动上架 | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
-| 2 | **esg-skills-marketplace** — 安全审计Skill市场 | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
-| 3 | **Nexora** — 自托管Agent编排+技能集市 | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | **3/5** |
-| 4 | **compressor-vscode** — Token压缩VSCode插件 | ✅ | ✅ | ⚠️ | ✅ | ❌ | **3/5** |
-| 5 | **Rigi-AI-Commons** — AI技能+浏览器自动化 | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
+> 搜索范围：GitHub Trending/ai-saas topics + 36氪 + HN/IndieHackers（部分源被反爬）  
+> 评分体系：客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒（≥3项=列入重点）
 
 ---
 
-## 🔥 重点深挖（≥3分 + 可复现）
+## 🎯 选题雷达（重点跟踪）
 
-### 1. 跨境电商AI自动化 — 本周有中国人实锤项目 ⭐⭐⭐⭐
-- **aliexpress-auto-listing-skill**：1688采集→店小秘ERP→速卖通发布，完整自动化流水线。Python实现，本周建仓。
-- **Rigi-AI-Commons**：同一个作者（xiaoyaotsyx-dotcom），AI技能包+浏览器自动化+agent-skills-marketplace标签。官网ai114.top。
-- **赚钱路径**：这条流水线证明「跨境电商AI自动化」不是概念，是有人闷声发大财的实际工具。技能开源的→付费高级版→SaaS化是已验证路线。
-- **我们的机会**：已有小红书/贴吧监控基础，速卖通/1688上架是自然延伸。
+### 1. ⭐⭐⭐⭐⭐ SamurAIGPT 开源AI-SaaS全家桶
+- **来源**：GitHub ai-saas topics
+- **内容**：一套10+个生产就绪的Next.js SaaS模板——AI头像生成(nano-banana)、AI视频剪辑(clipping)、Veo视频生成、Prompt工程平台、社媒帖子生成。全部带Stripe/credits/NextAuth/Prisma开箱即用
+- **赚钱逻辑**：克隆→部署→推广→收钱。每个模板都是完整产品，SaaS上线周期＜3天
+- **5指标评分**：
+  - ✅ 客户明确：头像/视频/内容营销需求方
+  - ✅ 7天Demo：直接Vercel一键部署
+  - ✅ 30天收费：Stripe billing已集成
+  - ✅ 复用资产：模板可复用、可组合
+  - ❌ 长期壁垒：开源无壁垒，需靠运营+渠道
+- **对老大的意义**：你已有视频生成/图片生成能力（ComfyUI+大模型），可拿clipping-generator做AI视频剪辑SaaS，或nano-banana做AI电商图生成SaaS——都和你的技能栈高度吻合
 
-### 2. Skill市场安全审计 — 新蓝海 ⭐⭐⭐⭐
-- **esg-skills-marketplace**：curated, security-reviewed skills for AI coding agents。
-- 与昨日NVIDIA SkillSpector（8.6K⭐）形成双重验证：Agent Skill爆发→安全审查缺口→付费审查服务。
-- 我们的ClawHub可以内置Skill安全扫描作为差异化卖点。
+### 2. ⭐⭐⭐⭐ MoneyPrinterTurbo（91K⭐）
+- **来源**：GitHub Python月度趋势 #1
+- **内容**：AI一键生成高清短视频，利用LLM自动写脚本+配音+画面
+- **赚钱逻辑**：fork→改造成SaaS→短视频代生成服务/自助平台
+- **5指标评分**：
+  - ✅ 客户明确：自媒体/电商/营销团队
+  - ✅ 7天Demo：环境搭好就能跑
+  - ✅ 30天收费：SaaS订阅或按条付费
+  - ✅ 复用资产：视频模板+文案库
+  - ❌ 长期壁垒：开源竞争激烈（91K star说明赛道卷）
+- **对老大的意义**：你的视频创作经验可以直接嫁接，做差异化（比如专做电商带货视频，和clipping-generator组合）
 
-### 3. Token压缩工具化 — 赛道持续有新入场者 ⭐⭐⭐
-- **compressor + compressor-vscode**：anvanster做了完整工具链——指令包管理+输出压缩hook+基准测试。支持Claude Code/Copilot/Cursor。
-- 0⭐但MIT开源，说明有人在系统化解决这个问题。与headroom 42K⭐形成互补：headroom做API层，compressor做IDE层。
-- 机会在「中文Token压缩」差异化——中文LLM token成本是英文2-3倍，专门优化更有商业价值。
+### 3. ⭐⭐⭐⭐ velobase-harness — "From Code to Cash" AI SaaS脚手架
+- **来源**：GitHub ai-saas topics，近期更新频繁
+- **内容**：T3 Stack + Next.js 16的开源SaaS Boilerplate，集成Stripe/affiliate/attribution/usage-based billing，专为AI应用设计
+- **赚钱逻辑**：用这个脚手架快速搭建收费AI产品，自带分成+用量计费
+- **5指标评分**：
+  - ✅ 客户明确：AI SaaS创业者
+  - ✅ 7天Demo：脚手架即Demo
+  - ✅ 30天收费：计费系统已内建
+  - ✅ 复用资产：脚手架本身是核心资产
+  - ⚠️ 长期壁垒：中（脚手架会越来越多，但先发优势）
+- **对老大的意义**：如果你想做自己的AI SaaS产品，这是目前最完整的收费基础设施
 
-### 4. Agent编排平台竞争白热化 ⭐⭐⭐
-- **Nexora**（14⭐, 6/19创建）：自托管MIT许可，46个LLM提供商，~90个工具，subagent委托，RAG+语义记忆+**技能集市**。
-- 有网站nexora.parendum.com，商业化意图明确。
-- 信号：Agent平台赛道每周都有新入场者，但「技能集市」正在成为标配功能——这强化了我们做ClawHub/Workshop的方向。
+### 4. ⭐⭐⭐⭐ AI Agent技能市场（趋势信号强烈）
+- **来源**：GitHub Trending 本周/本月
+  - `agent-skills` (65K⭐) — 生产级AI Agent技能库
+  - `academic-research-skills` (33K⭐) — 学术研究Agent技能
+  - `Anthropic-Cybersecurity-Skills` (18K⭐) — 安全Agent技能
+  - `last30days-skill` (45K⭐) — 研究聚合Agent技能
+  - `NVIDIA/SkillSpector` (9K⭐) — AI技能安全扫描
+- **赚钱逻辑**：Agent技能是一个新兴市场，类似"App Store for AI Agents"
+  - 方向A：做垂直领域技能包（如"电商运营Agent技能"）
+  - 方向B：做技能安全审核服务
+  - 方向C：做技能交易市场平台
+- **5指标评分**：
+  - ✅ 客户明确：AI Agent开发者/企业
+  - ✅ 7天Demo：做一个垂直技能包
+  - ✅ 30天收费：技能市场/订阅
+  - ✅ 复用资产：技能框架可无限复用
+  - ✅ 长期壁垒：垂直领域积累+社区
+- **对老大的意义**：你本身就是OpenClaw Agent开发者，拥有skill-creator等技能开发经验。这是你最有信息差优势的方向——做一个"电商/AI视频创作Agent技能包"，你比其他开发者更懂业务场景
+
+### 5. ⭐⭐⭐ OpenMontage — Agentic视频制作系统
+- **来源**：GitHub Trending 本周 #2 (10K⭐)
+- **内容**：12条pipeline、52个工具、500+ Agent技能，把AI编程助手变成完整视频工作室
+- **赚钱逻辑**：fork→部署成视频制作SaaS→按项目/月费收费
+- **5指标评分**：
+  - ✅ 客户明确：视频创作者/营销机构
+  - ⚠️ 7天Demo：系统复杂，7天只能跑通demo
+  - ✅ 30天收费：可包装SaaS
+  - ✅ 复用资产：视频制作pipeline
+  - ❌ 长期壁垒：开源竞争
+- **对老大的意义**：和MoneyPrinterTurbo形成互补——一个做量产短视频，一个做专业级视频制作
+
+### 6. ⭐⭐⭐ Agent-Reach — Agent互联网之眼（37K⭐）
+- **来源**：GitHub Trending 本周/月度
+- **内容**：零API费用的Agent网络访问工具，可读写Twitter/Reddit/YouTube/GitHub/小红书/B站
+- **赚钱逻辑**：托管版/企业版收费→帮Agent开发者省API费
+- **5指标评分**：
+  - ✅ 客户明确：Agent开发者
+  - ✅ 7天Demo：CLI工具即Demo
+  - ✅ 30天收费：托管服务
+  - ✅ 复用资产：爬虫基础设施
+  - ⚠️ 长期壁垒：反爬对抗持续成本
 
 ---
 
-## 📡 原始速览
+## 📊 原始速览
 
-### GitHub 本周新增（6/15-6/22）
-
-| 项目 | ⭐ | 创建 | 语言 | 一句话 |
-|------|:--:|------|:--:|------|
-| **Nexora** (ParendumOU) | 14 | 6/19 | Python | 自托管Agent平台，含技能集市+46LLM+RAG |
-| **pcx-ai-toolkit** (VoidChecksum) | 9 | 6/17 | Python | MCP+LSP+Claude Code Skill一体化工具包 |
-| **aliexpress-auto-listing** | 3 | 6/16 | Python | 1688→店小秘→速卖通全自动上架 |
-| **aurict** | 2 | 6/20 | TypeScript | 开源终端AI编程Agent，沙盒+子代理 |
-| **Rigi-AI-Commons** | 1 | 6/16 | - | AI技能包+浏览器自动化+变现定位 |
-| **esg-skills-marketplace** | 0 | 6/20 | - | ESG技能安全审计市场 |
-| **compressor-vscode** | 0 | 6/13 | TypeScript | Token节省VSCode插件+基准测试 |
-| **compressor** | 0 | 6/12 | TypeScript | Claude Code/Copilot/Cursor指令包+压缩hook |
-| **mcp-osascript** | 0 | 6/17 | TypeScript | Mac控制MCP Server（12工具） |
-
-### 本周趋势主题词
-- **agent-skills-marketplace**：连续出现在多个项目的标签中，正在成为标准概念
-- **browser-automation**：跨境电商+AI技能的核心技术路径
-- **token-compression / token-optimization**：VSCode/IDE层的Token节省工具化
-
-### 36氪（06/22 快讯）
-- 蚂蚁阿福发起「科学减重1亿斤」——AI健康应用（非赚钱机会，大厂产品）
-- 其余快讯均无AI相关（淘宝闪购/阿里云/新能源汽车/海南免税等）
-
-### ProductHunt
-- ❌ Cloudflare拦截，连续6轮失败。建议更换数据源或使用API。
+| 项目 | Stars | 赛道 | 可赚钱性 | 难度 |
+|------|-------|------|----------|------|
+| MoneyPrinterTurbo | 91K | AI短视频 | ⭐⭐⭐⭐⭐ | 中 |
+| agent-skills | 65K | Agent技能 | ⭐⭐⭐⭐⭐ | 低 |
+| last30days-skill | 45K | Agent研究 | ⭐⭐⭐⭐ | 低 |
+| Agent-Reach | 37K | Agent工具 | ⭐⭐⭐⭐ | 中 |
+| ai-engineering | 35K | AI教程 | ⭐⭐⭐ | 低 |
+| academic-research | 33K | Agent学术 | ⭐⭐⭐⭐ | 低 |
+| markitdown | 157K | 文档转换 | ⭐⭐ | 低 |
+| OpenMontage | 10K | Agent视频 | ⭐⭐⭐⭐ | 高 |
+| velobase-harness | new | SaaS基础设施 | ⭐⭐⭐⭐ | 中 |
+| SamurAIGPT全家桶 | new | AI SaaS模板 | ⭐⭐⭐⭐⭐ | 低 |
+| PMF Kit | new | AI PMF工具 | ⭐⭐⭐ | 中 |
+| Open-LLM-VTuber | 11K | AI虚拟人 | ⭐⭐⭐⭐ | 中 |
+| whichllm | 5K | 本地LLM | ⭐⭐⭐ | 中 |
+| FunASR | 18K | 语音识别 | ⭐⭐⭐ | 中 |
 
 ---
 
-## 🔄 与昨日信号交叉验证
+## 💡 洞察（3句话）
 
-| 信号 | 昨日P0 | 今日新证据 | 置信度变化 |
-|------|:---:|------|:---:|
-| Token压缩赛道 | 🔴P0连续4天 | compressor工具链确认IDE层也在做 | 🟢🟢🟢 维持在极高 |
-| Agent Skill市场 | 🔴P0上调 | esg-skills-marketplace+Nexora marketplace验证 | 🟢🟢🟢 维持在极高 |
-| 跨境电商AI | 🔴P0 | aliexpress-auto-listing中国人实锤项目 | 🟢🟢🟢 从推断变实证 |
-| Skill安全审计 | 🟡P1 | esg-skills-marketplace新信号 | 🟢🟢 增强 |
-| MCP工具生态 | - | pcx-ai-toolkit(9⭐)+mcp-osascript | 🟢 新信号 |
+1. **Agent技能市场是当前最大的蓝海信号**——本周/本月GitHub top trending里有5+个Agent Skill项目同时爆发（总数65K+33K+18K+45K=160K star），这是"AI Agent时代的App Store"雏形。老大你有OpenClaw Agent开发经验+垂直行业知识，做"电商/视频创作Agent技能包"是信息差最大的切入方向。
+
+2. **AI视频SaaS已进入"模板化套利"阶段**——MoneyPrinterTurbo(91K)和SamurAIGPT全家桶证明了一个模式：开源AI产品+SaaS模板=快速变现。老大你有ComfyUI+视频生成+大模型能力，拿velobase-harness脚手架+SamurAIGPT模板，7天内能出一个"AI电商视频生成SaaS"，竞品少、需求真实。
+
+3. **不要追无壁垒的开源——要追"开源+运营"的错位机会**：纯开源项目（MoneyPrinterTurbo 91K）竞争极度激烈，但加上垂直场景运营（电商/教育/本地化）就有壁垒。Agent技能+垂直场景=你独有的信息差优势。
 
 ---
 
-## ⚡ 行动建议（≤3条）
-
-1. **headroom中文MCP本周必须出Demo**（P0第5天）— Token压缩跨5天+3个项目验证（headroom/compressor-vscode/compressor），赛道在加速。最简方案：HTTP代理+Docker+中文README，今天就开始。
-
-2. **aliexpress-auto-listing-skill 验证跑通** — 已有3⭐的中国人项目直接可用，fork下来配置1688/店小秘/速卖通三端，看能否跑通完整流水线。如果顺利，本周内可以上线自己的跨境电商AI自动化Skill。
-
-3. **ClawHub Skill安全扫描功能** — esg-skills-marketplace + 昨日SkillSpector双重信号，在Workshop中内置「安全审查」标签，建立差异化壁垒。不需要重做，先加一个安全检查清单+自动化lint即可。
-
----
-
-> 📊 数据源：GitHub API ×6（2026-06-22）| 36氪快讯（部分）| ProductHunt（失败）
-> 🕐 生成时间：2026-06-22 11:24 CST
-> 🤖 模型：deepseek-v4-pro
-> 📌 周一覆盖度：约60%（GitHub API畅通，36氪限流，PH全封）
-> 🔗 上日报告：[summary_2026-06-21_18-46.md](./summary_2026-06-21_18-46.md)
+*自动生成于 2026-06-22 19:24 CST · 下次夜巡 明日19:00*
