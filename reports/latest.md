@@ -1,121 +1,107 @@
-# 🌙 AI赚钱夜巡 · 2026-06-22
+# 🌙 AI赚钱夜巡 · 2026-06-23 03:24
 
-> 搜索范围：GitHub Trending/ai-saas topics + 36氪 + HN/IndieHackers（部分源被反爬）  
-> 评分体系：客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒（≥3项=列入重点）
+> 搜索范围：GitHub Trending（weekly + monthly Python）· ProductHunt（❌Cloudflare）· 36氪（❌空壳）  
+> 评分体系：客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒（≥3项=列入重点）  
+> ⚠️ 注意：本轮搜索受限（PH/36氪/知乎均被反爬），主要来源仅GitHub Trending
 
 ---
 
 ## 🎯 选题雷达（重点跟踪）
 
-### 1. ⭐⭐⭐⭐⭐ SamurAIGPT 开源AI-SaaS全家桶
-- **来源**：GitHub ai-saas topics
-- **内容**：一套10+个生产就绪的Next.js SaaS模板——AI头像生成(nano-banana)、AI视频剪辑(clipping)、Veo视频生成、Prompt工程平台、社媒帖子生成。全部带Stripe/credits/NextAuth/Prisma开箱即用
-- **赚钱逻辑**：克隆→部署→推广→收钱。每个模板都是完整产品，SaaS上线周期＜3天
+### 1. ⭐⭐⭐⭐⭐ Agent安全审计赛道（今日最大新信号！）
+- **来源**：GitHub Trending
+  - **NVIDIA/SkillSpector**（9.3K⭐，本周+4K）——AI Agent技能安全扫描器，检测漏洞/恶意模式
+  - **Microsoft/agent-governance-toolkit**（4.4K⭐，本月+2.7K）——零信任身份+执行沙箱+可靠性工程，覆盖10/10 OWASP Agentic Top 10
+- **信号强度**：NVIDIA + Microsoft 两周内同时入场Agent安全赛道，这不是巧合，是基础设施层的标准配置信号
+- **赚钱逻辑**：
+  - 方向A：Agent技能安全审计API（对标NVIDIA SkillSpector的轻量版）
+  - 方向B：Agent治理SaaS（对标Microsoft，做中小团队版）
+  - 方向C：ClawHub安全标签+自动审查（昨日已提到，今天被NVIDIA验证）
 - **5指标评分**：
-  - ✅ 客户明确：头像/视频/内容营销需求方
-  - ✅ 7天Demo：直接Vercel一键部署
-  - ✅ 30天收费：Stripe billing已集成
-  - ✅ 复用资产：模板可复用、可组合
-  - ❌ 长期壁垒：开源无壁垒，需靠运营+渠道
-- **对老大的意义**：你已有视频生成/图片生成能力（ComfyUI+大模型），可拿clipping-generator做AI视频剪辑SaaS，或nano-banana做AI电商图生成SaaS——都和你的技能栈高度吻合
+  - ✅ 客户明确：Agent平台/企业/开发者
+  - ✅ 7天Demo：安全规则库+扫描脚本
+  - ✅ 30天收费：安全审计API订阅
+  - ✅ 复用资产：安全规则持续积累
+  - ✅ 长期壁垒：安全数据+漏洞库+合规认证
+- **对老大的意义**：昨天夜巡日报P1标记了"ClawHub加安全审查标签"，今天NVIDIA SkillSpector暴涨4K star直接验证。你有Workshop+SkillSpector经验，做ClawHub的安全扫描是最小可行切入点。
 
-### 2. ⭐⭐⭐⭐ MoneyPrinterTurbo（91K⭐）
-- **来源**：GitHub Python月度趋势 #1
-- **内容**：AI一键生成高清短视频，利用LLM自动写脚本+配音+画面
-- **赚钱逻辑**：fork→改造成SaaS→短视频代生成服务/自助平台
-- **5指标评分**：
-  - ✅ 客户明确：自媒体/电商/营销团队
-  - ✅ 7天Demo：环境搭好就能跑
-  - ✅ 30天收费：SaaS订阅或按条付费
-  - ✅ 复用资产：视频模板+文案库
-  - ❌ 长期壁垒：开源竞争激烈（91K star说明赛道卷）
-- **对老大的意义**：你的视频创作经验可以直接嫁接，做差异化（比如专做电商带货视频，和clipping-generator组合）
-
-### 3. ⭐⭐⭐⭐ velobase-harness — "From Code to Cash" AI SaaS脚手架
-- **来源**：GitHub ai-saas topics，近期更新频繁
-- **内容**：T3 Stack + Next.js 16的开源SaaS Boilerplate，集成Stripe/affiliate/attribution/usage-based billing，专为AI应用设计
-- **赚钱逻辑**：用这个脚手架快速搭建收费AI产品，自带分成+用量计费
-- **5指标评分**：
-  - ✅ 客户明确：AI SaaS创业者
-  - ✅ 7天Demo：脚手架即Demo
-  - ✅ 30天收费：计费系统已内建
-  - ✅ 复用资产：脚手架本身是核心资产
-  - ⚠️ 长期壁垒：中（脚手架会越来越多，但先发优势）
-- **对老大的意义**：如果你想做自己的AI SaaS产品，这是目前最完整的收费基础设施
-
-### 4. ⭐⭐⭐⭐ AI Agent技能市场（趋势信号强烈）
+### 2. ⭐⭐⭐⭐⭐ Agent技能市场 — 连续5天信号，本周加速
 - **来源**：GitHub Trending 本周/本月
-  - `agent-skills` (65K⭐) — 生产级AI Agent技能库
-  - `academic-research-skills` (33K⭐) — 学术研究Agent技能
-  - `Anthropic-Cybersecurity-Skills` (18K⭐) — 安全Agent技能
-  - `last30days-skill` (45K⭐) — 研究聚合Agent技能
-  - `NVIDIA/SkillSpector` (9K⭐) — AI技能安全扫描
-- **赚钱逻辑**：Agent技能是一个新兴市场，类似"App Store for AI Agents"
-  - 方向A：做垂直领域技能包（如"电商运营Agent技能"）
-  - 方向B：做技能安全审核服务
-  - 方向C：做技能交易市场平台
-- **5指标评分**：
-  - ✅ 客户明确：AI Agent开发者/企业
-  - ✅ 7天Demo：做一个垂直技能包
-  - ✅ 30天收费：技能市场/订阅
-  - ✅ 复用资产：技能框架可无限复用
-  - ✅ 长期壁垒：垂直领域积累+社区
-- **对老大的意义**：你本身就是OpenClaw Agent开发者，拥有skill-creator等技能开发经验。这是你最有信息差优势的方向——做一个"电商/AI视频创作Agent技能包"，你比其他开发者更懂业务场景
+  - `agent-skills`（65K⭐，本周+5.6K）——生产级Agent技能库
+  - `academic-research-skills`（33K⭐，本月+15.6K）——学术研究全流程Agent技能
+  - `Anthropic-Cybersecurity-Skills`（18K⭐，本月+10.8K）——817个安全Agent技能
+  - `last30days-skill`（45K⭐，本月+19.2K）——多平台研究Agent技能
+  - `Anthropic/knowledge-work-plugins`（21K⭐，本月+9.2K）——Claude Cowork插件市场
+  - `ai-engineering-from-scratch`（35K⭐，本月+25K🔥）——从零构建AI工程技能的教程型仓库
+- **本周新入榜**：ai-engineering-from-scratch 本月25K star，说明"AI技能开发教学"本身也是大需求
+- **赚钱逻辑**（持续强化）：
+  - 方向A：垂直Agent技能包（电商/视频创作/跨境电商）→ 付费分发
+  - 方向B：Agent技能教学课程（ai-engineering-from-scratch模式验证）→ 课程订阅
+  - 方向C：Agent技能安全审查 → 安全服务
+- **5指标评分**：满分，同昨日
+- **对老大的意义**：ai-engineering-from-scratch 25K/month 证明了"教别人开发Agent技能"本身就是大生意。你的OpenClaw技能开发经验+中文市场=天然的课程/技能包产品。
 
-### 5. ⭐⭐⭐ OpenMontage — Agentic视频制作系统
-- **来源**：GitHub Trending 本周 #2 (10K⭐)
-- **内容**：12条pipeline、52个工具、500+ Agent技能，把AI编程助手变成完整视频工作室
-- **赚钱逻辑**：fork→部署成视频制作SaaS→按项目/月费收费
+### 3. ⭐⭐⭐⭐ Open-LLM-VTuber — AI虚拟主播
+- **来源**：GitHub Python月度趋势（11.7K⭐，本月+3.9K）
+- **内容**：免提语音交互+语音打断+Live2D面部驱动，跨平台本地运行
+- **赚钱逻辑**：部署为虚拟主播SaaS→提供给直播公会/VTuber→按月收费
 - **5指标评分**：
-  - ✅ 客户明确：视频创作者/营销机构
-  - ⚠️ 7天Demo：系统复杂，7天只能跑通demo
-  - ✅ 30天收费：可包装SaaS
-  - ✅ 复用资产：视频制作pipeline
-  - ❌ 长期壁垒：开源竞争
-- **对老大的意义**：和MoneyPrinterTurbo形成互补——一个做量产短视频，一个做专业级视频制作
+  - ✅ 客户明确：VTuber/直播公会/虚拟人市场
+  - ✅ 7天Demo：Docker部署
+  - ✅ 30天收费：SaaS订阅
+  - ⚠️ 复用资产：Live2D模型可复用
+  - ⚠️ 长期壁垒：技术壁垒中等，需运营+IP
+- **对老大的意义**：中国VTuber市场活跃（B站/抖音），加上你的视频生成+大模型能力，做"AI虚拟人直播SaaS"有机会。但这个赛道需要运营投入。
 
-### 6. ⭐⭐⭐ Agent-Reach — Agent互联网之眼（37K⭐）
-- **来源**：GitHub Trending 本周/月度
-- **内容**：零API费用的Agent网络访问工具，可读写Twitter/Reddit/YouTube/GitHub/小红书/B站
-- **赚钱逻辑**：托管版/企业版收费→帮Agent开发者省API费
+### 4. ⭐⭐⭐ FunASR — 工业级语音识别（阿里达摩院）
+- **来源**：GitHub Python月度趋势（18.4K⭐，本月+2.2K）
+- **内容**：170x实时速度、50+语言、说话人分离、情绪检测、流式识别、OpenAI兼容API
+- **赚钱逻辑**：搭建语音识别托管API→按调用量收费
 - **5指标评分**：
-  - ✅ 客户明确：Agent开发者
-  - ✅ 7天Demo：CLI工具即Demo
-  - ✅ 30天收费：托管服务
-  - ✅ 复用资产：爬虫基础设施
-  - ⚠️ 长期壁垒：反爬对抗持续成本
+  - ✅ 客户明确：语音应用开发者
+  - ✅ 7天Demo：部署API服务
+  - ✅ 30天收费：API调用付费
+  - ⚠️ 复用资产：模型和推理pipeline
+  - ❌ 长期壁垒：竞品多（Whisper/豆包等）
+- **对老大的意义**：可为你的视频分析管道增加语音识别能力。但单独做API服务壁垒低，建议作为基础设施而非独立产品。
 
 ---
 
 ## 📊 原始速览
 
-| 项目 | Stars | 赛道 | 可赚钱性 | 难度 |
-|------|-------|------|----------|------|
-| MoneyPrinterTurbo | 91K | AI短视频 | ⭐⭐⭐⭐⭐ | 中 |
-| agent-skills | 65K | Agent技能 | ⭐⭐⭐⭐⭐ | 低 |
-| last30days-skill | 45K | Agent研究 | ⭐⭐⭐⭐ | 低 |
-| Agent-Reach | 37K | Agent工具 | ⭐⭐⭐⭐ | 中 |
-| ai-engineering | 35K | AI教程 | ⭐⭐⭐ | 低 |
-| academic-research | 33K | Agent学术 | ⭐⭐⭐⭐ | 低 |
-| markitdown | 157K | 文档转换 | ⭐⭐ | 低 |
-| OpenMontage | 10K | Agent视频 | ⭐⭐⭐⭐ | 高 |
-| velobase-harness | new | SaaS基础设施 | ⭐⭐⭐⭐ | 中 |
-| SamurAIGPT全家桶 | new | AI SaaS模板 | ⭐⭐⭐⭐⭐ | 低 |
-| PMF Kit | new | AI PMF工具 | ⭐⭐⭐ | 中 |
-| Open-LLM-VTuber | 11K | AI虚拟人 | ⭐⭐⭐⭐ | 中 |
-| whichllm | 5K | 本地LLM | ⭐⭐⭐ | 中 |
-| FunASR | 18K | 语音识别 | ⭐⭐⭐ | 中 |
+| 项目 | Stars | 本周/月增量 | 赛道 | 可赚钱性 | 难度 |
+|------|-------|:---:|------|:---:|:---:|
+| MoneyPrinterTurbo | 91K | +33.7K/月 | AI短视频 | ⭐⭐⭐⭐⭐ | 中 |
+| agent-skills | 65K | +5.6K/周 | Agent技能 | ⭐⭐⭐⭐⭐ | 低 |
+| last30days-skill | 45K | +19.2K/月 | Agent研究 | ⭐⭐⭐⭐ | 低 |
+| system_prompts_leaks | 44K | +1.9K/周 | Prompt泄露 | ⭐ | 低 |
+| Agent-Reach | 37K | +16.5K/月 | Agent工具 | ⭐⭐⭐⭐ | 中 |
+| ai-engineering | 35K | +25K/月 🆕 | AI教程 | ⭐⭐⭐⭐ | 低 |
+| academic-research | 33K | +15.6K/月 | Agent学术 | ⭐⭐⭐⭐ | 低 |
+| heretic | 25K | +4.3K/月 | LLM审查移除 | ⚠️ | 中 |
+| knowledge-work-plugins | 21K | +9.2K/月 | Claude插件 | ⭐⭐⭐ | 中 |
+| Anthropic-CyberSkills | 18K | +10.8K/月 | 安全Agent | ⭐⭐⭐⭐⭐ | 中 |
+| FunASR | 18K | +2.2K/月 | 语音识别 | ⭐⭐⭐ | 中 |
+| Open-LLM-VTuber | 11K | +3.9K/月 | 虚拟主播 | ⭐⭐⭐⭐ | 中 |
+| OpenMontage | 11K | +2.8K/周 | Agent视频 | ⭐⭐⭐⭐ | 高 |
+| NVIDIA SkillSpector | 9K | +4K/周 🆕 | Agent安全 | ⭐⭐⭐⭐⭐ | 中 |
+| codebase-memory-mcp | 11K | +6.3K/周 | MCP代码智能 | ⭐⭐⭐ | 高 |
+| whichllm | 5K | +3.4K/月 | 本地LLM | ⭐⭐⭐ | 低 |
+| ms/agent-governance | 4.4K | +2.7K/月 🆕 | Agent治理 | ⭐⭐⭐⭐⭐ | 高 |
+
+🆕 = 本轮新发现信号
 
 ---
 
 ## 💡 洞察（3句话）
 
-1. **Agent技能市场是当前最大的蓝海信号**——本周/本月GitHub top trending里有5+个Agent Skill项目同时爆发（总数65K+33K+18K+45K=160K star），这是"AI Agent时代的App Store"雏形。老大你有OpenClaw Agent开发经验+垂直行业知识，做"电商/视频创作Agent技能包"是信息差最大的切入方向。
+1. **Agent安全从"可选"变成"标配"就在本周**——NVIDIA SkillSpector（+4K/周）+ Microsoft agent-governance-toolkit（+2.7K/月）两周内同时入榜，这不是跟风是基础设施信号。昨天夜巡P1的"ClawHub安全审查"今天被NVIDIA暴涨验证，不能再拖——做最简单的形态：Python扫描脚本+安全规则清单+README，先占位。
 
-2. **AI视频SaaS已进入"模板化套利"阶段**——MoneyPrinterTurbo(91K)和SamurAIGPT全家桶证明了一个模式：开源AI产品+SaaS模板=快速变现。老大你有ComfyUI+视频生成+大模型能力，拿velobase-harness脚手架+SamurAIGPT模板，7天内能出一个"AI电商视频生成SaaS"，竞品少、需求真实。
+2. **"AI技能开发教学"自成一条25K/月赛道**——ai-engineering-from-scratch 本月25K star暴涨，和Agent技能市场（160K+ star总池）形成上下游：上游教人做Agent技能，下游卖Agent技能。老大你的OpenClaw技能开发经验+中文教学市场=低门槛高ROI的切入点。
 
-3. **不要追无壁垒的开源——要追"开源+运营"的错位机会**：纯开源项目（MoneyPrinterTurbo 91K）竞争极度激烈，但加上垂直场景运营（电商/教育/本地化）就有壁垒。Agent技能+垂直场景=你独有的信息差优势。
+3. **夜巡工具本身需要升级**——ProductHunt连续7轮被Cloudflare拦截，36氪/知乎只返回空壳，本轮仅靠GitHub单源完成分析。建议下周给夜巡加一个SearXNG或自建搜索代理，否则信息源越来越窄会漏掉关键信号。
 
 ---
 
-*自动生成于 2026-06-22 19:24 CST · 下次夜巡 明日19:00*
+*自动生成于 2026-06-23 03:24 CST · 下次夜巡 明日19:00*  
+*数据源：GitHub Trending（weekly+monthly Python）· ProductHunt（❌）· 36氪（❌）· 知乎（❌）*
