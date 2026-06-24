@@ -1,73 +1,87 @@
-# 🌙 AI赚钱夜巡 · 2026-06-24 19:24
+# 🌙 AI赚钱夜巡 · 2026-06-25 03:24
 
-## 🎯 选题雷达（按5指标评分，≥3项=重点）
-
-### 🔥 高价值（≥4项命中）
-| 选题 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Agent-Reach 国内版** — AI Agent搜索工具，零API费搜Twitter/Reddit/小红书 | ✅ | ✅ | ✅ | ✅ | ❌ | **4** |
-| **Voicebox 语音克隆SaaS** — 开源AI语音工作室，克隆+听写+创作 | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
-| **Orca 多Agent调度器** — 并行Agent舰队IDE，桌面/移动端 | ✅ | ✅ | ✅ | ✅ | ❌ | **4** |
-| **daily_stock_analysis 量化分析** — LLM驱动多市场股票智能分析 | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
-| **Anthropic-Cybersecurity-Skills 安全课** — 817个AI安全技能，6框架映射 | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
-
-### 👀 值得关注（3项命中）
-| 选题 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|
-| OpenMontage — 开源Agent视频制作系统，12管道52工具 | ✅ | ❌ | ❌ | ✅ | ✅ | **3** |
-| codebase-memory-mcp — 代码智能MCP，毫秒级索引158语言 | ✅ | ✅ | ❌ | ✅ | ❌ | **3** |
-| worldmonitor — 全球情报看板，AI新闻聚合+地缘监控 | ✅ | ❌ | ❌ | ✅ | ✅ | **3** |
-| NVIDIA SkillSpector — AI Agent技能安全扫描器 | ✅ | ❌ | ❌ | ✅ | ✅ | **3** |
-| flue — Sandbox Agent框架（Astro团队） | ✅ | ✅ | ❌ | ✅ | ❌ | **3** |
+> night_fetcher v2.0 · GitHub API · PH RSS · 5指标过滤 ≥3项=重点
 
 ---
 
-## 📊 原始速览
+## 🎯 选题雷达（≥3指标命中）
 
-### GitHub Trending 本周
-- **OpenMontage** 17.5k⭐ (+9.4k本周) — 首个开源Agent视频制作系统
-- **codebase-memory-mcp** 13.7k⭐ (+8.5k) — 代码库MCP，单静态二进制
-- **timesfm** 25.4k⭐ (+4.4k) — Google时间序列基础模型
-- **Agent-Reach** 39.3k⭐ (+6.9k) — AI Agent"眼睛"，搜全互联网零API费
-- **voicebox** 33.6k⭐ (+2.9k) — 开源AI语音工作室
-- **OpenCut** 59.4k⭐ (+3.3k) — 开源CapCut替代
-- **orca** 6.5k⭐ (+1.2k) — 并行Agent舰队IDE
-- **daily_stock_analysis** 47.9k⭐ (+4.1k) — LLM股票分析
-- **NVIDIA SkillSpector** 10.1k⭐ (+2.8k) — AI技能安全扫描
-- **Anthropic-Cybersecurity-Skills** 20.3k⭐ (+3.5k) — 817个安全技能
-- **system_prompts_leaks** 45.6k⭐ (+2.7k) — 各AI系统提示词泄露合集
-- **plane** 52.8k⭐ (+1.8k) — 开源Jira替代
-- **penpot** 53.4k⭐ (+3.4k) — 开源设计协作工具
+| 选题 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 总分 |
+|------|:--:|:--:|:--:|:--:|:--:|:--:|
+| **AI基金经理投研Agent** | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** ⭐ |
+| **Claude Code 持久记忆工具** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 |
+| **PDF扫描效果API** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 |
+| **AI Agent一键部署平台** | ✅ | ✅ | ✅ | ✅ | ❓ | 4/5 |
+| AI游泳教练 | ✅ | ❌ | ❓ | ❌ | ❌ | 2/5 |
+
+---
+
+## 🔥 重点深挖：AI基金经理投研Agent
+
+**信号来源**：GitHub Trending（zhengxi-views，987⭐，4天破千）+ HN讨论
+**模式**：抓取基金经理公开观点→结构化→RAG问答→打分排序
+**变现路径**：
+- 免费版：每日观点摘要（引流）
+- Pro版 ¥29/月：基金打分+持仓诊断
+- 机构版 ¥999/月：多经理对比+组合建议
+**为什么现在做**：
+- 散户理财焦虑持续（现货黄金破4000、股市波动）
+- zhengxi-views证明该模式有强需求
+- 可复制到其他明星基金经理
+- 合规风险可控（仅研究学习，不构成投资建议）
+
+---
+
+## 📋 原始速览
+
+### 36氪快讯（精选）
+- 🔥 宇树R1人形机器人降价至2.99万元起
+- 💰 "临界点"完成近10亿融资
+- 📡 亚信安全：子公司签3000万算力集群合同
+- 🏭 长电科技拟投78亿建高端封测工厂
+- 🏆 中科曙光万卡集群刷新IO500全球纪录
+- 🎬 2026年度票房破170亿
+- 📉 现货黄金跌破4000美元/盎司
 
 ### Hacker News 热门
-- **FUTO Swipe** (569pts) — 新滑动输入模型
-- **Fired by Google** (564pts) — 创建Google Workspace CLI被开
-- **TikZ Editor** (401pts) — LaTeX图表WYSIWYG编辑器
-- **Qwen-AgentWorld** (119pts) — 通用Agent世界模型
-- **F* file system** (85pts) — 绕过OS内核直读SSD搜索
-- **Bunny DNS free** (193pts) — Bunny DNS宣布免费
+- Bunny DNS 免费化（714pts）
+- RubyLLM：Ruby的AI统一框架（258pts）
+- Krea 2：开源12B图像模型（234pts）
+- OpenAI 首款自研芯片（博通代工，178pts）
+- Nub：Node.js版Bun式工具链（146pts）
+- NSA失去Anthropic工具Mythos访问权限（132pts）
+- Gemini 3.5 Flash新增Computer Use（69pts）
+- PR Spam攻击OpenClaw开源项目（76pts）
 
-### 36氪
-- 工业5G独立专网试点启动（五部门联合）
-- SK海力士提交美国IPO申请
-- 魔法原子与京东战略合作，冲刺10亿销售额
-- 行云科技拟设合资公司开展算力业务
+### GitHub 本周新星
+- codex-orange-book：Codex橙皮书中文指南 1300⭐
+- agent-apprenticeship：Agent学徒生态系统 901⭐
+- Windows-Copilot-API：逆向出OpenAI兼容API 640⭐
+- recall：Claude Code持久记忆 460⭐
+- make-look-scanned：PDF扫描效果 401⭐
+- Qwen-AgentWorld：通义千问Agent世界模型 251⭐
+- fullstack-ai-agent-roadmap：AI Agent全栈路线图 170⭐
+
+### ProductHunt 本周精选
+- Tencent EdgeOne Makers：AI Agent即Web App部署
+- Clarify CRM Agents：AI自动化客户关系管理
+- Crewdle AI：统一订阅所有AI工具
+- Ruby：AI通话实时助手
+- Swimio：Apple Watch AI游泳教练
+- Stripe.Directory：Agent可用的Stripe商家搜索
+- Propane：产品团队的自动客户上下文
+- Nimt：Slack内AI搜索同事
 
 ---
 
-## 💡 洞察（≤3句）
+## 💡 洞察（3句）
 
-1. **Agent工具链爆发**：Agent-Reach（6.9k本周⭐）和Orca（1.2k⭐）同时冲榜，说明"让Agent更好用"是当前最大需求缺口——给Agent装眼睛（搜索）+ 给Agent配舰队（并行调度）= 基础设施层机会。
+1. **"Agent+垂直领域"模式已验证**：zhengxi-views（金融投研Agent）4天987⭐证明，把AI Agent绑到具体场景（基金经理分析→散户理财）比做通用Agent平台更容易起量。宇树R1降价到3万以内也暗示机器人Agent生态窗口打开。
 
-2. **语音克隆是下一次"AI视频热"**：Voicebox 33k⭐ + FUTO Swipe 569pts HN第一，语音交互赛道正在复刻去年AI视频的爆发前夜，国内语音克隆SaaS窗口还在。
+2. **"开发者工具+付费墙"是本周主线**：recall（Claude Code记忆）、make-look-scanned（PDF效果）、Crewdle AI（统一AI订阅）都是「单点工具→SaaS订阅」路径，7天可出Demo、30天可收费。
 
-3. **安全技能市场化**：Anthropic-Cybersecurity-Skills 20k⭐ + NVIDIA SkillSpector 10k⭐，AI安全从"合规要求"变成"可售卖产品"，817个技能直接可以包装成培训课程或认证体系。
+3. **警惕信号**：OpenClaw项目遭遇PR Spam攻击（76pts HN讨论）→ 开源项目的反滥用是新的隐性成本；NSA失去Anthropic访问权→ AI安全合规成为B端准入门槛。
 
 ---
 
-## 📌 可执行动作
-
-- [ ] **Agent-Reach 国内版**：做一个国内站点版（微博/知乎/贴吧/小红书搜索），7天可出Demo，定价月付29元
-- [ ] **Voicebox 包装服务**：基于开源Voicebox做API封装+中文优化，面向播客/有声书
-- [ ] **AI安全技能课**：翻译Anthropic 817技能 → 中文课程 + 微信群运营 → 定价699元
--
+*生成于 2026-06-25 03:24 CST | night_fetcher.py + GitHub API + PH RSS*
