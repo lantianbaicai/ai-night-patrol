@@ -1,113 +1,105 @@
-# 🌙 AI赚钱夜巡 · 2026-06-26 19:24
+# 🌙 AI赚钱夜巡 · 2026-06-27 10:22
 
-> 模型: deepseek-v4-pro | PH数据: RSS Feed | GitHub: weekly+monthly trending
-
----
-
-## 🎯 选题雷达（≥3项指标 = 重点）
-
-### 🔥🔥 一级重点（5/5）
-
-| 选题 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|
-| **AI Agent技能市场** | ✅ | ✅ | ✅ | ✅ | ✅ | 5 |
-| **AI内容去味+审美提升** | ✅ | ✅ | ✅ | ✅ | ✅ | 5 |
-
-### 🔥 二级重点（4/5）
-
-| 选题 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|
-| OpenMontage·AI视频制作 | ✅ | ✅ | ✅ | ✅ | ❌ | 4 |
-| Agent-Reach·Agent浏览器 | ✅ | ✅ | ✅ | ✅ | ❌ | 4 |
-| MoneyPrinterTurbo·短视频 | ✅ | ✅ | ✅ | ✅ | ❌ | 4 |
-| Voicebox·AI语音克隆 | ✅ | ❌ | ✅ | ✅ | ✅ | 4 |
-
-### 👀 观察级（≤3/5）
-
-| 选题 | 评分 | 备注 |
-|------|:--:|------|
-| freellmapi·免费LLM聚合 | 3 | 护城河弱，免费tier随时可能被砍 |
-| AI Slide Editor·PPT | 2 | 需深度集成，个人难切入 |
-| Basedash·Excel面板 | 2 | 小工具，天花板低 |
+> 数据源：36氪 + HN + GitHub Trending (周榜+月榜) | ProductHunt 被Cloudflare拦截
 
 ---
 
-## 📡 原始速览
+## 🎯 选题雷达（≥3分 = 重点）
 
-### GitHub Trending 本周 🔥
+| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 总分 |
+|------|:--:|:--:|:--:|:--:|:--:|:--:|
+| **codebase-memory-mcp** 代码智能MCP | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
+| **VoiceBox** AI语音克隆 | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
+| **Understand-Anything** 代码知识图谱 | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
+| **design.md** 设计系统规格 | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
+| **MoneyPrinterTurbo** 一键AI视频 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
+| **Agent-Reach** Agent网络搜索 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
+| **OpenMontage** 开源视频制片 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
+| **freellmapi** 免费LLM聚合 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
+| **ai-website-cloner** 网站克隆 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
+| daily_stock_analysis | ✅ | ✅ | ❌ | ✅ | ❌ | 3/5 |
+| Anthropic-Cybersecurity-Skills | ✅ | ✅ | ✅ | ❌ | ❌ | 3/5 |
 
-| 项目 | ⭐ | 本周涨幅 | 一句话 |
-|------|:--:|:--:|------|
-| OpenMontage | 23K | +16K | 开源Agent视频制作系统，12管线52工具500+skill |
-| codebase-memory-mcp | 15K | +8K | 代码知识图谱MCP，单二进制零依赖 |
-| Agent-Reach | 42K | +7K | Agent看全网（推特/红迪/油管/B站/小红书），零API费 |
-| daily_stock_analysis | 50K | +6K | LLM驱动多市场股票分析，零成本定时运行 |
-| Anthropic-Cybersecurity-Skills | 22K | +5K | 817个标准化安全skill，覆盖6大框架 |
-| agent-native | 2.4K | +1.6K | BuilderIO的Agent原生应用框架 |
-| no-mistakes | 3.1K | +1.4K | `git push no-mistakes` Go工具 |
-| orca | 7.8K | +2K | Agent舰队ADE，桌面+移动端 |
-| voicebox | 34K | +3.7K | 开源AI语音工作室·克隆/听写/创作 |
-| penpot | 54K | +3.4K | 开源设计工具（设计+代码协作） |
-| design.md | 20K | +2.7K | Google的视觉标识规范给Coding Agent |
+---
 
-### GitHub Trending 本月 📈
+## 📊 原始速览
 
-| 项目 | 月涨幅 | 信号 |
-|------|:--:|------|
-| Understand-Anything | +38K | 代码交互知识图谱 · 68K总⭐ |
-| MoneyPrinterTurbo | +35K | AI短视频一键生成 · 93K总⭐ |
-| markitdown | +35K | 微软文件转Markdown · 159K总⭐ |
-| taste-skill | +32K | 让AI有审美 · 51K总⭐ |
-| codegraph | +31K | 预索引代码知识图谱 · 55K总⭐ |
-| last30days-skill | +20K | Agent研究技能 · 47K总⭐ |
-| Agent-Reach | +21K | Agent浏览器全网通 |
-| OpenMontage | +18K | Agent视频制作系统 |
-| DeepSeek-Reasonix | +17K | DeepSeek原生终端编程Agent |
-| Apple container | +17K | Mac本地Linux容器 |
-| stop-slop | +8K | 去除AI写作文风skill |
+### 🔥 GitHub Trending 月榜 · 赚钱信号
 
-### ProductHunt 近期 🔍
+**1. MoneyPrinterTurbo** ⭐93k (+34k/月)
+AI一键生成短视频。Python开源，已有成熟的视频生成管线。月增3.4万星说明短视频AI化需求极强。可做：SaaS化收费 + 行业垂直模板。
 
-| 产品 | 描述 | 信号 |
-|------|------|------|
-| **Agent Arena** | 第一个AI Agent公开竞技场 | Agent基础设施 |
-| **SquidHub** | 人类+AI多人协作模式 | Agent协作 |
-| **DMV** | AI Agent社区治理命名空间 | Agent身份认证 |
-| **AI Slide Editor** | "PowerPoint本该有的样子" | AI+办公 |
-| **Atlas (Nanonets)** | 让每个AI工具了解公司运作 | 企业AI |
-| **Sleek Analytics** | 实时网站访客追踪 | 轻量SaaS |
-| **beehiiv Group Subs** | 团队/企业订阅功能 | 创作者变现 |
+**2. Understand-Anything** ⭐68k (+34k/月)
+将任意代码转成交互式知识图谱。支持Claude Code/Cursor/Copilot等20+平台。这是代码理解赛道的现象级产品，说明"AI读懂代码"比"AI写代码"市场更大。
 
-### 36氪信号
-- Rokid发布首款AI智能眼镜AIOS系统
-- 京东大药房烟台新公司
-- 金刚光伏16.6亿风电项目
+**3. Leonxlnx/taste-skill** ⭐51k (+30k/月)
+给AI增加"品味"，阻止生成无聊的通用废话。"反AI味"已成刚需，stop-slop同类品月增7.8k星。可做：中文版内容润色SaaS。
 
-### HN热门信号
-- IBM亚1纳米芯片技术亮相 → 硬件进入新时代
-- Apple跳过M6直推M7系列 → AI芯片军备竞赛
-- OpenKnowledge：开源替代Obsidian/Notion
-- 开源捍卫者联合声明 → 开源生态保卫战
+**4. codegraph** ⭐55k (+28k/月)
+预索引代码知识图谱，自动同步代码变更。100%本地运行。代码库理解基础设施赛道正在爆发。
+
+**5. Agent-Reach** ⭐42k (+21k/月)
+让AI Agent看整个互联网：Twitter/Reddit/YouTube/GitHub/B站/小红书，零API费用。MCP协议生态的关键拼图。
+
+**6. OpenMontage** ⭐23k (+19k/月)
+开源Agent视频制作系统，12条管线/52个工具/500+Agent技能。视频制作Agent化的标杆。
+
+**7. Apple container** ⭐43k (+17k/月)
+Apple官方的Linux容器工具。非直接赚钱但信号重要：Apple进军DevOps工具链。
+
+**8. DeepSeek-Reasonix** ⭐24k (+15k/月)
+DeepSeek原生命令行AI编程Agent。专注前缀缓存稳定性。国产Agent工具崛起信号。
+
+**9. codebase-memory-mcp** ⭐15k (+12k/月)
+高性能代码智能MCP服务器，单个静态二进制，零依赖，毫秒级索引。158种语言支持。技术壁垒极高。
+
+**10. open-notebook** ⭐33k (+9.8k/月)
+开源版Notebook LM，更灵活更强大。知识管理+AI赛道持续火热。
+
+### 🆕 GitHub Trending 周榜 · 新锐信号
+
+- **BuilderIO/agent-native**：Agent原生应用框架（TS），本周+1.5k★。Agent应用开发的"Next.js时刻"
+- **interviewstreet/hiring-agent**：AI简历评分Agent（Python），本周+1.7k★。HR赛道AI化加速
+- **google-labs-code/design.md**：给Coding Agent描述设计系统的格式规范，本周+4.6k★。Google出品，可能成为行业标准
+- **JCodesMore/ai-website-cloner-template**：一键克隆任何网站（TS），本周+3.9k★。网站克隆+AI=新商业模式
+- **mattpocock/skills**：TypeScript大神的Agent技能集。个人品牌→技能变现新路径
+
+### 💬 Hacker News 热议
+
+- **GPT-5.6 Sol 预览** (856pts)：OpenAI发布新模型，美政府将审查谁能使用——AI管制升级信号
+- **Anthropic Mythos 模型** (217pts)：仅向"可信合作伙伴"发布，封闭趋势加剧
+- **Workweave Router** (149pts)：在Claude/Codex/Cursor中智能路由模型——模型调度是刚需
+- **AWS MicroVMs** (267pts)：Lambda引入微虚拟机，Agent沙箱基础设施成熟
+- **Polymarket年营收破$10亿**：预测市场商业模式验证，信息差套利赛道
+
+### 📰 36氪 · 国内市场信号
+
+- Polymarket年化营收破10亿美元 → 预测市场/信息差赛道验证
+- 协创数据定增80亿建智算中心 → AI算力基础设施建设加速
+- 本田2025财年亏损超4000亿日元 → 传统车企转型压力
+- 多家公司创业板IPO获受理 → 资本市场回暖
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **AI Skills Marketplace 是当前最大风口**：taste-skill (+32K月)、stop-slop (+8K月)、pm-skills、Cybersecurity-Skills 都在验证——AI Agent的"App Store"时代已来，做skill marketplace比做单个skill更有价值。
+1. **代码理解基础设施是当下最大金矿**：Understand-Anything(68k★)、codegraph(55k★)、codebase-memory-mcp(15k★)三箭齐发，"让AI读懂代码"的MCP/知识图谱工具体系正在形成，比"让AI写代码"更刚需、付费意愿更强。
 
-2. **"AI去味"成为新赛道**：taste-skill 和 stop-slop 合计月涨40K星——人人都在用AI产出，但产出质量参差不齐，帮AI产出"去AI味"的中间层是明确的付费需求。
+2. **"去AI味"成为独立赛道**：taste-skill(51k★)和stop-slop(12k★)合计月增近4万星，说明AI内容泛滥后，能产出"像人写的"内容的工具是真实痛点。中文版内容润色SaaS有机会。
 
-3. **视频生产链正在闭合**：OpenMontage（制作）+ Voicebox（语音）+ MoneyPrinterTurbo（短视频）→ 一个人+AI = 完整视频工作室，这三个项目整合一下就是一套可收费的SaaS。
+3. **视频制作Agent化窗口期很短**：MoneyPrinterTurbo(93k★)+OpenMontage(23k★)已占位，但垂直行业（电商带货、房产、教育）的Agent化视频模板仍是蓝海，需要30天内出产品。
 
 ---
 
-## 🎬 推荐行动
+## 🔖 行动建议
 
-| 优先级 | 选题 | 理由 | 预估投入 |
+| 优先级 | 方向 | 具体动作 | 预期周期 |
 |:--:|------|------|:--:|
-| **P0** | AI技能市场 | 风口最大、壁垒可建、可直接复用你已有的skills体系 | 2周MVP |
-| **P1** | 中文AI去味/润色SaaS | taste-skill中文版空白，市场需求明确 | 1周MVP |
-| **P2** | Agent-Reach魔改 | 已有开源代码，加付费API层+国内平台适配 | 3天Demo |
+| P0 | 代码知识图谱MCP | 研究Understand-Anything/codegraph架构，找差异化切入点 | 本周 |
+| P1 | 中文AI内容润色SaaS | taste-skill思路做中文版，小红书文案去AI味 | 2周MVP |
+| P1 | 视频Agent垂直模板 | 基于MoneyPrinterTurbo做电商带货专用管线 | 2周MVP |
+| P2 | Agent-Reach集成 | 评估能否集成到OPC工作流中替代web_search | 观察 |
 
 ---
-*夜巡于 2026-06-26 19:24 CST · 下一步: push_to_github.py*
+
+*夜巡完毕 · 不堆新闻，只记能做的东西*
