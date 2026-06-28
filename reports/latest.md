@@ -1,63 +1,85 @@
-# 🌙 AI赚钱夜巡 · 2026-06-28 18:22
+# 🌙 AI赚钱夜巡 · 2026-06-29 02:22
+
+> 数据源: 36kr + HN + GitHub API Trending | 评分体系: 5指标≥3 → 重点
 
 ---
 
-## 🎯 选题雷达（5指标评分：客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒）
+## 🎯 选题雷达（5指标 ≥3项 → 🔥重点）
 
-### 🔥 重点赛道
-
-| # | 赛道 | 评分 | 信号 |
-|---|------|------|------|
-| 1 | **Agent技能市场/垂直领域Skill包** | ⭐⭐⭐⭐⭐ | last30days-skill 47K⭐(月增20K)、taste-skill 52K⭐(月增28K)、pm-skills 100+技能、Anthropic-Cybersecurity 22K⭐(月增11K)——Agent生态正在从"对话"进化为"技能市场"，做垂直领域的skill包就是卖铲子 |
-| 2 | **知识图谱/代码理解** | ⭐⭐⭐⭐½ | Understand-Anything 68K⭐(月增30K)、codebase-memory-mcp 18K⭐(月增13K)——开发者刚需，技术壁垒高，可包装为企业SaaS |
-| 3 | **模型路由/LLM聚合** | ⭐⭐⭐½ | freellmapi 13K⭐(月增7.7K)、Wayfinder Router(HN热门)——低成本入场，API薄层但流量价值大，适合做"免费+付费"漏斗 |
-
-### 👀 观察赛道
-
-| # | 赛道 | 评分 | 信号 |
-|---|------|------|------|
-| 4 | AI视频生产 | ⭐⭐⭐½ | MoneyPrinterTurbo 93K⭐(月增33K)、OpenMontage 26K⭐(月增20K)——市场巨大但竞争白热化，差异化需从"工具"转向"工作流自动化" |
-| 5 | Agent终端工具 | ⭐⭐⭐ | oh-my-pi 14K⭐、herdr 7.8K⭐、Agent-Reach 43K⭐(月增22K)——Agent基础设施层，适合开源获客+企业版收费 |
+| 项目 | ⭐ | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
+|------|-----|---------|---------|----------|---------|----------|------|
+| **OpenTag 放大器** | 351 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 🔥 |
+| **AI视频技能市场** | 358 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 🔥 |
+| **ComfyUI节点变现** | 296 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4.5/5 🔥 |
+| **Lottie AI动画API** | 3993 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4.5/5 🔥 |
+| **网站离线镜像SaaS** | 2567 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 🔥 |
+| Vercel Eve 代理框架 | 2851 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 |
+| BuilderIO Skills | 2833 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 |
+| Baidu Unlimited OCR | 11470 | ✅ | ❌ | ✅ | ✅ | ✅ | 4/5 |
+| BenchFlow AI Evals | 555 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 |
+| Omnigent | 5262 | ✅ | ❌ | ✅ | ✅ | ⚠️ | 3.5/5 |
+| Odysseus | 78907 | ✅ | ❌ | ⚠️ | ✅ | ✅ | 3.5/5 |
+| shadcn/improve | 6366 | ✅ | ❌ | ✅ | ✅ | ❌ | 3/5 |
 
 ---
 
 ## 📡 原始速览
 
-### GitHub Monthly Trending 关键项目
-- **MoneyPrinterTurbo** · 93K⭐ · 月增33K — AI一键生成短视频，中文生态王者
-- **microsoft/markitdown** · 160K⭐ · 月增35K — 文件转Markdown，Microsoft出品
-- **Understand-Anything** · 68K⭐ · 月增30K — 代码→交互式知识图谱
-- **taste-skill** · 52K⭐ · 月增28K — 给AI注入"审美"，反slop工具
-- **last30days-skill** · 47K⭐ · 月增20K — Agent自动研究任意话题
-- **Panniantong/Agent-Reach** · 43K⭐ · 月增22K — Agent浏览全网，零API费
-- **apple/container** · 44K⭐ · 月增17K — Mac轻量级容器，Apple官方
-- **OpenMontage** · 26K⭐ · 月增20K — 开源智能视频制作系统
-- **Anthropic-Cybersecurity-Skills** · 22K⭐ · 月增11K — 817个网安Agent技能
-- **freellmapi** · 13K⭐ · 月增7.7K — 16个免费LLM聚合为一个API
+### 🔥 重点追击（得分≥4）
 
-### Hacker News 信号
-- 🔥 **Asian AI startups launch Mythos-like models** — Anthropic出口禁令催生亚洲替代模型，机会：模型部署/适配服务
-- 🔥 **Post-Mythos Cybersecurity** — 后Anthropic时代的网络安全，机会：安全审计工具
-- 🔥 **Wayfinder Router** — 本地/云端LLM路由，机会：混合推理调度
-- 📄 **DSpark** — DeepSeek推测解码加速推理，机会：推理加速服务
-- 📄 **Fintech Engineering Handbook** — 金融科技工程手册，参考资源
-- 📄 **AI learns RFIC design** — AI做射频芯片设计，AI+硬件交叉
+**1. OpenTag 放大器（4/5）**
+- 仓库: amplifthq/opentag ⭐351 (本周) + CopilotKit/OpenTag ⭐296 (本周)
+- 做什么: 开源 @agent 提及系统，接入 Slack/GitHub，路由到 Codex/Claude Code，返回结果
+- 为什么能赚钱: 企业 Slack 工作区需要 AI 代理协作 → 可以做 SaaS 托管版 + 私有部署
+- 切入点: Fork 后加企业 SSO + 用量计费 + 中文适配 → 7天出 MVP
 
-### 36氪
-- 悟空安全上线"弹必赔"：主打0添加安全软件 → 国内安全赛道新玩家
-- 智元第15000台通用具身机器人量产下线 → 机器人规模化
-- 韩国三星/SK集团大型项目即将宣布 → 半导体/面板产业链关注
+**2. AI 视频生产技能市场（4/5）**
+- 仓库: Pluviobyte/video-production-skills ⭐358 (本周)
+- 做什么: 可复用的 AI 视频制作技能库（创作/重制/动效/开场/质检）
+- 为什么能赚钱: 创作者需要 AI 视频工具但不会写 prompt → 技能市场 = App Store for AI
+- 切入点: 做中文版技能市场 + 电商卖家版（主图视频/直播切片）
+
+**3. ComfyUI 节点变现（4.5/5）**
+- 仓库: nova452/ComfyUI-Conditioning-Rebalance ⭐296 (本周)
+- 做什么: IP-Adapter 级别的图片参考编辑节点，绕过内置限制
+- 为什么能赚钱: ComfyUI 用户群爆炸增长 → 节点即产品 → 免费基础版 + 付费高级节点
+- 切入点: 开发一套"电商卖家 ComfyUI 工作流包"（白底图/模特换装/场景合成）
+
+**4. Lottie AI 动画 API（4.5/5）**
+- 仓库: diffusionstudio/lottie ⭐3993 (月)
+- 做什么: 用 Claude Code/Codex 生成可直接使用的 Lottie 动画
+- 为什么能赚钱: 前端动画需求大但设计师贵 → AI 动画 API → 按调用收费
+- 切入点: 包装成 Figma 插件 + Web API → 产品/设计师直接买单
+
+**5. 网站离线镜像 SaaS（4/5）**
+- 仓库: tamnd/kage ⭐2567 (月)
+- 做什么: 给任意网站做影子镜像，去掉 JS 离线查看
+- 为什么能赚钱: SEO 竞品分析/舆情监控/知识库归档 → 这些都是付费场景
+- 切入点: SaaS 版定时快照 + 变更对比 + 导出 PDF → 卖给市场/研究团队
+
+### 📊 值得关注
+
+- **Vercel Eve** ⭐2851: Vercel 出的代理框架，要抢 AI 工作流编排市场。关注但不做（巨头赛道）
+- **BenchFlow AI Evals** ⭐555: AI 代理评估资源库，刚需但天花板低，可作为内容引流入口
+- **Baidu Unlimited OCR** ⭐11470: 百度开源 OCR，中文文档处理赛道可能出现新机会
+
+### 📰 36氪/HN 信号
+
+- **智元机器人第15000台量产下线**: 具身智能产业链成熟中，配套软件工具需求即将爆发
+- **悟空安全"弹必赔"**: 安全软件"0添加"概念，纯净安全工具赛道有空白
+- **Google 限制 Meta 使用 Gemini**: 大模型供应链紧张 → AI API 聚合/切换工具需求上升
+- **Claude Code 看 MRI**: AI 辅助医疗诊断进入大众视野 → 垂直 AI 工具需求增加
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **Agent技能市场是当前最明确的赚钱信号**：taste-skill(月增28K)和last30days(月增20K)证明了"给Agent卖技能"比"卖Agent"更赚钱——做一个垂直领域（如电商运营、SEO审计、法律合规）的Agent Skill Pack，7天可出Demo，30天可收费。
+1. **AI 代理工具链是新的前端框架战争**：Vercel Eve、Omnigent、OpenTag、BuilderIO Skills 同时涌入，说明"代理编排"生态还在春秋战国。**别造框架，造缺的零件**——Slack 代理路由、技能市场、评估工具，这三块都是空白。
 
-2. **知识图谱赛道正在被AI重估**：Understand-Anything(月增30K)和codebase-memory-mcp(月增13K)不是传统知识图谱，而是"用AI自动建图+自然语言查询"——把这块包装成"企业代码大脑"SaaS，壁垒高、客户愿付费。
+2. **ComfyUI 节点正在形成创作者经济**：一个节点的星星数就能过 300，说明用户愿意为"让 AI 生成更好看"的工具付费。**卖铲子比卖金子稳**——做 ComfyUI 工作流市场 + 付费节点，比做 AI 图片生成产品更容易变现。
 
-3. **不要追视频赛道，要追Agent基础设施**：MoneyPrinterTurbo(93K⭐)已是红海，但Agent-Reach(让Agent上网)、freellmapi(模型路由)、herdr(Agent多路复用)这些Agent"水电煤"还很早期——做Agent工具链比做Agent应用更容易形成壁垒。
+3. **百度 Unlimited OCR 11470 star 不是偶然**：中文文档智能处理是京东/淘宝/拼多多商家都在用的需求（发票识别、合同提取、表格转换）。**做 OCR → 结构化 → 自动填表这条链路的垂直 SaaS**，7 天能出 MVP。
 
 ---
 
-*夜巡完成 · 基于 night_raw + GitHub Trending Monthly · PH不可达(Cloudflare)*
+*夜巡完毕 · 下次巡更: 2026-06-30 02:00*
