@@ -1,97 +1,69 @@
-# 🌙 AI赚钱夜巡 · 2026-06-29 10:22
+# 🌙 AI赚钱夜巡 · 2026-06-29 18:22
 
-> 数据源: 36kr + HN + GitHub API | ProductHunt ❌ (Cloudflare)
+> 模型: deepseek-v4-pro | 来源: 36kr(20) + HN(25) + GitHub Weekly + GitHub Monthly | PH ❌(CF拦截)
 
 ---
 
-## 🎯 选题雷达（≥3项=🔥重点关注）
+## 🎯 选题雷达（≥3项达标 = 重点）
 
-### 🔥 baidu/Unlimited-OCR — OCR as a Service
-| 指标 | 评分 | 说明 |
-|------|------|------|
-| 客户明确 | ✅ | 证件识别/票据/文档数字化，B端刚需 |
-| 7天Demo | ✅ | 开源MIT，直接部署API即可 |
-| 30天收费 | ✅ | OCR SaaS按量计费，阿里云OCR 0.01元/次 |
-| 复用资产 | ✅ | 模型开源可私有化部署，API层是通用技术 |
-| 长期壁垒 | ❌ | 百度开源，竞争门槛低；但私有化部署+垂直场景有壁垒 |
-| **总分** | **4/5** | 🔥🔥🔥🔥 |
-
-**可做方向**：基于 Unlimited-OCR 做垂直行业OCR服务（合同/发票/医疗报告），包装成SaaS API + 私有化部署双模式。11.6k star说明需求真实。
-
-### 🔥 Claude Code 医疗咨询 — AI 第二诊疗意见
-| 指标 | 评分 | 说明 |
-|------|------|------|
-| 客户明确 | ✅ | 患者/家属愿为第二意见付费 |
-| 7天Demo | ✅ | LLM+医疗报告解读Prompt即可 |
-| 30天收费 | ❌ | 医疗合规门槛高，需要资质 |
-| 复用资产 | ✅ | Prompt工程+报告解析模板可复用 |
-| 长期壁垒 | ✅ | 合规即壁垒，先拿到资质的有护城河 |
-| **总分** | **4/5** | 🔥🔥🔥🔥 |
-
-**HN 356pts** — Claude Code分析MRI引爆讨论。但医疗合规是硬门槛，可做"健康咨询"非"医疗诊断"规避，或面向海外市场。
-
-### 🔥 Codex 橙皮书 — AI工具教程变现
-| 指标 | 评分 | 说明 |
-|------|------|------|
-| 客户明确 | ✅ | 开发者/技术管理者想学Codex |
-| 7天Demo | ✅ | 写教程即可 |
-| 30天收费 | ✅ | 电子书/课程/付费社区 |
-| 复用资产 | ✅ | 内容一次创作多次分发 |
-| 长期壁垒 | ❌ | 内容类壁垒低，需持续更新 |
-| **总分** | **4/5** | 🔥🔥🔥🔥 |
-
-2.3k star的Codex中文教程，说明AI工具学习需求巨大。可做：AI工具中文教程矩阵（Codex/Claude Code/Cursor），电子书+视频+社群。
-
-### ⚡ DeepSeek/DeepSpec — 推测解码训练框架
-| 指标 | 评分 | 说明 |
-|------|------|------|
-| 客户明确 | ❌ | 面向研究者，C端没有直接需求 |
-| 7天Demo | ❌ | 需要GPU和深度学习背景 |
-| 30天收费 | ❌ | 工具型开源项目难以直接收费 |
-| 复用资产 | ❌ | 纯研究工具 |
-| 长期壁垒 | ❌ | 无 |
-| **总分** | **0/5** | 学术价值高，赚钱价值低 |
+| # | 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 | 分类 |
+|---|------|:---:|:---:|:---:|:---:|:---:|:---:|------|
+| 1 | **daily_stock_analysis** LLM股票分析 | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** | 金融AI |
+| 2 | **orca** Agent IDE/并行Agent管理 | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** | Agent工具 |
+| 3 | **OpenMontage** 开源Agent视频制作 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** | 视频AI |
+| 4 | **codebase-memory-mcp** 代码知识图谱 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** | 开发工具 |
+| 5 | **ai-website-cloner** AI网站克隆 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** | 建站 |
+| 6 | **MoneyPrinterTurbo** AI短视频 (94k⭐) | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** | 视频AI |
+| 7 | **open-notebook** 开源NotebookLM | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** | 知识工具 |
+| 8 | **palmier-pro** macOS AI视频编辑器 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** | 视频AI |
+| 9 | **voicebox** AI语音工作室 (35k⭐) | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** | 语音AI |
+| 10 | **freellmapi** 免费LLM聚合网关 | ✅ | ✅ | ✅ | ❌ | ❌ | **3/5** | API工具 |
+| 11 | **supermemory** AI记忆API (27k⭐) | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** | AI基建 |
+| 12 | **cognee** Agent长期记忆引擎 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** | AI基建 |
 
 ---
 
 ## 📋 原始速览
 
-### GitHub 近期热门（API, created > June 15）
-| 项目 | Stars | 描述 |
-|------|-------|------|
-| [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 11,615 | One-shot长文本OCR解析 |
-| [bozhouDev/codex-orange-book](https://github.com/bozhouDev/codex-orange-book) | 2,289 | Codex中文全链路教程+PDF |
-| [deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec) | ⭐ | 推测解码训练评估框架 |
+### 🔥 GitHub 本周爆炸增长
+- **daily_stock_analysis** 51.5k⭐ (+7k/周) — LLM驱动的A股/港股/美股分析，支持零成本定时推送。中国散户付费意愿强，可做信号订阅SaaS。
+- **OpenMontage** 27.8k⭐ (+18.7k/周) — 首个开源Agent视频生产系统，12管线52工具500+技能，把coding agent变成视频工作室。
+- **codebase-memory-mcp** 20.6k⭐ (+8.9k/周) — 158语言代码索引，毫秒级建知识图谱，99%减token。单二进制零依赖，做hosted版直接收费。
+- **Agent-Reach** 45.1k⭐ (+7.7k/周) — AI全网搜索CLI，支持Twitter/Reddit/YouTube/B站/小红书，零API费。跟我们已有技能同源。
+- **ai-website-cloner** 23.2k⭐ (+5.3k/周) — 一句话克隆任何网站，AI coding agent驱动。可包装成建站服务卖给中小企业。
+- **voicebox** 35.6k⭐ (+3.8k/周) — 开源语音工作室，克隆/听写/创作。内容创作者刚需。
+- **deer-flow** (字节) 75.3k⭐ (+3k/周) — 长时域SuperAgent框架，sandbox+记忆+工具+子Agent。我们已经在用。
 
-### Hacker News 今日热点
-| 标题 | 分数 | 
-|------|------|
-| GLM 5.2 beats Claude in benchmarks | 473 |
-| Claude Code MRI second opinion | 356 |
-| Librepods: AirPods liberated | 289 |
-| AI fraud exam at Brown | 281 |
-| Zanagrams (word game) | 180 |
-| OpenAI Codex sensitive file exclusion issue | 179 |
-| Tokenmaxxing is dead | 114 |
-| DRM-Free Books directory | 72 |
-| NanoEuler: GPT-2 scale in pure C/CUDA | 38 |
-| Bash4LLM+: Bash wrapper for LLM APIs | 35 |
+### 📈 GitHub 月度趋势
+- **MoneyPrinterTurbo** 94k⭐ (+29k/月) — AI一键短视频，中国市场刚需已验证，可做定制化服务。
+- **taste-skill** 52.8k⭐ (+27k/月) — 给AI注入"好品味"，消除AI味。内容创作赛道差异化工具。
+- **open-notebook** 33.8k⭐ (+10k/月) — 开源NotebookLM替代品，知识管理+AI问答，垂直场景可收费。
+- **supermemory** 27.9k⭐ (+5.1k/月) — AI记忆引擎API，自托管知识图谱。Agent记忆是基础设施级需求。
+- **oh-my-pi** 15k⭐ (+7k/月) — 终端AI Coding Agent，hash锚定编辑+LSP+浏览器。
+- **freellmapi** 13.9k⭐ (+7.8k/月) — 聚合16个LLM免费额度(月1.7B token)，智能路由+自动容错。
 
-### 36氪融资/产业
-- CAYE咖爷科技 B轮近4亿（咖啡科技）
-- 源策未来Archon Robotics 种子轮数亿（机器人）
-- 科创板50涨超4%刷新高
+### 💬 HN 热议
+- **GLM 5.2 基准测试超越Claude** (861pts) — 国产模型在安全领域反超，以后写cyber工具可以考虑国产模型做底座。
+- **HackerRank开源ATS+AI简历评分** (459pts) — 求职赛道AI化加速，简历评分/优化付费需求明确。
+- **Claude Code分析MRI** (436pts) — AI医疗第二意见，垂直场景有付费意愿。
+- **Brown大学AI作弊丑闻** (411pts) — AI检测/学术诚信工具需求上升。
 
----
-
-## 💡 洞察（3句）
-
-1. **OCR赛道意外爆发**：百度Unlimited-OCR 11天11.6k星，说明"长文本结构化解析"是真实痛点。结合国内电子发票/合同数字化浪潮，做垂直OCR SaaS是个好切口。
-
-2. **AI教程付费需求验证**：Codex橙皮书2.3k星 + HN上Claude Code MRI分析356分，都指向同一个信号——人们愿意为"AI工具怎么用"付费。做中文AI工具教程矩阵时机正好。
-
-3. **机器人赛道持续吸金**：Archon Robotics种子轮数亿，加上之前各类机器人融资，国内机器人产业正在从实验室走向工厂。做机器人相关的软件/数据服务（仿真环境、数据集标注、ROS教程）可能是低门槛切入点。
+### 📰 36氪信号
+- **中国移动设立Token办公室** — 运营商下场Token化，AI支付/结算基础设施机会。
+- **谷歌算力告急限制Meta用Gemini** — AI算力短缺持续，算力调度/优化是长期需求。
+- **OceanBase发布AI数据库** — 数据库AI化，向量检索+SQL混合查询。
+- **欧洲高温降暑品类爆发(速卖通)** — 短期跨境机会，风扇/降温贴/遮阳。
 
 ---
 
-*生成时间: 2026-06-29 10:22 CST | 数据源: night_fetcher v2.0 + GitHub API | 模型: deepseek-v4-pro*
+## 💡 洞察（≤3句）
+
+1. **Agent工具链是2026年最确定的主线**：orca(Agent IDE)、herdr(Agent多路复用)、deer-flow(SuperAgent框架)形成完整工具栈，做Agent编排/托管/监控的中间层是"卖铲子"生意——客户明确、可30天收费、复用性强。
+
+2. **AI视频制作赛道群雄逐鹿但缺"最后一公里"产品**：OpenMontage(开源管线)、MoneyPrinterTurbo(一键生成)、palmier-pro(macOS编辑)——技术底座都有了，谁先做出面向特定行业（电商/教育/自媒体）的端到端付费产品谁赚钱。
+
+3. **daily_stock_analysis 是中国市场最直接的变现机会**：A股散户基数大、付费习惯成熟、信息不对称严重。LLM+实时行情+策略回测+付费信号=可7天出Demo、30天收费的完整闭环。51k星验证需求真实。
+
+---
+
+*夜巡完成 · 下次见 🌙*
