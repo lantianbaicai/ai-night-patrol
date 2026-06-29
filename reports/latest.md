@@ -1,85 +1,97 @@
-# 🌙 AI赚钱夜巡 · 2026-06-29 02:22
+# 🌙 AI赚钱夜巡 · 2026-06-29 10:22
 
-> 数据源: 36kr + HN + GitHub API Trending | 评分体系: 5指标≥3 → 重点
-
----
-
-## 🎯 选题雷达（5指标 ≥3项 → 🔥重点）
-
-| 项目 | ⭐ | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
-|------|-----|---------|---------|----------|---------|----------|------|
-| **OpenTag 放大器** | 351 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 🔥 |
-| **AI视频技能市场** | 358 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 🔥 |
-| **ComfyUI节点变现** | 296 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4.5/5 🔥 |
-| **Lottie AI动画API** | 3993 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4.5/5 🔥 |
-| **网站离线镜像SaaS** | 2567 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 🔥 |
-| Vercel Eve 代理框架 | 2851 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 |
-| BuilderIO Skills | 2833 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 |
-| Baidu Unlimited OCR | 11470 | ✅ | ❌ | ✅ | ✅ | ✅ | 4/5 |
-| BenchFlow AI Evals | 555 | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 |
-| Omnigent | 5262 | ✅ | ❌ | ✅ | ✅ | ⚠️ | 3.5/5 |
-| Odysseus | 78907 | ✅ | ❌ | ⚠️ | ✅ | ✅ | 3.5/5 |
-| shadcn/improve | 6366 | ✅ | ❌ | ✅ | ✅ | ❌ | 3/5 |
+> 数据源: 36kr + HN + GitHub API | ProductHunt ❌ (Cloudflare)
 
 ---
 
-## 📡 原始速览
+## 🎯 选题雷达（≥3项=🔥重点关注）
 
-### 🔥 重点追击（得分≥4）
+### 🔥 baidu/Unlimited-OCR — OCR as a Service
+| 指标 | 评分 | 说明 |
+|------|------|------|
+| 客户明确 | ✅ | 证件识别/票据/文档数字化，B端刚需 |
+| 7天Demo | ✅ | 开源MIT，直接部署API即可 |
+| 30天收费 | ✅ | OCR SaaS按量计费，阿里云OCR 0.01元/次 |
+| 复用资产 | ✅ | 模型开源可私有化部署，API层是通用技术 |
+| 长期壁垒 | ❌ | 百度开源，竞争门槛低；但私有化部署+垂直场景有壁垒 |
+| **总分** | **4/5** | 🔥🔥🔥🔥 |
 
-**1. OpenTag 放大器（4/5）**
-- 仓库: amplifthq/opentag ⭐351 (本周) + CopilotKit/OpenTag ⭐296 (本周)
-- 做什么: 开源 @agent 提及系统，接入 Slack/GitHub，路由到 Codex/Claude Code，返回结果
-- 为什么能赚钱: 企业 Slack 工作区需要 AI 代理协作 → 可以做 SaaS 托管版 + 私有部署
-- 切入点: Fork 后加企业 SSO + 用量计费 + 中文适配 → 7天出 MVP
+**可做方向**：基于 Unlimited-OCR 做垂直行业OCR服务（合同/发票/医疗报告），包装成SaaS API + 私有化部署双模式。11.6k star说明需求真实。
 
-**2. AI 视频生产技能市场（4/5）**
-- 仓库: Pluviobyte/video-production-skills ⭐358 (本周)
-- 做什么: 可复用的 AI 视频制作技能库（创作/重制/动效/开场/质检）
-- 为什么能赚钱: 创作者需要 AI 视频工具但不会写 prompt → 技能市场 = App Store for AI
-- 切入点: 做中文版技能市场 + 电商卖家版（主图视频/直播切片）
+### 🔥 Claude Code 医疗咨询 — AI 第二诊疗意见
+| 指标 | 评分 | 说明 |
+|------|------|------|
+| 客户明确 | ✅ | 患者/家属愿为第二意见付费 |
+| 7天Demo | ✅ | LLM+医疗报告解读Prompt即可 |
+| 30天收费 | ❌ | 医疗合规门槛高，需要资质 |
+| 复用资产 | ✅ | Prompt工程+报告解析模板可复用 |
+| 长期壁垒 | ✅ | 合规即壁垒，先拿到资质的有护城河 |
+| **总分** | **4/5** | 🔥🔥🔥🔥 |
 
-**3. ComfyUI 节点变现（4.5/5）**
-- 仓库: nova452/ComfyUI-Conditioning-Rebalance ⭐296 (本周)
-- 做什么: IP-Adapter 级别的图片参考编辑节点，绕过内置限制
-- 为什么能赚钱: ComfyUI 用户群爆炸增长 → 节点即产品 → 免费基础版 + 付费高级节点
-- 切入点: 开发一套"电商卖家 ComfyUI 工作流包"（白底图/模特换装/场景合成）
+**HN 356pts** — Claude Code分析MRI引爆讨论。但医疗合规是硬门槛，可做"健康咨询"非"医疗诊断"规避，或面向海外市场。
 
-**4. Lottie AI 动画 API（4.5/5）**
-- 仓库: diffusionstudio/lottie ⭐3993 (月)
-- 做什么: 用 Claude Code/Codex 生成可直接使用的 Lottie 动画
-- 为什么能赚钱: 前端动画需求大但设计师贵 → AI 动画 API → 按调用收费
-- 切入点: 包装成 Figma 插件 + Web API → 产品/设计师直接买单
+### 🔥 Codex 橙皮书 — AI工具教程变现
+| 指标 | 评分 | 说明 |
+|------|------|------|
+| 客户明确 | ✅ | 开发者/技术管理者想学Codex |
+| 7天Demo | ✅ | 写教程即可 |
+| 30天收费 | ✅ | 电子书/课程/付费社区 |
+| 复用资产 | ✅ | 内容一次创作多次分发 |
+| 长期壁垒 | ❌ | 内容类壁垒低，需持续更新 |
+| **总分** | **4/5** | 🔥🔥🔥🔥 |
 
-**5. 网站离线镜像 SaaS（4/5）**
-- 仓库: tamnd/kage ⭐2567 (月)
-- 做什么: 给任意网站做影子镜像，去掉 JS 离线查看
-- 为什么能赚钱: SEO 竞品分析/舆情监控/知识库归档 → 这些都是付费场景
-- 切入点: SaaS 版定时快照 + 变更对比 + 导出 PDF → 卖给市场/研究团队
+2.3k star的Codex中文教程，说明AI工具学习需求巨大。可做：AI工具中文教程矩阵（Codex/Claude Code/Cursor），电子书+视频+社群。
 
-### 📊 值得关注
-
-- **Vercel Eve** ⭐2851: Vercel 出的代理框架，要抢 AI 工作流编排市场。关注但不做（巨头赛道）
-- **BenchFlow AI Evals** ⭐555: AI 代理评估资源库，刚需但天花板低，可作为内容引流入口
-- **Baidu Unlimited OCR** ⭐11470: 百度开源 OCR，中文文档处理赛道可能出现新机会
-
-### 📰 36氪/HN 信号
-
-- **智元机器人第15000台量产下线**: 具身智能产业链成熟中，配套软件工具需求即将爆发
-- **悟空安全"弹必赔"**: 安全软件"0添加"概念，纯净安全工具赛道有空白
-- **Google 限制 Meta 使用 Gemini**: 大模型供应链紧张 → AI API 聚合/切换工具需求上升
-- **Claude Code 看 MRI**: AI 辅助医疗诊断进入大众视野 → 垂直 AI 工具需求增加
-
----
-
-## 💡 洞察（≤3句）
-
-1. **AI 代理工具链是新的前端框架战争**：Vercel Eve、Omnigent、OpenTag、BuilderIO Skills 同时涌入，说明"代理编排"生态还在春秋战国。**别造框架，造缺的零件**——Slack 代理路由、技能市场、评估工具，这三块都是空白。
-
-2. **ComfyUI 节点正在形成创作者经济**：一个节点的星星数就能过 300，说明用户愿意为"让 AI 生成更好看"的工具付费。**卖铲子比卖金子稳**——做 ComfyUI 工作流市场 + 付费节点，比做 AI 图片生成产品更容易变现。
-
-3. **百度 Unlimited OCR 11470 star 不是偶然**：中文文档智能处理是京东/淘宝/拼多多商家都在用的需求（发票识别、合同提取、表格转换）。**做 OCR → 结构化 → 自动填表这条链路的垂直 SaaS**，7 天能出 MVP。
+### ⚡ DeepSeek/DeepSpec — 推测解码训练框架
+| 指标 | 评分 | 说明 |
+|------|------|------|
+| 客户明确 | ❌ | 面向研究者，C端没有直接需求 |
+| 7天Demo | ❌ | 需要GPU和深度学习背景 |
+| 30天收费 | ❌ | 工具型开源项目难以直接收费 |
+| 复用资产 | ❌ | 纯研究工具 |
+| 长期壁垒 | ❌ | 无 |
+| **总分** | **0/5** | 学术价值高，赚钱价值低 |
 
 ---
 
-*夜巡完毕 · 下次巡更: 2026-06-30 02:00*
+## 📋 原始速览
+
+### GitHub 近期热门（API, created > June 15）
+| 项目 | Stars | 描述 |
+|------|-------|------|
+| [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 11,615 | One-shot长文本OCR解析 |
+| [bozhouDev/codex-orange-book](https://github.com/bozhouDev/codex-orange-book) | 2,289 | Codex中文全链路教程+PDF |
+| [deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec) | ⭐ | 推测解码训练评估框架 |
+
+### Hacker News 今日热点
+| 标题 | 分数 | 
+|------|------|
+| GLM 5.2 beats Claude in benchmarks | 473 |
+| Claude Code MRI second opinion | 356 |
+| Librepods: AirPods liberated | 289 |
+| AI fraud exam at Brown | 281 |
+| Zanagrams (word game) | 180 |
+| OpenAI Codex sensitive file exclusion issue | 179 |
+| Tokenmaxxing is dead | 114 |
+| DRM-Free Books directory | 72 |
+| NanoEuler: GPT-2 scale in pure C/CUDA | 38 |
+| Bash4LLM+: Bash wrapper for LLM APIs | 35 |
+
+### 36氪融资/产业
+- CAYE咖爷科技 B轮近4亿（咖啡科技）
+- 源策未来Archon Robotics 种子轮数亿（机器人）
+- 科创板50涨超4%刷新高
+
+---
+
+## 💡 洞察（3句）
+
+1. **OCR赛道意外爆发**：百度Unlimited-OCR 11天11.6k星，说明"长文本结构化解析"是真实痛点。结合国内电子发票/合同数字化浪潮，做垂直OCR SaaS是个好切口。
+
+2. **AI教程付费需求验证**：Codex橙皮书2.3k星 + HN上Claude Code MRI分析356分，都指向同一个信号——人们愿意为"AI工具怎么用"付费。做中文AI工具教程矩阵时机正好。
+
+3. **机器人赛道持续吸金**：Archon Robotics种子轮数亿，加上之前各类机器人融资，国内机器人产业正在从实验室走向工厂。做机器人相关的软件/数据服务（仿真环境、数据集标注、ROS教程）可能是低门槛切入点。
+
+---
+
+*生成时间: 2026-06-29 10:22 CST | 数据源: night_fetcher v2.0 + GitHub API | 模型: deepseek-v4-pro*
