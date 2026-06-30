@@ -1,4 +1,4 @@
-# 🌙 AI赚钱夜巡 · 2026-06-30 10:22
+# 🌙 AI赚钱夜巡 · 2026-06-30 18:22
 
 > 5指标过滤：客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒 ≥3项=重点
 
@@ -6,74 +6,110 @@
 
 ## 🎯 选题雷达（按分数排序）
 
-### ★★★ SSH图形化管理工具（5/5）
-- 来源：[HN #6] Native Graphical Shell for SSH (251pts, 117评)
-- 客户：运维/DevOps/中小企业IT
-- 7天Demo：✅ 包装开源SSH客户端 + 图形UI
-- 30天收费：✅ SaaS订阅 $10-50/月/人
-- 复用资产：✅ Web开发 + Electron经验
-- 壁垒：✅ 企业级功能（审计/权限/录屏）
-- **行动**：调研现有产品（Royal TS/Xshell），做差异化（AI辅助运维）
+### ★★★★★ Agent安全审计工具 (5/5)
+- 来源：[GitHub #5] cloudflare/security-audit-skill ⭐2060 | [GitHub #8] agent-apprenticeship ⭐1076
+- 客户：企业AI Agent部署方/安全团队
+- 7天Demo：✅ 标准化审计checklist + Agent扫描脚本
+- 30天收费：✅ 按次审计报告 $99-499/次 或 SaaS $199/月
+- 复用资产：✅ 安全知识 + API开发经验
+- 壁垒：✅ Cloudflare背书验证赛道 + 安全专业门槛 + Agent行为模式知识积累
+- **行动**：研究cloudflare/security-audit-skill源码，做"AI Agent安全体检"中文工具，小红书/B站教育市场
 
-### ★★★ .self域名自托管服务（5/5）
-- 来源：[HN #4] .self TLD for self-hosting (342pts, 195评)
-- 客户：开发者/极客/隐私关注者
-- 7天Demo：✅ 域名注册代理 + 自托管教程站
-- 30天收费：✅ 域名溢价 + 托管服务套餐
-- 复用资产：✅ 技术写作 + 社区运营
-- 壁垒：✅ 域名稀缺 + 先发优势
-- **行动**：跟踪.self注册开放时间，提前建内容站占坑
+### ★★★★★ 基金经理AI分析工具 (5/5)
+- 来源：[GitHub #7] lyra81604/zhengxi-views ⭐1122 | HN长期金融AI讨论
+- 客户：基民/理财用户/基金销售平台
+- 7天Demo：✅ 复制zhengxi-views模式扩展到3-5位明星基金经理
+- 30天收费：✅ 微信小程序订阅 $9.9/月 或基金平台B端采购
+- 复用资产：✅ 爬虫 + NLP + 数据分析能力
+- 壁垒：✅ 数据积累飞轮 + "不杜撰"信任价值（zhengxi-views的核心卖点）
+- **行动**：做"基金经理AI透视"系列，覆盖张坤/葛兰/朱少醒，强调"可溯源不杜撰"
 
-### ★★ Qwen 3.6 27B 本地部署服务（4/5）
-- 来源：[HN #1] Qwen 3.6 27B sweet spot (624pts, 517评)
-- 客户：中小企业/独立开发者
-- 7天Demo：✅ 一键部署脚本 + API封装
-- 30天收费：✅ 托管版Qwen API $20-100/月
-- 复用资产：✅ 本地模型部署经验
-- 壁垒：⚠️ 开源模型 + 大厂入局
-- **行动**：做"Qwen企业版一键包"（含微调+API+监控），小红书/B站引流
+### ★★★★ OCR垂直SaaS (4/5)
+- 来源：[GitHub #1] baidu/Unlimited-OCR ⭐12281（本周全球GitHub第一）
+- 客户：电商/物流/财务/律所
+- 7天Demo：✅ 基于Unlimited-OCR包装发票识别API
+- 30天收费：✅ API按量计费 $0.01/页 或套餐制
+- 复用资产：✅ 爬虫+API封装经验
+- 壁垒：⚠️ 百度开源后竞争者涌入，但垂直场景（合同条款提取、报关单识别）仍有护城河
+- **行动**：选1个垂直场景（电子发票增值税认证），用Unlimited-OCR + GPT做结构化提取API
 
-### ★ 黄金/打新套利信息聚合（3/5）
-- 来源：[36kr] 金价跌破3950 + 新股N益坤首日涨365%
-- 客户：散户投资者
-- 7天Demo：✅ 爬虫聚合 + 微信推送
-- 30天收费：✅ 付费信息订阅
-- 壁垒：⚠️ 信息源可复制
-- **行动**：小成本试水，做微信小程序"打新雷达"
+### ★★★★ 本地AI推理API服务 (4/5)
+- 来源：[HN #1] Qwen 3.6 27B 933pts | [GitHub #11] Windows-Copilot-API ⭐971 | [GitHub #19] junction ⭐648
+- 客户：独立开发者/中小企业/不想付API费的用户
+- 7天Demo：✅ 一键脚本 + REST API封装
+- 30天收费：✅ 托管版 $20-100/月 或授权部署费
+- 复用资产：✅ 本地模型部署经验 + API开发
+- 壁垒：⚠️ 模型开源+大厂免费API挤压，但"数据不出境"的企业合规需求是差异化
+- **行动**：主打"企业数据不出域"卖点，做Qwen/DeepSeek一键私有化部署包
+
+### ★★★ 工业AI智能体（政策驱动） (3/5)
+- 来源：[36kr] 工信部等八部门：深化AI与工业互联网融合，加快工业智能体推广 | 到2030年建设5万张工业5G专网
+- 客户：制造业/工业园区
+- 7天Demo：⚠️ 需要行业know-how和场景定制
+- 30天收费：✅ 项目制金额大
+- 复用资产：⚠️ 跨行业复用难
+- 壁垒：✅ 政策强制+行业准入门槛
+- **行动**：关注不急于入场，先积累工业AI案例，等市场教育完成再做工具层
+
+### ★★ Coding Agent生态工具 (2/5)
+- 来源：[GitHub #3] codex-orange-book ⭐2411 | [GitHub #14] Ornith-1 ⭐658 | [HN] Ornith-1.0 213pts | junction VS Code ⭐648
+- 客户：开发者
+- 壁垒：⚠️ Cursor/Copilot/Windsurf巨头压阵
+- **行动**：Codex橙皮书中文版做SEO导流，但暂不作为主力赚钱方向
 
 ---
 
 ## 📋 原始速览
 
-### 🔥 HN 热门（可赚钱角度）
+### 🔥 GitHub Trending (2周)
+| 项目 | Stars | 赚钱方向 |
+|------|-------|----------|
+| baidu/Unlimited-OCR | 12,281 | OCR垂直SaaS |
+| deepseek-ai/DeepSpec | 4,662 | AI推理加速（偏底层） |
+| codex-orange-book | 2,411 | Codex中文教程/SEO |
+| cloudflare/security-audit-skill | 2,060 | **Agent安全审计** |
+| Yu9191/wloc | 1,751 | iOS定位工具（合规风险） |
+| zhengxi-views | 1,122 | **基金经理AI分析** |
+| agent-apprenticeship | 1,076 | Agent自动化工作流 |
+| Windows-Copilot-API | 971 | 本地AI推理API |
+| torlink | 906 | 终端BT下载器 |
+| mediary-scout | 739 | 网盘媒体库管理 |
+| theeleven | 716 | AI+预测市场（合规风险） |
+| Qwen-AgentWorld | 672 | Agent世界模型（偏研究） |
+| Ornith-1 | 658 | Agent编程模型 |
+| Codex-5.5-instruct | 649 | 模型 |
+| junction | 648 | VS Code本地AI Agent |
+
+### 💬 HN 热门（可赚钱角度）
 | 项目 | 得分 | 赚钱方向 |
 |------|------|----------|
-| Qwen 3.6 27B (624pts) | 4/5 | 本地部署+API服务 |
-| Geofence Warrants判决 (453pts) | 0/5 | 无直接赚钱 |
-| RocketLab收购Iridium (371pts) | 0/5 | 股票关注 |
-| .self TLD自托管 (342pts) | 5/5 | 域名注册+托管 |
-| Zine言论自由案 (324pts) | 0/5 | 无 |
-| SSH图形化Shell (251pts) | 5/5 | SaaS工具 |
-| Ornith-1.0 Agent编程 (157pts) | 3/5 | Coding Agent |
-| Micro-Agent协作API (53pts) | 2/5 | 偏学术 |
-| LongCat-2.0 MoE (25pts) | 1/5 | 模型推理 |
+| Qwen 3.6 27B (933pts) | 4/5 | 本地部署+API服务 |
+| .self TLD自托管 (522pts) | 4/5 | 域名注册+托管（早间已评） |
+| SSH图形化Shell (313pts) | 5/5 | SaaS工具（早间已评） |
+| Ornith-1.0 Agent编程 (213pts) | 3/5 | Coding Agent模型 |
+| Apple Neural Engine (176pts) | 0/5 | 学术 |
+| LongCat-2.0 MoE (150pts) | 1/5 | 模型推理 |
+| GPU Bubble分析 (136pts) | 0/5 | 行业观察 |
+| Linux for MegaDrive (114pts) | 0/5 | 趣味项目 |
 
 ### 💰 36氪（可赚钱角度）
-- 量旋科技D轮10亿 → 量子计算赛道确认热
-- 黄金跌破3950 → 贵金属波动套利窗口
-- 新股首日365% → 打新市场活跃
-- 跨境投资优化 → 出海/跨境投资工具
+- **Philo AI近千万美金首轮融资** → AI创业资本活跃度确认
+- **工信部推进工业AI智能体** → 政策红利，2B方向确定性高
+- **英伟达老款GPU重新上市** → GPU供给回暖，AI算力成本有望下降
+- **优必选超仿生机器人售价公布** → 消费级机器人定价确认，赛道商业化加速
+- **美的推动库卡中国上市** → 工业机器人+AI概念升温
+- **翰宇药业替尔泊肽首仿受理** → 减肥药+AI制药持续热门
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **SSH工具是本周最清晰的机会**：251pts热度+图形化SSH需求真实存在，现有产品界面老旧，用AI增强（自然语言运维）+现代UI切入，7天出MVP完全可行。
+1. **Agent安全是本周最被低估的赛道**：Cloudflare开源security-audit-skill + agent-apprenticeship自动化工作流同时上榜，说明"Agent规模化部署"的安全需求正在从锦上添花变为刚需，现在入场做Agent安全审计是蓝海。
 
-2. **本地AI部署需求持续爆发**：Qwen 27B 624pts登顶HN，说明开发者对"本地跑得动的好模型"极度饥渴，做一键部署+调优服务是确定性生意。
+2. **金融+AI的"可溯源"模式比通用AI更有付费意愿**：zhengxi-views 11天1122星的核心卖点是"绝不杜撰+可溯源"，这种"AI+专家背书"模式在理财/医疗/法律等信任密集型行业都有复制空间。
 
-3. **.self域名是下一个.com级机会**：342pts热度反映自托管运动正在升温，提前布局内容站+域名抢注，等开放时变现。
+3. **OCR赛道被百度一夜重构**：Unlimited-OCR以1.2万星登顶全球，意味着"无限长文档OCR"技术门槛归零，垂直场景应用（发票/合同/报关单）的创业窗口期从现在开始，核心不再是OCR技术而是场景理解。
 
 ---
 
-*夜巡完成 | 模型: deepseek-v4-pro | 评分标准: 5指标过滤*
+*夜巡完成 | 模型: deepseek-v4-pro | GitHub: API | PH: Cloudflare拦截 | 数据源: 36kr+HN+GitHub*
