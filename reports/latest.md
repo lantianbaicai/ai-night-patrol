@@ -1,115 +1,82 @@
-# 🌙 AI赚钱夜巡 · 2026-06-30 18:22
+# 🌙 AI赚钱夜巡 · 2026-07-01 02:22
 
-> 5指标过滤：客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒 ≥3项=重点
-
----
-
-## 🎯 选题雷达（按分数排序）
-
-### ★★★★★ Agent安全审计工具 (5/5)
-- 来源：[GitHub #5] cloudflare/security-audit-skill ⭐2060 | [GitHub #8] agent-apprenticeship ⭐1076
-- 客户：企业AI Agent部署方/安全团队
-- 7天Demo：✅ 标准化审计checklist + Agent扫描脚本
-- 30天收费：✅ 按次审计报告 $99-499/次 或 SaaS $199/月
-- 复用资产：✅ 安全知识 + API开发经验
-- 壁垒：✅ Cloudflare背书验证赛道 + 安全专业门槛 + Agent行为模式知识积累
-- **行动**：研究cloudflare/security-audit-skill源码，做"AI Agent安全体检"中文工具，小红书/B站教育市场
-
-### ★★★★★ 基金经理AI分析工具 (5/5)
-- 来源：[GitHub #7] lyra81604/zhengxi-views ⭐1122 | HN长期金融AI讨论
-- 客户：基民/理财用户/基金销售平台
-- 7天Demo：✅ 复制zhengxi-views模式扩展到3-5位明星基金经理
-- 30天收费：✅ 微信小程序订阅 $9.9/月 或基金平台B端采购
-- 复用资产：✅ 爬虫 + NLP + 数据分析能力
-- 壁垒：✅ 数据积累飞轮 + "不杜撰"信任价值（zhengxi-views的核心卖点）
-- **行动**：做"基金经理AI透视"系列，覆盖张坤/葛兰/朱少醒，强调"可溯源不杜撰"
-
-### ★★★★ OCR垂直SaaS (4/5)
-- 来源：[GitHub #1] baidu/Unlimited-OCR ⭐12281（本周全球GitHub第一）
-- 客户：电商/物流/财务/律所
-- 7天Demo：✅ 基于Unlimited-OCR包装发票识别API
-- 30天收费：✅ API按量计费 $0.01/页 或套餐制
-- 复用资产：✅ 爬虫+API封装经验
-- 壁垒：⚠️ 百度开源后竞争者涌入，但垂直场景（合同条款提取、报关单识别）仍有护城河
-- **行动**：选1个垂直场景（电子发票增值税认证），用Unlimited-OCR + GPT做结构化提取API
-
-### ★★★★ 本地AI推理API服务 (4/5)
-- 来源：[HN #1] Qwen 3.6 27B 933pts | [GitHub #11] Windows-Copilot-API ⭐971 | [GitHub #19] junction ⭐648
-- 客户：独立开发者/中小企业/不想付API费的用户
-- 7天Demo：✅ 一键脚本 + REST API封装
-- 30天收费：✅ 托管版 $20-100/月 或授权部署费
-- 复用资产：✅ 本地模型部署经验 + API开发
-- 壁垒：⚠️ 模型开源+大厂免费API挤压，但"数据不出境"的企业合规需求是差异化
-- **行动**：主打"企业数据不出域"卖点，做Qwen/DeepSeek一键私有化部署包
-
-### ★★★ 工业AI智能体（政策驱动） (3/5)
-- 来源：[36kr] 工信部等八部门：深化AI与工业互联网融合，加快工业智能体推广 | 到2030年建设5万张工业5G专网
-- 客户：制造业/工业园区
-- 7天Demo：⚠️ 需要行业know-how和场景定制
-- 30天收费：✅ 项目制金额大
-- 复用资产：⚠️ 跨行业复用难
-- 壁垒：✅ 政策强制+行业准入门槛
-- **行动**：关注不急于入场，先积累工业AI案例，等市场教育完成再做工具层
-
-### ★★ Coding Agent生态工具 (2/5)
-- 来源：[GitHub #3] codex-orange-book ⭐2411 | [GitHub #14] Ornith-1 ⭐658 | [HN] Ornith-1.0 213pts | junction VS Code ⭐648
-- 客户：开发者
-- 壁垒：⚠️ Cursor/Copilot/Windsurf巨头压阵
-- **行动**：Codex橙皮书中文版做SEO导流，但暂不作为主力赚钱方向
+> 数据源: night_fetcher(36kr+HN) + GitHub Trending(W/M) | PH: ❌ 被Cloudflare封锁
 
 ---
 
-## 📋 原始速览
+## 🎯 选题雷达（5指标过滤：客户明确/7天Demo/30天收费/复用资产/长期壁垒）
 
-### 🔥 GitHub Trending (2周)
-| 项目 | Stars | 赚钱方向 |
-|------|-------|----------|
-| baidu/Unlimited-OCR | 12,281 | OCR垂直SaaS |
-| deepseek-ai/DeepSpec | 4,662 | AI推理加速（偏底层） |
-| codex-orange-book | 2,411 | Codex中文教程/SEO |
-| cloudflare/security-audit-skill | 2,060 | **Agent安全审计** |
-| Yu9191/wloc | 1,751 | iOS定位工具（合规风险） |
-| zhengxi-views | 1,122 | **基金经理AI分析** |
-| agent-apprenticeship | 1,076 | Agent自动化工作流 |
-| Windows-Copilot-API | 971 | 本地AI推理API |
-| torlink | 906 | 终端BT下载器 |
-| mediary-scout | 739 | 网盘媒体库管理 |
-| theeleven | 716 | AI+预测市场（合规风险） |
-| Qwen-AgentWorld | 672 | Agent世界模型（偏研究） |
-| Ornith-1 | 658 | Agent编程模型 |
-| Codex-5.5-instruct | 649 | 模型 |
-| junction | 648 | VS Code本地AI Agent |
+### ⭐⭐⭐⭐⭐ 顶级选题（5/5）
 
-### 💬 HN 热门（可赚钱角度）
-| 项目 | 得分 | 赚钱方向 |
-|------|------|----------|
-| Qwen 3.6 27B (933pts) | 4/5 | 本地部署+API服务 |
-| .self TLD自托管 (522pts) | 4/5 | 域名注册+托管（早间已评） |
-| SSH图形化Shell (313pts) | 5/5 | SaaS工具（早间已评） |
-| Ornith-1.0 Agent编程 (213pts) | 3/5 | Coding Agent模型 |
-| Apple Neural Engine (176pts) | 0/5 | 学术 |
-| LongCat-2.0 MoE (150pts) | 1/5 | 模型推理 |
-| GPU Bubble分析 (136pts) | 0/5 | 行业观察 |
-| Linux for MegaDrive (114pts) | 0/5 | 趣味项目 |
+| 项目 | Stars | 一句话 | 赚钱路径 |
+|------|-------|--------|----------|
+| **MoneyPrinterTurbo** | 94k (月+26k) | 一键AI生成短视频，月增2.6万星🔥 | 视频代做服务(￥500-2000/条) + 垂直行业定制(房产/汽车/教育) |
+| **OpenCut** | 60k (月+8.6k) | 开源剪映替代品 | 中文优化版包装 + 模板市场 + 企业定制 |
 
-### 💰 36氪（可赚钱角度）
-- **Philo AI近千万美金首轮融资** → AI创业资本活跃度确认
-- **工信部推进工业AI智能体** → 政策红利，2B方向确定性高
-- **英伟达老款GPU重新上市** → GPU供给回暖，AI算力成本有望下降
-- **优必选超仿生机器人售价公布** → 消费级机器人定价确认，赛道商业化加速
-- **美的推动库卡中国上市** → 工业机器人+AI概念升温
-- **翰宇药业替尔泊肽首仿受理** → 减肥药+AI制药持续热门
+### ⭐⭐⭐⭐ 高潜力选题（4/5）
+
+| 项目 | Stars | 一句话 | 赚钱路径 |
+|------|-------|--------|----------|
+| **voicebox** | 36k (周+3.8k) | 开源AI语音克隆/配音 | 中文配音服务(小说/广告/课程) + 声音克隆API |
+| **ai-website-cloner** | 23k (周+5.9k) | AI一键克隆网站 | 建站服务(￥2000-5000/站) + 模板商店 |
+| **MediaCrawler** | 54k (周+2.6k) | 小红书/抖音/快手/B站爬虫 | 数据服务(竞品分析￥500-2000/月) |
+| **freellmapi** | 14k (月+7.8k) | 16家免费LLM聚合代理 | 国内套壳API服务(开发者付费) |
+
+### ⭐⭐⭐ 可观察选题（3/5）
+
+| 项目 | Stars | 一句话 | 赚钱路径 |
+|------|-------|--------|----------|
+| **daily_stock_analysis** | 52k (周+6.2k) | LLM驱动的A股分析 | 知识付费/AI选股(合规风险⚠️) |
+| **design.md** | 23k (周+7.1k) | Google的AI设计系统规范 | 设计系统咨询 + Figma插件 |
+| **cognee** | 26k (周+6.3k) | Agent长期记忆平台 | 企业知识库SaaS |
 
 ---
 
-## 💡 洞察（≤3句）
+## 📡 原始速览
 
-1. **Agent安全是本周最被低估的赛道**：Cloudflare开源security-audit-skill + agent-apprenticeship自动化工作流同时上榜，说明"Agent规模化部署"的安全需求正在从锦上添花变为刚需，现在入场做Agent安全审计是蓝海。
+### 🔥 GitHub Weekly 异常信号
+- **codebase-memory-mcp** 周增9.9k星 — 代码智能MCP，158语言，零依赖
+- **Agent-Reach** 周增7.9k星 — 我们已经在用的工具，社区爆发增长
+- **Anthropic-Cybersecurity-Skills** 周增4.7k星 — 817个安全技能包，AI安全赛道爆发
+- **orca (stablyai)** 周增3k星 — Agent舰队管理IDE，Agent编排工具崛起
 
-2. **金融+AI的"可溯源"模式比通用AI更有付费意愿**：zhengxi-views 11天1122星的核心卖点是"绝不杜撰+可溯源"，这种"AI+专家背书"模式在理财/医疗/法律等信任密集型行业都有复制空间。
+### 🔥 GitHub Monthly 新面孔
+- **MoneyPrinterTurbo** 94k总星 — AI视频生成需求爆炸
+- **taste-skill** 53k星(月+25k) — AI去"AI味"是刚需
+- **system_prompts_leaks** 47k星 — 系统提示词泄露引发关注
+- **OpenCut** 60k星 — 视频剪辑工具开源替代品热潮
+- **open-notebook** 34k星 — 开源NotebookLM，知识管理赛道
 
-3. **OCR赛道被百度一夜重构**：Unlimited-OCR以1.2万星登顶全球，意味着"无限长文档OCR"技术门槛归零，垂直场景应用（发票/合同/报关单）的创业窗口期从现在开始，核心不再是OCR技术而是场景理解。
+### 📰 HN 热门关联信号
+- **Qwen 3.6 27B** (1095pts) — 本地开发模型"甜点"，本地LLM部署需求在涨
+- **Claude Code 隐写标记** (639pts) — AI安全合规需求信号
+- **LongCat-2.0 MoE** (241pts) — 1.6T参数MoE，大模型军备赛继续
+- **Nano Banana 2 Lite** (106pts) — Gemini图片模型轻量版
+- **Claude Sonnet 5** (133pts) — Anthropic新品，AI工具链持续升级
+
+### 📰 36氪信号
+- 美股/比特币走弱，AI和新能源持续投入
+- 阿维塔赴港IPO — 新能源造车持续烧钱
+- 同有科技AI企业级存储定增10亿 — AI基础设施投资热
 
 ---
 
-*夜巡完成 | 模型: deepseek-v4-pro | GitHub: API | PH: Cloudflare拦截 | 数据源: 36kr+HN+GitHub*
+## 💡 夜巡洞察（≤3句）
+
+1. **AI视频赛道在爆发前夜**：MoneyPrinterTurbo(94k星)和OpenCut(60k星)同时暴涨，说明「用AI降低视频制作门槛」是2026下半年的主叙事，老大有ComfyUI+视频栈，这个方向应该All in。
+
+2. **Agent生态基础设施是下一个金矿**：codebase-memory-mcp(周增9.9k)、Agent-Reach(周增7.9k)、cognee(周增6.3k)、orca和herdr同时上trending — 大家都在给Agent造工具，但没人做「Agent时代的赚钱教程/服务」，这是我们的蓝海入口。
+
+3. **taste-skill 53k星告诉我们**：「去AI味」是刚需，老大的反AI味能力可以包装成收费服务。
+
+---
+
+## ⚙️ 系统状态
+- ✅ night_fetcher: 正常 (1.3s)
+- ✅ GitHub Trending: 正常
+- ❌ ProductHunt: 被Cloudflare封锁，需换Playwright方案
+- ❌ web_search: SearXNG未配置，Kimi freshabort失败
+
+---
+
+*生成于 2026-07-01 02:22 CST | 模型: deepseek-v4-pro*
