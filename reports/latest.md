@@ -1,67 +1,120 @@
-# 🌙 AI赚钱夜巡 · 2026-07-02 18:22
+# 🔭 AI赚钱夜巡 · 2026-07-03 09:22
 
-> 数据源: 36氪 + Hacker News | GitHub Trending/ProductHunt 不可达（网络限制）
-
----
-
-## 🎯 选题雷达（5指标评分：客户明确/7天Demo/30天收费/复用资产/长期壁垒）
-
-### ⭐⭐⭐⭐⭐ Cloudflare Monetization Gateway (x402) — **重点追踪**
-- **来源**: HN 301pts | https://blog.cloudflare.com/monetization-gateway/
-- **命题**: 用 Cloudflare 新出的 x402 支付网关，给任何 API/资源加付费墙
-- **评分**: ✅客户明确(API提供者/内容创作者) ✅7天Demo(搭API+网关) ✅30天收费(直接走CF收款) ✅复用资产(支付基础设施) ✅长期壁垒(CF生态绑定)
-- **可做之事**: 
-  1. 搭建付费 API 模版站（天气/翻译/AI接口转售）→ 7天上线
-  2. "教你用 x402月入$1000" 中文教程/视频 → 信息差套利
-  3. 做 x402 中文社区/导航站 → 抢 SEO 红利
-
-### ⭐⭐⭐⭐ ZCode – GLM-5.2 Harness — **值得关注**
-- **来源**: HN 403pts | https://zcode.z.ai/en
-- **命题**: 智谱开源 GLM-5.2 工具链，企业级 AI Agent 框架
-- **评分**: ✅7天Demo ✅30天收费(企业定制) ✅复用资产(Agent框架) ⚠️客户需BD ❌壁垒靠执行力
-- **可做之事**: 基于 ZCode 做垂直 Agent（客服/数据分析/自动化报告），包装成 SaaS
-
-### ⭐⭐⭐ Meta 算力出租策略 — **趋势信号**
-- **来源**: 36氪 | Meta出租算力类似以旧养新
-- **命题**: 大厂算力出租是新常态 → GPU 算力套利空间
-- **可做之事**: 监控各大云 GPU 价格差，做算力比价网站/播客 → 流量变现
-
-### ⭐⭐⭐ Oomwoo 开源扫地机器人 — **Maker赛道**
-- **来源**: HN 314pts | https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/
-- **评分**: ✅客户明确(Maker社区) ⚠️Demo需硬件 ✅30天收费(卖套件) ❌壁垒低
-- **可做之事**: 国内复刻 Oomwoo 套件 → 淘宝/闲鱼卖 Maker DIY 套件
+> 5指标评分：①客户明确 ②7天Demo ③30天收费 ④复用资产 ⑤长期壁垒 | ≥3项 = 🔥重点
 
 ---
 
-## 📋 原始速览
+## 🎯 选题雷达（≥3指标 = 可做）
 
-### 🔥 Hacker News 趋势信号
-| 项目 | 热度 | 商业信号 |
-|------|------|----------|
-| Cloudflare Monetization Gateway | 301pts | 🔴 强：支付基础设施，直接变现 |
-| ZCode (GLM-5.2) | 403pts | 🟡 中：AI Agent 工具链，需包装 |
-| Oomwoo 开源机器人 | 314pts | 🟡 中：硬件套件生意 |
-| Kimi K2.7 → GitHub Copilot | 159pts | 🟢 弱：模型竞争，难独立变现 |
-| Senior SWE-Bench | 91pts | 🟢 弱：评测基准 |
-| Weave Robotics Isaac 1 ($7,999) | 184pts | 🟡 消费机器人信号 |
-| Qualcomm Linux 2.0 | 108pts | 🟢 边缘计算趋势 |
+### 🔥🔥 OpenMontage（5/5）
+> 开源AI视频制作系统 | 31K⭐ | 月增27K
+- **是什么**：12条流水线、52个工具、500+ agent技能，把AI编程助手变成完整视频制作工作室
+- **为什么能做**：视频+AI=今年最大金矿。国内短视频需求炸裂。可做中文分支/ComfyUI集成/电商视频自动化
+- **收入路径**：SaaS托管 / 企业定制流水线 / 中文教程+咨询 / 电商模板市场
+- **风险**：快速迭代期，需要紧跟上游
 
-### 📰 36氪信号
-- **亚马逊自研端侧AI芯片** → 边缘AI设备是下个战场
-- **湖北超级工厂体验点** → 政策风向：AI+制造展示
-- **软银重启OpenAI股权质押贷款** → AI资产金融化加速
-- **MLF净投放2000亿** → 流动性宽松，利好风险资产
+### 🔥🔥 codebase-memory-mcp（5/5）
+> 代码智能MCP Server | 24K⭐ | 月增21K
+- **是什么**：单二进制、零依赖，毫秒级索引代码库到知识图谱，158语言，省99% token
+- **为什么能做**：AI编程刚需基建。Cursor/Claude Code/Codex都在用MCP。做中文代码库索引或IDE插件
+- **收入路径**：企业私有部署 / IDE插件付费 / 代码审查SaaS
+- **风险**：竞品跟进快，需要深耕细分（如金融代码合规审查）
+
+### 🔥 OpenCut（4/5）
+> 开源剪映替代品 | 61K⭐ | 月增9.2K
+- **是什么**：开源视频编辑器，Web+桌面端
+- **为什么能做**：剪映被禁/收费风险下的替代品。可做中文优化+模板市场
+- **收入路径**：模板市场抽成 / 企业版 / 中文社区运营
+- **备注**：已有61K星，社区成熟，适合做生态而非从零
+
+### 🔥 design.md（4/5）
+> 给AI Agent的设计规范 | 24K⭐ | Google Labs出品
+- **是什么**：描述视觉标识的格式规范，让Agent理解设计系统
+- **为什么能做**：这是AI生成的"设计语言"。可以做：DESIGN.md生成器 / 设计到代码的桥接工具 / 品牌自动化
+- **收入路径**：设计系统SaaS / 品牌自动化订阅 / 企业设计资产管理
+
+### 🔥 taste-skill（4/5）
+> 给AI好品味 | 55K⭐ | 月增23K
+- **是什么**：让AI输出摆脱无聊、千篇一律的"slop"风格
+- **为什么能做**：AI内容泛滥时代，"好品味"是稀缺品。中文内容更需要
+- **收入路径**：中文版taste skill / AI写作润色SaaS / 品牌调性守护工具
+
+### 🔥 MoneyPrinterTurbo（4/5）
+> AI一键生成短视频 | 95K⭐ | 月增18K
+- **是什么**：利用AI大模型一键生成高清短视频
+- **为什么能做**：95K星说明需求巨大。可做：垂直行业版（房地产/二手车/餐饮）/ API服务
+- **收入路径**：行业定制 / API调用 / 模板市场
+- **风险**：同质化严重，需要找细分场景
+
+### 🔥 MediaCrawler（4/5）
+> 国内社媒爬虫 | 55K⭐ | 小红书/抖音/快手/B站/微博/贴吧/知乎
+- **是什么**：全平台中文社媒爬虫
+- **为什么能做**：数据需求永不眠。可做：舆情监控SaaS / 竞品分析工具 / 达人数据库
+- **收入路径**：数据API / SaaS订阅 / 定制报告
+- **风险**：反爬升级频繁，维护成本高
+
+### 🔥 claude-real-video（4/5）
+> 让任何LLM看懂视频 | HN 76pts
+- **是什么**：让任意LLM分析视频内容的工具
+- **为什么能做**：视频理解是刚需，而你已有video-analyzer基础。可做API服务或企业私有部署
+- **收入路径**：视频分析API / 监控视频理解 / 内容审核
+
+---
+
+## 📡 原始速览
+
+### GitHub Weekly TOP
+| 项目 | ⭐ | 方向 |
+|------|-----|------|
+| OpenMontage | 31.7K | Agent视频制作 |
+| codebase-memory-mcp | 24.7K | 代码知识图谱MCP |
+| design.md | 24.3K | Agent设计语言规范 |
+| ai-website-cloner | 24.9K | AI克隆网站 |
+| strix | 32.2K | AI渗透测试 |
+| Agent-Reach | 49.1K | Agent互联网之眼 |
+| page-agent | 21.4K | 阿里GUI Agent |
+| OmniRoute | 10.2K | 免费AI网关 |
+| cognee | 26.6K | Agent记忆平台 |
+| orca | 11K | Agent并行IDE |
+| video-use | 13.8K | Agent视频编辑 |
+| MediaCrawler | 55K | 中文社媒爬虫 |
+
+### GitHub Monthly 黑马
+| 项目 | 月增⭐ | 备注 |
+|------|--------|------|
+| Agent-Reach | +28K | AI搜索互联网工具 |
+| OpenMontage | +27K | 视频制作系统 |
+| taste-skill | +23K | AI品味增强 |
+| last30days-skill | +21K | 全网调研Agent |
+| codebase-memory-mcp | +21K | 代码智能 |
+| apple/container | +19K | Mac容器 |
+| MoneyPrinterTurbo | +18K | AI短视频 |
+| open-notebook | +10K | 开源NotebookLM |
+| OpenCut | +9.2K | 开源剪映 |
+
+### HN 亮点
+- **PeerTube** (512pts) — 去中心化视频平台，隐私+抗审查
+- **Virginia禁售地理位置数据** (445pts) — 隐私立法加速
+- **LUKS加密密钥未清除漏洞** (396pts) — 安全关注上升
+- **Podman v6.0.0** (388pts) — 容器生态持续热
+- **claude-real-video** (76pts) — LLM看视频的工具化
+
+### 36氪信号
+- 国产算力主线明确，龙头业绩加速兑现
+- 全球半导体设备2028年市场规模有望较2025年翻倍
+- 小雨智造首发具身智能焊接机器人 → 具身智能落地加速
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **Cloudflare x402 是本周最值得动手的机会**：CF 的支付网关本质是"任何开发者都能给 API 加付费墙"，这个基础设施级变化会产生一波早期红利——做中文教程、模版站、导航站都有窗口期。
+1. **video x agent 是本月最强交叉点**：OpenMontage(27K月增)、video-use、MoneyPrinterTurbo(18K月增)、OpenCut(9K月增) 四箭齐发，视频制作AI化已经不是一个"趋势"而是"现实"——你的ComfyUI+视频经验恰好在这个风口上。
 
-2. **算力正从"稀缺品"变成"可出租资产"**：Meta 出租、亚马逊自研芯片、AI 资产金融化三条线交汇，算力比价/套利是可持续的信息差生意。
+2. **AI Agent基建层爆发**：codebase-memory-mcp(代码索引)、OmniRoute(API网关)、cognee(Agent记忆)、orca/herdr(Agent调度)都在解决"Agent如何工作"的问题，做Agent脚手架比做Agent应用更容易赚钱。
 
-3. **开源硬件+AI 是 Maker 赛道新变量**：Oomwoo + Isaac 1 代表"DIY机器人"正在从极客玩具走向消费品，国内复刻套件有 3-6 个月窗口。
+3. **中文社媒数据是护城河**：MediaCrawler 55K星说明中文数据抓取需求巨大且独特（外网工具覆盖不了），结合你的OpenClaw经验，可以做"中文社交数据API"的差异化产品。
+
+> ⚠️ ProductHunt 被Cloudflare拦截，本次用HN+GitHub替代。建议后续给night_fetcher加PH抓取。
 
 ---
-
-*生成时间: 2026-07-02 18:22 CST | 模型: deepseek-v4-pro | 下次夜巡: 次日*
+*夜巡完毕 · 数据源：36kr(20条) + HN(25条) + GitHub Weekly(25条) + GitHub Monthly(20条)*
