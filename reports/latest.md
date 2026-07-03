@@ -1,120 +1,101 @@
-# 🔭 AI赚钱夜巡 · 2026-07-03 09:22
+# 🌙 AI赚钱夜巡 · 2026-07-03 17:22
 
-> 5指标评分：①客户明确 ②7天Demo ③30天收费 ④复用资产 ⑤长期壁垒 | ≥3项 = 🔥重点
-
----
-
-## 🎯 选题雷达（≥3指标 = 可做）
-
-### 🔥🔥 OpenMontage（5/5）
-> 开源AI视频制作系统 | 31K⭐ | 月增27K
-- **是什么**：12条流水线、52个工具、500+ agent技能，把AI编程助手变成完整视频制作工作室
-- **为什么能做**：视频+AI=今年最大金矿。国内短视频需求炸裂。可做中文分支/ComfyUI集成/电商视频自动化
-- **收入路径**：SaaS托管 / 企业定制流水线 / 中文教程+咨询 / 电商模板市场
-- **风险**：快速迭代期，需要紧跟上游
-
-### 🔥🔥 codebase-memory-mcp（5/5）
-> 代码智能MCP Server | 24K⭐ | 月增21K
-- **是什么**：单二进制、零依赖，毫秒级索引代码库到知识图谱，158语言，省99% token
-- **为什么能做**：AI编程刚需基建。Cursor/Claude Code/Codex都在用MCP。做中文代码库索引或IDE插件
-- **收入路径**：企业私有部署 / IDE插件付费 / 代码审查SaaS
-- **风险**：竞品跟进快，需要深耕细分（如金融代码合规审查）
-
-### 🔥 OpenCut（4/5）
-> 开源剪映替代品 | 61K⭐ | 月增9.2K
-- **是什么**：开源视频编辑器，Web+桌面端
-- **为什么能做**：剪映被禁/收费风险下的替代品。可做中文优化+模板市场
-- **收入路径**：模板市场抽成 / 企业版 / 中文社区运营
-- **备注**：已有61K星，社区成熟，适合做生态而非从零
-
-### 🔥 design.md（4/5）
-> 给AI Agent的设计规范 | 24K⭐ | Google Labs出品
-- **是什么**：描述视觉标识的格式规范，让Agent理解设计系统
-- **为什么能做**：这是AI生成的"设计语言"。可以做：DESIGN.md生成器 / 设计到代码的桥接工具 / 品牌自动化
-- **收入路径**：设计系统SaaS / 品牌自动化订阅 / 企业设计资产管理
-
-### 🔥 taste-skill（4/5）
-> 给AI好品味 | 55K⭐ | 月增23K
-- **是什么**：让AI输出摆脱无聊、千篇一律的"slop"风格
-- **为什么能做**：AI内容泛滥时代，"好品味"是稀缺品。中文内容更需要
-- **收入路径**：中文版taste skill / AI写作润色SaaS / 品牌调性守护工具
-
-### 🔥 MoneyPrinterTurbo（4/5）
-> AI一键生成短视频 | 95K⭐ | 月增18K
-- **是什么**：利用AI大模型一键生成高清短视频
-- **为什么能做**：95K星说明需求巨大。可做：垂直行业版（房地产/二手车/餐饮）/ API服务
-- **收入路径**：行业定制 / API调用 / 模板市场
-- **风险**：同质化严重，需要找细分场景
-
-### 🔥 MediaCrawler（4/5）
-> 国内社媒爬虫 | 55K⭐ | 小红书/抖音/快手/B站/微博/贴吧/知乎
-- **是什么**：全平台中文社媒爬虫
-- **为什么能做**：数据需求永不眠。可做：舆情监控SaaS / 竞品分析工具 / 达人数据库
-- **收入路径**：数据API / SaaS订阅 / 定制报告
-- **风险**：反爬升级频繁，维护成本高
-
-### 🔥 claude-real-video（4/5）
-> 让任何LLM看懂视频 | HN 76pts
-- **是什么**：让任意LLM分析视频内容的工具
-- **为什么能做**：视频理解是刚需，而你已有video-analyzer基础。可做API服务或企业私有部署
-- **收入路径**：视频分析API / 监控视频理解 / 内容审核
+> 模型: deepseek-v4-pro | 5指标评分过滤 | Weekly Trending为主
 
 ---
 
-## 📡 原始速览
+## 🎯 选题雷达（≥3项 ✅ = 重点关注）
 
-### GitHub Weekly TOP
-| 项目 | ⭐ | 方向 |
-|------|-----|------|
-| OpenMontage | 31.7K | Agent视频制作 |
-| codebase-memory-mcp | 24.7K | 代码知识图谱MCP |
-| design.md | 24.3K | Agent设计语言规范 |
-| ai-website-cloner | 24.9K | AI克隆网站 |
-| strix | 32.2K | AI渗透测试 |
-| Agent-Reach | 49.1K | Agent互联网之眼 |
-| page-agent | 21.4K | 阿里GUI Agent |
-| OmniRoute | 10.2K | 免费AI网关 |
-| cognee | 26.6K | Agent记忆平台 |
-| orca | 11K | Agent并行IDE |
-| video-use | 13.8K | Agent视频编辑 |
-| MediaCrawler | 55K | 中文社媒爬虫 |
+| 项目 | Stars | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 |
+|------|-------|:--:|:--:|:--:|:--:|:--:|:--:|
+| **calesthio/OpenMontage** 视频生产系统 | 32K | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
+| **usestrix/strix** AI渗透测试 | 33K | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
+| **JCodesMore/ai-website-cloner** 网站克隆 | 25K | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
+| **topoteretes/cognee** Agent记忆平台 | 27K | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
+| **DeusData/codebase-memory-mcp** 代码智能 | 25K | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
+| **interviewstreet/hiring-agent** AI简历评估 | 4.5K | ✅ | ✅ | ✅ | ❌ | ✅ | **4/5** |
+| **stablyai/orca** Agent多开IDE | 11K | ✅ | ✅ | ❌ | ✅ | ❌ | **3/5** |
+| **diegosouzapw/OmniRoute** 免费AI网关 | 10K | ❌ | ✅ | ❌ | ❌ | ❌ | **1/5** |
 
-### GitHub Monthly 黑马
-| 项目 | 月增⭐ | 备注 |
-|------|--------|------|
-| Agent-Reach | +28K | AI搜索互联网工具 |
-| OpenMontage | +27K | 视频制作系统 |
-| taste-skill | +23K | AI品味增强 |
-| last30days-skill | +21K | 全网调研Agent |
-| codebase-memory-mcp | +21K | 代码智能 |
-| apple/container | +19K | Mac容器 |
-| MoneyPrinterTurbo | +18K | AI短视频 |
-| open-notebook | +10K | 开源NotebookLM |
-| OpenCut | +9.2K | 开源剪映 |
+---
 
-### HN 亮点
-- **PeerTube** (512pts) — 去中心化视频平台，隐私+抗审查
-- **Virginia禁售地理位置数据** (445pts) — 隐私立法加速
-- **LUKS加密密钥未清除漏洞** (396pts) — 安全关注上升
-- **Podman v6.0.0** (388pts) — 容器生态持续热
-- **claude-real-video** (76pts) — LLM看视频的工具化
+## 🔥 重点深挖（4个）
+
+### 1. OpenMontage — 开源Agent视频生产 🏆 本周最强
+- **数据**: 32K stars, +10K/周, 12条管道, 52个工具, 500+ agent技能
+- **做什么**: 把Claude Code/Cursor变成视频工作室，含脚本→剪辑→字幕→配音全流程
+- **赚钱路径**:
+  - 🥇 封装成SaaS：按视频分钟/项目收费，TikTok/YouTube创作者付费意愿强
+  - 🥈 定制化企业版：MCN/电商批量生产视频
+  - 🥉 教程+模板市场：卖pipeline和工作流模板
+- **竞争**: browser-use/video-use 也在做，但没有OpenMontage完整
+- **行动建议**: 立刻fork→跑通demo→录教程发B站/小红书→接定制单
+
+### 2. strix — AI渗透测试工具 💰 安全赛道永远值钱
+- **数据**: 33K stars, +4.7K/周, Python
+- **做什么**: 开源AI渗透测试，自动发现并修复漏洞
+- **赚钱路径**:
+  - 🥇 SaaS订阅：企业安全扫描月付
+  - 🥈 白标给安全公司
+  - 🥉 安全报告服务：跑strix→生成中文报告→卖给中小企业
+- **行动建议**: 本地跑起来→中文报告模板→在安全社区/知识星球推广
+
+### 3. DeusData/codebase-memory-mcp — 代码智能MCP 🛠️ 开发者刚需
+- **数据**: 25K stars, +9.8K/周, 158种语言, 亚毫秒查询, 99% token节省
+- **做什么**: 把代码库索引成知识图谱，agent用极少的token就能理解代码
+- **赚钱路径**:
+  - 🥇 托管云服务：按代码库大小月付
+  - 🥈 企业私有部署
+  - 🥉 与IDE集成二次开发
+- **行动建议**: 结合Agent-Reach做"代码+全网搜索"一体工具
+
+### 4. cognee — Agent记忆平台 🧠 AI基础设施
+- **数据**: 27K stars, +4.5K/周, 知识图谱引擎
+- **做什么**: 给AI agent持久化长期记忆
+- **赚钱路径**:
+  - 🥇 托管记忆云：按记忆量收费
+  - 🥈 集成到OPC项目中：让客服agent有记忆
+- **行动建议**: 看能否集成到OPC客服agent中，让agent记住客户
+
+---
+
+## 📊 趋势信号
+
+- **Agent Infrastructure 全面爆发**: cognee(记忆) + codebase-memory-mcp(代码) + orca(多开) + design.md(设计规范) = Agent基础设施层正在形成
+- **视频Agent三国杀**: OpenMontage vs video-use vs claude-real-video，视频生产Agent化是今年最大风口
+- **"AI网站克隆"是伪概念但好卖**: 25K stars证明需求真实，本质是"低代码建站+AI"，可以包装成产品卖
+- **Agent-Reach 49K stars登顶**: 全网搜索→Agent标配能力，已经在我们的技能列表里了 ✅
+
+---
+
+## 🧠 三句洞察
+
+1. **视频Agent生产工具链是当前最确定的机会**：从OpenMontage到video-use，用户愿意为"一句话生成视频"付费，趁早做中文版/教程/IP占位。
+2. **Agent基础设施（记忆/代码理解/编排）是卖铲子生意**：cognee和codebase-memory-mcp证明开发者愿意为Agent能力付费，做中文封装+托管是低风险切入点。
+3. **安全扫描类SaaS复购率极高**：strix 33K stars说明市场需求大，中文版+报告服务直接面向中小企业，客单价500-2000元/月。
+
+---
+
+## 📎 原始速览
 
 ### 36氪信号
-- 国产算力主线明确，龙头业绩加速兑现
-- 全球半导体设备2028年市场规模有望较2025年翻倍
-- 小雨智造首发具身智能焊接机器人 → 具身智能落地加速
+- 阿里云发布Qoder企业版（AI编码工具企业化）
+- 三星获Meta超10万亿韩元AI芯片订单（AI硬件持续火热）
+- 新能源车6月销量同比-7%（短期承压，但长期趋势不变）
+
+### HN热门
+- Virginia禁售地理位置数据（隐私立法趋势→合规工具需求）
+- Podman v6.0.0（容器技术迭代）
+- Immich 3.0（自建照片管理，开源替代Google Photos）
+- Claude-real-video: 任何LLM都能看视频（视频理解平民化）
+
+### 本周涨星排行
+1. OpenMontage +10,199
+2. DeusData/codebase-memory-mcp +9,873
+3. Agent-Reach +8,265
+4. simplex-chat +6,376
+5. design.md +6,240
 
 ---
 
-## 💡 洞察（≤3句）
-
-1. **video x agent 是本月最强交叉点**：OpenMontage(27K月增)、video-use、MoneyPrinterTurbo(18K月增)、OpenCut(9K月增) 四箭齐发，视频制作AI化已经不是一个"趋势"而是"现实"——你的ComfyUI+视频经验恰好在这个风口上。
-
-2. **AI Agent基建层爆发**：codebase-memory-mcp(代码索引)、OmniRoute(API网关)、cognee(Agent记忆)、orca/herdr(Agent调度)都在解决"Agent如何工作"的问题，做Agent脚手架比做Agent应用更容易赚钱。
-
-3. **中文社媒数据是护城河**：MediaCrawler 55K星说明中文数据抓取需求巨大且独特（外网工具覆盖不了），结合你的OpenClaw经验，可以做"中文社交数据API"的差异化产品。
-
-> ⚠️ ProductHunt 被Cloudflare拦截，本次用HN+GitHub替代。建议后续给night_fetcher加PH抓取。
-
----
-*夜巡完毕 · 数据源：36kr(20条) + HN(25条) + GitHub Weekly(25条) + GitHub Monthly(20条)*
+*夜巡完毕 · 2026-07-03 17:22 CST | 下轮 2026-07-04*
