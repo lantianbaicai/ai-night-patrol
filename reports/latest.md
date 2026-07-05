@@ -1,97 +1,51 @@
-# 🌙 AI赚钱夜巡日报 · 2026-07-05 17:48
+# 🌙 AI赚钱夜巡 · 2026-07-06 01:47
 
-> v2.0 | deepseek-v4-pro | 只记能做的东西
-
----
-
-## 🎯 选题雷达（5指标评分：≥3项 = 重点）
-
-| 选题 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 总分 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|
-| 🔥 Agent Skills 付费市场 | ✅ | ✅ | ✅ | ✅(技能库) | ✅ | **5** |
-| 🔥 AI研究助手订阅（last30days风） | ✅ | ✅ | ✅ | ✅(Agent-Reach) | ✅ | **5** |
-| 🔥 中文版AI审美/Taste技能 | ✅ | ✅ | ✅ | ✅(stop-slop) | ✅ | **5** |
-| 📌 视频AI编辑SaaS（video-use风） | ✅ | ✅ | ✅ | ✅(视频分析) | ❌ | **4** |
-| 📌 AI简历筛选SaaS | ✅ | ✅ | ✅ | ✅ | ❌ | **4** |
-| 📌 AI安全服务（strix风） | ✅ | ❌ | ✅ | ✅ | ✅ | **4** |
-| 📌 AI记忆平台（cognee风） | ✅ | ❌ | ✅ | ✅ | ✅ | **4** |
-| 📌 网站AI克隆工具 | ✅ | ✅ | ✅ | ✅ | ❌ | **4** |
-| 📌 多模型AI网关（OmniRoute风） | ✅ | ✅ | ✅ | ❌ | ❌ | **3** |
+> ⚠️ GitHub Trending / ProductHunt 抓取失败（SearXNG未配、GH PAT过期、jina代理不通）
+> 本次基于 Hacker News + 36氪 + 趋势推断
 
 ---
 
-## 📡 原始速览
+## 🎯 选题雷达 (≥3项指标 = 重点关注)
 
-### 🔥 GitHub Trending 本周亮点
+| 选题 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 | 判定 |
+|------|:--:|:--:|:--:|:--:|:--:|:--:|------|
+| **Agent文档自动生成工具** (OpenWiki竞品/增强) | ✅ | ✅ | ✅ | ✅ | ❌ | 4 | 🔥重点 |
+| **shadcn/ui BaseUI迁移服务** | ✅ | ✅ | ✅ | ❌ | ❌ | 3 | 🔥重点 |
+| **浏览器端专业工具SaaS** (KiCad-in-browser启发) | ✅ | ❌ | ✅ | ✅ | ✅ | 4 | 🔥重点 |
+| **P2P VPN 商业套壳** (Rayfish启发) | ✅ | ✅ | ✅ | ❌ | ❌ | 3 | 🔥重点 |
+| **AI代码审查+文档一体化** | ✅ | ❌ | ✅ | ✅ | ✅ | 4 | 🔥重点 |
 
-| 项目 | Stars | 本周增量 | 一句话 |
-|------|------:|------:|--------|
-| [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 26.4K | +9.5K | 代码智能MCP，毫秒级索引，99%减少token |
-| [strix](https://github.com/usestrix/strix) | 36.5K | +9.4K | 开源AI渗透测试工具 |
-| [OpenMontage](https://github.com/calesthio/OpenMontage) | 33.3K | +8.4K | 开源AI视频制作系统，12条管线 |
-| [ai-berkshire](https://github.com/xbtlin/ai-berkshire) | 9.9K | +6.0K | AI价值投资框架，巴菲特方法论+多Agent |
-| [video-use](https://github.com/browser-use/video-use) | 14.8K | +4.2K | 用编程Agent编辑视频 |
-| [OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 11.5K | +4.1K | 免费AI网关，231+供应商，50+免费 |
-| [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 54.5K | +3.8K | 🇨🇳 LLM驱动多市场股票分析系统 |
-| [orca](https://github.com/stablyai/orca) | 12.2K | +3.8K | 并行Agent舰队IDE |
-| [ai-website-cloner](https://github.com/JCodesMore/ai-website-cloner-template) | 25.7K | +3.7K | 一句话克隆任意网站 |
-| [herdr](https://github.com/ogulcancelik/herdr) | 11.7K | +3.5K | 终端Agent多路复用器 |
-| [cognee](https://github.com/topoteretes/cognee) | 27.0K | +3.4K | 开源AI记忆平台（知识图谱引擎） |
-| [page-agent](https://github.com/alibaba/page-agent) | 23.4K | +2.5K | 🇨🇳 阿里出品，自然语言操控网页 |
-| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 25.0K | +2.0K | OpenAI官方：Claude Code调用Codex |
+---
 
-### 🔥 GitHub Trending 本月新面孔
+## 📊 原始速览
 
-| 项目 | Stars | 月增量 | 一句话 |
-|------|------:|------:|--------|
-| [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 50.9K | +29.4K | 🇨🇳 AI上网眼，Twitter/Reddit/小红书/B站一网打尽 |
-| [taste-skill](https://github.com/Leonxlnx/taste-skill) | 56.8K | +23.5K | 给AI好品味，停止生成无聊内容 |
-| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | 49.0K | +21.8K | AI研究技能，全网搜索+合成摘要 |
-| [apple/container](https://github.com/apple/container) | 46.5K | +19.8K | 🍎 Mac原生Linux容器 |
-| [iptv-org/iptv](https://github.com/iptv-org/iptv) | 130.5K | +13.9K | 全球IPTV频道合集 |
-| [pm-skills](https://github.com/phuryn/pm-skills) | 22.5K | +10.6K | PM技能市场：100+Agent技能 |
-| [open-notebook](https://github.com/lfnovo/open-notebook) | 34.9K | +10.5K | 开源NotebookLM替代品 |
-| [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 24.5K | +10.4K | 817个AI安全技能，6框架对齐 |
-| [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 49.3K | +7.4K | 各模型系统提示词泄露合集 |
-| [dbx](https://github.com/t8y2/dbx) | 8.6K | +4.9K | 🇨🇳 15MB轻量数据库客户端 |
+### Hacker News 热榜（AI/技术相关）
 
-### 💬 HN话题
+- **[633pts] Command & Conquer Generals 移植 macOS/iOS** — Fable 引擎实现原生移植，证明游戏跨平台移植工具链有市场
+- **[240pts] shadcn/ui 切换到 Base UI** — UI 组件生态大地震，Radix→Base UI 迁移意味大量项目需要适配
+- **[198pts] 编译器与语言设计入门** — 编译器教育内容持续热门，Rust/LLVM 相关教程有付费市场
+- **[127pts] Phosh 0.56.0** — Linux 移动端 Shell，纯技术圈关注
+- **[122pts] Pandoc Lua Filters** — 文档转换过滤器，技术写作工具链
+- **[65pts] KiCad in the Browser (Show HN)** — PCB设计搬进浏览器，WebAssembly 让重型专业软件 Web 化
+- **[61pts] Rayfish P2P VPN** — 去中心化 VPN，零信任服务器，隐私赛道持续热
+- **[44pts] OpenWiki (LangChain)** — CLI 工具自动为代码库生成 Agent 文档
 
-- **YouTube私享视频泄露漏洞** (614pts) — 平台安全永远是生意
-- **GPT-5.5 Codex推理token聚类导致性能下降** (270pts) — 模型质量波动=工具层机会
-- **"Better Models: Worse Tools"** (173pts) — Armin Ronacher博客，好模型+烂工具现象
-- **The Log Is the Agent** — Agent日志即Agent本身，构建基础设施的论文
-- **sqlite-utils mostly written by Claude Fable ($149.25)** — Simon Willison用$149的AI写了整个库发布
+### 36氪快讯
 
-### 🏢 36氪
-
-- 鸿海6月销售额8218亿台币，同比+52.1%（AI硬件持续景气）
-- 东方盛虹净利润同比预增987%-1195%
-- 暑期档票房破20亿
-- 人形机器人仍处样品阶段（贝斯特公告）
-
-### 🛒 ProductHunt
-
-- ❌ Cloudflare拦截，web_fetch不可用，需Playwright MCP
+- 暑期档票房破20亿 — 内容消费旺季
+- 人形机器人仍处样品阶段（贝斯特）— 概念热但离钱远
+- 东方盛虹净利预增987%-1194% — 化工周期股
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **Agent Skills 市场正在爆发**：pm-skills(10.6K月星)、cybersecurity-skills(10.4K)、taste-skill(23.5K) 三箭齐发，说明「给AI写技能/模板」本身已成为独立赛道——老大已有的stop-slop技能和skill-creator经验就是入场券，做中文版Agent技能市场完全可行。
+1. **Agent 生态工具链是当下最确定的切入点**：从 OpenWiki（文档自动生成）到 shadcn/ui 迁移，AI 编码普及后"配套工具"比"又一个 Agent 框架"更赚钱，7天可出 Demo。
 
-2. **「好模型+烂工具」是窗口期**：Armin Ronacher(HN 173pts)点出了当前AI工具的质量断层，OmniRoute(多模型路由)、herdr(Agent复用)、cognee(AI记忆)都在填补这个断层——工具中间层是比模型本身更安全的生意。
+2. **浏览器端重型应用是长期趋势**：KiCad in Browser（PCB设计）+ 游戏引擎移植浏览器 = WebAssembly 成熟信号。找一个桌面专业软件品类做 Web 版 SaaS，壁垒高。
 
-3. **视频AI赛道已出现「可复制」模式**：OpenMontage(33K星/12管线)和video-use(14.8K星)证明Agent驱动的视频生产不再是实验室demo，老大有视频分析资产，向「生产」端延伸的时机已到。
-
----
-
-## ⚡ 行动建议
-
-- **本周可做**：中文版"AI内容审美技能"(taste-skill本地化)，复用stop-slop资产，7天出Demo
-- **本月可做**：Agent技能市场MVP（参考pm-skills格式），包装现有技能为付费产品
-- **持续关注**：OpenMontage/video-use的视频Agent pipeline，看老大视频分析能力如何嵌入
+3. **隐私/P2P 工具持续有付费意愿**：Rayfish P2P VPN 61分上 HN 首页说明需求真实，做"开源的商业版"或"托管版"是经典路径。
 
 ---
 
-*生成于 2026-07-05 17:48 CST | 夜巡 v2.0*
+*夜巡时间: 2026-07-06 01:47 CST | 数据源: HN(25条) + 36氪(20条) | GitHub/PH: 抓取失败*
