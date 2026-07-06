@@ -1,51 +1,70 @@
-# 🌙 AI赚钱夜巡 · 2026-07-06 01:47
+# 🌙 AI赚钱夜巡 · 2026-07-06 09:48
 
-> ⚠️ GitHub Trending / ProductHunt 抓取失败（SearXNG未配、GH PAT过期、jina代理不通）
-> 本次基于 Hacker News + 36氪 + 趋势推断
-
----
-
-## 🎯 选题雷达 (≥3项指标 = 重点关注)
-
-| 选题 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 | 判定 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|------|
-| **Agent文档自动生成工具** (OpenWiki竞品/增强) | ✅ | ✅ | ✅ | ✅ | ❌ | 4 | 🔥重点 |
-| **shadcn/ui BaseUI迁移服务** | ✅ | ✅ | ✅ | ❌ | ❌ | 3 | 🔥重点 |
-| **浏览器端专业工具SaaS** (KiCad-in-browser启发) | ✅ | ❌ | ✅ | ✅ | ✅ | 4 | 🔥重点 |
-| **P2P VPN 商业套壳** (Rayfish启发) | ✅ | ✅ | ✅ | ❌ | ❌ | 3 | 🔥重点 |
-| **AI代码审查+文档一体化** | ✅ | ❌ | ✅ | ✅ | ✅ | 4 | 🔥重点 |
+> 数据源: 36氪 × HN × GitHub Trending | 5指标评分 ≥3项=重点
 
 ---
 
-## 📊 原始速览
+## 🎯 选题雷达（按赚钱可行性排序）
 
-### Hacker News 热榜（AI/技术相关）
+### 🔥 重点追踪
 
-- **[633pts] Command & Conquer Generals 移植 macOS/iOS** — Fable 引擎实现原生移植，证明游戏跨平台移植工具链有市场
-- **[240pts] shadcn/ui 切换到 Base UI** — UI 组件生态大地震，Radix→Base UI 迁移意味大量项目需要适配
-- **[198pts] 编译器与语言设计入门** — 编译器教育内容持续热门，Rust/LLVM 相关教程有付费市场
-- **[127pts] Phosh 0.56.0** — Linux 移动端 Shell，纯技术圈关注
-- **[122pts] Pandoc Lua Filters** — 文档转换过滤器，技术写作工具链
-- **[65pts] KiCad in the Browser (Show HN)** — PCB设计搬进浏览器，WebAssembly 让重型专业软件 Web 化
-- **[61pts] Rayfish P2P VPN** — 去中心化 VPN，零信任服务器，隐私赛道持续热
-- **[44pts] OpenWiki (LangChain)** — CLI 工具自动为代码库生成 Agent 文档
+| 选题 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
+|------|:--:|:--:|:--:|:--:|:--:|:--:|
+| **AI辅导工具（EdTech）** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4** |
+| **AI Agent开发框架/工具** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4** |
+| **AI工作流自动化（n8n方向）** | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
+| **AI代码审查/优化工具** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4** |
 
-### 36氪快讯
+### 📡 关注信号
 
-- 暑期档票房破20亿 — 内容消费旺季
-- 人形机器人仍处样品阶段（贝斯特）— 概念热但离钱远
-- 东方盛虹净利预增987%-1194% — 化工周期股
-
----
-
-## 💡 洞察（≤3句）
-
-1. **Agent 生态工具链是当下最确定的切入点**：从 OpenWiki（文档自动生成）到 shadcn/ui 迁移，AI 编码普及后"配套工具"比"又一个 Agent 框架"更赚钱，7天可出 Demo。
-
-2. **浏览器端重型应用是长期趋势**：KiCad in Browser（PCB设计）+ 游戏引擎移植浏览器 = WebAssembly 成熟信号。找一个桌面专业软件品类做 Web 版 SaaS，壁垒高。
-
-3. **隐私/P2P 工具持续有付费意愿**：Rayfish P2P VPN 61分上 HN 首页说明需求真实，做"开源的商业版"或"托管版"是经典路径。
+| 选题 | 得分 | 说明 |
+|------|:--:|------|
+| 开源游戏平台 | 2 | Homegames 8年打磨，但变现路径模糊 |
+| 隐私地图 | 2 | Organic Maps 808pts大火，靠捐赠/企业版 |
+| 硬件工具平台 | 2 | OpenPrinter 431pts，硬件周期长 |
+| 数学证明RPG游戏 | 2 | Dungeon Proof Crawler，教育游戏化 |
 
 ---
 
-*夜巡时间: 2026-07-06 01:47 CST | 数据源: HN(25条) + 36氪(20条) | GitHub/PH: 抓取失败*
+## 📰 原始速览
+
+### 💻 GitHub Trending 本周
+
+| 项目 | Stars | 语言 | 赚钱信号 |
+|------|------:|------|----------|
+| [obra/superpowers](https://github.com/obra/superpowers) | 246k | Shell | 🔥 Agent技能框架+方法论，SDLC新范式 |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 226k | JS | 🔥 Agent性能优化系统，Claude Code/Codex生态 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 209k | Python | 🔥 "会成长的Agent"，用户粘性设计 |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 195k | TS | 🔥 公平代码+AI工作流，400+集成 |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 381k | TS | 🦞 我们自己 |
+
+### 💬 Hacker News 热门
+
+- **Organic Maps** (808pts) — 开源隐私地图爆火
+- **OpenPrinter** (431pts) — 开源工具平台
+- **AI Tutor 论文** (129pts) — Dartmouth课程中AI辅导效果达0.71-1.30 SD，**数据扎实**
+- **Zuckerberg: AI Agent进展慢于预期** (89pts) — 巨头放缓 = 个体机会窗口
+- **Homegames** (86pts) — 个人8年打造的开源游戏平台
+- **Cursed Circuits #5** (54pts) — 硬件极客内容持续有受众
+
+### 📊 36氪快讯
+
+- 韩国半导体税收设立增长基金 → 亚洲AI供应链上行
+- 锂电7月旺季 + AI供应链持续受益
+- 创新药下半年重点配置
+- 天问二号抵达小行星（航天里程碑）
+- ETF个人投资者占比近八成（散户入市信号）
+
+---
+
+## 💡 洞察（3句话）
+
+1. **EdTech是本周最确定的可执行方向** — Dartmouth的AI辅导论文用0.71-1.30 SD效应量证明了"AI辅导有效"，这不是炒作是实验数据，做中国版AI辅导工具（考研/考公/编程）7天可出Demo、30天可收费。
+
+2. **Agent工具链赛道拥挤但门槛在降低** — superpowers/ECC/hermes-agent扎堆出现说明市场在快速成熟，但Zuck说"Agent发展慢于预期"意味着体验层仍有大量空白，做"Agent+特定场景"比做通用框架更赚钱。
+
+3. **硬件+AI内容号值得做** — Cursed Circuits持续高赞证明硬件极客内容有稳定受众，叠加AI生成PCB/电路设计能力，可以做"AI辅助硬件设计"的垂直内容号或工具。
+
+---
+
+*夜巡完成 · deepseek-v4-pro · 不堆新闻，只记能做的东西*
