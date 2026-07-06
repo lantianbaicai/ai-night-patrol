@@ -1,125 +1,93 @@
-# 🌙 AI赚钱夜巡 · 2026-07-06 17:47
+# 🌙 AI赚钱夜巡 · 2026-07-07 01:48
 
-> 模型: deepseek-v4-pro | PH不可达(Cloudflare) | 不堆新闻，只记能做的
-
----
-
-## 🎯 选题雷达（5指标 ≥3 = 🔥）
-
-| 指标 | 含义 |
-|------|------|
-| ①客户明确 | 目标用户画像清晰 |
-| ②7天Demo | 一周内可出原型 |
-| ③30天收费 | 30天内能开始变现 |
-| ④复用资产 | 技术/内容可跨项目复用 |
-| ⑤长期壁垒 | 不是一波流，有护城河 |
+> 数据源：36氪 × HackerNews × GitHub Trending (Weekly+Monthly) | PH 抓取失败(Cloudflare)
+> 评分体系：客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒（≥3项=🔴重点）
 
 ---
 
-### 🔥🔥🔥 5/5 · 立即行动级
+## 🎯 选题雷达（≥3项达标）
 
-**1. OpenMontage (calesthio/OpenMontage) — 开源Agent视频生产系统**
-- ⭐ 34K · 📈 +7.3K/周 · 🐍 Python
-- 12条管线、52个工具、500+ agent技能，把AI编程助手变成视频制作工作室
-- ①②③④⑤ 全中 → 视频是2026最大AI应用场景之一
-- **我们可做**：OpenMontage中文教程/模板市场/代制作服务/中文语音管线插件
+### 🔴 video-use / OpenMontage — AI视频编辑Agent双雄
+- **browser-use/video-use**（15k⭐，周+4.2k）：用代码Agent编辑视频，Python库
+- **calesthio/OpenMontage**（34k⭐，月+29k）：开源Agent视频生产线，12管线+52工具+500技能
+- **评分**：客户✅ | Demo✅ | 收费✅ | 资产✅ | 壁垒✅ → **5/5**
+- **方向**：AI视频编辑SaaS。视频编辑是刚需付费场景，Agent化降低门槛，可做"一键剪辑"付费服务
 
-**2. codebase-memory-mcp (DeusData) — 代码智能知识图谱**
-- ⭐ 27K · 📈 +7.9K/周 · 🔧 C
-- 158语言，亚毫秒查询，单二进制零依赖，省99% tokens
-- ①②③④⑤ 全中 → 企业级DevTool，付费意愿强
-- **我们可做**：企业部署咨询服务/中文文档/私有化定制/培训课程
+### 🔴 meetily — 本地AI会议助手
+- **Zackriya-Solutions/meetily**（18k⭐，周+2.9k）：Rust+Whisper+Ollama，100%本地处理
+- **评分**：客户✅ | Demo✅ | 收费✅ | 资产✅ | 壁垒✅ → **5/5**
+- **方向**：企业会议纪要SaaS。隐私是卖点，可做本地部署版+云托管版双轨收费
 
-**3. Meetily — 隐私优先AI会议助手**
-- ⭐ 18K · 📈 +3K/周 · 🦀 Rust
-- 100%本地处理，4x Whisper/Parakeet转录，Ollama摘要
-- ①②③④⑤ 全中 → 隐私是2026核心卖点
-- **我们可做**：中文优化版（国内会议场景）/企业部署/飞书集成
+### 🔴 page-agent — 阿里Web GUI Agent
+- **alibaba/page-agent**（24k⭐，周+3.1k）：自然语言控制网页，TypeScript
+- **评分**：客户✅ | Demo✅ | 收费✅ | 资产🤔 | 壁垒✅ → **4/5**
+- **方向**：RPA自动化服务。网页操作自动化是B端刚需，可包装成SaaS
 
----
+### 🔴 speech-to-speech — 本地语音Agent
+- **huggingface/speech-to-speech**（5.4k⭐，周+502）：开源本地语音Agent搭建
+- **评分**：客户✅ | Demo✅ | 收费✅ | 资产✅ | 壁垒🤔 → **4/5**
+- **方向**：语音客服/语音助手API。用开源模型做私有化部署方案
 
-### 🔥🔥 4/5 · 高优先级
-
-**4. video-use (browser-use/video-use) — 用AI Agent剪辑视频**
-- ⭐ 15K · 📈 +4.3K/周 · 🐍 Python
-- 客户明确/7天Demo/可收费/可复用 ④项全中
-- **我们可做**：中文Prompt模板包/教学课程/代剪辑服务
-
-**5. ai-website-cloner-template (JCodesMore) — 一句话克隆网站**
-- ⭐ 26K · 📈 +3.2K/周 · 🟦 TypeScript
-- 降低建站门槛到零，agency利器
-- **我们可做**：电商模板包/AI建站代理服务
-
-**6. Agent-Reach (Panniantong) — AI上网之眼**
-- ⭐ 52K · 📈 +30K/月 · 🐍 Python
-- 零API费用，支持Twitter/Reddit/YouTube/小红书/B站
-- —④（零API费→变现难）但⑤壁垒高
-- **我们已有此技能**，关注竞品动态即可
-
-**7. daily_stock_analysis (ZhuLinsen) — LLM股票分析系统**
-- ⭐ 55K · 📈 +3.8K/周 · 🐍 Python
-- 多市场、零成本定时运行，中国散户刚需
-- —⑤（竞品多）但①②③④全中
-- **我们可做**：A股专属版/信号付费群/知识星球
-
----
-
-### 🔥 3/5 · 观察级
-
-**8. strix (usestrix) — AI渗透测试工具**
-- ⭐ 38K · 📈 +10K/周 · 🐍 Python
-- ①②④⑤全中，但③（OSS难收费）
-- 可做安全咨询服务/培训
-
-**9. OmniRoute — 免费AI Gateway**
-- ⭐ 12K · 📈 +4.4K/周 · 🟦 TypeScript
-- 231+ providers, 50+ 免费，一个端点
-- ①②④中，③⑤弱 → 中间件赛道卷
-- 可做中文版/国内模型聚合网关
-
-**10. open-notebook (lfnovo) — 开源 Notebook LM**
-- ⭐ 35K · 📈 +9.5K/月 · 🟦 TypeScript
-- Google NotebookLM的开源替代
-- ①②③④中，⑤弱（替代品多）
+### 🔴 OmniRoute — 免费AI API网关
+- **diegosouzapw/OmniRoute**（12k⭐，周+4.4k）：231+供应商，50+免费，Token压缩15-95%
+- **评分**：客户✅ | Demo✅ | 收费🤔 | 资产🤔 | 壁垒🤔 → **3/5**
+- **方向**：API代理服务。用户免费→你收费中转，但壁垒低
 
 ---
 
 ## 📊 原始速览
 
-### GitHub Trending 周榜 Top 5 (stars增量)
-1. **usestrix/strix** +10,338 · AI渗透测试
-2. **DeusData/codebase-memory-mcp** +7,945 · 代码知识图谱
-3. **calesthio/OpenMontage** +7,353 · Agent视频制作
-4. **xbtlin/ai-berkshire** +5,038 · AI价值投资
-5. **diegosouzapw/OmniRoute** +4,411 · AI Gateway
+### 🔥 GitHub 本周爆款（按星星增量）
+| 项目 | 周增⭐ | 总⭐ | 一句话 |
+|------|--------|------|--------|
+| usestrix/strix | +10.3k | 37.8k | AI渗透测试，安全赛道 |
+| DeusData/codebase-memory-mcp | +7.9k | 27.2k | 代码库索引→知识图谱 |
+| JuliusBrussee/caveman | +7.3k | 85.5k | Token压缩65%，给Agent省token |
+| hasaneyldrm/exercises-dataset | +7.0k | 10.1k | 433个健身动作数据集 |
+| xbtlin/ai-berkshire | +5.0k | 11.0k | AI价值投资框架(巴芒段李) |
+| diegosouzapw/OmniRoute | +4.4k | 12.4k | 免费AI API网关 |
+| browser-use/video-use | +4.2k | 15.3k | 用Agent编辑视频 |
+| ogulcancelik/herdr | +3.9k | 12.7k | 终端Agent多路复用 |
+| stablyai/orca | +3.7k | 12.7k | 并行Agent舰队管理 |
+| openai/codex-plugin-cc | +3.4k | 26.1k | Codex嵌入Claude Code |
 
-### GitHub Trending 月榜 Top 5
-1. **Panniantong/Agent-Reach** +30,017 · Agent联网工具
-2. **calesthio/OpenMontage** +29,179 · Agent视频制作
-3. **DeusData/codebase-memory-mcp** +23,591 · 代码知识图谱
-4. **mvanhorn/last30days-skill** +21,367 · 话题研究Agent
-5. **apple/container** +19,954 · Mac容器工具
+### 🌍 GitHub 本月趋势
+| 项目 | 月增⭐ | 总⭐ | 信号 |
+|------|--------|------|------|
+| Panniantong/Agent-Reach | +30k | 51.9k | Agent上网能力，零API费 |
+| calesthio/OpenMontage | +29k | 34.2k | 开源Agent视频制作 |
+| DeusData/codebase-memory-mcp | +23k | 27.2k | 代码智能MCP |
+| mvanhorn/last30days-skill | +21k | 49.6k | 全网调研Skill |
+| apple/container | +19k | 46.7k | Mac轻量容器 |
+| iptv-org/iptv | +14k | 130k | IPTV频道合集 |
+| usestrix/strix | +10.9k | 37.8k | AI安全测试 |
+| NVIDIA/SkillSpector | +10.8k | 12.1k | Agent技能安全扫描 |
+| phuryn/pm-skills | +10.7k | 22.7k | PM技能市场 |
+| asgeirtj/system_prompts_leaks | +8.3k | 51.1k | AI系统提示词泄露合集 |
 
-### HN 风向（与赚钱相关的）
-- 🟡 扎克伯格说AI Agent开发比预期慢 → Agent赛道还没定型，有机会
-- 🟡 "When AI Costs More Than the Engineer" → AI成本拐点讨论升温
-- 🟡 "The great blogging collapse" → 内容创作领域大洗牌
-- 🟢 New AI tutor: 0.71-1.30 SD effect size → AI教育效果已验证，可落地
+### 💬 HN 热门
+- **英国铁路实时地图**（322pts）— 数据可视化
+- **客服建立关系≠成功**（280pts）— 创业教训
+- **Elm 1.0路线图**（229pts）— 函数式前端
+- **任天堂产品可换电池**（204pts）— 硬件合规
+- **基因组学入门**（171pts）— 生物信息学教育
+- **Amazon关闭MTurk新用户注册**（112pts）— 众包平台衰退
 
-### 36氪（筛选后）
-- 微软Teams加强第三方AI智能体权限管理 → AI Agent合规需求上升
-- 万华化学上半年净利预增60-70% → 化工行业回暖信号
+### 📰 36氪（金融为主，AI赚钱相关度低）
+- 博通为苹果开发定制ASIC至2031年
+- 美光科技与福特签署存储供应战略协议
+- 多家公司半年报预增（藏格矿业+97%、航锦科技+191%）
 
 ---
 
-## 💡 洞察（3句）
+## 💡 洞察（≤3句）
 
-1. **视频生产是本周绝对主线**：OpenMontage(34K星) + video-use(15K星) 双雄并立，Agent化视频制作从"能用"走向"好用"，现在入场做中文生态（教程/模板/插件/代制作）正当时。
+1. **视频Agent化是这周最明确的赚钱信号**：video-use和OpenMontage同时爆火，说明用Agent降低视频编辑门槛的需求真实且迫切。可以做"AI视频编辑SaaS"，方向是图生视频+Agent剪辑，客单价高（视频创作者付费意愿强）。
 
-2. **"本地优先+隐私"成为差异化核心**：Meetily(18K星/全本地)、codebase-memory-mcp(单二进制零依赖)都在走这个路线，做中文市场的隐私合规版本（如国内会议场景）是个明确的蓝海。
+2. **本地+隐私是差异化金矿**：meetily（18k⭐）、FluidVoice（6k⭐）、speech-to-speech（5k⭐）都在强调100%本地。企业客户对数据出境敏感，做"私有化部署的AI工具"是避开大厂竞争的路径。
 
-3. **Zuck说Agent开发比预期慢 = 我们的窗口期还在**：视频Agent、代码Agent、安全Agent——三个方向中，视频Agent离钱最近（内容创作者付费意愿强），且我们已有Remotion/FFmpeg基础，建议本周选OpenMontage做深入调研。
+3. **Agent基础设施过热但变现难**：codebase-memory-mcp、caveman、herdr、orca都是给AI Agent用的工具，用户是开发者，付费意愿低。但如果把其中某个能力（如token压缩、代码索引）包装成B端SaaS卖给企业，有机会。
 
 ---
 
-*生成于 2026-07-06 17:47 CST · 下次夜巡: 明天*
+*下次改进：PH需要Playwright MCP绕过Cloudflare*
