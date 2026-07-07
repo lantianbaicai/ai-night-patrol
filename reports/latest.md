@@ -1,106 +1,69 @@
-# 🌙 AI赚钱夜巡 · 2026-07-07 17:48
+# 🌙 AI赚钱夜巡 · 2026-07-08 01:48
 
-> 模型: deepseek-v4-pro | 数据源: 36kr+HN+GitHub Trending(周)
-> PH: Cloudflare拦截,跳过
+> 数据源：night_fetcher (36kr+HN) + GitHub Trending (weekly/monthly) | PH 被Cloudflare拦截
 
 ---
 
-## 🎯 选题雷达（5指标评分 ≥3项=⭐重点）
+## 🎯 选题雷达 (5指标评分 ≥3项 = 🔥重点)
 
 | 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 |
 |------|:--:|:--:|:--:|:--:|:--:|:--:|
-| **meetily** 本地AI会议纪要 | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐ 5/5 |
-| **OfficeCLI** AI读写Office | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐ 5/5 |
-| **video-use** AI编码剪视频 | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐ 5/5 |
-| **codebase-memory** 代码知识图谱 | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐ 5/5 |
-| **FluidVoice** 本地语音输入 | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⭐⭐ 4/5 |
-| **OmniRoute** 免费API网关 | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ⭐ 3/5 |
-| ai-berkshire 价值投资 | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | 2/5 |
-| strix AI渗透测试 | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | 3/5 |
-| caveman token压缩 | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | 2/5 |
+| **OmniRoute** AI网关 | ✅ | ✅ | ✅ | ✅ | ✅ | 🔥5/5 |
+| **Meetily** 本地会议助手 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 🔥4/5 |
+| **video-use** 编程式视频编辑 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 🔥4/5 |
+| **OpenMontage** 视频制作系统 | ✅ | ✅ | ✅ | ✅ | ✅ | 🔥4/5 |
+| **Agent-Reach** 互联网Agent | ✅ | ✅ | ✅ | ✅ | ✅ | 🔥4/5 |
+| **FluidVoice** 本地语音输入 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 🔥4/5 |
+| **hiring-agent** AI简历评分 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 🔥4/5 |
+| ai-berkshire AI投资 | ✅ | ✅ | ✅ | ⚠️ | ❌ | ⚠️3/5 |
+| codex-plugin-cc | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️3/5 |
 
 ---
 
 ## 📊 原始速览
 
-### 🔥 GitHub Trending 本周（≥3000⭐）
+### 🔥 本周 GitHub Trending 重点
 
-**1. strix** — 开源AI渗透测试工具
-⭐38K · 本周+10.7K | Python | 自动发现应用安全漏洞
-→ 安全赛道+AI，企业刚需但门槛高
+**1. OmniRoute (13K⭐ +4.5K/wk)** — 一个端点对接231+ AI供应商，50+免费，压缩节省15-95% token。开发者刚需，API差价中间商模式清晰。
 
-**2. meetily** — 本地AI会议助手（#1 Self-hosted）
-⭐19.9K · 本周+5.7K | Rust | Parakeet/Whisper+Ollama, 100%本地
-→ 🔥 本周最值得关注的变现方向
+**2. Meetily (20K⭐ +5.7K/wk)** — 100%本地AI会议记录，Whisper/Parakeet转录+Ollama摘要，Rust构建。隐私趋势下的杀手应用。
 
-**3. exercises-dataset** — 433个健身动作数据集
-⭐10.5K · 本周+5.6K | HTML | 含名称/类别/肌肉群/动图/视频
-→ 健身App可直接用，数据集本身可卖
+**3. video-use (15.8K⭐ +3.7K/wk)** — browser-use团队新作，用coding agent编辑视频。视频制作从GUI变成代码驱动。
 
-**4. codebase-memory-mcp** — 代码知识图谱MCP
-⭐27.6K · 本周+6.3K | C | 158语言, 毫秒索引, 静态二进制
-→ AI编程生态"卖水"方向
+**4. caveman (86K⭐ +7.7K/wk)** — 搞笑但实用：让AI说"原始人话"节省65% token。技能/提示词商品化趋势明显。
 
-**5. caveman** — Token压缩65%
-⭐85.9K · 本周+7.7K | JS | Claude Code skill, "原始人说话法"
-→ 奇技淫巧，爆火但难独立变现
+**5. herdr (13K⭐ +4.3K/wk)** — 终端里的Agent多路复用器，同时管理多个AI Agent。Agent编排工具需求爆发。
 
-**6. ai-berkshire** — AI价值投资框架
-⭐11.4K · 本周+4.6K | Python | 巴菲特/芒格/段永平方法论
-→ 金融+AI交叉，国内受众有限
+**6. codex-plugin-cc (26K⭐ +4.3K/wk)** — OpenAI官方出品，让Claude Code调用Codex。Agent间互操作成为标配。
 
-**7. OmniRoute** — 免费AI API网关
-⭐12.8K · 本周+4.5K | TS | 231+提供商, 50+免费, token省15-95%
-→ AI coding工具链基础设施
+### 📈 本月 GitHub Trending 趋势
 
-**8. herdr** — 终端Agent多路复用器
-⭐13.1K · 本周+4.3K | Rust | 并行管理多个AI Agent
-→ 开发者工具，噱头大于实用
+**7. OpenMontage (34.8K⭐ +29.7K/mo)** — 首个开源Agent视频制作系统，12条流水线/52个工具/500+技能。视频AI制作标准化标杆。
 
-**9. codex-plugin-cc** — Claude Code用OpenAI Codex
-⭐26.4K · 本周+4.3K | JS | 跨模型代码审查/委托
-→ AI工具互操作趋势
+**8. Agent-Reach (52.5K⭐ +30K/mo)** — 给AI装互联网眼睛，零API费用读Twitter/Reddit/YouTube/小红书/B站。增长最快的Agent工具。
 
-**10. page-agent** — 阿里·页面GUI Agent
-⭐24.7K · 本周+3.9K | TS | 自然语言控制网页
-→ 浏览器自动化新范式
+**9. codebase-memory-mcp (27.8K⭐ +24K/mo)** — 代码知识图谱，毫秒级索引，节省99% token。Agent基础设施新基建。
 
-**11. video-use** — 用Coding Agent剪视频
-⭐15.6K · 本周+3.7K | Python | browser-use团队新作
-→ 🔥 视频+AI=持续热点
+**10. pm-skills (22.8K⭐ +10.7K/mo)** — PM技能市场，100+ Agent技能/命令/插件。技能即商品模式验证成功。
 
-**12. orca** — 并行Agent舰队IDE
-⭐13.1K · 本周+3.7K | TS | 桌面+移动端, 自带订阅
-→ Agent编排工具，已有商业化
+**11. last30days-skill (50K⭐ +21K/mo)** — 跨平台研究技能，Agent技能市场已成GitHub最热赛道。
 
-**13. ai-website-cloner-template** — AI一键克隆网站
-⭐26.3K · 本周+2.8K | TS | 一条命令克隆任意网站
-→ 落地页/官网快速搭建
+**12. NVIDIA/SkillSpector (12K⭐ +10.8K/mo)** — AI技能安全扫描器。当技能市场大了，安全审计成了刚需。
 
-### 💬 Hacker News 值得关注
+### 📰 36氪/HN 值得关注的信号
 
-| 标题 | 热度 | 信号 |
-|------|------|------|
-| **GLM 5.2 and the coming AI margin collapse** | 416pts | 🚨 AI模型利润正在归零 |
-| **OfficeCLI: AI agents读写Office文件** | 180pts | 🆕 新赛道 |
-| **Small AI Models Gain Traction** | 140pts | 边缘/离线AI崛起 |
-| **Ternlight: 7MB嵌入模型(WASM)** | 220pts | 浏览器端AI |
-| **AMD Ryzen AI Halo $4k Dev Kit** | 331pts | 本地AI硬件升温 |
-| **Pruning RAG context** | 103pts | RAG优化持续需求 |
-
-### 📰 36氪
-今日以金融/政策新闻为主，无直接AI赚钱信号。亮点：科大讯飞公布口音控制专利、低空经济公司密集成立。
+- **IBM推出新型数据中心系统** — AI基础设施军备竞赛
+- **浪潮信息上半年净利润预增226%-288%** — AI算力需求持续爆炸
+- **Chat Control在欧盟议会首轮通过** — 隐私保护需求进一步升温（利好本地AI产品）
+- **Microsoft解雇id Software idTech团队** — 大厂游戏引擎裁员潮
+- **Better Auth加入Vercel** — 开源工具被大平台收购仍是主流退出路径
 
 ---
 
-## 💡 洞察（3句话）
+## 💡 洞察 (≤3句)
 
-1. **本地AI会议/语音赛道集中爆发**：meetily(5.7k⭐)和FluidVoice(2.1k⭐)同时上榜，核心卖点是「隐私+本地处理」——国内可以做飞书妙记/通义听悟的本地替代版，open-core模式（自部署免费+云托管收费），7天内可出Demo。
+1. **AI Agent生态正形成「基础设施→技能市场→分发平台」三层结构**，当前最大红利在中间层：pm-skills、last30days-skill、agency-agents 证明「Agent技能包」是比SaaS更快的变现路径，7天可交付、边际成本趋零。
 
-2. **AI编程生态的"卖水"方向持续火爆**：codebase-memory-mcp(6.3k⭐)、OmniRoute(4.5k⭐)、caveman(7.7k⭐)全是帮AI编程省钱提效的工具——做国内版代码知识图谱（接GitHub/GitLab/工蜂）或API网关代理，都是开发者愿意付费的刚需。
+2. **本地AI+隐私 = 2026下半年的确定性趋势**：Meetily(会议)、FluidVoice(语音输入)、speech-to-speech(语音Agent)都在强调「100%本地」，Chat Control法案通过只会加速这个需求。做本地AI工具的付费版=明确机会。
 
-3. **video-use(3.7k⭐)验证了「AI+视频编辑」方向**：browser-use团队出品，用自然语言驱动FFmpeg/剪辑——结合老大已有的视频分析技术栈，做「短视频AI二创工具」（批量切片+自动字幕+AI配音），30天内可收费。
-
----
-
-*夜巡完成 | 下次夜巡: 明天17:45*
+3. **视频AI制作正在经历「GUI→代码」的范式转移**：video-use(browser-use团队)和OpenMontage同时在推「用Agent编辑视频」，与你已有的remotion技能栈高度吻合——这是你最该立刻动手的方向。
