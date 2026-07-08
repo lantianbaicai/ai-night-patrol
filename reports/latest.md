@@ -1,143 +1,89 @@
-# 🌙 AI赚钱夜巡 · 2026-07-08 09:48
+# 🎯 AI赚钱夜巡 · 2026-07-08 17:48 CST
 
-> 模型: deepseek-v4-pro | 数据源: night_fetcher (36kr+HN) + GitHub Weekly Trending
-
----
-
-## 🎯 选题雷达
-
-| 赛道 | 信号强度 | 代表项目 | 赚钱路径 |
-|------|---------|----------|---------|
-| 🥇 AI安全 | ⭐⭐⭐⭐⭐ | strix (10k⭐/周) | 企业渗透测试SaaS |
-| 🥈 开发者工具 | ⭐⭐⭐⭐⭐ | OmniRoute (4.8k⭐/周) | API网关订阅/按量 |
-| 🥉 本地AI应用 | ⭐⭐⭐⭐ | meetily (7.3k⭐/周) | 隐私会议纪要付费 |
-| 4 AI求职 | ⭐⭐⭐⭐ | ai-job-search (5.3k⭐/周) | C端订阅/简历优化 |
-| 5 Token优化 | ⭐⭐⭐ | caveman (86k⭐总) | 开发者插件付费 |
-| 6 视频编辑AI | ⭐⭐⭐⭐ | video-use (3.4k⭐/周) | SaaS订阅/API |
+> 数据源: 36氪(20) + Hacker News(25) + GitHub API(TOP repos)
 
 ---
 
-## 🔥 重点关注 (≥3/5指标)
+## 📊 选题雷达（5指标评分：客户明确/7天Demo/30天收费/复用资产/长期壁垒）
 
-### 1. [usestrix/strix](https://github.com/usestrix/strix) — AI渗透测试工具
-| 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 |
-|:---:|:---:|:---:|:---:|:---:|
-| ✅ 企业安全团队 | ❌ 需模型训练 | ✅ SaaS订阅 | ✅ 漏洞知识库 | ✅ 安全领域壁垒高 |
+### ⭐⭐⭐⭐ 重点追踪
 
-- 10,741⭐/周，总38,594⭐
-- **赚钱角度**：安全是toB付费最强的赛道之一，AI渗透测试替代人工，ROI清晰
+| # | 选题 | 来源 | ⭐ | 评分 | 可做什么 |
+|---|------|------|-----|------|----------|
+| 1 | **Kokoro本地TTS商业化** | HN 407pts | 4/5 | ✅客户✅Demo✅收费✅资产⚠️壁垒 | 包装Kokoro TTS做桌面端/API服务：播客配音、有声书、视频配音。CPU友好=低服务器成本 |
+| 2 | **Token-Diet: AI编程Token省钱工具** | GitHub ~500⭐ | 4/5 | ✅客户✅Demo✅收费✅资产⚠️壁垒 | 为国内AI编程工具(Cursor/Trae/Codex)做中文版Token优化插件，31%降费是硬卖点 |
+| 3 | **AI安全测试平台(仿T3MP3ST思路)** | GitHub 3559⭐ | 4/5 | ✅客户✅Demo✅收费✅资产✅壁垒 | 做面向中小企业的AI应用安全扫描SaaS，国内AI安全合规需求爆发期 |
+| 4 | **ML论文通俗化解说站(仿30papers)** | HN 515pts | 4/5 | ✅客户✅Demo✅收费✅资产⚠️壁垒 | 中文版ML论文精读+视频讲解，面向国内AI从业者，订阅/课程付费 |
 
-### 2. [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) — 本地AI会议助手
-| 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 |
-|:---:|:---:|:---:|:---:|:---:|
-| ✅ 企业/远程办公者 | ✅ 下载即用 | ✅ 企业版收费 | ✅ 本地STT+摘要引擎 | ✅ 隐私合规壁垒 |
+### ⭐⭐⭐ 值得关注
 
-- 7,349⭐/周，总20,786⭐
-- **赚钱角度**：会议纪要+隐私=企业刚需，提供托管版/企业版收费
+| # | 选题 | 来源 | ⭐ | 评分 | 可做什么 |
+|---|------|------|-----|------|----------|
+| 5 | **Rowboat本地AI桌面客户端** | HN 160pts | 3/5 | ✅客户✅Demo✅收费⚠️资产⚠️壁垒 | Fork Rowboat做中文优化版，聚焦隐私敏感用户/企业 |
+| 6 | **Herdr终端统一管理** | HN 281pts | 3/5 | ✅客户✅Demo✅收费⚠️资产⚠️壁垒 | 国内开发者工具市场，终端管理+AI集成付费版 |
+| 7 | **OpenScience科研AI工作台** | GitHub | 3/5 | ✅客户⚠️Demo✅收费✅资产⚠️壁垒 | 面向国内高校/研究院的科研AI工具链，政策红利 |
 
-### 3. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) — 免费AI网关
-| 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 |
-|:---:|:---:|:---:|:---:|:---:|
-| ✅ 开发者 | ✅ 即插即用 | ✅ 高级版付费 | ✅ 231+ providers | ✅ 压缩+路由技术 |
+### ⚠️ 观察中
 
-- 4,797⭐/周，总13,160⭐
-- **赚钱角度**：API聚合+Token压缩=帮开发者省钱，省下的钱分你一点
-
-### 4. [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) — AI求职框架
-| 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 |
-|:---:|:---:|:---:|:---:|:---:|
-| ✅ 求职者 | ✅ Fork即用 | ✅ 高级服务收费 | ✅ 简历/面试模板 | ❌ 开源易复制 |
-
-- 5,363⭐/周，总11,079⭐
-- **赚钱角度**：求职是永恒的付费场景，可做成SaaS+人工辅导双模式
-
-### 5. [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) — Mac本地语音输入
-| 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 |
-|:---:|:---:|:---:|:---:|:---:|
-| ✅ Mac用户 | ✅ 下载即用 | ✅ 对标Wispr Flow付费 | ✅ 本地STT模型 | ✅ 端侧AI壁垒 |
-
-- 1,865⭐/周，总6,701⭐
-- **赚钱角度**：Wispr Flow年费$120→对标定价，Mac生态付费意愿高
-
-### 6. [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — AI价值投资框架
-| 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 |
-|:---:|:---:|:---:|:---:|:---:|
-| ✅ 投资者 | ❌ 需编程 | ✅ 付费报告/信号 | ✅ 多Agent分析框架 | ✅ 金融方法论壁垒 |
-
-- 4,262⭐/周，总11,712⭐
-- **赚钱角度**：金融+AI=高客单价，付费信号/研报/跟投都是变现路径
-
-### 7. [browser-use/video-use](https://github.com/browser-use/video-use) — AI视频编辑
-| 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 |
-|:---:|:---:|:---:|:---:|:---:|
-| ✅ 内容创作者 | ✅ 开源可用 | ✅ SaaS订阅 | ✅ 编辑Agent引擎 | ✅ 视频理解技术 |
-
-- 3,435⭐/周，总15,901⭐
-- **赚钱角度**：短视频创作者亿级市场，AI编辑是降本增效利器
-
-### 8. [stablyai/orca](https://github.com/stablyai/orca) — AI Agent并行IDE
-| 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 |
-|:---:|:---:|:---:|:---:|:---:|
-| ✅ 开发者 | ✅ 桌面/移动端 | ✅ Pro版付费 | ✅ Agent编排引擎 | ✅ 开发者工具生态 |
-
-- 3,820⭐/周，总13,569⭐
-- **赚钱角度**：类似Cursor的商业模式，开发者工具订阅
-
-### 9. [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) — 代码智能MCP
-| 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 |
-|:---:|:---:|:---:|:---:|:---:|
-| ✅ 企业开发者 | ✅ 二进制即用 | ✅ 企业版 | ✅ 代码知识图谱 | ✅ 158语言支持 |
-
-- 5,457⭐/周，总28,033⭐
-- **赚钱角度**：企业内部代码库管理，按团队规模收费
-
-### 💡 隐藏机会
-
-- **AI代码清理服务** — HN热议: "$10k/week to delete AI-generated code"，AI生成代码质量差→清理修复有付费市场
-- **Fortress隐身浏览器** — HN上榜: stealth Chromium for AI agents，反检测=爬虫/自动化刚需
-- **快造科技10亿融资** — 消费级3D打印最大单笔，3D打印+AI设计可能成为新方向
+| # | 选题 | 来源 | 备注 |
+|---|------|------|------|
+| 8 | EU强制车载驾驶员监控摄像头 | HN 635pts | 硬件供应链机会，非纯软件 |
+| 9 | AI具身智能(阿里达摩院获奖) | 36氪 | 大厂赛道，个体难切入 |
+| 10 | GitLost: AI Agent安全漏洞 | HN 172pts | 安全咨询机会，需专业背景 |
 
 ---
 
-## 📋 原始速览
+## 📰 原始速览
 
-### 🔥 GitHub Weekly Trending Top 10
+### 🔥 Hacker News Top 10
+1. **StreetComplete** (764pts) - OpenStreetMap众包修图App
+2. **Chat Control法案解读** (651pts) - 欧洲聊天监控法案争议
+3. **EU强制车载驾驶员监控** (635pts) - 每辆新车必须装监控摄像头
+4. **30papers.com** (515pts) - Ilya推荐的30篇ML必读论文入门版
+5. **Kokoro TTS** (407pts) - 本地CPU友好高质量TTS引擎
+6. **Davit** (308pts) - Apple Containers图形化管理UI
+7. **Herdr** (281pts) - 统一终端管理工具
+8. **Tenda固件后门** (209pts) - 腾达路由器隐藏认证后门被曝光
+9. **GitLost** (172pts) - GitHub AI Agent被诱导泄露私有仓库
+10. **Rowboat** (160pts) - 开源本地优先的Claude Desktop替代品
 
-| 排名 | 项目 | 周⭐ | 总⭐ | 赛道 |
-|------|------|:---:|:---:|------|
-| 1 | usestrix/strix | 10,741 | 38,594 | AI安全 |
-| 2 | JuliusBrussee/caveman | 8,066 | 86,285 | Token优化 |
-| 3 | Zackriya-Solutions/meetily | 7,349 | 20,786 | AI会议 |
-| 4 | DeusData/codebase-memory-mcp | 5,457 | 28,033 | 代码智能 |
-| 5 | MadsLorentzen/ai-job-search | 5,363 | 11,079 | AI求职 |
-| 6 | asgeirtj/system_prompts_leaks | 5,337 | 53,046 | 提示词泄露 |
-| 7 | hasaneyldrm/exercises-dataset | 4,950 | 10,739 | 健身数据 |
-| 8 | diegosouzapw/OmniRoute | 4,797 | 13,160 | AI网关 |
-| 9 | openai/codex-plugin-cc | 4,725 | 26,631 | AI插件 |
-| 10 | ogulcancelik/herdr | 4,557 | 13,586 | 终端工具 |
+### 🐙 GitHub 近7日热门Repos
+| Repo | ⭐ | 语言 | 描述 |
+|------|-----|------|------|
+| T3MP3ST | 3,559 | TypeScript | 自主红队平台，多Agent攻击安全框架 |
+| openscience | ~1.5k | Python | 开源AI科研工作台 |
+| Codex-X | 561 | Rust | Codex Switch & Instruct桌面管理器 |
+| token-diet | ~500 | TypeScript | AI编程Token省钱工具，平均降费31% |
 
-### 📰 36氪关键信号
-- **快造科技** 10亿融资 → 消费级3D打印爆发前夜
-- **Momenta港股上市** 700亿港元 → 自动驾驶估值标杆
-- **小米汽车SKYNOMAD** → 新产品线命名，小米造车加速
-- **Proxima Fusion** 4.11亿欧元融资 (Google/RWE) → 核聚变赛道升温
-
-### 💬 HN热点
-- Microsoft裁掉id Software idTech团队 (534pts) → 传统游戏引擎团队被裁，AI影响游戏开发
-- StreetComplete: 众包修OpenStreetMap (692pts) → 开源地图数据工具
-- Chat Control 1.0/2.0争议 (440pts) → 欧洲隐私监管持续收紧
-- EU新车强制安装驾驶员监控摄像头 (428pts) → 车载AI传感器需求增长
-
----
-
-## 🧠 洞察 (≤3句)
-
-1. **AI安全赛道爆发**：strix周涨1万星、Fortress上榜HN、Chat Control争议——2026年7月"AI安全"正在从合规成本变成商业机会，安全SaaS付费确定性最强。
-
-2. **本地AI生态成型**：meetily(会议)、FluidVoice(语音)、speech-to-speech(对话)三箭齐发，隐私需求正在催生"不联网的AI应用"品类——这对国内数据合规场景有直接复用价值。
-
-3. **Token经济成为开发者付费杀手场景**：caveman 86k星证伪了"开发者不愿为工具付费"，OmniRoute+codebase-memory进一步证明——只要帮开发者省Token/省时间，他们就付费。
+### 📈 36氪速览
+- 半导体业绩爆发：雅创电子净利+439%~561%，新乡化纤+378%~537%
+- 中科新松(AI机器人)完成数亿元A+轮融资
+- 淡马锡：AI押注推动投资组合突破4000亿美元
+- 阿里达摩院具身智能获联合国AI for Good奖
+- 中金公司H1净利预增78%-90%，券商AI转型加速
+- 现货黄金日内跌超1%
 
 ---
 
-*生成于 2026-07-08 09:48 CST · 夜巡 v2.0*
+## 💡 夜巡洞察（≤3句）
+
+1. **TTS是本周最实际的赚钱切口**：Kokoro(407pts HN)+token-diet都指向"降低AI使用成本"这个痛点——做一个Kokoro中文TTS付费API或桌面应用，7天能出Demo，30天能收费，市场需求明确（播客/短视频配音/有声书）。
+
+2. **AI安全工具需求正在爆发**：T3MP3ST(3559⭐)+GitLost(172pts)+Chat Control(651pts)三件事都指向同一个方向——企业和个人对AI安全/隐私的焦虑在飙升，做AI应用安全扫描或Prompt注入防护的SaaS，定价空间大。
+
+3. **"AI降本"比"AI替代"好卖**：token-diet的31%降费直接打中开发者钱包，Kokoro的CPU友好降低服务器成本，这两个都验证了一个模式——帮用户省AI钱的工具比帮用户替代人的工具更容易定价和销售。
+
+---
+
+## 🔧 今晚可执行
+
+| 行动 | 预计耗时 | 产出 |
+|------|----------|------|
+| 试用Kokoro TTS中文效果，评估API化可行性 | 1h | Demo录音 |
+| 研究token-diet源码，看能否改造成Cursor/Codex插件 | 30min | 技术评估 |
+| 搜索国内AI安全合规政策最新动态 | 20min | 市场分析 |
+
+---
+
+*数据抓取: night_fetcher.py v2.0 + GitHub API · PH数据不可用(Cloudflare)*
+*评分标准: 客户明确/7天可出Demo/30天内可收费/可复用资产/长期壁垒 → ≥3项=⭐重点*
