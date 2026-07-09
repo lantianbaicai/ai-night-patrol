@@ -1,50 +1,70 @@
-# 🌙 AI赚钱夜巡 · 2026-07-09 09:48
+# 🌙 AI赚钱夜巡 · 2026-07-09 17:48
 
-## 🎯 选题雷达
-
-| 项目 | 评分 | 赛道 | 一句话 |
-|------|------|------|--------|
-| **Agent API Gateway** | ⭐⭐⭐⭐⭐ | 基础设施 | OmniRoute/Orca/Herdr 三国杀——做coding agent的"路由器"，231家免费API聚合，接入即价值 |
-| **本地隐私AI助理** | ⭐⭐⭐⭐ | 效率工具 | Meetily(会议纪要)/FluidVoice(本地听写)——on-device AI的付费意愿已被Wispr Flow验证 |
-| **AI + 浏览器自动化** | ⭐⭐⭐⭐ | 自动化 | Page-Agent(NL控网页)/ChromeDevTools MCP——"说人话操作浏览器"进入实用期 |
-| **AI + 视频处理** | ⭐⭐⭐⭐ | 内容工具 | Video-Use(编码代理剪视频)/Claude-Video(让Claude看视频)——视频是AI的下一个交互界面 |
-| **AI沙箱/安全** | ⭐⭐⭐⭐ | 企业服务 | CubeSandbox(腾讯)/Strix(渗透测试)——AI Agent执行环境是刚需，企业愿意付费 |
-
-## 📊 原始速览
-
-### 🔥 GitHub Trending Weekly Top 10
-
-1. **caveman** (86.8k⭐, +8,080/周) — Claude Code技能，token减65%，现象级传播
-2. **system_prompts_leaks** (54.2k⭐, +6,182/周) — 各AI系统提示词泄露合集
-3. **Strix** (39k⭐, +10,274/周) — 开源AI渗透测试，本周增速第一
-4. **OpenAI Codex Plugin CC** (26.9k⭐, +4,890/周) — Claude Code调用Codex
-5. **Alibaba Page-Agent** (25.2k⭐, +4,295/周) — NL操控网页GUI Agent
-6. **Meetily** (21.6k⭐, +8,366/周) — 100%本地AI会议纪要，Rust/Whisper/Ollama
-7. **claude-skills** (21.7k⭐, +2,068/周) — 345个Claude Code技能包
-8. **Video-Use** (16k⭐, +3,054/周) — 用coding agent剪视频
-9. **Herdr** (14.4k⭐, +4,754/周) — 终端agent多路复用器
-10. **Orca** (14.2k⭐, +3,953/周) — Agent舰队IDE，desktop+mobile
-
-### 📰 36氪相关
-
-- 阶跃星辰将发布AI智能体手机
-- WorkBuddy(Hy3)调用激增，已紧急扩容
-- AI PCB需求放量，高阶升级趋势明确（中信建投）
-- 商务部9部门：推动数字人民币在消费券发放中使用
-- 速腾聚创激光雷达销量同比+169.6%
-
-### 💡 其他信号
-
-- HN抓取超时（API不可达）
-- ProductHunt被Cloudflare拦截（需Playwright方案）
-
-## 💡 夜巡洞察
-
-1. **Agent中间层是当前最大创业窗口**——OmniRoute(231 providers免费聚合)、Herdr(多路复用)、Orca(舰队管理)三款产品本周合计涨星1.3万+。每个coding agent都需要"接入层"，API中转+路由+成本优化是基础设施型生意，一旦占位壁垒极高。
-
-2. **本地/隐私AI从理想变成刚需**——Meetily(会议纪要8.3k星/周)和FluidVoice(本地听写1.5k星)证明用户愿意为"不上云"付费。Wispr Flow已验证听写赛道付费意愿，国内做"完全本地化办公AI"是蓝海。
-
-3. **浏览器=AI的新操作系统**——Page-Agent(阿里开源，NL操控网页)和ChromeDevTools MCP(Chrome官方给agent的接口)说明浏览器自动化进入实用阶段。做垂直场景封装(比如"自动填报销单""自动比价下单")是低门槛高回报方向。
+> 数据源：36氪 + Hacker News | GitHub/PH 被 Cloudflare 封禁，已用 HN 替代
+> 筛选标准：≥3/5（客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒）
 
 ---
-*夜巡完成 · 2026-07-09 09:48 CST · model: deepseek-v4-pro*
+
+## 🎯 选题雷达（重点跟进）
+
+### 🔥 高优先级 (≥3/5指标)
+
+| 项目 | 信号来源 | 🔑客户 | ⚡Demo | 💰收费 | ♻️复用 | 🏰壁垒 | 分 |
+|------|---------|--------|--------|--------|--------|--------|---|
+| **Cloudflare Drop 竞品** | HN 432pts | ✅企业 | ✅7天 | ✅月费 | ✅ | ✅品牌 | 5 |
+| **GPT-Live 语音应用层** | HN 704pts | ✅企业 | ⚠️14天 | ✅API | ✅ | ⚠️ | 4 |
+| **DocuBrowser 文档知识库** | HN 139pts | ✅企业 | ✅7天 | ✅SaaS | ✅ | ⚠️ | 4 |
+| **AI Agent 可视化 (Flint竞品)** | HN 281pts | ✅企业 | ⚠️14天 | ✅SaaS | ✅ | ⚠️ | 4 |
+| **Chatto 开源聊天 UI 二次开发** | HN 967pts | ✅企业 | ✅7天 | ✅定制 | ✅ | ❌ | 3 |
+
+### 📊 趋势信号
+
+- **TypeScript 7 发布** (621pts): 开发工具链更新窗口，教程/迁移工具需求
+- **Bun → Rust 重写** (586pts): Rust 生态持续膨胀，Rust 教程/工具需求旺
+- **Postgres in Rust (pgrust)** (131pts): 数据库工具链 Rust 化趋势
+- **Cargo-nextest** (96pts): Rust 测试工具，CI/CD 集成市场
+- **Codeberg 迁移潮** (74pts): 自托管 Git 方案需求增长
+- **国务院储能/新能源政策**: 储能目标3亿千瓦 → 垂直领域数据分析/工具
+- **半导体材料暴涨** (兆易创新+1099%): 行业火热，培训/资讯/工具需求
+
+---
+
+## 📋 原始速览
+
+### 🤖 AI/开发者工具
+- **GPT-Live**: OpenAI 实时语音助手发布 → 语音应用层机会（客服/导购/教育）
+- **Grok 4.5**: xAI 最新模型 → API 集成 & 对比评测需求
+- **Microsoft Flint**: AI Agent 可视化语言 → Agent 监控/调试工具市场
+- **Databricks 代码 Agent 基准**: 企业级 AI 编码落地信号
+- **OpenAI 编码评估新方法**: 代码 Agent 评测标准化
+
+### 📦 开源可商用
+- **Chatto** (967pts): 开源聊天 UI，可包装 SaaS 客服/CRM
+- **DocuBrowser** (139pts): 文档→可搜索知识库，企业内搜刚需
+- **pgrust** (131pts): Rust 版 Postgres，数据库性能市场
+- **Apache Shiro 3.0** (33pts): Java 安全框架升级，企业迁移服务
+
+### 🏭 产业政策
+- 国务院：储能装机 → 3亿千瓦(2030)，长时储能重点
+- 新能源汽车保有量 → 30%目标(2030)，锂电池/充电桩
+- 算力设施绿色低碳转型 → 非化石能源电力
+- 半导体：兆易创新 +1099%、美畅股份 +248%、天赐材料 +908%
+
+### 🎮 有趣信号
+- **Yamanote.fun**: 山手线声景站，声音体验产品
+- **FAANG Simulator**: 职场模拟游戏，内容号/社群变现
+- **MIRA**: Rocket League 世界模型，游戏 AI 训练
+
+---
+
+## 💡 今日洞察
+
+1. **Cloudflare Drop 是本周最值得跟的信号** — 企业数据防泄露/合规工具，432分 HN 热度说明市场焦虑真实存在，国内合规需求更迫切（数据安全法），7天可做一个 Drop 竞品 MVP
+
+2. **GPT-Live 开启语音 Agent 窗口期** — 把 GPT-Live API 包装成垂直场景（法律咨询语音助手、面试模拟、心理陪伴），14天内可上线收费
+
+3. **Rust 生态全面爆发** — Bun 重写 Rust、pgrust 通过全部回归测试、nextest 3x 加速，Rust 教程/脚手架/CI 工具是确定性需求，复用已有的 Rust 技能资产
+
+---
+
+*生成时间: 2026-07-09 17:48 CST | 模型: deepseek-v4-pro*
