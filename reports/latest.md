@@ -1,105 +1,85 @@
-# 🌙 AI赚钱夜巡 · 2026-07-10 17:48
+# 🌙 AI赚钱夜巡 · 2026-07-11 02:51
 
-> 数据源：36kr(20条) + HN(25条) + GitHub Trending Monthly(19项目) | PH被Cloudflare墙
+> 评分体系：①客户明确 ②7天Demo ③30天收费 ④复用资产 ⑤长期壁垒 | ≥3项=🔥重点
 
 ---
 
-## 🎯 选题雷达（≥3项达标 = ⭐重点）
+## 🎯 选题雷达（≥3项评分命中）
 
-| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 | 赛道 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|------|
-| **NVIDIA/SkillSpector** | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** | AI Agent 安全扫描 |
-| **usestrix/strix** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** | AI 渗透测试 |
-| **DeusData/codebase-memory-mcp** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** | 代码智能 MCP |
-| **stablyai/orca** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** | 多Agent管理IDE |
-| **meetily** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** | 本地AI会议助手 |
-| **interviewstreet/hiring-agent** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** | AI简历筛选 |
-| **alibaba/page-agent** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** | 页面GUI Agent |
-| **phuryn/pm-skills** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** | PM技能市场 |
-| calesthio/OpenMontage | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | 3/5 | AI视频全流程 |
-| Panniantong/Agent-Reach | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | 3/5 | AI上网工具 |
-| alibaba/zvec | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | 3/5 | 轻量向量库 |
-| diegosouzapw/OmniRoute | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | 3/5 | 免费AI网关 |
-| simplex-chat | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | 3/5 | 隐私通讯 |
-
-> ⚠️ GitHub weekly 被墙，只用了 monthly trending 数据
+| 项目 | Stars | ① | ② | ③ | ④ | ⑤ | 分 |
+|------|-------|---|---|---|---|---|---|
+| **meetily** 本地AI会议助手 | 22.6K | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
+| **OpenMontage** 开源视频制作系统 | 36.6K | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
+| **strix** AI渗透测试工具 | 40K | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
+| **speech-to-speech** HF本地语音Agent | 6K | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
+| **OfficeCLI** AI办公套件 | 14.3K | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
+| **NVIDIA SkillSpector** Agent技能安全扫描 | 12.7K | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
+| **codebase-memory-mcp** 代码知识图谱 | 29.6K | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
+| **hiring-agent** AI简历评估 | 5.5K | ✅ | ✅ | ✅ | ✅ | ✅ | **5** |
+| **RuView** WiFi穿墙感知 | 79.8K | ✅ | ❓ | ✅ | ✅ | ✅ | **4** |
+| **Agent-Reach** AI全网之眼 | 54.4K | ✅ | ✅ | ❓ | ✅ | ✅ | **4** |
+| **ai-berkshire** AI价值投资框架 | 12.6K | ✅ | ✅ | ✅ | ✅ | ❓ | **4** |
+| **ai-website-cloner** 一键克隆网站 | 27.5K | ✅ | ✅ | ✅ | ❓ | ❓ | **3** |
+| **OmniRoute** 免费AI网关 | 14.9K | ✅ | ✅ | ❓ | ✅ | ❓ | **3** |
 
 ---
 
 ## 📊 原始速览
 
-### 🔥 GitHub Trending Monthly 亮点
+### 🔥 本周最强信号
 
-1. **Agent-Reach** (54k⭐ +28k/mo) — AI Agent 看全网的眼，一 CLI 搜 Twitter/Reddit/YouTube/小红书/B站，零 API 费用。这是我们的老熟人了。
+**1. meetily — 本地AI会议纪要（5/5）**
+- Rust构建，Parakeet/Whisper语音转写，Ollama摘要，100%本地
+- 已有产品站 meetily.ai，macOS+Windows双端
+- 方向：本地化SaaS，数据隐私是卖点。可做国内版（飞书/钉钉会议插件）
 
-2. **system_prompts_leaks** (55k⭐) — 泄露各厂系统提示词，Anthropic/OpenAI/Google/xAI 全有。流量密码但不具备商业化。
+**2. OpenMontage — 开源视频工作室（5/5）**
+- 12条管线、52个工具、500+ Agent技能
+- 让Claude Code/Codex变身为完整视频制作系统
+- 方向：视频自动化的"操作系统"级机会，可以做垂直套件（电商短视频、口播）
 
-3. **apple/container** (47k⭐ +20k/mo) — Mac 原生 Linux 容器，Swift 编写。Apple 生态开发者刚需。
+**3. strix — AI渗透测试（5/5）**
+- 开源安全测试，自动发现并修复漏洞
+- 40K星，企业安全刚需
+- 方向：国内网络安全合规市场巨大，可做本土化安全扫描SaaS
 
-4. **OpenMontage** (36k⭐ +31k/mo) — 首个开源 Agent 视频制作系统，12管线/52工具/500+Agent技能。视频生产 Agent 化浪潮。
+**4. speech-to-speech — HuggingFace本地语音Agent（5/5）**
+- 全开源模型构建本地语音助手
+- 方向：客服机器人、智能音箱替代、无障碍应用
 
-5. **usestrix/strix** (39k⭐ +13k/mo) — 开源 AI 渗透测试工具。安全+AI 交叉领域，增速凶猛。
+**5. OfficeCLI — AI原生办公套件（5/5）**
+- 单二进制，无需安装Office，读写Word/Excel/PPT
+- AI Agent直接用，这是"Agent时代的Office"
+- 方向：RPA替代品，文档自动化管道
 
-6. **codebase-memory-mcp** (29k⭐ +26k/mo) — 代码库知识图谱 MCP，158语言，亚毫秒查询，99% Token节省。开发者工具赛道。
+**6. NVIDIA SkillSpector — Agent技能安全扫描（5/5）**
+- NVIDIA出品，扫描AI Agent技能的安全漏洞
+- 方向：Agent生态爆发后，安全是最大瓶颈。技能市场审核工具
 
-7. **alibaba/page-agent** (25k⭐ +7k/mo) — JS 页面 GUI Agent，自然语言操控网页。阿里出品。
+### 📈 月度趋势
 
-8. **meetily** (22k⭐ +9.5k/mo) — Rust 写的本地 AI 会议助手，Parakeet/Whisper 转录 + Ollama 摘要，100%本地。隐私风口。
+- **codebase-memory-mcp**：26K月增星，代码→知识图谱，查询毫秒级。Agent工业化基础设施
+- **Agent-Reach**：28.8K月增星，AI全网之眼，已含小红书/B站/推特/Reddit
+- **ai-website-cloner**：10.6K月增星，一条命令克隆任何网站
+- **apple/container**：20.6K月增星，Mac上的轻量Linux容器
 
-9. **pm-skills** (23k⭐ +10k/mo) — PM 技能市场，100+ Agentic Skills。技能即服务模式。
+### 📰 36氪/商业信号
 
-10. **stablyai/orca** (15k⭐ +10k/mo) — 并行 Agent 舰队管理 IDE，桌面+移动端。多 Agent 编排。
-
-11. **NVIDIA/SkillSpector** (12k⭐ +10k/mo) — NVIDIA 官方 Agent 技能安全扫描器。**大厂背书，赛道确立**。
-
-12. **OmniRoute** (14k⭐ +8.3k/mo) — 免费 AI 网关，231+供应商，50+免费，Token压缩15-95%。
-
-13. **hiring-agent** (5.4k⭐) — AI 简历评估 Agent。招聘赛道确定性强。
-
-14. **TREK** (9.9k⭐) — 自托管旅行规划器，实时协作+PWA+SSO。
-
-15. **iroh** (11k⭐) — QUIC+NAT穿透库，P2P 基础设施。
-
-### 📰 36氪信号
-
-- **可变形机器人**：上纬新材 WAIC 首秀启元 T1 → 硬件+AI 交汇
-- **小红书世界杯增长**：使用时长和发布量大幅提升 → 内容平台赛事红利
-- **三六零扭亏为盈**：上半年净利润 1.8-2.6 亿 → 安全赛道回暖
-- **AI Agent 手机辟谣**：备货 8-10 万台被否 → AI 硬件叙事降温
-- **"绒音科技"天使轮**：近千万融资 → 音频/AI 方向
-
-### 💬 Hacker News 热议
-
-- **GPT-5.6** (1268pts) → OpenAI 新旗舰，必看
-- **EU Chat Control 1.0** (1383pts) → 隐私监管升级，利好本地化/端侧 AI
-- **GLM 5.2 on slow computer** (673pts) → 端侧大模型需求真实
-- **Postgres in Rust** (657pts) → DB 重写潮持续
-- **Context.dev (YC S26)** (96pts) → 从任意网站提取结构化数据 API
-- **Hy3 (腾讯)** (475pts) → 国内大模型新动作
-- **Muse Spark 1.1 (Meta)** (374pts) → 开源模型竞赛继续
+- **SK海力士纳斯达克IPO** 265亿美元 → AI芯片投资热持续
+- **东阳光130-150亿算力合同** → 国内算力军备竞赛
+- **段永平增持泡泡玛特至7.65%** → IP消费赛道获大佬认可
+- **国常会：研究新兴支柱产业培育** → 政策风口信号
 
 ---
 
-## 💡 洞察（3句话）
+## 💡 洞察（≤3句）
 
-1. **AI Agent 安全是下一个金矿** — NVIDIA SkillSpector 和 Strix 合计 52k stars，大厂亲自下场验证赛道。做 Agent 安全扫描/渗透测试的 SaaS，客户明确（企业安全团队），付费意愿强，是本周最值得关注的方向。
+1. **Agent生态安全是下一波金矿**：NVIDIA SkillSpector+strix的出现说明Agent市场已大到需要专业安全工具，做一个Agent技能审核/安全扫描的SaaS，客单价高、壁垒深。
 
-2. **本地化/端侧 AI 工具爆发** — EU Chat Control 1.0 立法 + Meetily(22k⭐) + simplex-chat 反映用户隐私焦虑加剧。100%本地 AI 会议助手、本地知识库、端侧推理工具是确定性机会，国内可做微信小程序版。
+2. **本地AI是明确的商业机会**：meetily（会议）、speech-to-speech（语音）、codebase-memory-mcp（代码）全是本地优先，隐私合规+降本双驱动，国内可切"信创+AI"赛道。
 
-3. **Agent 技能市场模式成立** — pm-skills(23k⭐) + OpenMontage(36k⭐) 验证了"Agent Skills as a Marketplace"模型。不做 Agent，做 Agent 的技能/工具/插件生态，轻资产高杠杆。
-
----
-
-## 🔖 值得关注的方向（能做）
-
-| 方向 | 可做产品 | 难度 | 变现周期 |
-|------|----------|------|----------|
-| Agent 安全扫描 | AI Agent 安全检测 SaaS | 中 | 1-2月 |
-| 本地会议助手 | 微信小程序 AI 会议纪要 | 低 | 2周 |
-| PM/运营技能包 | 小红书运营 Agent Skills | 低 | 1周 |
-| 页面 Agent 自动化 | 电商/闲鱼 自动上架 Agent | 中 | 1月 |
-| 代码知识图谱 | 开源项目文档自动生成 | 中 | 1月 |
+3. **视频自动化进入"操作系统"阶段**：OpenMontage 500+Agent技能的体量说明视频制作正在被Agent化，做细分场景的工具链（电商口播/课程录制/播客剪辑）比做通用平台更可行。
 
 ---
 
-*生成时间：2026-07-10 17:48 CST | 模型：deepseek-v4-pro*
+*生成时间：2026-07-11 02:51 · 数据源：36kr + HN + GitHub Trending(Weekly+Monthly) · PH被Cloudflare拦截*
