@@ -1,89 +1,83 @@
-# 🌙 AI赚钱夜巡 · 2026-07-12 (周日)
+# 🌙 AI赚钱夜巡 · 2026-07-13 02:51
 
-> 数据源: 36氪(20条) + HN(25条) + GitHub API(Top20新仓库) | PH: 被Cloudflare封锁,跳过
+> 模型: deepseek-v4-pro | 5指标评分过滤 | ≥3项=重点
 
 ---
 
-## 🎯 选题雷达（5指标≥3项 = 🔥重点）
+## 🎯 选题雷达（按评分排序）
 
-| 项目 | ★ | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
-|------|---|----------|---------|----------|----------|----------|------|
-| 🔥 **knockoff** - Amazon假货过滤插件 | 1791 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
-| 🔥 **Vibe-Research** - A股/美股AI投研Agent | 739 | ✅ | ✅ | ✅ | ❌ | ✅ | **4/5** |
-| 🔥 **材质插画Skill** - AI解释图生成 | 574 | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
-| 🔥 **motion-anything** - 自然语言动效引擎 | 404 | ✅ | ❌ | ✅ | ❌ | ✅ | **3/5** |
-| engram - Claude Code学习引擎 | 514 | ✅ | ✅ | ❌ | ❌ | ❌ | 2/5 |
-| scroll-world - 品牌3D世界 | 1002 | ✅ | ❌ | ✅ | ❌ | ❌ | 2/5 |
-| shipthatcode.com - 重建Redis/Git教学 | 173(HN) | ✅ | ❌ | ✅ | ✅ | ✅ | 4/5 |
+| 项目 | Stars | 评分 | 信号 |
+|------|-------|------|------|
+| **page-agent** (阿里) | 26k | ⭐⭐⭐⭐⭐ | 自然语言控网页GUI，客户明确/7天Demo/30天收费/复用/壁垒 |
+| **codebase-memory-mcp** | 30k | ⭐⭐⭐⭐⭐ | 代码知识图谱MCP，毫秒级索引158语言，单二进制零依赖 |
+| **NVIDIA SkillSpector** | 13k | ⭐⭐⭐⭐⭐ | AI技能安全扫描器，合规刚需，NVIDIA品牌背书 |
+| **cognee** | 27k | ⭐⭐⭐⭐⭐ | Agent长期记忆平台，知识图谱引擎，自托管 |
+| **CubeSandbox** (腾讯) | 9.8k | ⭐⭐⭐⭐ | AI Agent即时沙箱，企业infra刚需，腾讯级 |
+| **orca** (stablyai) | 16.7k | ⭐⭐⭐⭐ | 并行Agent舰队IDE，桌面+移动端，多订阅管理 |
+| **claude-video** | 7.8k | ⭐⭐⭐⭐ | Claude看视频=frames+transcript+分析（我们已有类似） |
+| **OfficeCLI** | 15.4k | ⭐⭐⭐⭐ | AI原生Office套件，无Office安装，格式兼容壁垒 |
+| **strix** | 40.8k | ⭐⭐⭐⭐ | AI渗透测试，安全SaaS，40k星验证需求 |
+| **archify** | 3.9k | ⭐⭐⭐⭐ | 架构图生成，暗/亮主题，PNG/JPEG/WebP/SVG导出 |
+| **OpenMontage** | 37.5k | ⭐⭐⭐⭐ | Agent视频制作系统，12管线52工具500+技能 |
+| **hiring-agent** | 5.6k | ⭐⭐⭐⭐ | AI简历评估打分，HR刚需，快速变现 |
+| **claude-skills** | 22.3k | ⭐⭐⭐⭐ | 345个Claude Code技能市场，我们也在做 |
+| **impeccable** | 45.9k | ⭐⭐⭐⭐ | AI设计语言，让AI输出更好看，45k星 |
+| **Agent-Reach** | 55.3k | ⭐⭐⭐⭐ | 互联网阅读CLI（我们已在用），月增28k星 |
+| **meetily** | 23.5k | ⭐⭐⭐ | 本地AI会议助手，Rust+Whisper+Ollama，全本地 |
+| **OmniRoute** | 16.1k | ⭐⭐⭐ | AI网关，231+供应商免费/省钱，token压缩15-95% |
+| **no-mistakes** | 6k | ⭐⭐⭐ | git push防错工具，小而美 |
+| **TREK** | 10.1k | ⭐⭐⭐ | 自托管旅行规划器，协作地图PWA |
 
 ---
 
 ## 📊 原始速览
 
-### 🔥 重点深挖
+### 🔥 GitHub Weekly Top 10
+1. **meetily** (Zackriya-Solutions) · 8,579⭐/周 · 本地AI会议助手，Rust+Whisper+Ollama全本地
+2. **OfficeCLI** (iOfficeAI) · 6,549⭐/周 · AI操作Word/Excel/PPT，单二进制，无Office依赖
+3. **strix** (usestrix) · 4,987⭐/周 · AI渗透测试，开源安全扫描
+4. **caveman** (JuliusBrussee) · 4,696⭐/周 · Token压缩65%，用原始人语言说话 🪨
+5. **claude-video** (bradautomates) · 4,399⭐/周 · /watch命令让Claude看视频
+6. **OmniRoute** (diegosouzapw) · 4,375⭐/周 · 免费AI网关231+供应商
+7. **orca** (stablyai) · 4,368⭐/周 · 并行Agent舰队IDE
+8. **herdr** (ogulcancelik) · 4,349⭐/周 · 终端Agent复用器
+9. **codex-plugin-cc** (OpenAI) · 4,030⭐/周 · Claude Code调用Codex
+10. **RuView** (ruvnet) · 3,720⭐/周 · WiFi信号→空间智能（80k总星！）
 
-#### 1. knockoff - Amazon假货过滤器 (★1791, JS)
-- **做什么**: Chrome扩展，过滤Amazon上的伪品牌/杂牌，只显示真实品牌
-- **为什么火**: Amazon被中国白牌淹没是普遍痛点，真实需求
-- **赚钱路径**: 
-  - Freemium扩展 + 品牌合作（推荐费）
-  - 可扩展至其他平台（eBay, Walmart, Temu）
-  - 联盟营销：推荐链接赚佣金
-- **风险**: Amazon可能改变页面结构导致失效；竞争对手低
+### 📈 GitHub Monthly Top 10
+1. **OpenMontage** · 32,538⭐/月 · Agent视频制作系统
+2. **Agent-Reach** · 28,880⭐/月 · 互联网阅读CLI
+3. **codebase-memory-mcp** · 26,790⭐/月 · 代码知识图谱MCP
+4. **iptv-org/iptv** · 15,068⭐/月 · 公开IPTV频道集
+5. **strix** · 14,657⭐/月 · AI渗透测试
+6. **system_prompts_leaks** · 14,671⭐/月 · 各大AI系统提示词泄露
+7. **orca** · 11,693⭐/月 · Agent舰队IDE
+8. **NVIDIA SkillSpector** · 10,589⭐/月 · AI技能安全扫描
+9. **meetily** · 10,434⭐/月 · 本地AI会议助手
+10. **cognee** · 9,870⭐/月 · Agent记忆平台
 
-#### 2. Vibe-Research - 个人投研Agent (★739, TS/Python)
-- **做什么**: A股/美股/港股的个人AI投研Agent，含每日复盘、资讯雷达、个股数据、持仓管理
-- **为什么火**: A股散户对AI投研工具需求爆发，MCP架构接入灵活
-- **赚钱路径**:
-  - SaaS订阅（投研工具月费99-299元）
-  - 数据API收费（聚宽/Tushare替代方案）
-  - 投顾内容付费社区
-- **风险**: 金融合规风险；数据源稳定性
-- **老大优势**: 已有金融数据爬虫经验，可复用
+### 💬 Hacker News 热门
+- **Terry Tao: Old and new apps via modern coding agents** (334pts) — 陶哲轩用AI写App
+- **xAI Grok CLI wire-level analysis** (330pts) — Grok CLI发送了什么数据给xAI
+- **Mesh LLM: distributed AI computing on iroh** (325pts) — 分布式AI算力
+- **Vint Cerf retiring** (249pts) — 互联网之父退休
+- **Mindwalk: Replay coding-agent sessions on 3D map** (136pts) — 可视化Agent编码过程
 
-#### 3. 材质插画Skill - AI解释图 (★574, Claude Code Skill)
-- **做什么**: 生成带字解释图、图表美化、参考配图
-- **为什么火**: 小红书/公众号内容创作者刚需，"一图读懂"是流量密码
-- **赚钱路径**:
-  - 按次付费生成（0.5-2元/张）
-  - 小红书/公众号内容创作工具SaaS
-  - 打包成Claude Code Skill卖授权
-- **风险**: 竞争门槛低，容易被复制
-- **老大优势**: 已有AI图像生成能力，7天内可出产品
+### 📰 36氪
+- AI热潮太费电，燃气轮机价格3年涨300%
+- 今年A股最大IPO要来了
+- 英国投20亿英镑建设AI作战实验室
+- 金山办公：WPS存储管理优化7月底推送
 
-#### 4. motion-anything - AI动效引擎 (★404, JS/WebGL)
-- **做什么**: 自然语言描述→AI生成Web动画，号称"Figma动效替代"
-- **赚钱路径**: API/SaaS，面向设计师和前端
-- **风险**: 技术复杂度高，7天出不了Demo
-
-### 📰 36氪值得关注的信号
-- **HBM4价格下半年或涨至4-5美元/千比特** → AI算力成本持续走高，边缘推理更有优势
-- **英国投20亿英镑建AI作战实验室** → 政府AI军备竞赛加速，AI安全/防御赛道升温
-- **上半年中国创新药对外授权规模接近去年全年** → 生物科技+AI交叉机会
-- **金山办公WPS存储优化7月底推送** → 国产办公软件持续迭代
-
-### 💻 HN 技术趋势
-- **Mesh LLM (264pts)**: 去中心化AI推理，P2P跑大模型 → 分布式算力变现方向
-- **Ant JS Runtime (271pts)**: 新的JS运行时 → 工具链赛道持续热
-- **PgBouncer 4x优化 (212pts)**: ClickHouse在持续吞食数据库市场
-- **Mindwalk (67pts)**: Coding Agent会话回放3D可视化 → 开发工具差异化方向
-
-### 🤖 GitHub 其他值得注意
-- **dnsglobe** (★824): DNS全球传播检查TUI → 小而美工具，付费意愿存疑
-- **homerail** (★462): 语音优先本地Agent编排 → 跟OPC方向相关
-- **storyai-3d-director-desk** (★393): 3D导演桌面 → 视频创作工具链延伸
+### 🚫 ProductHunt
+无法获取（Cloudflare 403），建议后续用 Playwright MCP 抓取。
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **Amazon反白牌工具（knockoff）是本周最务实的赚钱信号**：需求真实、技术简单、7天可出Demo、30天可收费——完美匹配夜巡筛选标准。类似模式可复制到其他平台（Temu假货过滤器、1688质检插件）。
+1. **Agent工具链是本月核心主题**：安全扫描(SkillSpector)、记忆(cognee)、代码理解(codebase-memory-mcp)、沙箱(CubeSandbox) —— Agent基础设施赛道爆炸，切一个细分做SaaS/企业版是确定性的钱。
 
-2. **Vibe-Research验证了"AI+投资研究"的产品化方向**：739星说明A股散户对AI投研工具有真实付费意愿，我们已有的爬虫+AI能力可以直接切入，且金融SaaS ARPU值远高于内容工具。
+2. **"Agent操作XXX"模式通用化**：OfficeCLI=Agent操作Office、page-agent=Agent操作网页、claude-video=Agent看视频 —— 把Agent接入任何现存工具/格式就是产品，我们已有video-analyzer基础可以扩。
 
-3. **材质插画Skill是最快的变现路径**（7天可上线），但壁垒低；knockoff和Vibe-Research才是能建立长期价值的赛道——建议用插画Skill练手积累用户，同时用knockoff模式或投研工具做主力产品。
-
----
-
-*夜巡完成 | deepseek-v4-pro | 2026-07-12 18:51 CST*
-*PH数据缺失（Cloudflare封锁），下次尝试通过RSS/API绕过*
+3. **技能安全扫描是蓝海**：NVIDIA刚入场的SkillSpector月增1万星，说明Agent技能安全问题刚被意识到。做中文生态的Agent技能安全审计/合规，窗口期还在。
