@@ -1,94 +1,78 @@
-# 🌙 AI赚钱夜巡 · 2026-07-12 02:51
+# 🌙 AI赚钱夜巡 · 2026-07-12 10:51
 
-> 模型: deepseek-v4-pro | 产品猎手: 无（Cloudflare拦截）
+> 数据源: 36氪(20条) + HN(25条) + GitHub Weekly/Monthly Trending  
+> PH: ❌ Cloudflare拦截，未获取
 
 ---
 
-## 🎯 选题雷达（5指标评分 ≥3项 = 🔥重点）
+## 🎯 选题雷达（5指标 ≥3项 = 🔥重点）
 
-| 标的 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 分 | 判断 |
+| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 | 判断 |
 |------|:---:|:---:|:---:|:---:|:---:|:---:|------|
-| **strix** AI渗透测试 | ✅ | ✅ | ✅ | ✅ | ✅ | **5** | 🔥🔥🔥 |
-| **OfficeCLI** AI办公套件 | ✅ | ✅ | ✅ | ✅ | ✅ | **5** | 🔥🔥🔥 |
-| **pentagi** 全自主渗透Agent | ✅ | ✅ | ✅ | ✅ | ✅ | **5** | 🔥🔥🔥 |
-| **OpenMontage** 开源视频制作 | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4** | 🔥🔥 |
-| **hiring-agent** AI简历评估 | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4** | 🔥🔥 |
-| **NVIDIA SkillSpector** Agent安全扫描 | ✅ | ✅ | ✅ | ✅ | ✅ | **5** | 🔥🔥🔥 |
-| **RuView** WiFi空间感知 | ✅ | ⚠️ | ✅ | ✅ | ✅ | **4** | 🔥🔥 |
-| Meetily 本地会议助手 | ✅ | ✅ | ✅ | ❌ | ❌ | **3** | 🔥 |
-| CubeSandbox Agent沙箱 | ✅ | ✅ | ✅ | ❌ | ✅ | **4** | 🔥🔥 |
-| OmniRoute AI网关 | ✅ | ✅ | ✅ | ❌ | ❌ | **3** | 🔥 |
+| **Agent-Reach（我们已有）** | ✅ | ✅ | ✅ | ✅ | ✅ | 5/5 | 🔥🔥🔥 月增28k星，赛道正确 |
+| **OpenMontage 视频生产** | ✅ | ❌ | ✅ | ✅ | ✅ | 4/5 | 🔥 AI视频制作系统，月增32k星 |
+| **strix AI渗透测试** | ✅ | ❌ | ✅ | ✅ | ✅ | 4/5 | 🔥 安全赛道爆发，月增14k星 |
+| **meetily 本地AI会议** | ✅ | ✅ | ✅ | ❌ | ✅ | 4/5 | 🔥 隐私+本地处理，已有商业站 |
+| **hiring-agent 简历评估** | ✅ | ✅ | ✅ | ❌ | ❌ | 3/5 | 🟡 明确B端需求 |
+| **Sqlsure AI-SQL校验** | ✅ | ✅ | ✅ | ❌ | ❌ | 3/5 | 🟡 小而美，可快速变现 |
+| **caveman Token压缩** | ✅ | ✅ | ✅ | ❌ | ❌ | 3/5 | 🟡 88k星但壁垒低 |
+| **OmniRoute AI网关** | ✅ | ❌ | ✅ | ✅ | ❌ | 3/5 | 🟡 231+供应商聚合 |
+| **claude-video 视频理解** | ✅ | ✅ | ❌ | ✅ | ❌ | 3/5 | 🟡 我们有视频分析基础 |
+| **codebase-memory-mcp** | ✅ | ❌ | ✅ | ✅ | ✅ | 4/5 | 🔥 知识图谱+Agent，月增26k星 |
 
 ---
 
-## 📡 原始速览
+## 📊 原始速览
 
-### 🔥 GitHub Weekly Top 20
+### 🔥 本周爆款（GitHub Weekly）
 
-| 项目 | Stars | 方向 | 一句话 |
-|------|------:|------|--------|
-| caveman | 88K | Token压缩 | Claude Code技能，砍65% token |
-| RuView | 80K | WiFi感知 | 用WiFi信号做空间感知+生命体征 |
-| system_prompts_leaks | 56K | Prompt泄露 | 各模型系统提示词合集 |
-| ChromeDevTools MCP | 47K | Agent工具 | Chrome DevTools给Agent用 |
-| strix | 40K | 安全 | 开源AI渗透测试工具 |
-| codex-plugin-cc | 28K | Agent集成 | Claude Code里调用Codex |
-| page-agent | 26K | GUI Agent | 阿里出品，自然语言控制网页 |
-| Meetily | 23K | 会议助手 | 本地AI会议纪要，Rust写的 |
-| claude-skills | 22K | 技能库 | 345个Claude Code技能合集 |
-| pentagi | 20K | 安全 | 全自主渗透测试Agent系统 |
-| abseil-cpp | 18K | C++库 | Google C++基础库 |
-| orca | 16K | Agent IDE | 并行Agent舰队管理IDE |
-| OmniRoute | 16K | AI网关 | 231+供应商免费AI端点 |
-| OfficeCLI | 15K | 办公 | AI Agent专用Office套件 |
-| herdr | 15K | Agent复用 | 终端Agent多路复用器 |
-| Tencent CubeSandbox | 10K | 沙箱 | 腾讯AI Agent沙箱 |
-| facebook astryx | 8K | 设计系统 | Agent就绪的开源设计系统 |
-| DesktopCommanderMCP | 8K | MCP | 终端+文件系统控制 |
-| claude-video | 7K | 视频 | Claude视频分析工具 |
-| google stitch-skills | 7K | Agent技能 | Google出品的Agent技能库 |
+**AI Agent 生态大爆发 — 这是"镐和铲"时刻：**
 
-### 🚀 GitHub Monthly 新增热点
+- **caveman** (88k⭐) — Token压缩65%，Claude Code技能，本周+4.7k星
+- **system_prompts_leaks** (56k⭐) — 主流模型System Prompt泄露合集，本周+7.7k星
+- **chrome-devtools-mcp** (46k⭐) — Chrome DevTools给Agent用
+- **strix** (40k⭐) — AI渗透测试，本周+5k星
+- **codex-plugin-cc** (27k⭐) — OpenAI官方：Claude Code里调用Codex
+- **page-agent** (26k⭐) — 阿里：自然语言控制网页GUI，本周+3.3k星
+- **meetily** (23k⭐) — Rust+本地Whisper会议助手，本周+8.5k星
+- **claude-skills** (22k⭐) — 345个Agent技能合集
+- **pentagi** (20k⭐) — 全自主渗透测试Agent
 
-| 项目 | Stars | 方向 |
-|------|------:|------|
-| OpenMontage | 37K | 开源Agent视频制作系统，12管道52工具500+技能 |
-| codebase-memory-mcp | 30K | 代码知识图谱，ms级索引，158语言 |
-| Agent-Reach | 55K | AI互联网之眼，免API费读Twitter/Reddit/小红书等 |
-| NVIDIA SkillSpector | 13K | Agent技能安全扫描器 |
-| hiring-agent | 6K | AI简历评分Agent |
-| no-mistakes | 6K | git push安全检查 |
-| apple container | 48K | Mac轻量级Linux容器 |
-| iptv-org | 132K | 全球IPTV频道合集 |
-| simplex-chat | 18K | 无标识符隐私通讯 |
-| alibaba zvec | 15K | 超快进程内向量数据库 |
+**关键信号：** OpenAI和Google同时发布了Agent Skills生态（codex-plugin-cc + stitch-skills），Agent Skills标准化正在发生。
 
-### 📰 36氪信号
+### 📈 月度趋势
 
-- **腾讯洽购Manus** — AI Agent赛道资本热度不减，Manus估值路径值得跟踪
-- **"妙呀"全量公测** — 全球首个潮玩AI设计平台，垂直AI应用新样本
-- **FansAI收购新映科技** — AI公司并购潮继续，退出通道在形成
-- **智谱CEO内部信** — "GLM时刻"后转向务实，暗示行业从卷模型到卷应用
-- **OpenAI回应Apple诉讼** — 人才争夺战升级，巨头间AI人才壁垒在筑高
+- **Agent-Reach** (55k⭐, +28.8k/月) — 我们自己的赛道，增长极快
+- **OpenMontage** (37k⭐, +32.5k/月) — 开源AI视频制作系统，12条管线
+- **codebase-memory-mcp** (30k⭐, +26.8k/月) — C语言写的代码知识图谱
+- **apple/container** (47k⭐, +16.8k/月) — Mac上跑Linux容器
+- **NVIDIA SkillSpector** (12k⭐, +10.5k/月) — Agent技能安全扫描
 
-### 💬 HN 风向
+### 💬 HN 热门
 
-- **Apple起诉OpenAI窃密** (1462pts) — AI人才战的司法化
-- **QuadRF穿墙WiFi感知** (708pts) — 隐私+感知硬件新方向
-- **Reverse Centaurs** — "人辅助AI而非AI辅助人"的范式讨论
-- **Residential Proxy & Scraper** (293pts) — 爬虫对抗升级，数据采集成本上升
-- **PgBouncer 4x性能优化** (118pts) — 基础设施优化仍有空间
+- **Ant JS Runtime** (189pts) — 新JavaScript运行时
+- **Mesh LLM on iroh** (116pts) — 分布式AI计算
+- **Sqlsure** (20pts) — AI生成SQL的确定性语义检查（实用！）
+- **ShipThatCode** (133pts) — 从零重建Redis/Git/数据库学习平台
+
+### 📰 36氪
+
+- Meta紧急下线争议AI生图功能 — AI内容审核需求上升
+- 腾讯洽购Manus（保留少数股东） — Agent公司估值信号
+- 算力卡采购额2029年将达1.44万亿 — 算力赛道持续膨胀
+- 存储板块被机构看好 — 硬件侧投资机会
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **AI安全是本周最大金矿**：strix(40K⭐)、pentagi(20K⭐)、NVIDIA SkillSpector(13K⭐)三箭齐发，Agent生态爆发必然带来安全需求爆炸——做AI Agent的"360安全卫士"是明确且紧迫的赚钱方向。
+1. **Agent Skills 标准化窗口期已到：** OpenAI(codex-plugin-cc)、Google(stitch-skills)、NVIDIA(SkillSpector)三巨头同时押注Agent Skills生态，谁能做"Agent Skills市场的App Store/安全审计"就能吃到大红利——Agent-Reach已在这个赛道，应加速商业化。
 
-2. **"Agent-native"工具层在成形**：OfficeCLI（办公）、OpenMontage（视频）、page-agent（网页操控）都在做同一件事——让AI Agent能操作现有软件。这个中间层每个垂直领域都可以做一套，先发优势明显。
+2. **"本地+隐私"是差异化金矿：** meetily（本地会议）、RuView（WiFi无摄像头感知）、Mesh LLM（分布式AI）都在走"不依赖云的AI"路线，国内用户对数据出境极度敏感，把AI包装成"100%本地运行"就是最好的卖点。
 
-3. **36kr信号确认Agent赛道资本热**：腾讯洽购Manus + FansAI收购新映 + 智谱转向应用，说明AI投资正从"卷模型"切换到"卷Agent应用"，现在是做Agent垂直工具的最好窗口。
+3. **AI安全赛道刚起步就爆发：** strix(40k星)、pentagi(20k星)、SkillSpector(12k星)三款安全工具一个月内合计25k+星，AI渗透测试/安全审计的需求正在从"nice to have"变成"must have"——这是可以收年费的B端订阅生意。
 
 ---
 
-*报告自动生成 · 来源: GitHub Trending(周/月) + 36kr + Hacker News | ProductHunt: 不可用*
+> ⚠️ PH 被Cloudflare拦截，本次缺失PH数据。建议后续配置Playwright或有头浏览器方案。  
+> 📌 Agent-Reach月增28k星，证明"给AI联网"是刚需，我们的产品方向完全正确。
