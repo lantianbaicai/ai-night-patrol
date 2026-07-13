@@ -1,131 +1,67 @@
-# 🌙 AI赚钱夜巡 · 2026-07-13 18:51
+# 🌙 AI赚钱夜巡 · 2026-07-14 02:51
 
-## 🎯 选题雷达（≥3/5指标 = 🔥重点）
-
-| 项目 | Stars | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
-|------|-------|:--:|:--:|:--:|:--:|:--:|:--:|
-| **OpenMontage** 视频AI生产 | 37.8k | ✅ | ✅ | ✅ | ✅ | ✅ | 🔥5/5 |
-| **Meetily** 本地会议纪要 | 23.8k | ✅ | ✅ | ✅ | ✅ | ⚠️ | 🔥4/5 |
-| **Impeccable** AI设计语言 | 46.2k | ✅ | ✅ | ✅ | ✅ | ⚠️ | 🔥4/5 |
-| **OfficeCLI** AI办公自动化 | 15.8k | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | 3/5 |
-| **OmniRoute** AI API网关 | 16.5k | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | 3/5 |
-| **hiring-agent** AI简历评分 | 5.7k | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | 3/5 |
+> **数据源**: 36kr (20条) + HN (25条) | GitHub/PH 不可达 | deepseek-v4-pro
 
 ---
 
-## 📊 原始速览
+## 🎯 选题雷达（≥3/5指标 = 重点）
 
-### 🔥 本周 GitHub Trending（AI相关）
-
-**OpenMontage** ⭐37.8k（月+32.9k）
-> 全球首个开源Agent视频生产系统。12条pipeline、52个工具、500+ agent skills。把AI编程助手变成完整视频工作室。
-> 🎬 **赛道**：视频AI生产 | 💡 **机会**：中文版/垂直领域定制（电商视频/短视频营销）
-
-**Impeccable** ⭐46.2k（周+2.3k）
-> AI产品设计语言系统。让AI产出更好看的设计。dark/light主题、多格式导出。
-> 🎨 **赛道**：AI设计标准化 | 💡 **机会**：设计模板市场、品牌定制
-
-**Meetily** ⭐23.8k（周+7.4k）
-> 隐私优先的AI会议助手。Parakeet/Whisper实时转录，Ollama总结，Rust构建。100%本地处理。
-> 🎙️ **赛道**：企业会议SaaS | 💡 **机会**：国内私有化部署版、政务/金融合规版
-
-**OfficeCLI** ⭐15.8k（周+7.0k）
-> 首个面向AI Agent的Office套件。免安装读写Word/Excel/PPT，单一二进制。
-> 📄 **赛道**：AI办公 | 💡 **机会**：报告自动生成SaaS、批量文档处理API
-
-**OmniRoute** ⭐16.5k（周+4.5k）
-> 免费AI网关。231+供应商（50+免费），连接Claude Code/Codex/Cursor。token压缩15-95%。
-> 🔌 **赛道**：AI基础设施 | 💡 **机会**：国内版API聚合、企业AI成本优化
-
-**DesktopCommanderMCP** ⭐8.1k（周+1.7k）
-> Claude的MCP终端控制服务器。文件系统搜索、diff编辑。
-> 🛠️ **赛道**：AI Agent工具链
-
-**CubeSandbox** (腾讯) ⭐9.9k（周+2.5k）
-> 即时并发安全的AI Agent沙箱。Rust构建。
-> 🏗️ **赛道**：AI安全基础设施
-
-**codex-plugin-cc** (OpenAI) ⭐28.2k（周+2.8k）
-> 从Claude Code调用Codex进行代码审查/任务委托。
-> 🔗 **赛道**：AI Agent互操作
-
-**strix** ⭐41.0k（周+4.1k）
-> 开源AI渗透测试工具。
-> 🔒 **赛道**：安全测试自动化
-
-**system_prompts_leaks** ⭐57.0k（周+7.2k）
-> 各大AI模型系统提示词泄露合集。Claude/OpenAI/Google/xAI等。
-> 📋 **赛道**：AI透明度研究
-
-**herdr** ⭐16.0k（周+3.9k）
-> 终端中的Agent多路复用器。
-> 🖥️ **赛道**：AI Agent管理
-
-**claude-video** ⭐8.0k（周+4.4k）
-> 让Claude看视频：下载→提取帧→转录→交给Claude。
-> 🎬 **赛道**：视频理解工具
-
-**page-agent** (阿里巴巴) ⭐26.3k（周+2.7k）
-> JS实现的网页GUI Agent。自然语言控制网页界面。
-> 🌐 **赛道**：浏览器自动化
-
-**orca** ⭐17.7k（周+4.5k）
-> 并行Agent舰队ADE。桌面+移动端。
-> 🐋 **赛道**：多Agent编排
-
-**RuView** ⭐80.4k（周+3.8k）
-> WiFi信号→空间智能/生命体征/存在检测。零摄像头。
-> 📡 **赛道**：无感感知（硬件级）
-
-### 📈 月度 GitHub Trending（补）
-
-**codebase-memory-mcp** ⭐30.9k（月+27.2k）
-> 高性能代码智能MCP。158语言，毫秒级索引，知识图谱持久化。99% token节省。
-
-**Agent-Reach** ⭐55.6k（月+29.0k）
-> AI Agent的互联网眼睛。Twitter/Reddit/YouTube/GitHub/B站/小红书。一个CLI，零API费。
-
-**hiring-agent** ⭐5.7k（月+4.5k）
-> AI简历评估打分Agent。
-
-**no-mistakes** ⭐6.1k（月+4.7k）
-> git push安全检查工具。防止误推送。
+| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 |
+|------|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Clawk - Coding Agent沙箱** | ✅ | ✅ | ✅ | ✅ | △ | ⭐⭐⭐⭐ |
+| **Apple SpeechAnalyzer 竞品** | ✅ | ✅ | ✅ | △ | △ | ⭐⭐⭐ |
+| **DOM-docx HTML→Word** | ✅ | ✅ | ✅ | △ | △ | ⭐⭐⭐ |
+| **Voxel Tokyo 游戏化日语** | ✅ | △ | ✅ | ✅ | △ | ⭐⭐⭐ |
+| Tiny Emulators | △ | ✅ | △ | △ | △ | ⭐⭐ |
+| Go-Flavored C Concurrency | △ | ✅ | △ | △ | △ | ⭐⭐ |
+| Precursor (Cloudflare) | - | - | - | - | - | 仅关注 |
 
 ---
 
-### 💬 HN 热门（钱相关）
+## 📡 原始速览
 
-- **LARP – Revenue infrastructure for serious founders** (249pts)
-  → 创业者变现基础设施，直接相关
-  
-- **Claude Code sends 33k tokens before reading prompt; OpenCode sends 7k** (603pts)
-  → Token开销对比，AI成本优化的热门话题
-  
-- **Migrating production AI agent to GPT-5.6: 2.2x faster, 27% cheaper** (211pts)
-  → AI生产环境迁移实战，降本增效案例
-  
-- **Why write code in 2026** (166pts, 218评论)
-  → 代码价值讨论，AI取代焦虑持续
+### 🔥 HN 高频信号
 
----
+1. **Zig Creator 怼 Anthropic** (1268pts, 634评论) — Zig生态热度新高，开发者对AI公司透明度不满情绪发酵
+2. **GhostLock Linux 15年漏洞** (374pts) — 内核安全持续热点
+3. **Clawk - 给Coding Agent配一次性Linux VM** (136pts) — DevTools+安全赛道，Show HN产品
+4. **Apple SpeechAnalyzer vs Whisper 基准测试** (202pts) — Apple语音API接近Whisper水平，语音转文字市场格局变化
+5. **DOM-docx: HTML→原生Word文档** (108pts) — MIT开源，企业文档生成工具
+6. **Voxel Tokyo: 3D体素东京+学日语** (277pts) — EdTech游戏化标杆案例
+7. **Tiny Emulators** (328pts) — 复古模拟器情怀项目
+8. **xAI Grok Build CLI 上传Git仓库到GCP** (63pts) — 安全隐私争议
+9. **Precursor (Cloudflare新品)** (132pts) — 需追踪具体功能
+10. **Cyberpunk漫画/图像小说** (283pts) — 文化消费趋势
 
-### 📰 36氪（钱相关）
+### 📰 36kr 国内信号
 
-- **智谱完成H股配售募资约314亿港元** → 国产大模型拿到巨资，赛道烧钱加速
-- **Meta追加400亿美元投资路易斯安那州数据中心** → AI基础设施投资持续加码
-- **《扩大消费"十五五"规划》优化入境消费** → 消费刺激政策信号
-
----
-
-## 🧠 洞察（≤3句）
-
-1. **视频AI生产是本月最大风口** — OpenMontage单月3.2万星、claude-video周涨4.4k星，视频+Agent结合出现成熟工具链。做"中文视频AI生产SaaS"窗口期还在，关键是选准垂直场景（电商/短剧/教程）。
-
-2. **AI Agent基础设施过热，toB包装是变现出路** — MCP/Sandbox/多Agent编排扎堆出现但面向开发者难收费。Meetily的模式值得学：把Agent能力包装成"本地会议纪要"卖给企业，而非卖"Agent框架"给开发者。
-
-3. **"本地+隐私"成差异化利器** — Meetily（本地会议）、SimpleX（无标识通讯）、RuView（WiFi无摄像头感知）都在打隐私牌。在国内做"私有化部署AI"可绕过大厂云服务的数据合规壁垒。
+- **阶跃发布STEPX + Step AOS** — 国内AI终端品牌入场，对标AI Pin/Rabbit
+- **苹果加速Mac AI芯片研发** — Mac生态AI能力将大幅提升
+- **英特尔爱尔兰50亿欧元AI芯片** — 芯片产能扩张
+- **大众或裁员5万人** — 传统制造业持续收缩
+- **李强经济座谈会** — 政策信号关注
 
 ---
 
-> 📌 PH今日被Cloudflare拦截，本次无PH数据。
-> 📌 生成时间：2026-07-13 18:51 CST | 数据源：GitHub Trending (week/month) + HN + 36氪
+## 💡 洞察（≤3句）
+
+1. **DevTools安全沙箱是金矿**：Clawk的需求验证了"AI Agent需要隔离环境"是真痛点，做Coding Agent配套安全工具（国内版/轻量版）门槛低、收费路径短。
+
+2. **语音赛道新变量**：Apple原生SpeechAnalyzer接近Whisper水平，做语音应用不再依赖第三方API，但「Whisper替代品」本身不再是好生意——往上做垂直场景（会议纪要/客服质检/教育评估）才是出路。
+
+3. **文档生成永不衰**：DOM-docx的流行说明企业文档自动化需求持续旺盛，HTML→Word/PDF的SaaS化包装+中文排版优化即可变现。
+
+---
+
+## 🔖 行动建议
+
+| 优先级 | 方向 | 可做动作 |
+|--------|------|----------|
+| P0 | Coding Agent沙箱 | 调研国内替代方案（Docker沙箱API化），7天出Demo |
+| P1 | 语音垂直场景 | 用Apple SpeechAnalyzer做中文会议纪要SaaS，对标飞书妙记 |
+| P2 | 文档生成SaaS | HTML→Word中文优化版，定价$9/月，30天可收费 |
+| P3 | Voxel Tokyo模式 | 关注游戏化学习赛道，找细分语言/学科复刻 |
+
+---
+
+*⚠️ GitHub Trending / ProductHunt 本次不可达，仅基于36kr+HN数据。下次夜巡建议切换网络环境。*
