@@ -1,129 +1,131 @@
-# 🎯 AI赚钱夜巡 · 2026-07-13 10:51
+# 🌙 AI赚钱夜巡 · 2026-07-13 18:51
 
-> ⚠️ ProductHunt 本次无法抓取（Cloudflare拦截）。数据来源：36氪 + HN + GitHub Trending (weekly+monthly)
+## 🎯 选题雷达（≥3/5指标 = 🔥重点）
 
----
-
-## 📡 选题雷达（5指标评分 ≥3项 = 🔥重点）
-
-| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
-|------|:---:|:---:|:---:|:---:|:---:|:---:|
-| 🔥 **Meetily** - 本地AI会议纪要 | ✅企业刚需 | ✅开源可跑 | ✅Pro版收费 | ✅Rust/Whisper | ✅隐私壁垒 | **5** |
-| 🔥 **OfficeCLI** - Agent用Office套件 | ✅办公场景 | ✅二进制即用 | ✅企业版 | ✅C#单文件 | ✅Office生态 | **5** |
-| 🔥 **claude-video** - 让AI看懂视频 | ✅内容创作者 | ✅Python脚本 | ✅API付费 | ✅ffmpeg+pip | ✅视频赛道 | **4** |
-| 🔥 **Strix** - AI渗透测试 | ✅安全团队 | ✅开源 | ✅企业版 | ✅Python | ✅安全合规 | **4** |
-| 🔥 **OpenMontage** - 开源AI视频制作 | ✅视频创作者 | ✅12pipeline | ✅SaaS可收 | ✅500+技能 | ✅全栈视频 | **5** |
-| ⚡ **Agent-Reach** - 全网搜索工具 | ✅Agent开发者 | ✅CLI即用 | ⚠️开源免费 | ✅Python/CLI | ⚠️依赖平台 | **3** |
-| ⚡ **Codebase-Memory-MCP** - 代码知识图谱 | ✅开发者 | ✅单二进制 | ⚠️未定 | ✅C语言极致 | ✅99%token节省 | **3** |
-| ⚡ **caveman** - Token压缩工具 | ✅Agent用户 | ✅插件即用 | ❌免费 | ✅JS | ❌可替代 | **2** |
+| 项目 | Stars | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
+|------|-------|:--:|:--:|:--:|:--:|:--:|:--:|
+| **OpenMontage** 视频AI生产 | 37.8k | ✅ | ✅ | ✅ | ✅ | ✅ | 🔥5/5 |
+| **Meetily** 本地会议纪要 | 23.8k | ✅ | ✅ | ✅ | ✅ | ⚠️ | 🔥4/5 |
+| **Impeccable** AI设计语言 | 46.2k | ✅ | ✅ | ✅ | ✅ | ⚠️ | 🔥4/5 |
+| **OfficeCLI** AI办公自动化 | 15.8k | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | 3/5 |
+| **OmniRoute** AI API网关 | 16.5k | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | 3/5 |
+| **hiring-agent** AI简历评分 | 5.7k | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | 3/5 |
 
 ---
 
-## 🔬 原始速览
+## 📊 原始速览
 
-### 🏆 GitHub Weekly 高信号项目
+### 🔥 本周 GitHub Trending（AI相关）
 
-**1. Meetily** (7,440⭐/周 | Rust)
-> 本地AI会议纪要：Whisper/Parakeet转录 + 说话人识别 + Ollama摘要。100%本地，不依赖云。有Pro版商业化。
-→ **可做**：本地化会议纪要SaaS，针对中国Teams/飞书场景做汉化包装。Rust底层性能好，私有化部署是卖点。
+**OpenMontage** ⭐37.8k（月+32.9k）
+> 全球首个开源Agent视频生产系统。12条pipeline、52个工具、500+ agent skills。把AI编程助手变成完整视频工作室。
+> 🎬 **赛道**：视频AI生产 | 💡 **机会**：中文版/垂直领域定制（电商视频/短视频营销）
 
-**2. OfficeCLI** (6,978⭐/周 | C#)
-> Agent直接读写Word/Excel/PPT。单二进制、免装Office、免费开源。
-→ **可做**：办公自动化 SaaS，Agent帮你处理报表/合同/PPT，按文档量收费。中国政企场景巨大。
+**Impeccable** ⭐46.2k（周+2.3k）
+> AI产品设计语言系统。让AI产出更好看的设计。dark/light主题、多格式导出。
+> 🎨 **赛道**：AI设计标准化 | 💡 **机会**：设计模板市场、品牌定制
 
-**3. OmniRoute** (4,506⭐/周 | TS)
-> 免费AI网关：统一端点接入231+供应商（50+免费），token压缩15-95%。
-→ **启示**：AI网关+token压缩是中间层大生意。但竞争者多，壁垒在供应商关系。
+**Meetily** ⭐23.8k（周+7.4k）
+> 隐私优先的AI会议助手。Parakeet/Whisper实时转录，Ollama总结，Rust构建。100%本地处理。
+> 🎙️ **赛道**：企业会议SaaS | 💡 **机会**：国内私有化部署版、政务/金融合规版
 
-**4. herdr** (3,928⭐/周 | Rust)
-> 终端Agent多路复用器，一个终端调度多个AI Agent并行工作。
-→ **可做**：DevOps Agent集群管理工具，让一个指令调度多个Agent并行改代码/测试/部署。
+**OfficeCLI** ⭐15.8k（周+7.0k）
+> 首个面向AI Agent的Office套件。免安装读写Word/Excel/PPT，单一二进制。
+> 📄 **赛道**：AI办公 | 💡 **机会**：报告自动生成SaaS、批量文档处理API
 
-**5. claude-video** (4,353⭐/周 | Python)
-> 给Claude看视频：下载→抽帧→转文字→喂AI。/watch 命令。
-→ **可做**：视频内容分析SaaS。电商带货分析、竞品监控、视频审核都是付费场景。
+**OmniRoute** ⭐16.5k（周+4.5k）
+> 免费AI网关。231+供应商（50+免费），连接Claude Code/Codex/Cursor。token压缩15-95%。
+> 🔌 **赛道**：AI基础设施 | 💡 **机会**：国内版API聚合、企业AI成本优化
 
-**6. Strix** (4,143⭐/周 | Python)
-> 开源AI渗透测试工具。自动发现和修复应用漏洞。
-→ **可做**：安全合规SaaS。中国等保2.0市场巨大，AI自动化渗透测试+报告。
+**DesktopCommanderMCP** ⭐8.1k（周+1.7k）
+> Claude的MCP终端控制服务器。文件系统搜索、diff编辑。
+> 🛠️ **赛道**：AI Agent工具链
 
-**7. pentagi** (1,989⭐/周 | Go)
-> 全自主AI渗透测试Agent系统。
-→ **与Strix互补**：一个检测一个利用，可打包做完整安全方案。
+**CubeSandbox** (腾讯) ⭐9.9k（周+2.5k）
+> 即时并发安全的AI Agent沙箱。Rust构建。
+> 🏗️ **赛道**：AI安全基础设施
 
-**8. RuView** (3,763⭐/周 | Rust)
-> WiFi信号→空间智能+生命体征监测+存在检测。零摄像头。
-→ **可做**：智能家居/养老监护。用WiFi信号检测老人跌倒/呼吸，隐私友好。
+**codex-plugin-cc** (OpenAI) ⭐28.2k（周+2.8k）
+> 从Claude Code调用Codex进行代码审查/任务委托。
+> 🔗 **赛道**：AI Agent互操作
 
-**9. page-agent** (2,666⭐/周 | TS | 阿里)
-> JS页面GUI Agent，自然语言控制网页。
-→ **启示**：阿里出品，RPA+AI方向。做垂直场景（电商运营/数据录入）更赚钱。
+**strix** ⭐41.0k（周+4.1k）
+> 开源AI渗透测试工具。
+> 🔒 **赛道**：安全测试自动化
 
-**10. NVIDIA/SkillSpector** (9,876⭐/月 | Python)
-> AI Agent技能安全扫描器。检测漏洞/恶意模式。
-→ **可做**：Agent安全审核服务。Agent越来越多，安全审计是刚需。
+**system_prompts_leaks** ⭐57.0k（周+7.2k）
+> 各大AI模型系统提示词泄露合集。Claude/OpenAI/Google/xAI等。
+> 📋 **赛道**：AI透明度研究
 
-### 🌐 GitHub Monthly 高信号项目
+**herdr** ⭐16.0k（周+3.9k）
+> 终端中的Agent多路复用器。
+> 🖥️ **赛道**：AI Agent管理
 
-**1. OpenMontage** (32,911⭐/月 | Python)
-> 世界首个开源AI视频制作系统。12条管线、52个工具、500+ Agent技能。
-→ **🔥重点**：视频制作全栈。比Remotion更Agent-friendly。可以做"AI视频工厂"SaaS。
+**claude-video** ⭐8.0k（周+4.4k）
+> 让Claude看视频：下载→提取帧→转录→交给Claude。
+> 🎬 **赛道**：视频理解工具
 
-**2. Agent-Reach** (28,973⭐/月 | Python)
-> 给Agent装眼睛看全网。Twitter/Reddit/YouTube/GitHub/B站/小红书。一个CLI，零API费。
-→ **启示**：信息聚合Agent基础设施。我们已经有了这个技能。
+**page-agent** (阿里巴巴) ⭐26.3k（周+2.7k）
+> JS实现的网页GUI Agent。自然语言控制网页界面。
+> 🌐 **赛道**：浏览器自动化
 
-**3. Codebase-Memory-MCP** (27,178⭐/月 | C)
-> 代码库→持久知识图谱。158语言、亚毫秒查询、99% token节省。静态二进制。
-→ **可做**：为国内企业做代码库AI化方案。大企业遗留代码多，正需要。
+**orca** ⭐17.7k（周+4.5k）
+> 并行Agent舰队ADE。桌面+移动端。
+> 🐋 **赛道**：多Agent编排
 
-**4. simplex-chat** (7,392⭐/月 | Haskell)
-> 零用户标识的通讯网络。100%隐私。
-→ **启示**：隐私通讯是长期趋势，但不适合快速变现。
+**RuView** ⭐80.4k（周+3.8k）
+> WiFi信号→空间智能/生命体征/存在检测。零摄像头。
+> 📡 **赛道**：无感感知（硬件级）
 
-**5. TREK** (4,546⭐/月 | TS)
-> 自托管旅行规划，实时协作+地图+PWA+SSO+预算+行李清单。
-→ **可做**：垂直SaaS赛道。旅行规划+AI推荐，OTA接口变现。
+### 📈 月度 GitHub Trending（补）
 
-**6. hiring-agent** (4,540⭐/月 | Python)
-> AI简历评估打分。
-→ **可做**：HR SaaS。AI简历筛选+面试题生成+人才画像，中国招聘市场巨大。
+**codebase-memory-mcp** ⭐30.9k（月+27.2k）
+> 高性能代码智能MCP。158语言，毫秒级索引，知识图谱持久化。99% token节省。
 
-### 📰 36氪信号
+**Agent-Reach** ⭐55.6k（月+29.0k）
+> AI Agent的互联网眼睛。Twitter/Reddit/YouTube/GitHub/B站/小红书。一个CLI，零API费。
 
-- **高盛：AI或引爆美国通胀，存储暴涨是核心推手** → 存储/AI硬件持续利好
-- **台积电2纳米已开始量产** → 芯片制程进步，端侧AI加速
-- **韩国央行：AI芯片超级周期持续** → 半导体供应链仍有投资机会
-- **商业航天迎规模商用拐点** → 新赛道，但门槛高
+**hiring-agent** ⭐5.7k（月+4.5k）
+> AI简历评估打分Agent。
 
-### 💬 HN 值得关注
+**no-mistakes** ⭐6.1k（月+4.7k）
+> git push安全检查工具。防止误推送。
 
-- **Claude Code token overhead争议** (478pts) → Agent成本优化是持续痛点
-- **geohot: I love LLMs, I hate hype** (336pts) → 行业需要回归实用主义
-- **LARP - Revenue infrastructure for founders** (166pts) → 创始人收入基础设施，值得研究
-- **Migrating to GPT-5.6: 2.2x faster, 27% cheaper** → 模型迭代持续降本
-- **Kode: 可编程口袋设备** → 创客/极客硬件小市场
+---
+
+### 💬 HN 热门（钱相关）
+
+- **LARP – Revenue infrastructure for serious founders** (249pts)
+  → 创业者变现基础设施，直接相关
+  
+- **Claude Code sends 33k tokens before reading prompt; OpenCode sends 7k** (603pts)
+  → Token开销对比，AI成本优化的热门话题
+  
+- **Migrating production AI agent to GPT-5.6: 2.2x faster, 27% cheaper** (211pts)
+  → AI生产环境迁移实战，降本增效案例
+  
+- **Why write code in 2026** (166pts, 218评论)
+  → 代码价值讨论，AI取代焦虑持续
+
+---
+
+### 📰 36氪（钱相关）
+
+- **智谱完成H股配售募资约314亿港元** → 国产大模型拿到巨资，赛道烧钱加速
+- **Meta追加400亿美元投资路易斯安那州数据中心** → AI基础设施投资持续加码
+- **《扩大消费"十五五"规划》优化入境消费** → 消费刺激政策信号
 
 ---
 
 ## 🧠 洞察（≤3句）
 
-1. **AI视频制作是本月最强信号**：OpenMontage（32K⭐/月）+ claude-video（4K⭐/周）+ 已有Remotion积累 → 做「AI视频工厂」SaaS方向正确且紧迫。
+1. **视频AI生产是本月最大风口** — OpenMontage单月3.2万星、claude-video周涨4.4k星，视频+Agent结合出现成熟工具链。做"中文视频AI生产SaaS"窗口期还在，关键是选准垂直场景（电商/短剧/教程）。
 
-2. **本地化/隐私优先是差异化武器**：Meetily（本地会议纪要）、RuView（WiFi无摄像头监控）、simplex-chat（零标识通讯）都在强调"隐私"，中国政企市场尤其吃这一套。
+2. **AI Agent基础设施过热，toB包装是变现出路** — MCP/Sandbox/多Agent编排扎堆出现但面向开发者难收费。Meetily的模式值得学：把Agent能力包装成"本地会议纪要"卖给企业，而非卖"Agent框架"给开发者。
 
-3. **Agent基础设施层仍然最赚钱**：OmniRoute（网关）、Codebase-Memory（知识图谱）、herdr（多路复用）、Agent-Reach（搜索）都是Agent生态的"卖水人"，比做Agent本身更稳。
-
----
-
-## ⚡ 行动建议
-
-| 优先级 | 方向 | 理由 |
-|:---:|------|------|
-| P0 | **AI视频工厂** | 已有Remotion基础 + OpenMontage可参考 + 视频赛道持续火爆 |
-| P1 | **本地化办公AI** | Meetily/OfficeCLI模式成熟，汉化+私有化部署即可卖 |
-| P2 | **Agent安全审计** | Strix+NVIDIA SkillSpector信号，安全合规是长期刚需 |
-| P3 | **代码库AI化方案** | Codebase-Memory方向，企业遗留代码量大，B端付费意愿强 |
+3. **"本地+隐私"成差异化利器** — Meetily（本地会议）、SimpleX（无标识通讯）、RuView（WiFi无摄像头感知）都在打隐私牌。在国内做"私有化部署AI"可绕过大厂云服务的数据合规壁垒。
 
 ---
-*生成于 2026-07-13 10:51 CST | 夜巡 v2.0*
+
+> 📌 PH今日被Cloudflare拦截，本次无PH数据。
+> 📌 生成时间：2026-07-13 18:51 CST | 数据源：GitHub Trending (week/month) + HN + 36氪
