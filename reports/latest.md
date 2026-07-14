@@ -1,103 +1,87 @@
-# 🌙 AI赚钱夜巡 · 2026-07-14 18:51
+# 🌙 AI赚钱夜巡 · 2026-07-15 02:51
 
-> 数据源：night_fetcher (36kr+HN) + GitHub Trending (Weekly+Monthly) | PH被Cloudflare挡
-
----
-
-## 🎯 选题雷达（5指标≥3项=重点）
-
-| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|
-| **pentagi / strix** 渗透测试自动化 | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
-| **ai-job-search** AI求职框架 | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ⭐⭐⭐⭐ |
-| **OpenMontage** 开源视频生产 | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⭐⭐⭐⭐ |
-| **meetily** 本地AI会议助手 | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⭐⭐⭐⭐ |
-| **claude-video** AI视频理解 | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⭐⭐⭐⭐ |
-| **OmniRoute** 免费AI网关 | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ⭐⭐⭐⭐ |
-| **hiring-agent** AI简历评分 | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⭐⭐⭐⭐ |
-| **cognee/TencentDB-Memory** Agent记忆 | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⭐⭐⭐⭐ |
-| **OfficeCLI** AI办公套件 | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ⭐⭐⭐ |
-| **Agent-Reach** Agent联网眼 | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ⭐⭐⭐ |
+> 模型: deepseek-v4-pro | 不堆新闻，只记能做的东西
 
 ---
 
-## 📊 原始速览
+## 🎯 选题雷达（≥3项达标 = 重点）
 
-### 🔥 GitHub Weekly Top (按星增长排序)
+| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评级 |
+|------|:---:|:---:|:---:|:---:|:---:|:---:|
+| **meetily** 本地会议助手 | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
+| **OpenMontage** 开源视频生产 | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
+| **Agent-Reach** Agent互联网眼睛 | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
+| **OmniRoute** AI网关 | ✅ | ✅ | ✅ | ✅ | — | ⭐⭐⭐⭐ |
+| **codebase-memory-mcp** 代码智能 | ✅ | ✅ | ✅ | ✅ | — | ⭐⭐⭐⭐ |
+| **OfficeCLI** 文档自动化 | ✅ | ✅ | ✅ | ✅ | — | ⭐⭐⭐⭐ |
+| **pentagi** AI渗透测试 | ✅ | — | ✅ | ✅ | ✅ | ⭐⭐⭐⭐ |
+| **TencentDB-Agent-Memory** | ✅ | — | ✅ | ✅ | ✅ | ⭐⭐⭐⭐ |
+| **CubeSandbox** AI沙箱 | ✅ | — | ✅ | ✅ | ✅ | ⭐⭐⭐⭐ |
+| **hiring-agent** 简历评估 | ✅ | ✅ | ✅ | ✅ | — | ⭐⭐⭐⭐ |
+| **strix** AI安全扫描 | ✅ | ✅ | ✅ | — | ✅ | ⭐⭐⭐⭐ |
 
-1. **[ai-job-search](https://github.com/MadsLorentzen/ai-job-search)** · 22k⭐ (+15k/周)
-   AI求职框架，基于Claude Code：评估岗位、定制简历、写求职信、模拟面试。Fork即用。
+---
 
-2. **[OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)** · 16k⭐ (+7.5k/周)
-   首个为AI Agent设计的Office套件，读写Word/Excel/PPT，单二进制，无需装Office。
+## 📡 原始速览
 
-3. **[meetily](https://github.com/Zackriya-Solutions/meetily)** · 24k⭐ (+5.4k/周)
-   100%本地AI会议助手：Parakeet/Whisper实时转录+说话人分离+Ollama总结。Rust构建。
+### 🔥 GitHub Weekly Top（暴涨项目）
 
-4. **[orca](https://github.com/stablyai/orca)** · 18k⭐ (+5.3k/周)
-   并行Agent舰队管理ADE，桌面+移动端，用自己的订阅跑任意coding agent。
+| 项目 | Stars | 一句话 |
+|------|------:|--------|
+| [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | +7,596 | AI Agent专用Office套件，读写Word/Excel/PPT，单二进制无需装Office |
+| [meetily](https://github.com/Zackriya-Solutions/meetily) | +5,392 | 100%本地会议助手：Parakeet/Whisper转录+Ollama总结，24K★ |
+| [orca](https://github.com/stablyai/orca) | +5,263 | 并行Agent舰队管理ADE，桌面+移动端 |
+| [OmniRoute](https://github.com/diegosouzapw/OmniRoute) | +4,345 | 免费AI网关：231+供应商，token压缩节省15-95% |
+| [claude-video](https://github.com/bradautomates/claude-video) | +4,128 | 让Claude看视频：/watch下载→抽帧→转录→交给Claude |
+| [herdr](https://github.com/ogulcancelik/herdr) | +3,449 | 终端Agent多路复用器 |
+| [impeccable](https://github.com/pbakaus/impeccable) | +2,450 | AI设计语言，让AI工具产出更好的设计 |
+| [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) | +2,367 | 腾讯云即时并发安全轻量AI Agent沙箱 |
+| [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | +2,265 | OpenAI Codex Claude Code插件 |
+| [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | +2,231 | 腾讯4层渐进式本地Agent长期记忆 |
+| [pentagi](https://github.com/vxcontrol/pentagi) | +2,199 | 全自主AI渗透测试Agent |
+| [archify](https://github.com/tt-a1i/archify) | +1,333 | AI Agent生成架构图，深色/浅色主题 |
+| [hallmark](https://github.com/Nutlope/hallmark) | +1,558 | 反AI味设计skill，给Claude/Cursor/Codex用 |
 
-5. **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** · 17k⭐ (+4.3k/周)
-   免费AI网关：单端点231+提供商(50+免费)，连接Claude Code/Cursor/Copilot到免费模型。
+### 🚀 GitHub Monthly Top（月度黑马）
 
-6. **[claude-video](https://github.com/bradautomates/claude-video)** · 8.3k⭐ (+4.1k/周)
-   让Claude看视频：下载→抽帧→转录→交给Claude分析，一条龙。
+| 项目 | Stars | 一句话 |
+|------|------:|--------|
+| [OpenMontage](https://github.com/calesthio/OpenMontage) | +33,392 | 首个开源AI视频生产系统：12条管线、52个工具、500+技能 |
+| [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | +28,900 | Agent的互联网眼睛：零API费读Twitter/Reddit/YouTube/小红书/B站 |
+| [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | +27,660 | 毫秒级代码知识图谱：158语言，99% token节省 |
+| [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | +15,390 | 各AI系统提示词泄露合集 |
+| [strix](https://github.com/usestrix/strix) | +15,337 | 开源AI渗透测试，自动发现应用漏洞 |
+| [orca](https://github.com/stablyai/orca) | +13,222 | 并行Agent舰队（周榜也上榜） |
+| [page-agent](https://github.com/alibaba/page-agent) | +8,001 | 阿里页面Agent：自然语言控制Web界面 |
+| [simplex-chat](https://github.com/simplex-chat/simplex-chat) | +7,461 | 无用户标识的私密通讯 |
+| [hiring-agent](https://github.com/interviewstreet/hiring-agent) | +4,624 | AI简历评估Agent |
+| [zvec](https://github.com/alibaba/zvec) | +5,124 | 阿里闪电向量数据库 |
 
-7. **[herdr](https://github.com/ogulcancelik/herdr)** · 16k⭐ (+3.4k/周)
-   Agent多路复用器，住在你的终端里。
+### 📰 36氪·值得关注
 
-8. **[impeccable](https://github.com/pbakaus/impeccable)** · 46k⭐ (+2.5k/周)
-   AI设计语言，让你的AI产出更好的设计。
+- **阿里云下调GLM-5.2 Fast mode价格** → AI推理价格战继续，利好下游应用
+- **智谱改名 Z.AI** → 国际化信号，品牌重塑
+- **信维通信收购益阳电子55%股权** → 高端MLCC布局，国产替代
+- **IBM计划2029年交付首台容错量子计算机** → 量子时间线明确
 
-9. **[CubeSandbox](https://github.com/TencentCloud/CubeSandbox)** · 10k⭐ (+2.4k/周)
-   腾讯云：为AI Agent打造的即时并发安全轻量沙箱。
+### 💬 Hacker News·技术信号
 
-10. **[codex-plugin-cc](https://github.com/openai/codex-plugin-cc)** · 28k⭐ (+2.3k/周)
-    OpenAI Codex的Claude Code插件，Code Review或委托任务。
-
-### 📈 GitHub Monthly（月新增，去重后）
-
-| 项目 | 月增⭐ | 一句话 |
-|------|--------|--------|
-| **OpenMontage** | 33k | 开源视频生产系统，12管道52工具500+Agent技能 |
-| **Agent-Reach** | 29k | Agent联网眼：Twitter/Reddit/YouTube/小红书/微博 零API费 |
-| **codebase-memory-mcp** | 28k | 代码智能MCP，158语言亚毫秒查询 |
-| **system_prompts_leaks** | 15k | 各大模型系统提示词泄露合集 |
-| **strix** | 15k | 开源渗透测试，找App漏洞 |
-| **cognee** | 10k | AI Agent记忆平台，知识图谱引擎 |
-| **page-agent** | 8k | 阿里：JS页面GUI Agent，自然语言操控网页 |
-| **hiring-agent** | 4.6k | AI简历评分Agent |
-
-### 🌐 36氪/HN 值得关注
-
-- **梁文锋身家$360亿** > Anthropic+OpenAI创始人总和 → AI财富效应持续
-- **赛意信息采购≤50.79亿算力服务器** → 企业级AI基建投入在加速
-- **黑芝麻收购亿智** → 端侧AI芯片整合加速
-- **日本锂回收90%** → 电池回收技术突破
-- **Cloudflare Precursor** → 新安全产品线
-- **递归自我改进经济学** (HN论文) → AI自我进化理论框架
+- **"你的App本可以只是个网页"** (498pts) → Web-first回归，PWA机会
+- **欧洲年龄验证App强制用Android/iOS** (339pts) → 监管套利机会
+- **澳洲能源商须提供3小时免费白天电力** (234pts) → 能源套利/智能家居机会
+- **Bonsai 27B：首个手机端27B级1-bit LLM** → 边缘AI加速落地
+- **Juggler：开源GUI编程Agent** (109pts) → JUCE作者出品，桌面自动化
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **Agent基础设施连续霸榜**：沙箱(CubeSandbox)、记忆(cognee/TencentDB)、网关(OmniRoute)、多路复用(herdr)——"卖铲子"是当前AI生态确定性最强的变现方向。
+1. **Agent基础设施爆发**：meetily、CubeSandbox、OmniRoute、herdr、orca — 不是Agent本身，而是让Agent跑起来的基础设施在集中出货。做"Agent的水和电"比做Agent赚钱更快，套利窗口约3-6个月。
 
-2. **视频+AI和安全+AI是两大爆发垂类**：OpenMontage(3.8万星)和claude-video(8k星)代表视频生产民主化；pentagi+strix合计6万星代表渗透测试自动化。两者都有清晰的B端付费场景。
+2. **OpenMontage + Agent-Reach 是本月最大信号**：两者合计6万+星，一个解决"AI做视频"，一个解决"AI看互联网"。底层逻辑一致：给AI装上感官（眼+手），且都开源免费→托管付费是标准变现路径。
 
-3. **开源→托管是最短变现路径**：本期重点项目中80%是开源，但meetily(自托管→SaaS)、OfficeCLI(单二进制→企业版)、OmniRoute(免费网关→付费API)都展示了从开源到收费的标准漏斗，7天可做Demo、30天可收费。
-
----
-
-## 🛠️ 可行动项（按优先级）
-
-| # | 方向 | 为什么现在做 | 难度 |
-|---|------|-------------|------|
-| 1 | **Agent沙箱/记忆服务** | CubeSandbox+TencentDB-Memory+cognee三连发，Agent基础设施刚需 | ⭐⭐⭐ |
-| 2 | **AI视频分析SaaS** | claude-video开源可复用，视频分析API化收费清晰 | ⭐⭐ |
-| 3 | **垂直AI招聘工具** | ai-job-search+hiring-agent双端验证，求职/招聘都是付费刚需 | ⭐⭐ |
-| 4 | **AI安全扫描服务** | pentagi+strix开源可包装成SaaS，企业安全预算充足 | ⭐⭐⭐⭐ |
+3. **安全赛道悄然升温**：pentagi（2.2K周星）+ strix（15K月星）双双上榜。AI渗透测试从"黑客玩具"变成"企业合规刚需"，国内等保2.0/CII监管是天然催化剂，中文化+本地部署有差异化空间。
 
 ---
 
-*下次改进：PH数据改用Playwright MCP抓取*
+*夜巡完成 · 下次巡更见 🌙*
