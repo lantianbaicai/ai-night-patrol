@@ -1,65 +1,87 @@
-# 🦞 AI赚钱夜巡 · 2026-07-17 10:58
+# 🌙 AI赚钱夜巡 · 2026-07-17 18:58
 
-> deepseek-v4-pro | 不堆新闻，只记能做的东西
+> 模型: deepseek-v4-pro | 不堆新闻，只记能做的东西
 
 ---
 
-## 🎯 选题雷达（≥3项达标=重点）
+## 🎯 选题雷达（≥3/5 重点跟踪）
 
-| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 | 评级 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| **OpenMontage** 开源视频制作系统 | ✅ | ✅ | ✅ | ✅ | ✅ | 5 | 🔥🔥🔥 |
-| **OfficeCLI** Office套件for AI Agent | ✅ | ✅ | ✅ | ✅ | ✅ | 5 | 🔥🔥🔥 |
-| **cangjie-skill** 仓颉·内容蒸馏Agent Skills | ✅ | ✅ | ✅ | ✅ | ✅ | 5 | 🔥🔥🔥 |
-| **meetily** 本地AI会议助手 | ✅ | ✅ | ✅ | ✅ | ✅ | 5 | 🔥🔥🔥 |
-| **codebase-memory-mcp** 代码知识图谱 | ✅ | ✅ | ✅ | ✅ | ✅ | 5 | 🔥🔥🔥 |
-| **strix** AI渗透测试 | ✅ | ✅ | ✅ | ✅ | ✅ | 5 | 🔥🔥🔥 |
-| **cognee** AI记忆平台 | ✅ | ✅ | ✅ | ✅ | ✅ | 5 | 🔥🔥🔥 |
-| **page-agent** 阿里·页面GUI Agent | ✅ | ✅ | ✅ | ✅ | ✅ | 5 | 🔥🔥🔥 |
-| Vibe-Trading 个人交易Agent | ✅ | ✅ | ✅ | ✅ | ❌ | 4 | 🔥🔥 |
-| hiring-agent AI简历评估 | ✅ | ✅ | ✅ | ✅ | ❌ | 4 | 🔥🔥 |
-| OmniRoute 免费AI网关 | ✅ | ✅ | ❌ | ✅ | ❌ | 3 | 🔥 |
-| claude-code-templates CLI配置工具 | ✅ | ✅ | ❌ | ✅ | ❌ | 3 | 🔥 |
-| claude-video 视频分析工具 | ✅ | ✅ | ❌ | ✅ | ❌ | 3 | 🔥 |
+### ⭐⭐⭐⭐⭐ stablyai/orca — Agent舰队IDE
+- **现象**: 20.9K stars, +5.7K/周, 桌面+移动端并行Agent管理
+- **可做方向**: Agent orchestration SaaS / 私有化部署服务
+- **5指标**: 客户明确✅ 7天Demo✅ 30天收费✅ 复用资产✅ 长期壁垒✅
+- **行动**: 关注其收费模式，写一个轻量版Agent编排面板
+
+### ⭐⭐⭐⭐⭐ iOfficeAI/OfficeCLI — AI办公套件
+- **现象**: 18.7K stars, +5.3K/周, C#单二进制操作Word/Excel/PPT
+- **可做方向**: 基于此做企业AI办公自动化服务 → 报表/合同/标书
+- **5指标**: 客户明确✅ 7天Demo✅ 30天收费✅ 复用资产✅ 长期壁垒✅
+- **行动**: 搭建demo，测试Excel自动报表生成能力
+
+### ⭐⭐⭐⭐ Vibe-Trading — AI交易代理
+- **现象**: 24.5K stars, +5.4K/周, "Your Personal Trading Agent"
+- **可做方向**: 本地化A股适配 / 交易信号社群
+- **5指标**: 客户明确✅ 7天Demo✅ 30天收费✅ 复用资产✅ 长期壁垒❌
+- **行动**: 观察A股适配可行性
+
+### ⭐⭐⭐⭐ OmniRoute — 免费AI网关
+- **现象**: 18.2K stars, 231+ providers, 50+免费, token压缩15-95%
+- **可做方向**: 国内版AI网关（聚合国产模型+免费渠道）
+- **5指标**: 客户明确✅ 7天Demo✅ 30天收费✅ 复用资产✅ 长期壁垒❌
+- **行动**: 已有OpenClaw基础，考虑聚合更多国产免费模型
+
+### ⭐⭐⭐⭐ kangarooking/cangjie-skill — 内容→Agent Skill
+- **现象**: 3.4K stars, 国产项目, 把书/视频/播客蒸馏成Agent Skills
+- **可做方向**: 中文内容知识蒸馏 → Skill模板市场
+- **5指标**: 客户明确✅ 7天Demo✅ 30天收费✅ 复用资产✅ 长期壁垒❌
+- **行动**: 与OpenClaw生态结合，做中文Skill工坊
+
+### ⭐⭐⭐ OpenCut — 开源剪映
+- **现象**: 74.5K stars, +11.7K/周, 现象级增长
+- **可做方向**: 模板市场 / 插件生态 / 企业版
+- **5指标**: 客户明确✅ 7天Demo✅ 30天收费❌ 复用资产✅ 长期壁垒❌
+- **行动**: 观望，关注商业化路径
 
 ---
 
 ## 📡 原始速览
 
-### 🔥 GitHub Weekly Top 5
-1. **OpenCut** (74k⭐) — 开源剪映替代，本周+11.7k星，视频编辑器最强开源替代
-2. **hallmark** (11k⭐) — Anti-AI-slop设计技能，本周+6.5k星，AI生成内容的美学过滤器
-3. **stablyai/orca** (20.6k⭐) — 并行Agent舰队IDE，本周+5.7k星
-4. **HKUDS/Vibe-Trading** (24.3k⭐) — 个人AI交易Agent，本周+5.4k星
-5. **iOfficeAI/OfficeCLI** (18.4k⭐) — AI Agent原生Office套件，本周+5.3k星
+### 🔥 GitHub Weekly Trending Top 10
+| 项目 | Stars | 周增 | 赛道 |
+|------|-------|------|------|
+| OpenCut | 74.5K | +11.7K | 视频编辑 |
+| hallmark (Anti-AI-slop) | 11.6K | +6.6K | AI设计 |
+| orca (Agent IDE) | 20.9K | +5.7K | Agent工具 |
+| Vibe-Trading | 24.5K | +5.4K | AI金融 |
+| OfficeCLI | 18.7K | +5.3K | 办公自动化 |
+| OmniRoute | 18.2K | +3.9K | AI网关 |
+| herdr (Agent multiplexer) | 17.4K | +2.5K | Agent终端 |
+| impeccable (AI设计语言) | 47.5K | +2.4K | AI设计 |
+| DesktopCommanderMCP | 8.4K | +2.0K | MCP工具 |
+| codex-plugin-cc | 29.0K | +1.9K | Codex × Claude |
 
-### 🔥 GitHub Monthly 值得关注
-1. **OpenMontage** (39k⭐) — 月增34.5k星！全球首个开源Agentic视频制作系统，12条流水线+52工具+500+Agent技能
-2. **codebase-memory-mcp** (32k⭐) — 月增28.3k星，158语言代码知识图谱，亚毫秒查询，99% token节省
-3. **Agent-Reach** (57k⭐) — 月增26k星，Agent互联网之眼：Twitter/Reddit/YouTube/B站/小红书一站通读
-4. **strix** (42k⭐) — 月增16k星，开源AI渗透测试工具
-5. **system_prompts_leaks** (58k⭐) — 月增15.9k星，各AI模型System Prompt泄露集合
-
-### 💬 Hacker News
-- **Kimi K3** (1234pts) — 月之暗面发布K3开源前沿模型
-- **Microsoft Comic Chat开源** (565pts) — 经典MSN Comic Chat开源
-- **LM Studio Bionic** (174pts) — 开源模型的AI Agent
-- **$100 AI MV** (154pts) — Claude Fable 5 vs GPT-5.6 Sol对比
+### 💬 Hacker News 热门
+- **Kimi K3** (1677pts) — 开源前沿AI模型
+- **Microsoft Comic Chat 开源** (696pts) — 经典复古开源
+- **$100 AI Music Video: Claude vs GPT-5.6** (287pts) — AI视频成本降至$100
+- **LM Studio Bionic** (262pts) — 本地AI Agent for 开源模型
+- **The human-in-the-loop is tired** (231pts) — 人机协作范式转变
 
 ### 📰 36氪
-- 习近平出席2026世界人工智能大会（WAIC 2026）
-- 微软CEO批评Anthropic对Fable模型内容管控过严
+- 是石科技发布国产Token优化工厂"拓元"Vectron → Token成本优化
+- 科大讯飞发布GuideX → 教育AI
+- 阶跃与支付宝达成AI Agent系统级合作 → Agent落地
 
 ---
 
-## 💡 洞察（3句）
+## 💡 洞察（≤3句）
 
-1. **Agent Skills标准化是当下最大蓝海**：Google推stitch-skills、仓颉做内容蒸馏、hallmark做设计规范——所有人都在定义"Agent怎么做事"，做一套中文垂直领域的Agent Skills标准/市场，客户明确且壁垒可建。
+1. **Agent编排是本周最强共识** — orca/herdr/stitch-skills/cangjie-skill 全部围绕Agent管理/编排/标准化，这块做SaaS或私有化部署窗口期还在，但Google已入场需要差异化。
 
-2. **视频+Agent=暴击组合**：OpenMontage月增34k星证明"Agent做视频"需求炸裂，结合老大已有的ComfyUI/FFmpeg/视频分析技能栈，做垂直场景（电商视频/短视频批量生产）7天可Demo。
+2. **AI视频成本降到$100级** — Claude Fable 5 vs GPT-5.6 Sol的音乐视频对比，说明AI视频生成已进入实用阶段，做视频模板/批量生产服务时机成熟。
 
-3. **本地化隐私工具需求爆发**：meetily（会议）、simplex-chat（通讯）、cognee（记忆）都在强调100%本地——中国企业/政府的本地部署AI工具是确定性机会，尤其是会议纪要+知识管理方向。
+3. **OfficeCLI是最大黑马** — 5.3K周增、单二进制操作Office三件套，企业自动化需求明确，可快速搭建"AI+企业报表/合同"的付费demo。
 
 ---
 
-*下轮夜巡: 今晚22:00*
+*夜巡完毕 🌙*
