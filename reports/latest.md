@@ -1,70 +1,59 @@
-# 🌙 AI赚钱夜巡 · 2026-07-20 19:19
+# 🌙 AI赚钱夜巡 · 2026-07-21 09:11
 
-> 模型: deepseek-v4-pro | 数据: 36kr + HN + GitHub Weekly/Monthly | PH: ❌ Cloudflare
-
----
-
-## 🎯 选题雷达（5指标筛选：客户明确/7天Demo/30天收费/复用资产/长期壁垒 ≥3=🔴重点）
-
-### 🔴 重点追踪
-
-| 项目 | 星数 | 客户 | 7天 | 30天 | 复用 | 壁垒 | 总分 |
-|------|------|:--:|:--:|:--:|:--:|:--:|:--:|
-| **OfficeCLI** - AI Office套件(Word/Excel/PPT自动化) | 19.9K | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
-| **meetily** - 本地AI会议助手(100%本地处理) | 25.7K | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
-| **Vibe-Trading** - 个人AI交易代理 | 25.5K | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
-| **strix** - 开源AI渗透测试工具 | 42.8K | ✅ | ❌ | ✅ | ✅ | ✅ | **4/5** |
-| **OpenMontage** - 开源AI视频制作系统 | 40.3K | ✅ | ❌ | ✅ | ✅ | ✅ | **4/5** |
-| **code-review-graph** - 本地代码智能图谱 | 22.2K | ✅ | ❌ | ✅ | ✅ | ✅ | **4/5** |
-| **cangjie-skill** - 内容蒸馏→Agent Skills | 4.0K | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
-| **ai-job-search** - AI求职框架(CV/cover letter) | 24.2K | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
-| **ai-website-cloner** - AI网站克隆 | 29.0K | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
-| **hallmark** - 反AI塑料感的Claude Code设计技能 | 13.8K | ✅ | ✅ | ❌ | ✅ | ❌ | **3/5** |
-| **OpenCut** - 开源CapCut替代 | 76.2K | ✅ | ❌ | ✅ | ✅ | ❌ | **3/5** |
-| **orca** - 并行Agent舰队管理IDE | 22.9K | ✅ | ❌ | ✅ | ✅ | ❌ | **3/5** |
-
-### ⚪ 速览（不满足3项）
-
-- **OpenAI Codex** 99.9K⭐ — CLI编码Agent，Rust重写，2.3K周星
-- **MoonshotAI/kimi-cli** 10K⭐ — Kimi终端Agent，Python
-- **system_prompts_leaks** 59.2K⭐ — 各模型系统提示词泄露合集
-- **Agent-Reach** 58.5K⭐ — Agent互联网眼睛，零API费
-- **OmniRoute** 20.7K⭐ — 免费MIT AI网关，268+供应商
-- **Shubhamsaboo/awesome-llm-apps** — 100+可运行的Agent/RAG应用合集
-- **Qwen 3.8** (HN 889pts) — 阿里新模型发布
-- **Claude Code uses Bun written in Rust** (HN 538pts) — Claude Code底层用Rust重写Bun
-- **ESP32 Bowling System** (HN 2398pts) — $1,600替代$120K保龄球系统
-- **MIDI recorders: Hardware is not so hard** (HN 500pts) — 硬件创业2500台经验
+> 数据源：36kr(20) · HN(25) · GitHub API(周/月) · PH(❌被拦截)
 
 ---
 
-## 🧠 洞察（≤3句）
+## 🎯 选题雷达（5指标≥3 = 重点）
 
-1. **Agent Skills生态爆发**：hallmark(反AI塑料感)、ui-skills(设计工程师技能)、cangjie-skill(内容蒸馏)、mattpocock/skills(真工程师技能) — 围绕Claude Code/Cursor/Codex的"Skills"正在成为新插件经济。做垂直领域的Agent Skill（如小红书运营Skill包、电商选品Skill）可能是零成本启动的最好切口。
-
-2. **本地优先+隐私优先成标配**：meetily(100%本地会议转录)、code-review-graph(本地代码图谱)、strix(本地渗透测试) — 用户不再接受"数据上云"为前提。做本地AI工具组合（Whisper+Ollama+本地RAG）打包成安装即用的方案，是一块明确可收费的市场。
-
-3. **AI求职赛道持续高热**：ai-job-search(2万月星)不是个例 — 简历评估(hiring-agent 5K月星)、求职全套自动化正在被大量fork。国内对应场景是"AI帮写简历+模拟面试+岗位匹配"，可7天上线、30天收费、客户明确。
-
----
-
-## 📋 可做方向速查
-
-| 方向 | 启动难度 | 变现周期 | 对标项目 |
-|------|:--:|:--:|------|
-| Agent Skills生态(垂直领域Skill包) | ⭐ | 7天 | cangjie-skill |
-| 本地AI工具套装(会议/文档/翻译) | ⭐⭐ | 14天 | meetily |
-| AI求职助手(简历+面试+匹配) | ⭐ | 7天 | ai-job-search |
-| AI办公自动化(Office CLI/API) | ⭐⭐ | 14天 | OfficeCLI |
-| AI交易/理财Agent | ⭐⭐⭐ | 30天 | Vibe-Trading |
-| 内容蒸馏→可执行Agent | ⭐ | 7天 | cangjie-skill |
+| 选题 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
+|------|:---:|:---:|:---:|:---:|:---:|:---:|
+| **本地大模型推理服务** (colibri生态) | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** 🔥 |
+| **AI编程工具二次封装** (grok-build套壳) | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
+| **AI教育垂直SaaS** (Bloomy模式) | ✅ | ✅ | ✅ | ❌ | ✅ | **4/5** |
+| **AI衣橱管理App** (wardrobe启发) | ✅ | ✅ | ✅ | ✅ | ❌ | **4/5** |
+| **Agent编排平台** (Cursor经济) | ✅ | ❌ | ✅ | ✅ | ✅ | **4/5** |
+| **AI代码皮肤/主题市场** (Codex-Dream) | ✅ | ✅ | ✅ | ❌ | ❌ | 3/5 |
 
 ---
 
-## 🚫 漏网之鱼
+## 📊 原始速览
 
-- **ProductHunt**：被Cloudflare拦截，本轮缺失。建议改用Playwright MCP或curl_cffi抓取。
+### 🔥 本周最热
+
+1. **grok-build** (xAI, 20.8K⭐) — xAI开源的全屏TUI编程Agent，Rust写的，一周内炸裂。可以做：国内套壳版、企业定制版、中文优化版。
+
+2. **colibri** (15K+⭐) — 纯C实现，零依赖，在25GB内存的消费级机器上跑GLM-5.2（744B MoE）。可以做：一键安装包、云主机推理服务、私有化部署方案。
+
+3. **Codex-Dream-Skin** (11K⭐) — JS写的AI代码编辑器皮肤/主题项目。可以做：主题市场、企业品牌定制。
+
+4. **wardrobe** (tandpfun) — 用gpt-image提取和整理衣橱。可以做：微信小程序版、闲鱼二手衣物自动上架联动。
+
+### 📈 趋势信号
+
+- **中国开源AI策略正在赢** — HN 971分热帖，Kimi K3/Qwen 3.8持续霸榜讨论
+- **Agent Swarm经济** — Cursor官方博客论述多Agent协作的模型经济学，Agent编排是下一个SaaS层
+- **AI+教育** — Bloomy (YC S26) K-12 mastery learning，YC持续押注AI教育
+- **AI基建** — 光纤光缆景气度上升，AI下游需求推动硬件
+- **韩国半导体出口激增180.6%** — 全球AI军备竞赛持续
+
+### 📌 其他值得注意
+
+- **Nativ** (165pt HN) — Mac上运行前沿开源模型，本地化推理持续热门
+- **Kimi Work** (383pt HN) — 月之暗面的AI工作台产品
+- **Hyprland 0.55** — 窗口管理器切换到Lua配置，可做中文社区/配置工具
+- **Jelly UI** — 原生HTML表单控件的软体物理效果，前端新趋势
 
 ---
 
-*夜巡完成 · 下次见 🌙*
+## 🧠 洞察（3句）
+
+1. **本地大模型推理是本月最大金矿**：colibri证明744B模型能在消费级机器跑，国内做一键部署+微调+API服务是一条从Demo到收费极短的路径。
+
+2. **AI编程工具的红利还在窗口期**：grok-build 20K星但才发布一周，国内还没有像样的竞品，7天内出中文优化版就能吃第一波流量。
+
+3. **不要追开源模型本身，追模型的下游**：Kimi K3/Qwen 3.8/GLM-5.2的竞争已经白热化，但模型运行工具(colibri)、模型应用(Bloomy)、模型编排(Cursor Agent Swarm)才是个人开发者能吃到肉的地方。
+
+---
+
+*下一轮建议：尝试用 gh CLI 抓 GitHub Trending，PH 考虑用第三方 RSS 替代*
