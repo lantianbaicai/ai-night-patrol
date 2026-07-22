@@ -1,114 +1,104 @@
-# 🌙 AI赚钱夜巡 · 2026-07-22 01:09
+# 🌅 AI赚钱夜巡 · 2026-07-22 10:39
 
-> 模型: deepseek-v4-pro | 数据: 36kr + HN + GitHub Weekly/Monthly | PH: 403被吞
-
----
-
-## 🎯 选题雷达（5指标过滤：客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒）
-
-### ⭐⭐⭐ 重点（≥3项达标）
-
-| 项目 | 星 | 得分 | 核心逻辑 |
-|------|-----|------|---------|
-| **strix** · AI渗透测试 | 43k⭐ 月+17k | 5/5 | 安全是企业刚需，AI自动化渗透测试取代人工，企业版收费路径清晰。开源获客→企业付费 |
-| **ai-job-search** · AI求职框架 | 25k⭐ 月+21k | 4/5 | 求职者痛点多、付费意愿强。框架开源获客→简历优化/面试辅导付费。20k月增说明需求爆炸 |
-| **meetily** · 本地AI会议助手 | 26k⭐ 月+13k | 4/5 | 100%本地处理+隐私优先，4x Whisper转录。企业版云同步+团队协作收费。Rust技术栈壁垒 |
-| **Vibe-Trading** · AI交易代理 | 26k⭐ 周+4.4k | 4/5 | 量化交易+AI，交易者为高净值人群。策略订阅/信号付费模式成熟 |
-| **OfficeCLI** · Agent用Office | 21k⭐ 月+13k | 4/5 | 让AI Agent读写Office文件，toB场景无限。单二进制零依赖。企业授权收费 |
-| **Agent-Reach** · Agent互联网之眼 | 59k⭐ 月+24k | 4/5 | 零API费用抓取全互联网，给Agent装眼睛。托管版/高级源收费。23k月增=现象级 |
-| **cangjie-skill** · 内容→Agent技能 | 4.2k⭐ 周+1.3k | 4/5 | 把书/视频/播客蒸馏成可执行Agent Skill。知识付费新范式：不卖课、卖技能包 |
-
-### ⭐⭐ 关注（2-3项达标）
-
-| 项目 | 星 | 得分 | 备注 |
-|------|-----|------|------|
-| **OpenCut** · 开源剪映 | 77k⭐ 月+18k | 3/5 | 视频编辑赛道王者，云模板/素材商店可收费 |
-| **OpenMontage** · Agent视频制作 | 41k⭐ 月+34k | 3/5 | 12条流水线+52工具+500 Agent技能 |
-| **DeepTutor** · AI终身辅导 | 29k⭐ 周+2.8k | 3/5 | 教育SaaS经典模式，需解决获客成本 |
-| **hiring-agent** · AI简历评分 | 6.3k⭐ 月+5.2k | 3/5 | HR SaaS，与ai-job-search对称 |
-| **OmniRoute** · AI网关 | 23k⭐ 月+14k | 3/5 | 268+供应商聚合，token压缩省15-95% |
-| **codebase-memory-mcp** · 代码知识图谱 | 34k⭐ 月+25k | 3/5 | 158语言、毫秒级查询、99%token节省 |
-
-### 👀 信号监测
-
-| 信号 | 来源 | 含义 |
-|------|------|------|
-| **三星AI健康助手** | 36kr | 消费电子巨头入局AI健康，可穿戴+AI健康管理窗口期 |
-| **北京Token工厂+5万P算力** | 36kr | 下半年算力基建加速，推理成本进一步下降 |
-| **微软Mistral数十亿美元协议** | 36kr | 欧洲AI基础设施军备竞赛，非美系模型生态扩张 |
-| **Qwen-Image-3.0** | HN 458pts | 开源图像生成逼近闭源水平，AI绘图工具创业成本骤降 |
-| **Gemini 3.6 Flash系列** | HN 274pts | Google三连发Flash模型，轻量级推理成本持续走低 |
-| **Kimi Work** | HN 646pts | 月之暗面工作台产品，中国AI应用层加速 |
-| **Nativ** · Mac本地跑前沿模型 | HN 353pts | 本地推理需求升温，隐私+离线场景创业机会 |
+> 模型: deepseek-v4-pro | PH/整体Trending被Cloudflare拦截，用Python Trending+HN+36kr替代
 
 ---
 
-## 📋 原始速览
+## 🎯 选题雷达（五指标评分 ≥3 = 重点）
 
-### GitHub Weekly Top 20
+| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 总分 | 结论 |
+|------|:--:|:--:|:--:|:--:|:--:|:--:|------|
+| **闲鱼自动化SaaS** | ✅ | ✅ | ✅ | ✅ | ✅ | 5/5 | 🔥重点 |
+| **内容蒸馏Agent Skill** | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4/5 | 🔥重点 |
+| **Graphify知识图谱** | ✅ | ⚠️ | ✅ | ✅ | ✅ | 4/5 | 观察 |
+| **PC→AI Server(ODS)** | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4/5 | 可做 |
+| **CloakBrowser反检测** | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4/5 | 套壳 |
+| Vibe-Trading | ✅ | ⚠️ | ✅ | ⚠️ | ⚠️ | 3/5 | 高风险 |
+| Kimi CLI封装 | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | 2/5 | 太薄 |
 
-1. **stablyai/orca** - Agent舰队管理IDE · 25k⭐ (+5.5k周增) · TS
-2. **HKUDS/Vibe-Trading** - AI交易代理 · 26k⭐ (+4.4k) · Python
-3. **iOfficeAI/OfficeCLI** - Agent用Office套件 · 21k⭐ (+4.1k) · C#
-4. **OpenCut-app/OpenCut** - 开源剪映替代 · 77k⭐ (+11.7k) · TS
-5. **tirth8205/code-review-graph** - 代码智能图谱 · 24k⭐ (+3.1k) · Python
-6. **earendil-works/pi** - AI Agent工具包 · 75k⭐ (+2.9k) · TS
-7. **HKUDS/DeepTutor** - AI终身辅导 · 29k⭐ (+2.8k) · Python
-8. **openinterpreter/openinterpreter** - 开源编码Agent · 67k⭐ (+2.6k) · Rust
-9. **tt-a1i/archify** - 架构图Skill · 6.6k⭐ (+2.1k) · HTML
-10. **ibelick/ui-skills** - 设计工程师技能包 · 5.8k⭐ (+1.9k) · TS
-11. **Nutlope/hallmark** - 反AI风格设计Skill · 15k⭐ (+9.2k) · CSS
-12. **Dicklesworthstone/destructive_command_guard** - 危险命令拦截 · 5.3k⭐ (+1.4k) · Rust
-13. **kangarooking/cangjie-skill** - 内容蒸馏Agent技能 · 4.2k⭐ (+1.3k) · Python
-14. **1jehuang/jcode** - 智能编码Agent · 10k⭐ (+1.1k) · Rust
-15. **MoonshotAI/kimi-cli** - Kimi CLI Agent · 10.5k⭐ (+974) · Python
-16. **HKUDS/nanobot** - 轻量AI Agent · 46k⭐ (+571) · Python
-17. **Shubhamsaboo/awesome-llm-apps** - 100+可运行LLM应用
-18. **mattpocock/skills** - 真·工程师技能包
-19. **openai/codex** - 终端轻量编码Agent
+---
 
-### GitHub Monthly Top 15
+## 🔥 重点机会（详细）
 
-1. **calesthio/OpenMontage** - Agent视频制作 · 41k⭐ (+34k月增) · Python
-2. **DeusData/codebase-memory-mcp** - 代码知识图谱 · 34k⭐ (+25k) · C
-3. **Panniantong/Agent-Reach** - Agent互联网之眼 · 59k⭐ (+24k) · Python
-4. **MadsLorentzen/ai-job-search** - AI求职框架 · 25k⭐ (+21k) · TS
-5. **OpenCut-app/OpenCut** - 开源剪映 · 77k⭐ (+18k) · TS
-6. **stablyai/orca** - Agent舰队IDE · 25k⭐ (+18k) · TS
-7. **usestrix/strix** - AI渗透测试 · 43k⭐ (+17k) · Python
-8. **asgeirtj/system_prompts_leaks** - 系统Prompt泄露 · 59k⭐ (+16k) · JS
-9. **diegosouzapw/OmniRoute** - AI网关 · 23k⭐ (+14k) · TS
-10. **Zackriya-Solutions/meetily** - 本地AI会议助手 · 26k⭐ (+13k) · Rust
-11. **iOfficeAI/OfficeCLI** - Agent用Office · 21k⭐ (+13k) · C#
-12. **ogulcancelik/herdr** - Agent终端多路复用 · 19k⭐ (+12k) · Rust
-13. **JCodesMore/ai-website-cloner-template** - AI网站克隆 · 29k⭐ (+12k) · TS
-14. **Nutlope/hallmark** - 反AI设计Skill · 15k⭐ (+11k) · CSS
-15. **alibaba/page-agent** - 阿里页面Agent · 27k⭐ (+8.8k) · TS
+### 1. 闲鱼自动化 SaaS — ⭐⭐⭐⭐⭐
+**来源**: [zhinianboke/xianyu-auto-reply](https://github.com/zhinianboke/xianyu-auto-reply) (5.9k⭐, +206/周)
 
-### HN 热门
+- 闲鱼虚拟商品全自动化：自动回复 + 自动发货 + 自动评价 + 自动擦亮
+- **为什么能赚钱**：闲鱼虚拟品类巨大（教程/资料/账号/卡密），卖家有强付费意愿
+- **怎么做**：拿开源代码 → 包装SaaS → 按店铺/月收费 30-99元
+- **壁垒**：要持续跟进闲鱼反爬更新，先发优势明显
+- **风险**：闲鱼封号风险，需要多号策略
 
-- 中国模型威胁论 (897pts) · Kimi Work (646pts) · Jelly UI物理表单 (629pts)
-- Qwen-Image-3.0 (458pts) · AI在数学反例上超越人类 (443pts)
-- Nativ本地跑模型 (353pts) · Gemini 3.6 Flash三连发 (274pts)
+### 2. 内容蒸馏 → Agent Skill — ⭐⭐⭐⭐
+**来源**: [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) (4.2k⭐, +1.3k/周)
 
-### 36氪关键信号
+- 把书/长视频/播客蒸馏成可执行的 Agent Skills
+- **为什么能赚钱**：知识付费3.0 — 不是卖内容，是卖"可执行的知识"
+- **怎么做**：做垂直领域（如"小红书运营Agent Skill包"、"炒股策略Skill包"）
+- **壁垒**：领域知识 + 蒸馏Pipeline经验积累
 
-- 深圳重点抓AI/生物医药风口产业
-- 北京布局Token工厂 + 下半年新增5万P智能算力
-- 三星推出AI健康助手，进军智能健康
-- 微软+Mistral签数十亿欧洲AI基础设施协议
-- 小鹏发布TuringViT高效视觉编码器
+### 3. PC → AI 私有服务器 — ⭐⭐⭐⭐
+**来源**: [Osmantic/ODS](https://github.com/Osmantic/ODS) (3.4k⭐)
+
+- 把普通PC变成AI服务器：LLM推理+聊天UI+语音+Agent+工作流+RAG+图片生成
+- **为什么能赚钱**：中小企业/个人不想买云AI但想用AI
+- **怎么做**：一键安装包 + 远程部署服务收费
+
+---
+
+## 📊 原始速览
+
+### GitHub Python Trending (本周)
+| 项目 | Stars | 周增量 | 一句话 |
+|------|------:|--------|--------|
+| Graphify-Labs/graphify | 93k | +7.2k | 代码→知识图谱，企业级 |
+| tirth8205/code-review-graph | 24.6k | +4.8k | MCP代码智能图 |
+| Robbyant/lingbot-map | 14.7k | +4.1k | 3D场景重建基础模型 |
+| HKUDS/Vibe-Trading | 26k | +3.7k | AI炒股Agent |
+| HKUDS/DeepTutor | 28.8k | +2.9k | 终身个性化辅导 |
+| PostHog/posthog | 37k | +1.8k | 自驱动产品平台 |
+| kvcache-ai/ktransformers | 18.8k | +1.4k | 异构LLM推理框架 |
+| kangarooking/cangjie-skill | 4.2k | +1.4k | 内容蒸馏Agent Skill |
+| MoonshotAI/kimi-cli | 10.5k | +1.3k | Kimi命令行Agent |
+| XiaoYouChR/Ghost-Downloader-3 | 6.9k | +1.2k | AI多协议下载器 |
+| Apache/ossie | 1.4k | +801 | 语义元数据标准 |
+| CloakHQ/CloakBrowser | 28.8k | +598 | 隐身浏览器(过所有bot检测) |
+| google/langextract | 37.6k | +527 | LLM结构化信息提取 |
+| Osmantic/ODS | 3.4k | +321 | PC变AI服务器 |
+| zhinianboke/xianyu-auto-reply | 5.9k | +206 | 闲鱼自动化 |
+
+### HN 热门 (7/22)
+- 🔥 OpenAI ChatGPT开始卖广告 (327pts) — **AI广告平台时代来了**
+- 🤖 Gemini 3.6 Flash + Flash-Lite + Flash Cyber (622pts) — Google模型军备
+- 🔐 OpenAI + HuggingFace 模型评估安全事件 (749pts)
+- 💼 Jack Dorsey 发布 Buzz：团队聊天+AI Agent+Git一体 (252pts)
+- 🧠 Kimi K3 与 Fable 竞争达SOTA (322pts)
+- 📚 Anthropic被罚$15亿（训练Claude用盗版书）(147pts)
+- 🔒 EU法院：VPN是合法技术工具 (398pts)
+
+### 36氪 (7/22)
+- 跨境电商：上半年1.4亿人全球购物
+- 三菱+索尼组建AI视觉合资公司
+- Reddit考虑阻止Google用其内容做AI分析
+- 耐克重造中国数字生态（官方旗舰店+App为核心）
 
 ---
 
 ## 💡 洞察（3句）
 
-1. **"Agent to Agent"是新范式，不是"Human to Agent"**：OfficeCLI让Agent操作Office、Agent-Reach让Agent看互联网、cangjie-skill把内容变成Agent技能——最火的工具不是给人用的，是给Agent用的。做给人用的工具已经红海，做给Agent用的基础设施才是蓝海。
+1. **闲鱼自动化是最确定的机会**：5.9k star的中文开源项目 + 虚拟品类卖家刚需 + 极低启动成本 = 最可能在30天内收到第一笔钱的赛道。
 
-2. **视频+AI赛道持续爆发，但已出现分化**：OpenCut（传统剪辑工具开源化）和OpenMontage（Agent全自动视频制作）代表了两种路径。前者是"工具赋能人"，后者是"Agent替代人"。从月增星看，Agent替代人的增速（34k/月）已超过工具赋能人（18k/月）。
+2. **"内容蒸馏→Agent Skill"是内容付费3.0**：不是卖信息而是卖可执行的知识模块，搭配Claude Code/Cursor生态分发，想象空间大。
 
-3. **求职/HR赛道出现对称爆发**：ai-job-search（求职者端AI助手，21k月增）和hiring-agent（雇主端AI简历评分，5k月增）同时上榜，中间存在"AI撮合平台"的机会窗口——两边的AI都在，但缺少一个AI驱动的双向匹配层。
+3. **ChatGPT卖广告 + Jack Dorsey做一体化工具 = AI商业化进入"基础设施收费"阶段**，个人开发者要么做垂直SaaS，要么做平台生态里的Skill/Plugin。
 
 ---
 
-*生成于 2026-07-22 01:09 CST · next update: tomorrow*
+## ⚠️ 未获取
+
+- ProductHunt：Cloudflare拦截，本次跳过
+- GitHub整体Trending：被限频，用Python分类替代
+
+---
+
+*由夜巡v2.0自动生成 · 下次改进：给fetcher加GitHub Trending API*
