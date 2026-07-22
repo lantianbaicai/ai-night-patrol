@@ -1,104 +1,79 @@
-# 🌅 AI赚钱夜巡 · 2026-07-22 10:39
+# 🌙 AI赚钱夜巡 · 2026-07-22 18:39
 
-> 模型: deepseek-v4-pro | PH/整体Trending被Cloudflare拦截，用Python Trending+HN+36kr替代
-
----
-
-## 🎯 选题雷达（五指标评分 ≥3 = 重点）
-
-| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 总分 | 结论 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|------|
-| **闲鱼自动化SaaS** | ✅ | ✅ | ✅ | ✅ | ✅ | 5/5 | 🔥重点 |
-| **内容蒸馏Agent Skill** | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4/5 | 🔥重点 |
-| **Graphify知识图谱** | ✅ | ⚠️ | ✅ | ✅ | ✅ | 4/5 | 观察 |
-| **PC→AI Server(ODS)** | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4/5 | 可做 |
-| **CloakBrowser反检测** | ✅ | ✅ | ✅ | ✅ | ⚠️ | 4/5 | 套壳 |
-| Vibe-Trading | ✅ | ⚠️ | ✅ | ⚠️ | ⚠️ | 3/5 | 高风险 |
-| Kimi CLI封装 | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | 2/5 | 太薄 |
+> 数据源：36氪(20) + HN(25) + GitHub Trending Monthly(24) | PH 被 Cloudflare 拦截
 
 ---
 
-## 🔥 重点机会（详细）
+## 🎯 选题雷达（5指标评分 ≥3 = 重点）
 
-### 1. 闲鱼自动化 SaaS — ⭐⭐⭐⭐⭐
-**来源**: [zhinianboke/xianyu-auto-reply](https://github.com/zhinianboke/xianyu-auto-reply) (5.9k⭐, +206/周)
-
-- 闲鱼虚拟商品全自动化：自动回复 + 自动发货 + 自动评价 + 自动擦亮
-- **为什么能赚钱**：闲鱼虚拟品类巨大（教程/资料/账号/卡密），卖家有强付费意愿
-- **怎么做**：拿开源代码 → 包装SaaS → 按店铺/月收费 30-99元
-- **壁垒**：要持续跟进闲鱼反爬更新，先发优势明显
-- **风险**：闲鱼封号风险，需要多号策略
-
-### 2. 内容蒸馏 → Agent Skill — ⭐⭐⭐⭐
-**来源**: [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) (4.2k⭐, +1.3k/周)
-
-- 把书/长视频/播客蒸馏成可执行的 Agent Skills
-- **为什么能赚钱**：知识付费3.0 — 不是卖内容，是卖"可执行的知识"
-- **怎么做**：做垂直领域（如"小红书运营Agent Skill包"、"炒股策略Skill包"）
-- **壁垒**：领域知识 + 蒸馏Pipeline经验积累
-
-### 3. PC → AI 私有服务器 — ⭐⭐⭐⭐
-**来源**: [Osmantic/ODS](https://github.com/Osmantic/ODS) (3.4k⭐)
-
-- 把普通PC变成AI服务器：LLM推理+聊天UI+语音+Agent+工作流+RAG+图片生成
-- **为什么能赚钱**：中小企业/个人不想买云AI但想用AI
-- **怎么做**：一键安装包 + 远程部署服务收费
+| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 |
+|------|:--:|:--:|:--:|:--:|:--:|:--:|
+| **OpenMontage** 开源智能视频制作 | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
+| **Orca** 并行Agent IDE | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
+| **OmniRoute** AI网关(268+厂商) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
+| **OfficeCLI** AI读写Office文件 | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
+| **OpenCut** 开源剪映替代 | ✅ | ✅ | ✅ | ✅ | ❓ | ⭐⭐⭐⭐ |
+| **Agent-Reach** AI互联网眼睛 | ✅ | ✅ | ❓ | ✅ | ✅ | ⭐⭐⭐⭐ |
+| **meetily** 本地AI会议助手 | ✅ | ✅ | ✅ | ✅ | ❓ | ⭐⭐⭐⭐ |
+| **ai-job-search** AI求职框架 | ✅ | ✅ | ✅ | ❓ | ❌ | ⭐⭐⭐ |
+| **hiring-agent** AI简历评估 | ✅ | ✅ | ✅ | ❓ | ❌ | ⭐⭐⭐ |
 
 ---
 
 ## 📊 原始速览
 
-### GitHub Python Trending (本周)
-| 项目 | Stars | 周增量 | 一句话 |
-|------|------:|--------|--------|
-| Graphify-Labs/graphify | 93k | +7.2k | 代码→知识图谱，企业级 |
-| tirth8205/code-review-graph | 24.6k | +4.8k | MCP代码智能图 |
-| Robbyant/lingbot-map | 14.7k | +4.1k | 3D场景重建基础模型 |
-| HKUDS/Vibe-Trading | 26k | +3.7k | AI炒股Agent |
-| HKUDS/DeepTutor | 28.8k | +2.9k | 终身个性化辅导 |
-| PostHog/posthog | 37k | +1.8k | 自驱动产品平台 |
-| kvcache-ai/ktransformers | 18.8k | +1.4k | 异构LLM推理框架 |
-| kangarooking/cangjie-skill | 4.2k | +1.4k | 内容蒸馏Agent Skill |
-| MoonshotAI/kimi-cli | 10.5k | +1.3k | Kimi命令行Agent |
-| XiaoYouChR/Ghost-Downloader-3 | 6.9k | +1.2k | AI多协议下载器 |
-| Apache/ossie | 1.4k | +801 | 语义元数据标准 |
-| CloakHQ/CloakBrowser | 28.8k | +598 | 隐身浏览器(过所有bot检测) |
-| google/langextract | 37.6k | +527 | LLM结构化信息提取 |
-| Osmantic/ODS | 3.4k | +321 | PC变AI服务器 |
-| zhinianboke/xianyu-auto-reply | 5.9k | +206 | 闲鱼自动化 |
+### 🔥 本周最大信号
 
-### HN 热门 (7/22)
-- 🔥 OpenAI ChatGPT开始卖广告 (327pts) — **AI广告平台时代来了**
-- 🤖 Gemini 3.6 Flash + Flash-Lite + Flash Cyber (622pts) — Google模型军备
-- 🔐 OpenAI + HuggingFace 模型评估安全事件 (749pts)
-- 💼 Jack Dorsey 发布 Buzz：团队聊天+AI Agent+Git一体 (252pts)
-- 🧠 Kimi K3 与 Fable 竞争达SOTA (322pts)
-- 📚 Anthropic被罚$15亿（训练Claude用盗版书）(147pts)
-- 🔒 EU法院：VPN是合法技术工具 (398pts)
+**1. ChatGPT 开放广告平台** (HN 792pts)
+> ads.openai.com 正式上线。AI助手内置广告位——这是搜索广告之后最大的新流量入口。所有AI工具都可以在ChatGPT里投广告触达用户。
 
-### 36氪 (7/22)
-- 跨境电商：上半年1.4亿人全球购物
-- 三菱+索尼组建AI视觉合资公司
-- Reddit考虑阻止Google用其内容做AI分析
-- 耐克重造中国数字生态（官方旗舰店+App为核心）
+**2. Jack Dorsey 发布 Buzz** (HN 323pts)
+> Block推出：团队聊天 + AI Agent + Git托管 三合一。如果成气候，Slack/GitHub/Discord 都可能被蚕食。关注其API开放程度。
 
----
+**3. Gemini 3.6 Flash 发布** (HN 696pts)
+> Google连续发布3个模型。Flash-Lite + Flash Cyber（安全版）。模型层竞争白热化，利好下游应用开发者。
 
-## 💡 洞察（3句）
+**4. Kimi K3 达到 Fable 级别** (HN 646pts)
+> 中国模型在代码能力上追平Anthropic Fable。月之暗面技术实力确认。国内AI应用可放心用国产模型降成本。
 
-1. **闲鱼自动化是最确定的机会**：5.9k star的中文开源项目 + 虚拟品类卖家刚需 + 极低启动成本 = 最可能在30天内收到第一笔钱的赛道。
+### 📈 GitHub 月度趋势
 
-2. **"内容蒸馏→Agent Skill"是内容付费3.0**：不是卖信息而是卖可执行的知识模块，搭配Claude Code/Cursor生态分发，想象空间大。
+| 排名 | 项目 | 本月⭐ | 总⭐ | 方向 |
+|:--:|------|-----:|-----:|------|
+| 1 | OpenMontage | +33K | 41K | 智能视频制作 |
+| 2 | codebase-memory-mcp | +24K | 34K | 代码知识图谱 |
+| 3 | Agent-Reach | +23K | 59K | AI互联网访问 |
+| 4 | ai-job-search | +21K | 25K | AI自动求职 |
+| 5 | Orca | +19K | 26K | 并行Agent IDE |
+| 6 | OpenCut | +19K | 77K | 开源剪映 |
+| 7 | strix | +17K | 43K | AI渗透测试 |
+| 8 | OmniRoute | +16K | 24K | AI多厂商网关 |
+| 9 | system_prompts_leaks | +16K | 60K | 系统提示词泄露 |
+| 10 | meetily | +13K | 26K | 本地会议记录 |
 
-3. **ChatGPT卖广告 + Jack Dorsey做一体化工具 = AI商业化进入"基础设施收费"阶段**，个人开发者要么做垂直SaaS，要么做平台生态里的Skill/Plugin。
+### 📰 36氪信号
+
+- **Meta 研发 OpenRouter 竞品**：内部AI孵化器做自用路由，目标是削减算力成本
+- **李飞飞 World Labs 收购机器人仿真公司**：空间智能 + 机器人
+- **上海海洋经济2030规划**：海洋传感器、智能机器人、潜水器
+
+### 💬 HN 其他值得注意
+
+- **EU法院裁定VPN为合法技术工具** → 隐私工具合规化利好
+- **LG禁止智能电视使用住宅代理** → 反欺诈升级
+- **Anthropic $1.5B版权和解获批** → AI版权诉讼进入赔付阶段
+- **ScreenWall** - 旧手机变同步挂屏 → 小众但有趣
 
 ---
 
-## ⚠️ 未获取
+## 💡 洞察（≤3句）
 
-- ProductHunt：Cloudflare拦截，本次跳过
-- GitHub整体Trending：被限频，用Python分类替代
+1. **视频制作是当前最热AI赛道**：OpenMontage（智能制作）+ OpenCut（剪辑）同月爆发，说明市场对「AI替代专业视频工具」的期待达到沸点。做视频工具或视频内容服务都是好时机。
+
+2. **Agent基础设施 = 新淘金热卖铲子**：Orca/OmniRoute/codebase-memory-mcp/herdr 全部是让Agent更好用的中间件。与其做Agent应用卷，不如做Agent基础设施——客户是开发者，付费意愿更强。
+
+3. **ChatGPT广告 + Buzz = 新流量+新平台机会**：ChatGPT开放广告意味着AI原生获客渠道诞生；Buzz如果开放生态，早期入驻者将享受平台红利。两者都值得盯紧。
 
 ---
 
-*由夜巡v2.0自动生成 · 下次改进：给fetcher加GitHub Trending API*
+*自动生成于 2026-07-22 18:39 CST · 数据源：night_fetcher + GitHub Trending Monthly*
