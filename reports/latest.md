@@ -1,79 +1,74 @@
-# 🌙 AI赚钱夜巡 · 2026-07-23 11:37
+# 🌙 AI赚钱夜巡 · 2026-07-23 19:37
 
-> 模型: deepseek-v4-pro | PH被反爬，已用GitHub+36kr+HN替代
+> 数据源：36氪 + HN + GitHub Trending (weekly+monthly) | PH ❌ Cloudflare封锁
 
 ---
 
-## 🎯 选题雷达（5指标 ≥3 = ⭐重点）
+## 🎯 选题雷达（≥3/5 指标 → 重点）
 
-| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 | 判断 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|------|
-| **meetily - 本地AI会议助手** | ✅ | ✅ | ✅ | ✅ | ✅ | 5/5 | ⭐⭐⭐ |
-| **worldmonitor - 全球情报看板** | ✅ | ✅ | ✅ | ✅ | ⚠️ | 5/5 | ⭐⭐⭐ |
-| **OmniRoute - AI网关聚合** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 | ⭐⭐ |
-| **OpenMontage - Agent视频制作** | ✅ | ❌ | ✅ | ✅ | ✅ | 4/5 | ⭐⭐ |
-| **ai-job-search - AI求职框架** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 | ⭐⭐ |
-| **ai-website-cloner - AI网站克隆** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 | ⭐⭐ |
-| **Vibe-Trading - AI交易Agent** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 | ⭐⭐ |
-| **code-review-graph - 代码智能图** | ✅ | ❌ | ✅ | ✅ | ✅ | 4/5 | ⭐⭐ |
-| **hiring-agent - AI简历评分** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 | ⭐⭐ |
-| Hallmark - 反AI水货设计 | ✅ | ✅ | ❓ | ✅ | ❌ | 3/5 | ⭐ |
-| OfficeCLI - AI Office套件 | ✅ | ❌ | ✅ | ❌ | ✅ | 3/5 | ⭐ |
-| strix - AI渗透测试 | ✅ | ❌ | ✅ | ❌ | ✅ | 3/5 | ⭐ |
-| OpenCut - 开源剪映 | ✅ | ❌ | ✅ | ❌ | ❌ | 2/5 | ❌ |
-| herdr - Agent多路复用 | ✅ | ✅ | ❓ | ✅ | ❌ | 2.5/5 | ❌ |
+| 项目 | Stars/月 | 评分 | 赛道 | 一句话 |
+|------|---------|------|------|--------|
+| **meetily** | 13,432 | ⭐5/5 | AI会议助手 | Rust+本地Whisper，隐私优先，100%离线，企业刚需 |
+| **strix** | 17,610 | ⭐5/5 | AI渗透测试 | 开源AI安全扫描，DevSecOps赛道，合规驱动付费 |
+| **ai-job-search** | 21,766 | 4/5 | AI求职 | Claude Code驱动，简历定制+面试准备，求职焦虑永续 |
+| **codebase-memory-mcp** | 23,249 | 4/5 | 代码智能 | 158语言知识图谱，单二进制零依赖，developer tool变现难但被收购价值高 |
+| **OfficeCLI** | 13,285 | 4/5 | AI办公 | 无Office依赖读写Word/Excel/PPT，AI自动化办公基建 |
+| **Vibe-Trading** | 13,554 | 4/5 | AI量化交易 | 个人交易Agent，散户需要AI军师，监管风险需关注 |
+| **OpenMontage** | 30,594 | 3/5 | AI视频制作 | 12条生产线+700技能文件，agentic video生产系统 |
+| **ai-website-cloner** | 12,469 | 3/5 | 网站克隆 | 一条命令克隆任意网站，小商家建站，壁垒低 |
+| **hiring-agent** | 5,117 | 3/5 | AI招聘 | AI简历评分，HR SaaS方向，竞争激烈 |
+
+> 评分维度：客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒
 
 ---
 
 ## 📊 原始速览
 
-### 🔥 GitHub Weekly Top 5
-1. **Nutlope/hallmark** (15.7K⭐, +8.4K本周) — 反AI水货设计Skill，给Claude Code/Cursor用的CSS美化
-2. **tirth8205/code-review-graph** (25.4K⭐, +5.6K) — 代码智能知识图谱MCP，context减少到1%
-3. **OpenCut-app/OpenCut** (77.7K⭐, +7.4K) — 开源版剪映，TypeScript全栈
-4. **diegosouzapw/OmniRoute** (25.5K⭐, +7K) — 一站式AI网关，268+供应商，免费MIT协议
-5. **koala73/worldmonitor** (69K⭐, +5.8K) — 实时全球情报看板，AI新闻聚合+地缘监控
+### 🔥 GitHub Trending 本周
+- **hallmark** (8,471⭐) — Anti-AI-slop设计技能，Claude Code/Cursor/Codex用
+- **OmniRoute** (6,989⭐) — 免费MIT AI网关，278+提供商，500+模型
+- **code-review-graph** (5,639⭐) — MCP本地代码智能图，大幅减少AI编码token消耗
+- **worldmonitor** (5,812⭐) — 实时全球情报dashboard
+- **build-your-own-x** (4,951⭐) — 经典项目长盛不衰
+- **lingbot-map** (4,250⭐) — 3D基础模型，流式场景重建
+- **pi** (4,060⭐) — AI agent统一工具包（TUI+CLI+agent loop）
+- **DeepTutor** (3,030⭐) — 终身个性化AI辅导
 
-### 🔥 GitHub Monthly Top 5
-1. **calesthio/OpenMontage** (41K⭐, +30.6K本月) — 开源Agent视频制作系统，12条产线100+工具
-2. **DeusData/codebase-memory-mcp** (34K⭐, +23.2K) — 代码库记忆MCP，158语言，亚毫秒查询
-3. **Panniantong/Agent-Reach** (59.8K⭐, +22.5K) — Agent互联网之眼，零API费
-4. **MadsLorentzen/ai-job-search** (25.4K⭐, +21.8K) — AI求职框架，用Claude Code投简历
-5. **stablyai/orca** (26.4K⭐, +20K) — 并行Agent舰队管理IDE
+### 🔥 GitHub Trending 本月（新增）
+- **stablyai/orca** (20,026⭐) — 并行agent舰队IDE，桌面/移动/VPS全平台
+- **OpenCut** (19,013⭐) — 开源剪映替代，77k总星
+- **system_prompts_leaks** (15,152⭐) — 各大模型系统提示词泄露合集
+- **herdr** (12,842⭐) — Rust终端agent多路复用器
+- **Panniantong/Agent-Reach** (22,480⭐) — AI联网眼睛，零API费
+- **claude-video** (7,361⭐) — 让Claude看视频
+- **alibaba/page-agent** (8,980⭐) — 阿里JS页面GUI agent，自然语言控制网页
+- **kunchenguid/no-mistakes** (5,389⭐) — `git push no-mistakes`
 
-### 🔥 Hacker News 热门
-- **Bento** (690pts) — 一个HTML文件 = 整个PPT（编辑+查看+数据+协作），极简理念
-- **GigaToken** (396pts) — 1000x加速的LLM分词器，Rust实现
-- **AI Labs Pelicanmaxxing** (416pts) — 讨论AI实验室数据枯竭困境
-- **Fake Job Interview Git Hook Malware** (303pts) — 伪装成面试题的供应链攻击
-- **Used GPU Cluster Pricing** (181pts) — 二手GPU集群没人知道值多少钱
+### 💬 Hacker News 热门
+- **Bento** (866pts) — 整个PPT放进一个HTML文件，在线编辑协作
+- **GigaToken** (526pts) — ~1000x更快的语言模型tokenization
+- **AI labs pelicanmaxxing** (568pts) — AI实验室过度消费算力的讨论
+- **Nobody knows what a used GPU cluster is worth** (242pts) — GPU二手市场定价黑洞
+- **Reddit decided plain HTML is unsafe** (497pts) — Reddit封禁纯HTML访问
+- **Cactus Hybrid** (151pts) — 让Gemma 4知道什么时候自己错了
 
-### 📰 36氪AI相关
-- **智象未来完成C轮融资** — AI视频生成赛道继续吸金
-- **企业数字化采购AI渗透率逐年提高** — B端AI落地加速
-- **蚂蚁集团入股乐享智能** — 大厂布局AI智能硬件
-- **两部门：引导新建数据中心与可再生能源协同** — 算力基础设施政策利好
-
----
-
-## 💡 洞察（≤3句）
-
-1. **"会议助手"是本周最确定的套利窗口**：meetily 26K星但本地化门槛挡掉80%用户 → 做一个「国内版AI会议纪要」（接入飞书/钉钉/企业微信），7天可出Demo，30天能收企业年费。这是今天唯一5/5分的选题。
-
-2. **Agent视频制作赛道已过热但细分有机会**：OpenMontage 30K月增星说明需求真实，但正面竞争已不可能。真正能做的方向是「单人自媒体AI视频工作流」——把Remotion+ComfyUI+字幕做成一个产品卖给UP主，复用现有技能栈。
-
-3. **AI求职/简历是典型的"谁都能做→没人做好"赛道**：ai-job-search月增21K星、hiring-agent月增5K星，但两个都是英文市场。国内版「AI求职助手」（优化简历+模拟面试+匹配岗位）空白巨大，门槛极低，唯一壁垒是BOSS直聘/脉脉的反爬。
+### 📰 36氪相关
+- 脑机接口突破：首次跨地域上千人同步脑电信号采集
+- 197款游戏版号获批（7月）
+- 谷歌被欧盟罚款近10亿美元
+- IBM收购HRL实验室推进量子计算
+- 特斯拉2026年资本支出预计超250亿美元
 
 ---
 
-## 🔖 本周重点关注
+## 💡 洞察（3句）
 
-| 优先级 | 选题 | 行动建议 |
-|:--:|------|------|
-| P0 | 国内AI会议纪要工具 | 本周做市场调研，确认飞书/钉钉API可行 |
-| P1 | UP主AI视频工作流产品 | 调研B站UP主痛点，现有Remotion资产可复用 |
-| P2 | 国内AI求职助手 | 反爬技术验证为先，确认BOSS直聘可爬再立项 |
+1. **Agent平台内卷，垂直应用才是钱**：orca/herdr/pi/OmniRoute/kimi-code都在做agent基础设施，但真正爆的是meetily（会议）、strix（安全）、ai-job-search（求职）这类"用一个Agent解决一个具体业务"的产品。做锄头的不如种地的。
+
+2. **"本地优先+AI"正在形成一个独立品类**：meetily的本地Whisper转写、codebase-memory-mcp的单二进制知识图谱、OfficeCLI的无Office办公——趋势是用AI能力把原本必须上云的功能拉回本地，卖给对隐私/延迟/成本敏感的客户。
+
+3. **OpenMontage 30k星/月是视频赛道最强烈信号**：700+技能文件、12条生产管线，"用AI agent做视频"的需求已经验证。配合OpenCut（开源剪映）19k星/月，视频创作工具链是近半年最大的开源机会窗口。
 
 ---
 
-*自动生成 by 夜巡 v2.0 · 下次夜巡 2026-07-24 凌晨*
+*夜巡完成于 2026-07-23 19:37 CST | 下次夜巡：明日19:30*
