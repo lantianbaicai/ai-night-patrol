@@ -1,79 +1,79 @@
-# 🌙 AI赚钱夜巡 · 2026-07-22 18:39
+# 🌙 AI赚钱夜巡 · 2026-07-23 11:37
 
-> 数据源：36氪(20) + HN(25) + GitHub Trending Monthly(24) | PH 被 Cloudflare 拦截
+> 模型: deepseek-v4-pro | PH被反爬，已用GitHub+36kr+HN替代
 
 ---
 
-## 🎯 选题雷达（5指标评分 ≥3 = 重点）
+## 🎯 选题雷达（5指标 ≥3 = ⭐重点）
 
-| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|
-| **OpenMontage** 开源智能视频制作 | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
-| **Orca** 并行Agent IDE | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
-| **OmniRoute** AI网关(268+厂商) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
-| **OfficeCLI** AI读写Office文件 | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐⭐⭐ |
-| **OpenCut** 开源剪映替代 | ✅ | ✅ | ✅ | ✅ | ❓ | ⭐⭐⭐⭐ |
-| **Agent-Reach** AI互联网眼睛 | ✅ | ✅ | ❓ | ✅ | ✅ | ⭐⭐⭐⭐ |
-| **meetily** 本地AI会议助手 | ✅ | ✅ | ✅ | ✅ | ❓ | ⭐⭐⭐⭐ |
-| **ai-job-search** AI求职框架 | ✅ | ✅ | ✅ | ❓ | ❌ | ⭐⭐⭐ |
-| **hiring-agent** AI简历评估 | ✅ | ✅ | ✅ | ❓ | ❌ | ⭐⭐⭐ |
+| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 | 判断 |
+|------|:--:|:--:|:--:|:--:|:--:|:--:|------|
+| **meetily - 本地AI会议助手** | ✅ | ✅ | ✅ | ✅ | ✅ | 5/5 | ⭐⭐⭐ |
+| **worldmonitor - 全球情报看板** | ✅ | ✅ | ✅ | ✅ | ⚠️ | 5/5 | ⭐⭐⭐ |
+| **OmniRoute - AI网关聚合** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 | ⭐⭐ |
+| **OpenMontage - Agent视频制作** | ✅ | ❌ | ✅ | ✅ | ✅ | 4/5 | ⭐⭐ |
+| **ai-job-search - AI求职框架** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 | ⭐⭐ |
+| **ai-website-cloner - AI网站克隆** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 | ⭐⭐ |
+| **Vibe-Trading - AI交易Agent** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 | ⭐⭐ |
+| **code-review-graph - 代码智能图** | ✅ | ❌ | ✅ | ✅ | ✅ | 4/5 | ⭐⭐ |
+| **hiring-agent - AI简历评分** | ✅ | ✅ | ✅ | ✅ | ❌ | 4/5 | ⭐⭐ |
+| Hallmark - 反AI水货设计 | ✅ | ✅ | ❓ | ✅ | ❌ | 3/5 | ⭐ |
+| OfficeCLI - AI Office套件 | ✅ | ❌ | ✅ | ❌ | ✅ | 3/5 | ⭐ |
+| strix - AI渗透测试 | ✅ | ❌ | ✅ | ❌ | ✅ | 3/5 | ⭐ |
+| OpenCut - 开源剪映 | ✅ | ❌ | ✅ | ❌ | ❌ | 2/5 | ❌ |
+| herdr - Agent多路复用 | ✅ | ✅ | ❓ | ✅ | ❌ | 2.5/5 | ❌ |
 
 ---
 
 ## 📊 原始速览
 
-### 🔥 本周最大信号
+### 🔥 GitHub Weekly Top 5
+1. **Nutlope/hallmark** (15.7K⭐, +8.4K本周) — 反AI水货设计Skill，给Claude Code/Cursor用的CSS美化
+2. **tirth8205/code-review-graph** (25.4K⭐, +5.6K) — 代码智能知识图谱MCP，context减少到1%
+3. **OpenCut-app/OpenCut** (77.7K⭐, +7.4K) — 开源版剪映，TypeScript全栈
+4. **diegosouzapw/OmniRoute** (25.5K⭐, +7K) — 一站式AI网关，268+供应商，免费MIT协议
+5. **koala73/worldmonitor** (69K⭐, +5.8K) — 实时全球情报看板，AI新闻聚合+地缘监控
 
-**1. ChatGPT 开放广告平台** (HN 792pts)
-> ads.openai.com 正式上线。AI助手内置广告位——这是搜索广告之后最大的新流量入口。所有AI工具都可以在ChatGPT里投广告触达用户。
+### 🔥 GitHub Monthly Top 5
+1. **calesthio/OpenMontage** (41K⭐, +30.6K本月) — 开源Agent视频制作系统，12条产线100+工具
+2. **DeusData/codebase-memory-mcp** (34K⭐, +23.2K) — 代码库记忆MCP，158语言，亚毫秒查询
+3. **Panniantong/Agent-Reach** (59.8K⭐, +22.5K) — Agent互联网之眼，零API费
+4. **MadsLorentzen/ai-job-search** (25.4K⭐, +21.8K) — AI求职框架，用Claude Code投简历
+5. **stablyai/orca** (26.4K⭐, +20K) — 并行Agent舰队管理IDE
 
-**2. Jack Dorsey 发布 Buzz** (HN 323pts)
-> Block推出：团队聊天 + AI Agent + Git托管 三合一。如果成气候，Slack/GitHub/Discord 都可能被蚕食。关注其API开放程度。
+### 🔥 Hacker News 热门
+- **Bento** (690pts) — 一个HTML文件 = 整个PPT（编辑+查看+数据+协作），极简理念
+- **GigaToken** (396pts) — 1000x加速的LLM分词器，Rust实现
+- **AI Labs Pelicanmaxxing** (416pts) — 讨论AI实验室数据枯竭困境
+- **Fake Job Interview Git Hook Malware** (303pts) — 伪装成面试题的供应链攻击
+- **Used GPU Cluster Pricing** (181pts) — 二手GPU集群没人知道值多少钱
 
-**3. Gemini 3.6 Flash 发布** (HN 696pts)
-> Google连续发布3个模型。Flash-Lite + Flash Cyber（安全版）。模型层竞争白热化，利好下游应用开发者。
-
-**4. Kimi K3 达到 Fable 级别** (HN 646pts)
-> 中国模型在代码能力上追平Anthropic Fable。月之暗面技术实力确认。国内AI应用可放心用国产模型降成本。
-
-### 📈 GitHub 月度趋势
-
-| 排名 | 项目 | 本月⭐ | 总⭐ | 方向 |
-|:--:|------|-----:|-----:|------|
-| 1 | OpenMontage | +33K | 41K | 智能视频制作 |
-| 2 | codebase-memory-mcp | +24K | 34K | 代码知识图谱 |
-| 3 | Agent-Reach | +23K | 59K | AI互联网访问 |
-| 4 | ai-job-search | +21K | 25K | AI自动求职 |
-| 5 | Orca | +19K | 26K | 并行Agent IDE |
-| 6 | OpenCut | +19K | 77K | 开源剪映 |
-| 7 | strix | +17K | 43K | AI渗透测试 |
-| 8 | OmniRoute | +16K | 24K | AI多厂商网关 |
-| 9 | system_prompts_leaks | +16K | 60K | 系统提示词泄露 |
-| 10 | meetily | +13K | 26K | 本地会议记录 |
-
-### 📰 36氪信号
-
-- **Meta 研发 OpenRouter 竞品**：内部AI孵化器做自用路由，目标是削减算力成本
-- **李飞飞 World Labs 收购机器人仿真公司**：空间智能 + 机器人
-- **上海海洋经济2030规划**：海洋传感器、智能机器人、潜水器
-
-### 💬 HN 其他值得注意
-
-- **EU法院裁定VPN为合法技术工具** → 隐私工具合规化利好
-- **LG禁止智能电视使用住宅代理** → 反欺诈升级
-- **Anthropic $1.5B版权和解获批** → AI版权诉讼进入赔付阶段
-- **ScreenWall** - 旧手机变同步挂屏 → 小众但有趣
+### 📰 36氪AI相关
+- **智象未来完成C轮融资** — AI视频生成赛道继续吸金
+- **企业数字化采购AI渗透率逐年提高** — B端AI落地加速
+- **蚂蚁集团入股乐享智能** — 大厂布局AI智能硬件
+- **两部门：引导新建数据中心与可再生能源协同** — 算力基础设施政策利好
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **视频制作是当前最热AI赛道**：OpenMontage（智能制作）+ OpenCut（剪辑）同月爆发，说明市场对「AI替代专业视频工具」的期待达到沸点。做视频工具或视频内容服务都是好时机。
+1. **"会议助手"是本周最确定的套利窗口**：meetily 26K星但本地化门槛挡掉80%用户 → 做一个「国内版AI会议纪要」（接入飞书/钉钉/企业微信），7天可出Demo，30天能收企业年费。这是今天唯一5/5分的选题。
 
-2. **Agent基础设施 = 新淘金热卖铲子**：Orca/OmniRoute/codebase-memory-mcp/herdr 全部是让Agent更好用的中间件。与其做Agent应用卷，不如做Agent基础设施——客户是开发者，付费意愿更强。
+2. **Agent视频制作赛道已过热但细分有机会**：OpenMontage 30K月增星说明需求真实，但正面竞争已不可能。真正能做的方向是「单人自媒体AI视频工作流」——把Remotion+ComfyUI+字幕做成一个产品卖给UP主，复用现有技能栈。
 
-3. **ChatGPT广告 + Buzz = 新流量+新平台机会**：ChatGPT开放广告意味着AI原生获客渠道诞生；Buzz如果开放生态，早期入驻者将享受平台红利。两者都值得盯紧。
+3. **AI求职/简历是典型的"谁都能做→没人做好"赛道**：ai-job-search月增21K星、hiring-agent月增5K星，但两个都是英文市场。国内版「AI求职助手」（优化简历+模拟面试+匹配岗位）空白巨大，门槛极低，唯一壁垒是BOSS直聘/脉脉的反爬。
 
 ---
 
-*自动生成于 2026-07-22 18:39 CST · 数据源：night_fetcher + GitHub Trending Monthly*
+## 🔖 本周重点关注
+
+| 优先级 | 选题 | 行动建议 |
+|:--:|------|------|
+| P0 | 国内AI会议纪要工具 | 本周做市场调研，确认飞书/钉钉API可行 |
+| P1 | UP主AI视频工作流产品 | 调研B站UP主痛点，现有Remotion资产可复用 |
+| P2 | 国内AI求职助手 | 反爬技术验证为先，确认BOSS直聘可爬再立项 |
+
+---
+
+*自动生成 by 夜巡 v2.0 · 下次夜巡 2026-07-24 凌晨*
