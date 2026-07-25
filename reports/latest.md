@@ -1,111 +1,91 @@
-# 🔭 AI赚钱夜巡 · 2026-07-24 18:23
+# 🎯 AI赚钱夜巡 · 2026-07-25 11:55
 
-> 模型: deepseek-v4-pro | 5指标评分法 | 不堆新闻只记能做
-
----
-
-## 🎯 选题雷达（≥3项 = 🔥重点）
-
-### 🔥🔥🔥 OpenMontage · 开源智能视频制作系统
-- Stars: 41.8k | 月增 27.7k | Python
-- 12条制作流水线 / 100+工具 / 700+技能文件
-- 将AI编码助手变成完整视频制作工作室
-- **客户明确** ✅ 视频创作者/自媒体/企业营销
-- **7天Demo** ✅ 用现有Remotion+ComfyUI+视频技能
-- **30天收费** ✅ 视频制作服务/模板市场/代运营
-- **复用资产** ✅ ComfyUI工作流、脚本模板、音效库
-- **长期壁垒** ✅ 风格化流水线+工作流积累
-- 💡 **我们的切入点**: 中文版OpenMontage + 小红书/抖音视频自动化 + 带货视频批量生产
-
-### 🔥🔥🔥 Agent-Reach · AI互联网之眼
-- Stars: 60.4k | 月增 22.1k | Python
-- 读写Twitter/Reddit/YouTube/GitHub/B站/小红书 — 零API费用
-- **客户明确** ✅ AI开发者/自动化需求者
-- **7天Demo** ✅ 本身就是skill已可用
-- **30天收费** ✅ 定制数据源/企业版/托管服务
-- **复用资产** ✅ 平台爬虫积累
-- **长期壁垒** ✅ 反爬对抗+平台适配
-- 💡 **我们的切入点**: 已有此skill！可做商业化包装：竞品监控/舆情分析/自动运营
-
-### 🔥🔥 ai-job-search · AI求职框架
-- Stars: 26.1k | 月增 22.2k | TypeScript
-- 基于Claude Code: 评估职位/定制简历/写求职信/模拟面试
-- **客户明确** ✅ 求职者(庞大刚需)
-- **7天Demo** ✅ 基于开源快速搭建
-- **30天收费** ✅ 按次/包月/面试辅导
-- **复用资产** ✅ 简历模板+面试题库
-- **长期壁垒** ⚠️ 门槛较低
-- 💡 **我们的切入点**: 中国版AI求职助手(智联/猎聘/BOSS直聘适配) + 英文简历润色
-
-### 🔥🔥 meetily · 本地AI会议助手
-- Stars: 26.4k | 月增 13.6k | Rust
-- 100%本地处理：Parakeet/Whisper转录+说话人分离+Ollama摘要
-- **客户明确** ✅ 远程办公/企业会议/自由职业者
-- **7天Demo** ✅ 用现有Whisper+摘要能力
-- **30天收费** ✅ SaaS订阅/企业部署
-- **复用资产** ⚠️ 需本地化改造
-- **长期壁垒** ✅ 隐私合规+本地化优势
-- 💡 **我们的切入点**: 适配微信/钉钉/飞书语音消息 + 中文优化
-
-### 🔥 hallmark · 反AI味设计技能
-- Stars: 16.5k | 月增 12.7k | CSS
-- 让AI生成的设计不再"一眼AI"，做人味设计
-- **客户明确** ✅ 设计师/产品经理/AI工具用户
-- **7天Demo** ✅ 设计规范可直接复用
-- **30天收费** ✅ 设计技能包/模板市场
-- **复用资产** ✅ 设计Token+组件库
-- **长期壁垒** ⚠️ 规范易复制
-- 💡 **我们的切入点**: 中文UI设计技能包 + 小红书封面/公众号排版模板
+> 评分标准：客户明确 / 7天Demo / 30天收费 / 复用资产 / 长期壁垒（≥3项 = 重点）
 
 ---
 
-## 📡 原始速览
+## 📡 选题雷达（≥3项达标）
 
-### GitHub Weekly 热点
-| 项目 | Stars | 周增 | 方向 |
-|------|-------|------|------|
-| worldmonitor | 72.5k | 9k | AI全球情报仪表盘 |
-| OmniRoute | 28k | 8.7k | 免费AI网关(290+供应商) |
-| code-review-graph | 26k | 6.3k | 代码智能图/MCP |
-| hallmark | 16.5k | 5.8k | 反AI设计 |
-| pi | 76.8k | 4.5k | AI agent工具包 |
-| lingbot-map | 15.2k | 4.4k | 3D场景重建 |
-| DeepTutor | 29.5k | 2.7k | 终身个性化辅导 |
-| jcode | 11.1k | 2.6k | 智能代码agent |
+### 🔴 重点跟踪
 
-### GitHub Monthly 热点
-| 项目 | Stars | 月增 | 方向 |
-|------|-------|------|------|
-| OpenMontage | 41.8k | 27.7k | 🔥开源视频制作 |
-| codebase-memory-mcp | 34.7k | 22.5k | 代码知识图谱 |
-| Agent-Reach | 60.4k | 22.2k | AI互联网访问 |
-| ai-job-search | 26.1k | 22.2k | AI求职 |
-| orca | 27.9k | 21k | 并行agent舰队 |
-| OpenCut | 78.3k | 19.3k | 开源剪映替代 |
-| strix | 43.9k | 17.8k | AI渗透测试 |
-| system_prompts_leaks | 60.2k | 15k | 系统提示词泄露 |
-| Vibe-Trading | 27.1k | 13.9k | AI交易agent |
-| meetily | 26.4k | 13.6k | 本地会议助手 |
+| 项目 | 客户 | Demo | 收费 | 复用 | 壁垒 | 方向建议 |
+|------|:---:|:---:|:---:|:---:|:---:|----------|
+| **OpenCut** 开源剪映 | ✅ | ✅ | ✅ | ✅ | ✅ | 中国市场定制/模板商店/企业版 |
+| **Meetily** 本地会议助手 | ✅ | ✅ | ✅ | ✅ | ✅ | 国内企业本地化部署+私有化Ollama |
+| **OpenMontage** AI视频制作 | ✅ | ✅ | ✅ | ✅ | ⚠️ | 与我们视频能力重合，做中文版或B站教程 |
+| **OfficeCLI** AI操作Office | ✅ | ✅ | ✅ | ✅ | ⚠️ | 企业文档自动化，配合微信机器人 |
+| **OfficeCLI** AI操作Office | ✅ | ✅ | ✅ | ✅ | ⚠️ | 企业文档自动化服务 |
+| **strix** AI渗透测试 | ✅ | ✅ | ✅ | ✅ | ✅ | 安全服务化，中小企业刚需 |
+| **ai-job-search** AI求职 | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | 国内求职市场可复制 |
 
-### 36氪关键信号
-- 智元启动赴港上市（AI机器人）
-- 亚马逊升级Alexa+AI助手，新增智能代理功能
-- 晶核能源发布全球首个电池仿生智能体系统
-- 软银拟收购瑞士AI机器人公司Gravis（估值>5亿美元）
+### 🟡 关注池
 
-### HN 高热度信号
-- **Echo**: 用开源模型实现Fable级别效果，成本仅1/3（390pts）
-- **美国拟切断中国开源权重AI** → 国产替代/本地化需求激增
-- **Flux 3**: BFL发布新一代图像+视频动作模型
-- **Palmier Pro**: 开源macOS视频编辑器，AI驱动
-- **OpenAI意外攻击HuggingFace** → 依赖单一供应商风险
+| 项目 | 亮点 | 与我们关联 |
+|------|------|-----------|
+| **ai-berkshire** 价值投资框架 | 多Agent并行研究，12k星/月 | Agent编排思路可借鉴 |
+| **DeepTutor** 终身个性化辅导 | 29k星，教育+AI | 知识库+Agent方向 |
+| **Vibe-Trading** AI交易Agent | 27k星/月，量化交易 | 策略框架可参考 |
+| **RuView** WiFi空间智能 | 86k星，无摄像头感知 | 硬件+AI方向 |
+| **claude-video** 视频理解 | 9.9k星/月 | 与我们的视频分析器高度重叠 |
+
+### 🟢 信号
+
+| 信号 | 来源 | 含义 |
+|------|------|------|
+| Opus 5 发布 | HN 1378pts + 36kr | 基座模型继续军备竞赛，Agent能力提升 |
+| Kimi K3 利用Redis漏洞 | HN 165pts | AI安全攻击面扩大，安全工具需求↑ |
+| HF被黑事件 | 36kr | AI供应链安全，OpenAI将出报告 |
+| 政府要求GitHub删除Bitchat | HN 403pts | 去中心化/离线通讯工具需求 |
+| 英伟达+SK 5000亿美元AI计划 | 36kr | 算力基础设施持续投入，硬件↓软件↑ |
+| Postgres LISTEN/NOTIFY | HN 235pts | 实时数据管道可用此替代Kafka |
+
+---
+
+## 📋 原始速览
+
+### GitHub Weekly Top (本周亮点)
+- **worldmonitor** 73k⭐ — 实时全球情报仪表板，AI新闻聚合
+- **code-review-graph** 26k⭐ — 代码智能图谱MCP，token节省99%
+- **OmniRoute** 29k⭐ — 290+ provider统一AI网关，免费MIT
+- **RuView** 86k⭐ — WiFi信号转空间感知，零摄像头
+- **pi** 77k⭐ — AI agent toolkit，统一API+agent loop
+
+### GitHub Monthly Top (月度爆发)
+- **OpenCut** 78k⭐ — 开源CapCut替代，19k星/月
+- **system_prompts_leaks** 60k⭐ — 各厂商系统prompt泄露汇总
+- **strix** 44k⭐ — 开源AI渗透测试工具
+- **OpenMontage** 42k⭐ — 开源视频制作系统，12条生产线
+- **codebase-memory-mcp** 35k⭐ — 代码库知识图谱，C语言单二进制
+- **orca** 28k⭐ — Agent舰队并行管理IDE
+- **page-agent** 27k⭐ (阿里) — 自然语言操控网页
+- **OfficeCLI** 21k⭐ — AI原生Office操作，单二进制
+- **herdr** 20k⭐ — 终端agent多路复用器
+
+### HN 热点
+- Claude Opus 5 (1378pts) — 新模型登顶
+- "If coding has been solved, why does software keep getting worse?" (604pts)
+- 安全摄像头硬编码GitHub admin token (534pts)
+- 印度首枚私企火箭入轨 (532pts)
+- OpenAI rogue hacker agent争议 (454pts)
+- Buz: Zig版Bun替代 (235pts)
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **视频AI爆发期已到**: OpenMontage 27.7k月增 + OpenCut 19.3k + Flux 3发布 + Palmier Pro → 视频生产工具链是2026下半年最大金矿。我们在Remotion+ComfyUI+视频分析上的积累正处于风口，**应尽快将视频能力产品化**。
+1. **视频创作工具井喷**：OpenCut(78k)+OpenMontage(42k)+claude-video(9.9k) 三连击，视频赛道从"AI生成"进入"AI全流程制作"阶段。我们有视频分析器和Remotion基础，**OpenMontage社区版汉化+模板**是性价比最高的切入点。
 
-2. **Agent-Reach增长验证了"AI联网"刚需**：60k stars/22k月增证明市场需求巨大。我们已经拥有这个skill，但尚未商业化。**可考虑将其包装为付费竞品监控/舆情分析服务**，利用已有爬虫积累。
+2. **"Agent原生工具链"成型**：OmniRoute(网关)→codebase-memory-mcp(上下文)→herdr(编排)→orca(IDE)，Agent开发从手工作坊进入工业化。**做Agent pipeline的垂直场景（如：AI求职Agent = ai-job-search + OfficeCLI + 微信通知）**比做通用工具有更高壁垒。
 
-3. **"AI求职"和"AI会议"是两个低门槛高需求的落地场景**：分别22k和13.6k月增，且都有开源基础可复用。中国市场的BOSS直聘/飞书/钉钉适配是差异化机会。
+3. **隐私/安全成新卖点**：Meetily(100%本地)+strix(渗透测试)+HF被黑事件，企业和个人对数据主权的焦虑升温。**本地化AI服务（会议纪要/文档处理）有清晰收费路径**，部署到客户内网即可按月收费。
+
+---
+
+## 📊 上次跟踪回顾
+
+- 上期夜巡: 2026-07-24 — 重点跟踪了fish-function、dify、MCP生态
+- OpenMontage 本月已涨到42k星（上期未出现），值得本周深度研究
+
+---
+
+*生成时间: 2026-07-25 12:00 CST | 数据源: 36kr + HN + GitHub Trending(weekly/monthly) | PH: 403被Cloudflare拦截*
