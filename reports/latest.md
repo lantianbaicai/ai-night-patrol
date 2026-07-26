@@ -1,65 +1,80 @@
-# 🌙 AI赚钱夜巡 · 2026-07-25 19:55
+# 🌙 AI赚钱夜巡 · 2026-07-26 10:46
 
-> 数据源: 36氪 20条 · HN 25条 | GitHub/PH 抓取失败（被墙/搜素不可用）
-
----
-
-## 🎯 选题雷达（5指标 ≥3=重点）
-
-### 🔴 P0 — 本周可动手
-
-| 选题 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 总分 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Opus 5 套壳工具站**（对比/评测/API代理） | ✅ | ✅ | ✅ | ✅ | ❌ | **4** |
-| **IoT设备安全扫描SaaS**（被HN 601pts引爆） | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4** |
-| **Kimi K3安全审计工具**（UK政府已评估其网络能力） | ✅ | ❌ | ⚠️ | ✅ | ✅ | **3** |
-
-### 🟡 P1 — 值得关注
-
-| 选题 | 信号 |
-|------|------|
-| **Postgres实时推送应用** | HN 323pts：LISTEN/NOTIFY 大规模可行，C端实时通知/协作工具机会 |
-| **Android ADB替代方案** | 谷歌可能在Android上限制on-device ADB（333pts），自动化工具需要新方案 |
-| **AI开源模型监管追踪** | Nvidia/MS/Meta联名反对过度监管（619pts），政策变动影响工具链 |
-| **黑格G1 AI硬件众筹** | 破年内科技造物首日记录→AI消费硬件赛道升温 |
-
-### 🟢 P2 — 长期跟踪
-
-- **ARC-AGI排行榜**（100pts）→ AGI评测工具持续有需求
-- **AI投资回报质疑**（穆迪警告）→ AI降本增效工具会成为刚需
-- **HaikuOS + NVIDIA** → 非主流系统AI生态机会（310pts）
+> v2.0 夜巡 · 模型 deepseek-v4-pro · 不堆新闻，只记能做的东西
 
 ---
 
-## 📋 原始速览
+## 🎯 选题雷达（≥3项指标 = 重点）
 
-### HN 信号
-- **Claude Opus 5** 屠榜（1609pts/947评），已登顶 Artificial Analysis 排行
-- **印度首枚私企火箭入轨**（623pts）→ 航天创业全球化
-- **Kimi K3 攻破最新Redis**（233pts）+ UK AISI 对其网络能力发评估报告 → **安全审计赛道激活**
-- **安全摄像头泄露GitHub Admin Token**（601pts）→ IoT安全丑闻，自动化扫描工具需求确认
-- **Fil-C: 内存安全编译器**（150pts）→ C/C++ 安全编译工具链需求上升
+| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 总分 |
+|------|:---:|:---:|:---:|:---:|:---:|:---:|
+| **every-app/open-seo** (OSS Semrush替代) | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** 🔥 |
+| **meetily** (隐私优先AI会议助手) | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** 🔥 |
+| **OpenCut** (OSS剪映替代) | ✅ | △ | ✅ | ✅ | △ | **4/5** 🔥 |
+| **iOfficeAI/OfficeCLI** (AI Agent办公套件) | ✅ | ✅ | ✅ | ✅ | △ | **4/5** 🔥 |
+| **Strix** (AI渗透测试) | ✅ | △ | ✅ | ✅ | ✅ | **4/5** 🔥 |
+| **OpenMontage** (Agent视频制作) | ✅ | △ | ✅ | ✅ | ✅ | **4/5** |
+| **Voicebox** (OSS语音工作室) | ✅ | ✅ | ✅ | ✅ | △ | **4/5** |
+| **RuView** (WiFi空间感知) | ✅ | △ | ✅ | ✅ | ✅ | **4/5** |
+| **Page-Agent** (阿里Web GUI Agent) | ✅ | ✅ | ✅ | ✅ | ✅ | **4/5** |
+| **OmniRoute** (AI网关290+模型) | ✅ | ✅ | ✅ | ✅ | △ | **4/5** |
+| ai-job-search (AI求职) | ✅ | ✅ | ✅ | △ | △ | **3/5** |
+| Vibe-Trading (AI交易Agent) | ✅ | △ | ✅ | ✅ | △ | **3/5** |
+| claude-video (Claude看视频) | ✅ | ✅ | △ | ✅ | △ | **2/5** |
 
-### 36氪信号
-- VC（维生素C）价格月涨超40% → 原材料波动机会（非AI）
-- SK+英伟达 $5000亿 AI工厂+内存合作、三星+博通 $2000亿芯片供应 → AI基建军备赛继续
-- 数字产业收入39.6万亿 → 数字经济规模持续扩大
-- 穆迪警告微软/甲骨文自由现金流受压 → **卖铲子（AI工具）比烧钱做模型更安全**
+---
 
-### 缺失（本次无法获取）
-- GitHub Trending Weekly/Monthly
-- ProductHunt 首页热门
+## 📊 原始速览
+
+### 🔥 GitHub Weekly 爆款
+- **worldmonitor** (74k★) — 实时全球情报仪表盘，AI新闻聚合+地缘监控，周增12k★
+- **OmniRoute** (30k★) — 免费MIT AI网关，290+供应商/500+模型一键切换，周增11k★
+- **orca** (29k★) — 并行Agent舰队IDE，桌面/手机/VPS全平台，周增7k★
+- **code-review-graph** (26k★) — 代码智能图谱MCP，平均仓库毫秒级索引，周增6k★
+- **RuView** (86k★) — WiFi信号→实时空间感知+生命体征监测，无摄像头，周增5k★
+- **hallmark** (17k★) — 反AI-slop设计技能 for Claude Code/Cursor，周增5k★
+- **voicebox** (46k★) — 开源AI语音工作室，克隆+听写+创作，周增4k★
+- **open-seo** (8k★) — Semrush/Ahrefs开源替代，周增3k★
+
+### 🔥 GitHub Monthly 趋势（本月爆发）
+- **ai-job-search** (26k★) — AI求职框架，月增23k★，Claude Code驱动
+- **OmniRoute** — 月增23k★
+- **codebase-memory-mcp** (35k★) — 代码智能MCP，单一二进制零依赖，月增21k★
+- **OpenMontage** (42k★) — 全球首个开源Agent视频制作系统，700+技能文件，月增21k★
+- **orca** — 月增22k★
+- **OpenCut** (78k★) — 开源剪映替代，月增19k★
+- **strix** (44k★) — AI渗透测试工具，月增18k★
+- **Vibe-Trading** (27k★) — 个人AI交易Agent，月增14k★
+- **system_prompts_leaks** (60k★) — 各AI系统提示词泄露合集，月增15k★
+- **OfficeCLI** (22k★) — AI Agent专用Office套件，零依赖单二进制，月增14k★
+- **ai-berkshire** (14k★) — AI价值投资框架，月增12k★
+
+### 📰 36氪快讯
+- SK集团与英伟达5000亿美元AI工厂+内存合作
+- 三星+博通2000亿美元半导体供应协议
+- DeepSeek暂停融资（梁文锋投资者交流会泄露算力差距言论）
+- 特斯拉一周跌18%
+- 风电光伏装机超越火电
+
+### 💬 HN 热门
+- Open-weight AI is having its Kubernetes moment (318pts)
+- DeepSeek暂停融资，梁文锋谈算力差距 (90pts)
+- $8微控制器运行28.9M参数LLM (88pts)
+- Cloudflare推出AI流量新选项 (46pts)
+
+### 🏪 ProductHunt
+- ⚠️ PH被Cloudflare拦截，本次未抓取成功
 
 ---
 
 ## 💡 洞察（≤3句）
 
-1. **Opus 5 发布窗口期非常短**：1609pts的HN热度意味着大量开发者在找接入方式，做一个Opus 5对比评测/免费试用/API中转站，7天内上线就能吃到第一波流量红利，但壁垒低必须快速迭代。
+1. **AI Agent工具链爆发**：OmniRoute(网关)、code-review-graph(MCP)、OfficeCLI(文档)、orca(IDE) 本月合计增长超70k★——Agent生态的「卖铲子」需求远超预期，任何一个细分工具做成SaaS都能收费。
 
-2. **IoT安全扫描是被验证的需求**：安全摄像头泄露GitHub token这种低级漏洞居然发生在2026年（601pts热议），说明设备厂商安全审计极度缺位，做一个自动化IoT固件扫描SaaS有明确的付费客户。
+2. **视频+AI是确定性赛道**：OpenCut(剪映替代78k★)、OpenMontage(Agent视频42k★)、voicebox(语音46k★) 三线并发，内容创作工具链正在被AI全面重写，做垂直场景（如AI字幕/配音/剪辑SaaS）窗口还在。
 
-3. **AI监管合规正在成为独立赛道**：从开源模型监管争议（619pts）到K3安全评估（UK政府介入），AI合规审计/安全评测工具需求正在从nice-to-have变成must-have，属于先发优势明显的蓝海。
+3. **隐私优先=病毒传播**：meetily(本地会议13k★)、RuView(无摄像头感知86k★) 证明「数据不出设备」是当前C端最强购买理由，把现有SaaS改成本地优先版本就是差异化。
 
 ---
 
-*生成: 2026-07-25 19:55 CST | 模型: deepseek-v4-pro | 缺 GitHub/PH 数据*
+*生成于 2026-07-26 10:46 CST · next: push to GitHub*
