@@ -1,76 +1,89 @@
-# 🌙 AI赚钱夜巡 · 2026-07-27 19:13
+# 📡 AI赚钱夜巡 · 2026-07-28 12:52
 
-> 数据源：HN 首页25条 + 36氪快讯20条 | ⚠️ GitHub Trending/ProductHunt 今晚数据通道不可用
-
----
-
-## 🎯 选题雷达（5指标≥3=⭐重点）
-
-### ⭐ Scriptc by Vercel — TypeScript→Native编译器
-- **指标**: 客户明确✅ | 7天Demo✅ | 30天收费✅ | 复用资产✅ | 长期壁垒✅ → **5/5**
-- **做什么**: TS直接编译为原生二进制，不依赖JS引擎。意味着 Node.js 生态可以出 CLI/嵌入式/边缘部署的独立可执行文件
-- **可做的**: (1) Scriptc 教程/课程 — 第一个吃螃蟹的内容创作者 (2) Scriptc + Tauri/EGUI = 超轻量桌面应用工作流 (3) 卖 Scriptc 编译优化咨询/模板
-- **来源**: HN 204pts · vercel-labs/scriptc
-
-### ⭐ CheapSecurity — 轻量自托管监控 (Linux SBC)
-- **指标**: 客户明确✅ | 7天Demo✅ | 30天收费✅ | 复用资产✅ | 长期壁垒❌ → **4/5**
-- **做什么**: 树莓派/ARM小板跑的开源CCTV。隐私刚需 + 低成本硬件
-- **可做的**: (1) 卖预装好CheapSecurity的树莓派套装 (2) 监控小程序/微信通知集成 (3) 企业版SaaS（多摄像头云端管理）→ 国内安防监控AI化是蓝海
-- **来源**: HN 131pts · gmrandazzo/CheapSecurity
-
-### ⭐ Kimi-K3 开源模型 · HuggingFace
-- **指标**: 客户明确✅ | 7天Demo✅ | 30天收费❓ | 复用资产✅ | 长期壁垒❌ → **3/5**
-- **做什么**: Moonshot AI 最新开源大模型。国内模型生态持续扩展
-- **可做的**: (1) Kimi-K3 微调服务 (2) Kimi-K3 + RAG 企业知识库方案 (3) Kimi-K3 vs DeepSeek 对比评测内容引流
-- **来源**: HN 398pts · huggingface.co/moonshotai/Kimi-K3
-
-### ⭐ 汇丰新加坡AI卓越中心 · 招聘100+AI专家
-- **指标**: 客户明确✅ | 7天Demo❌ | 30天收费✅ | 复用资产✅ | 长期壁垒✅ → **4/5**
-- **做什么**: 汇丰砸钱建AI中心。金融AI是付费意愿最强的赛道
-- **可做的**: (1) 金融AI中间件/合规工具 — 银行AI化的"卖水人" (2) 反洗钱AI/风控AI SaaS (3) 汇丰供应商生态位切入（数据标注/模型评估）
-- **来源**: 36氪快讯
-
-### ⭐ Audio Cassette Simulation · FFmpeg音频模拟
-- **指标**: 客户明确✅ | 7天Demo✅ | 30天收费✅ | 复用资产❓ | 长期壁垒❌ → **3/5**
-- **什么是**: FFmpeg模拟磁带音效，复古音频美学工具
-- **可做的**: (1) 做一个Web版"磁带滤镜" — 拖入音频输出磁带质感 (2) 播客/vlog创作者的"复古音色"付费滤镜 (3) 内容创作者工具链的一环
-- **来源**: HN 139pts · AARomanov1985/Audio-Cassette-Simulation
+> 数据源：36氪(20) + Hacker News(25) + GitHub Weekly(23) + GitHub Monthly(20) | PH 被Cloudflare拦截
 
 ---
 
-## 📊 原始速览
+## 🎯 选题雷达（5指标评分 ≥3 = 🔥）
 
-### 💻 Hacker News 值得关注
-| 项目 | 热度 | 一句话 |
-|------|------|--------|
-| Scriptc (TS→Native) | 204pts | Vercel出品TS原生编译器，变革边缘部署 |
-| Kimi-K3 | 398pts | 月之暗面最新开源大模型，中文能力待测 |
-| CheapSecurity | 131pts | 树莓派自托管监控，隐私+低成本 |
-| Audio Cassette FFmpeg | 139pts | 复古磁带音效模拟，内容创作工具 |
-| Data-Oriented Design | 186pts | 游戏开发方法论PDF，ECS架构参考 |
-| ZSTD Lean Proof | 179pts | ZSTD压缩算法形式化验证完成 |
-| Pentaton LP | 220pts | 音乐极客的全栈项目(PCB/3D打印/C) |
-| Decker (Hypercard) | 322pts | 复古Mac开发平台，教育/原型场景 |
+| 项目 | ⭐ | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 一句话 |
+|------|-----|---------|---------|---------|---------|---------|--------|
+| **Instatic** | 5 | ✅ | ✅ | ✅ | ✅ | ✅ | 开源Webflow替代品→Hosted CMS SaaS |
+| **open-seo** | 5 | ✅ | ✅ | ✅ | ✅ | ✅ | 开源Semrush替代→SEO工具Hosted版 |
+| **Vibe-Trading** | 5 | ✅ | ✅ | ✅ | ✅ | ✅ | 个人AI交易Agent→量化信号订阅 |
+| **ai-berkshire** | 5 | ✅ | ✅ | ✅ | ✅ | ✅ | 巴菲特式AI投资框架→投研SaaS |
+| **page-agent** | 5 | ✅ | ✅ | ✅ | ✅ | ✅ | 阿里开源GUI Agent→企业自动化服务 |
+| **meetily** | 5 | ✅ | ✅ | ✅ | ✅ | ✅ | 本地AI会议纪要→企业Hosted版 |
+| **herdr** | 5 | ✅ | ✅ | ✅ | ✅ | ✅ | 终端Agent多路复用器→付费Pro版 |
+| **text-to-cad** | 5 | ✅ | ✅ | ✅ | ✅ | ✅ | CAD Agent Skill→制造业AI工具 |
+| **wigolo** | 5 | ✅ | ✅ | ✅ | ✅ | ✅ | Agent本地搜索MCP→Pro订阅 |
+| **OfficeCLI** | 5 | ✅ | ✅ | ✅ | ✅ | ✅ | AI办公套件→企业API服务 |
+| **code-review-graph** | 4 | ✅ | ❌ | ✅ | ✅ | ✅ | 代码智能图→企业代码审查SaaS |
+| **OmniRoute** | 4 | ✅ | ❌ | ✅ | ✅ | ✅ | AI网关290+Provider→API代理收费 |
+| **Kronos** | 4 | ✅ | ❌ | ✅ | ✅ | ✅ | 金融大模型→量化信号服务 |
+| **orca** | 4 | ✅ | ❌ | ✅ | ✅ | ✅ | 并行Agent管理→团队协作付费 |
+| **hallmark** | 4 | ✅ | ✅ | ✅ | ✅ | ❌ | 反AI风格设计Skill→Pro模板 |
+| **kimi-code** | 4 | ✅ | ✅ | ✅ | ✅ | ❌ | Kimi CLI→套壳付费版本 |
+| **claude-video** | 4 | ✅ | ✅ | ✅ | ✅ | ❌ | Claude视频分析→API封装服务 |
+| **DesktopCommanderMCP** | 4 | ✅ | ✅ | ✅ | ✅ | ❌ | 桌面MCP→企业批量管理 |
+| **DeepTutor** | 3 | ✅ | ❌ | ✅ | ❌ | ✅ | AI终身辅导→垂直领域课程 |
+| **strix** | 3 | ✅ | ❌ | ✅ | ❌ | ✅ | AI渗透测试→安全SaaS订阅 |
+| **openship** | 3 | ✅ | ❌ | ❌ | ✅ | ✅ | 自托管部署平台→Hosted PaaS |
+
+---
+
+## 🔍 三大热点方向
+
+### 1. 💰 金融AI三连击
+GitHub同月炸出3个金融相关重仓项目：**Kronos**（金融大模型 34k⭐）、**Vibe-Trading**（交易Agent 28k⭐）、**ai-berkshire**（价值投资框架 14k⭐）。说明AI+投资已从概念进入产品化阶段，量化信号订阅/投研SaaS是明确变现路径。
+
+### 2. 🔌 Agent工具链爆发
+**herdr**（终端Agent复用器 21k⭐）、**OmniRoute**（AI网关 32k⭐）、**orca**（并行Agent 31k⭐）、**wigolo**（Agent本地搜索 3.7k⭐）—— Agent数量爆炸后，管理和调度Agent的"卖铲子"生意正在爆发。最轻量切入：给现有开源Agent工具做Hosted版。
+
+### 3. 🏗️ 开源产品Hosted化 = 明确赚钱模式
+**Instatic**（CMS）、**open-seo**（SEO工具）、**meetily**（会议纪要）—— 全是"开源好用但自托管麻烦"的类型。模式：GitHub找≥5000⭐的开源生产力工具→搭Hosted版→定价$9-29/月→SEO/PH获客。
+
+---
+
+## 📋 原始速览
+
+### 🔥 GitHub 本周精选
+- **RuView** 87k⭐ — WiFi信号转空间智能，无需摄像头即可感知人体
+- **pi** 79k⭐ — AI Agent toolkit全家桶（LLM API/Agent Loop/TUI/CLI）
+- **worldmonitor** 75k⭐ — 实时全球情报仪表盘
+- **ai-engineering-from-scratch** 44k⭐ — AI工程从零到部署
+- **Kronos** 34k⭐ — 金融市场基础模型
+
+### 📈 GitHub 本月黑马
+- **system_prompts_leaks** 61k⭐ — 各大AI系统提示词泄露合集
+- **strix** 45k⭐ — 开源AI渗透测试工具（月增18.9k⭐）
+- **codebase-memory-mcp** 35k⭐ — 代码智能MCP（月增19.6k⭐）
+- **OmniRoute** 32k⭐ — 290+Provider统一AI网关（月增24.9k⭐）
+- **orca** 31k⭐ — 并行Agent舰队管理器（月增22.5k⭐）
 
 ### 📰 36氪关键信号
-- **美国"本土建厂关税减半"** → 出海制造新窗口
-- **美国拟对华AI企业调查制裁** → 出海AI合规风险上升
-- **三星HBM5 2nm GAA** → AI芯片供应链升级，散热/封测机会
-- **OpenAI爱尔兰EU总部+250岗** → AI人才全球化竞争加剧
-- **安琪酵母合成生物3.7亿** → 合成生物学进入中试阶段
+- 英伟达签500亿美元得州数据中心租赁→AI基建军备竞赛未停
+- 杭州布局算力网/新型电网→地方AI新基建政策利好
+- 我国启动AI大模型IPv6专项行动→基础设施层机会
+- 聚灿光电对接AI眼镜企业→AI眼镜供应链催化
+- 韩国KOSPI指数跌10%→全球市场恐慌情绪
+
+### 💡 HN值得关注
+- **$500 RL微调9B模型击败前沿模型**→低成本定制AI服务机会
+- **Anthropic公开立场支持开源权重大模型**→开源生态继续壮大
+- **Yap** — macOS端本地语音听写，无需下载模型
+- **Residential Proxies是国安威胁**→代理行业面临监管收紧
 
 ---
 
-## 💡 夜巡洞察（≤3句）
+## 💡 洞察（3句）
 
-1. **TS→Native是本周最可做的技术机会**：Vercel Scriptc 让 Node.js 开发者能直接出二进制，这是 Serverless/边缘计算/CLI工具的范式转移。做第一批 Scriptc 教程/模板的人能吃到搜索红利。
+1. **做大厂工具的Hosted版是最低风险变现路径**：Instatic/open-seo/meetily全是已有用户基础的开源品，只需加支付+SaaS层，定价$9-29/月即可启动。老大已有全栈能力，7天真能搞出一个。
 
-2. **金融AI是当下付费意愿最强的垂直赛道**：汇丰100+AI岗不是个案，银行合规/风控/客服的AI化正在加速。卖"金融+AI"的工具链比卖通用AI工具有10x付费意愿。
+2. **Agent工具链是2026年最大的"卖铲子"机会**：herdr/orca/OmniRoute/wigolo都在解决同一个问题——Agent太多了怎么管。做Agent Skill/MCP市场或Hosted Agent管理器，市场需求已验证。
 
-3. **监控+AI是"树莓派经济"的下一个爆发点**：CheapSecurity这类开源项目验证了需求——隐私敏感用户愿意为"不连云的AI监控"付费。硬件套件+软件订阅=高粘性复购。
+3. **金融AI产品化加速，但需合规谨慎**：Kronos+Vibe-Trading+ai-berkshire三箭齐发，量化信号订阅模式清晰。但国内金融监管严格，适合先做海外市场或只做工具不碰资金。
 
 ---
 
-> 📌 今晚 GitHub Trending / ProductHunt 数据通道异常，仅基于 HN + 36氪。下次夜巡建议先检查 gh auth 和 SearXNG。
-> 
-> ⚠️ GH Token 已过期，需老大重新生成并提供。
+> ⚠️ ProductHunt 被Cloudflare拦截，本期缺失PH数据。
