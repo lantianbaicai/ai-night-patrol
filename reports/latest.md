@@ -1,4 +1,4 @@
-# 🌙 AI赚钱夜巡 · 2026-07-28 20:52
+# 🌙 AI赚钱夜巡 · 2026-07-29 10:39
 
 ---
 
@@ -6,75 +6,88 @@
 
 | 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 总分 |
 |------|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Open-SEO (Semrush开源替代)** | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
-| **视频训练数据 marketplace** | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
-| **MCP-Billing (MCP monetization)** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
-| **AI Job Search 框架** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
-| **Instatic (Webflow开源替代)** | ✅ | ⚠️ | ✅ | ✅ | ✅ | **4/5** |
-| **Agent Skills 市场** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
-| **$500 RL微调服务** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
-| **Hardbook (自由职业签约)** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
+| **i-have-adhd (Agent Skill)** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
+| **OmniRoute (AI 网关)** | ✅ | ⚠️ | ✅ | ✅ | ✅ | **4/5** |
+| **strix (AI 渗透测试)** | ✅ | ⚠️ | ✅ | ✅ | ✅ | **4/5** |
+| **meetily (隐私会议助手)** | ✅ | ⚠️ | ✅ | ✅ | ✅ | **4/5** |
+| **code-review-graph (代码图谱)** | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
+| **OpenCut (开源剪映)** | ✅ | ❌ | ✅ | ✅ | ✅ | **4/5** |
+| **bitChat (蓝牙Mesh聊天)** | ✅ | ✅ | ⚠️ | ✅ | ✅ | **4/5** |
+| **Codex Security CLI (OpenAI)** | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | **3/5** |
 
 ---
 
 ## 📊 原始速览
 
 ### 🔥 GitHub Weekly Top
-- **koala73/worldmonitor** — 全球实时情报 dashboard，AI 聚合新闻+地缘监测 (13k⭐/周)
-- **bojieli/ai-agent-book** — 李博杰《深入理解AI Agent》开源 (13.6k⭐/周)
-- **diegosouzapw/OmniRoute** — 290+provider AI 网关，token 压缩15-95% (11k⭐/周)
-- **ayghri/i-have-adhd** — 治 coding agent 废话的 skill (7k⭐/周)
-- **ruvnet/RuView** — WiFi信号→空间智能，无摄像头 (5.6k⭐/周)
-- **every-app/open-seo** — 开源的 Semrush/Ahrefs (3k⭐/周)
-- **tirth8205/code-review-graph** — 本地代码智能图谱，99% token减少 (4.6k⭐/周)
-- **shiyu-coder/Kronos** — 金融市场基础模型 (2.2k⭐/周)
+- **koala73/worldmonitor** — 全球实时情报dashboard，AI聚合+地缘监测 (12.2k⭐/周)
+- **bojieli/ai-agent-book** — 李博杰《深入理解AI Agent》开源书 (10.6k⭐/周)
+- **diegosouzapw/OmniRoute** — 290+provider免费MIT AI网关，token压缩15-95% (10k⭐/周)
+- **ayghri/i-have-adhd** — 治AI废话的agent skill，tree-of-thought (6.2k⭐/周)
+- **ruvnet/RuView** — WiFi信号→实时空间智能+生命体征，零摄像头 (5k⭐/周)
+- **earendil-works/pi** — AI agent toolkit: 统一LLM API+agent loop+TUI+CLI (5.2k⭐/周)
+- **UditAkhourii/adhd** — 另一个ADHD skill，tree-of-thought+pruning (1k⭐/周)
+- **rohitg00/ai-engineering-from-scratch** — 从零AI工程教程 (3.3k⭐/周)
+- **tirth8205/code-review-graph** — 本地代码智能图谱MCP，99% token减少 (3k⭐/周)
+- **every-app/open-seo** — 开源Semrush/Ahrefs替代 (2.6k⭐/周)
+- **shiyu-coder/Kronos** — 金融市场基础模型 (2.5k⭐/周)
+- **CoreBunch/Instatic** — 开源Webflow/Framer替代 (2.8k⭐/周)
+- **1jehuang/jcode** — 最省内存的AI harness (2.5k⭐/周)
+- **oblien/openship** — 自托管部署平台 (3.6k⭐/周)
+- **HKUDS/DeepTutor** — 终身个性化AI辅导 (2.1k⭐/周)
+- **mattpocock/skills** — "Real Engineers的Skills"，来自个人.agents目录
+- **schollz/croc** — P2P加密文件传输 (2.5k⭐/周)
 
 ### 🔥 GitHub Monthly Top
-- **MadsLorentzen/ai-job-search** — AI求职框架，自动投简历+写cover letter (24.3k⭐/月)
-- **stablyai/orca** — 并行 Agent 舰队管理 ADE (22.6k⭐/月)
-- **usestrix/strix** — 开源AI渗透测试 (18.9k⭐/月)
-- **OpenCut-app/OpenCut** — 开源剪映替代 (19.4k⭐/月)
-- **DeusData/codebase-memory-mcp** — 代码智能 MCP server，毫秒级查询 (19.7k⭐/月)
-- **hasaneyldrm/exercises-dataset** — 1324动作健身数据集 (16.9k⭐/月)
-- **Nutlope/hallmark** — 反AI废话设计 skill (15.2k⭐/月)
-- **iOfficeAI/OfficeCLI** — AI Agent 用 Office 套件 (14.6k⭐/月)
-- **HKUDS/Vibe-Trading** — 个人AI交易Agent (14.7k⭐/月)
-
-### 🛍️ ProductHunt 近期热门
-- **Prefactor** — AI Agent 实时评估
-- **Leaping AI** — AI agent 多日电话+短信营销
-- **EasyCircuit** — 硬件原型 vibe-coding 化
-- **Cekura** — 语音 agent 自我改进循环
-- **FlowTask 2.0** — Agent 的"公司大脑"
-- **Superunit** — AI agent 电话/邮件/传真验证雇佣信息
-- **MCP-Billing** — OAuth 2.1 + Stripe 用量计费 for MCP servers
-- **RecipeBook by Shofo** — 按小时购买视频训练数据，2500万+片段
-- **Hardbook** — 自由职业者预约链接+自动签约
+- **stablyai/orca** — 并行Agent舰队管理IDE (23.3k⭐/月)
+- **OpenCut-app/OpenCut** — 开源剪映替代 (19.5k⭐/月)
+- **usestrix/strix** — 开源AI渗透测试工具 (19.2k⭐/月)
+- **DeusData/codebase-memory-mcp** — 158语言代码智能MCP，毫秒级 (17.7k⭐/月)
+- **Nutlope/hallmark** — 反AI废话设计skill (15.9k⭐/月)
+- **koala73/worldmonitor** — 全球情报dashboard (15.5k⭐/月)
+- **iOfficeAI/OfficeCLI** — AI Agent专用Office套件，单二进制无依赖 (14.8k⭐/月)
+- **asgeirtj/system_prompts_leaks** — 各AI系统提示词合集 (14.7k⭐/月)
+- **HKUDS/Vibe-Trading** — 个人AI交易Agent (14.5k⭐/月)
+- **Zackriya-Solutions/meetily** — 100%本地AI会议助手，Rust+Whisper (14.5k⭐/月)
+- **ogulcancelik/herdr** — 终端agent multiplexer (14.2k⭐/月)
+- **emilkowalski/skills** — Design Engineers的Skills合集 (18.4k⭐/月)
+- **permissionlesstech/bitChat** — 蓝牙Mesh聊天，IRC风格 (7k⭐/月)
+- **bradautomates/claude-video** — Claude看视频，/watch命令 (9.2k⭐/月)
+- **xbtlin/ai-berkshire** — AI价值投资框架，四大师方法论 (9.7k⭐/月)
+- **hasaneyldrm/exercises-dataset** — 1324动作健身数据集6语言 (16.1k⭐/月)
+- **openai/codex-plugin-cc** — Claude Code用Codex审查/委托 (8.7k⭐/月)
 
 ### 📰 36氪
-- 苹果推iPhone月租计划 $17.99/月
-- 英伟达$500亿租赁得州数据中心
-- AWS与AI公司Recursive签4.1亿美元多年协议
-- TabTin完成6000万元天使轮融资
-- 2026上半年24家A股赴港上市
+- **OpenAI发布开源版Codex Security CLI** — 代码安全扫描工具开源
+- 希捷科技：客户未缩减资本开支，多家厂商规划拉长至2029+
+- AI算力需求催热MLCC产业链，下半年高景气延续
+- 沪深两市成交额超1万亿元
+- "尧乐科技"完成Pre-A+轮融资
+- 上半年全国社会物流总额超180万亿元
 
 ### 💬 HN 热门
-- Anthropic 公开立场：open-weights models (994pts)
-- Opus 5 on SlopCodeBench benchmark (329pts)
-- **$500 RL微调 9B 开源模型超越 frontier models** (237pts) ⚡
-- Kimi K3 上线 Telnyx Inference API
-- Yap — macOS 本地语音听写 OSS
+- HIV疫苗临床前突破 (574pts)
+- Substack写作者需要独立网站 (427pts)
+- **Codex Security (OpenAI开源)** (363pts)
+- **Kimi K3 架构解读** (325pts)
+- **Kimi Linear Attention架构** (285pts)
+- Zig增量编译内部原理 (200pts)
+- Anthropic用Claude发现密码学弱点 (187pts)
+- **Hubble — 开源笔记应用，给agent用** (41pts)
+- **Manim (3Blue1Brown动画引擎) 在浏览器跑WebGPU** (24pts)
+- **LearnVector — Andrew Ng公司，1对1AI学习** (21pts)
+- **MCP 2026-07-28 Spec: transport going stateless** (109pts)
 
 ---
 
 ## 💡 洞察
 
-1. **SEO 工具开源化是明确的赚钱信号** — open-seo 3k星/周说明市场对 Semrush $139/月定价极度不满，做一个中文版或垂直行业版（如电商SEO）7天可出Demo，SEO数据壁垒一旦建立很难被复制。
+1. **Agent Skills 品类爆炸 — 趁早入场做"技能中间商"**：i-have-adhd(6.2k⭐)、hallmark(15.9k⭐)、emilkowalski/skills(18.4k⭐)、mattpocock/skills 四连爆，说明"给AI agent写的skill"正在成为独立数字商品。做Agent Skill Marketplace（类似2010年App Store）比做单个skill天花板高100倍，7天可出MVP。
 
-2. **MCP 生态的 "收费站" 机会来了** — MCP-Billing 出现在 PH 说明 MCP server 开发者开始想赚钱了，做 MCP 的 "App Store + 支付" 比做单个 MCP server 天花板高10倍。
+2. **AI原生安全工具是蓝海 — strix 19k星/月无中文竞品**：strix开源AI渗透测试19.2k星/月 + Codex Security刚开源 → AI安全从"研究"进入"产品化"，中文市场完全空白。做一个面向中国中小企业的AI安全扫描SaaS，30天内收费。
 
-3. **Agent Skills 成为新品类** — i-have-adhd、hallmark、emilkowalski/skills 三连爆说明"给AI agent写的prompt/skill"正在成为一个可销售的数字商品品类，类似2010年的App Store初期。
+3. **本地优先（Local-First）是确定的增长方向**：meetily(100%本地会议)、code-review-graph(本地代码图谱)、bitChat(蓝牙本地聊天)三连发 → 隐私+断网可用是刚需。将现有云AI工具做本地化版本（如本地SEO审计工具）可直接差异化。
 
 ---
 
-*模型: deepseek-v4-pro | 夜巡 v2.0*
+*模型: deepseek-v4-pro | 夜巡 v2.0 | PH 因 Cloudflare 无法抓取*
