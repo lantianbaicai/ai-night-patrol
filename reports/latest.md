@@ -1,81 +1,105 @@
-# 🌙 AI赚钱夜巡 · 2026-07-29 周三
+# 🌙 AI赚钱夜巡 · 2026-07-30 10:22
 
-> 数据源：36氪 + HN + GitHub Weekly/Monthly | PH: ❌ CF盾
-> 模型：deepseek-v4-pro | 评分：≥3/5 → 🔥重点
+> 数据源：GitHub Trending(周+月) + HN首页 + 36kr快讯 | PH不可达
 
 ---
 
-## 🎯 选题雷达（5指标评分）
+## 🎯 选题雷达（5指标≥3项 = ⭐重点）
 
-| 项目 | 💰客户明确 | ⚡7天Demo | 💵30天收费 | ♻️复用资产 | 🏰长期壁垒 | 总分 |
+| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 |
 |------|:--:|:--:|:--:|:--:|:--:|:--:|
-| **闲鱼AI服务工具** | ✅ | ✅ | ✅ | ✅ | ✅ | 🔥5 |
-| **Meetily会议助手本地化** | ✅ | ✅ | ✅ | ✅ | ⚠️ | 🔥4 |
-| **Open-SEO中国版** | ✅ | ✅ | ✅ | ✅ | ⚠️ | 🔥4 |
-| **AI视频分析SaaS** | ✅ | ✅ | ✅ | ✅ | ⚠️ | 🔥4 |
-| OfficeCLI办公自动化 | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | 3 |
-| Instatic建站中国版 | ✅ | ✅ | ⚠️ | ✅ | ❌ | 2 |
+| **open-seo** (开源SEMrush替代) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐5/5 |
+| **OfficeCLI** (AI读Office文档) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐5/5 |
+| **meetily** (本地AI会议纪要) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐5/5 |
+| **OpenCut** (开源剪映替代) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐5/5 |
+| **strix** (开源AI渗透测试) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐5/5 |
+| **Instatic** (开源建站CMS) | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⭐4/5 |
+| **ego-lite** (Agent浏览器) | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ⭐4/5 |
+| **Vibe-Trading** (AI交易Agent) | ✅ | ✅ | ⚠️ | ✅ | ❌ | ⭐3/5 |
+| **OmniRoute** (AI网关) | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | 3/5 |
+| **orca** (Agent舰队IDE) | ❌ | ⚠️ | ⚠️ | ⚠️ | ✅ | 2/5 |
+| **RuView** (WiFi空间感知) | ⚠️ | ❌ | ⚠️ | ⚠️ | ✅ | 2/5 |
+
+### 🔥 TOP 3 重点选题
+
+**1. open-seo · 开源SEO工具**
+- 对标 Semrush/Ahrefs（市值数十亿美元）
+- 月增 5,534★，需求真实
+- 可做：中国版SEO工具（百度/微信搜索适配）+ SaaS收费
+- 数据积累 = 壁垒越做越厚
+
+**2. OfficeCLI · AI读写Office**
+- AI Agent 读Word/Excel/PPT是刚需，市场空白
+- 月增 15,004★，23K total，增长迅猛
+- 可做：Office文档AI处理API服务，按量计费
+- C#单一二进制，零依赖，技术方案优秀
+
+**3. meetily · 本地AI会议纪要**
+- 4x Parakeet/Whisper，100%本地处理，隐私为王
+- 月增 14,636★，27K total
+- 可做：中文特化版（适配飞书/钉钉/企微），企业私有部署
+- 隐私合规 + 企业付费意愿强
 
 ---
 
 ## 📊 原始速览
 
-### 🔥 头号信号：闲鱼AI服务爆发
-- **闲鱼上半年AI服务订单981.6万笔，同比增长157%**
-- AI代写、AI P图、AI设计、AI起名——闲鱼已成AI变现最大试验场
-- 可做：AI商品描述生成器、AI自动砍价客服、AI照片精修、虚拟商品AI批量生成
-- **为什么现在进场**：订单量还在加速增长，工具化空间极大
+### GitHub 本周热门
 
-### 📈 GitHub 本周/本月趋势
+| 项目 | Stars(周) | 方向 | 一句话 |
+|------|-----------|------|--------|
+| block/buzz | 13,317 | 通信平台 | Rust写的蜂巢思维通讯平台 |
+| OmniRoute | 9,420 | AI网关 | 290+模型统一API，自动fallback |
+| bojieli/ai-agent-book | 8,998 | 教程 | 李博杰《AI Agent设计原理》开源 |
+| koala73/worldmonitor | 8,681 | 情报仪表盘 | AI驱动全球实时情报监控 |
+| i-have-adhd | 5,544 | Agent技能 | 让AI agent别藏着答案的ADHD技能 |
+| ego-lite | 4,863 | Agent浏览器 | 零配置，共享登录态给AI agent |
+| alibaba/open-code-review | 4,875 | 代码审查 | 阿里开源混合架构Code Review |
+| RuView | 4,504 | WiFi感知 | 用WiFi信号做空间智能和生命体征 |
 
-**AI Agent 生态持续爆发：**
-- **OmniRoute** 33k⭐ — 免费AI网关，290+供应商/500+模型，MIT协议
-- **pi** 80k⭐ — AI Agent工具包，含统一LLM API、Agent循环、TUI、CLI
-- **orca** 32k⭐ — 并行Agent舰队管理，桌面/移动/VPS全平台
-- **herdr** 22k⭐ — 终端里的Agent多路复用器
-- **ai-agent-book** 25k⭐ — 李博杰《深入理解AI Agent》开源
+### GitHub 本月热门
 
-**开源替代潮（可直接商业化）：**
-- **OpenCut** 79k⭐ — 开源版剪映，本月19.5k stars
-- **Instatic** 6.5k⭐ — 开源替代Webflow/Framer/WordPress
-- **open-seo** 9k⭐ — 开源替代Semrush/Ahrefs
-- **OfficeCLI** 23k⭐ — AI专用Office套件（单二进制，无需装Office）
-- **Hallmark** 19k⭐ — 反AI味设计技能（前端可包装）
+| 项目 | Stars(月) | 方向 |
+|------|-----------|------|
+| OmniRoute | 26,276 | AI网关 |
+| orca | 23,777 | Agent IDE |
+| OpenCut | 19,614 | 开源剪映 |
+| strix | 18,792 | AI渗透测试 |
+| emilkowalski/skills | 18,756 | 设计工程师Skills |
+| hallmark | 16,235 | 反AI排版Skill |
+| worldmonitor | 15,849 | 情报仪表盘 |
+| OfficeCLI | 15,004 | AI读Office |
+| system_prompts_leaks | 14,634 | 各AI系统提示词泄露 |
+| meetily | 14,636 | 本地AI会议 |
+| Vibe-Trading | 13,918 | AI交易Agent |
+| exercises-dataset | 13,494 | 健身数据集 |
+| claude-video | 9,872 | Claude看视频 |
 
-**隐私+本地化趋势：**
-- **Meetily** 27k⭐ — 100%本地AI会议助手，Rust构建，本月14k stars
-- **RuView** 87k⭐ — WiFi信号转空间智能，无摄像头
-- **bitchat** 33k⭐ — 蓝牙Mesh聊天，IRC风格
+### HN 热门信号
 
-**AI+金融/投资：**
-- **Kronos** 34k⭐ — 金融市场基础模型
-- **ai-berkshire** 14k⭐ — AI版伯克希尔价值投资框架
-- **Vibe-Trading** 28k⭐ — 个人AI交易Agent
+- **Tokenless (YC S26)**: 自动切换模型省钱，YC孵化的AI infra公司
+- **Gemma 4 26B in 2GB RAM**: 本地推理门槛持续降低
+- **AI公司狂招电工木工**: 数据中心建设潮，基础设施层火爆
+- **LLM Honeypot**: LLM蜜罐，AI安全新兴方向
+- **Agent Intrusion Timeline**: HuggingFace发布AI Agent入侵事件时间线，Agent安全成焦点
 
-### 📰 36氪关键信号
-- Kimi完成超35亿美元F轮，估值350亿美元 → AI基础设施军备竞赛
-- 瓴羊AgentOne「四名AI员工」上岗（销售/客服/运营/营销）→ 企业AI员工商用化
-- 豪能股份10亿投建机器人关节减速器 → 机器人产业链
-- 反网络暴力法征求意见稿 → 内容审核工具需求
-- 新东方Q4营收15.3亿美元 +23% → 教育复苏
+### 36氪信号
 
-### 💬 HN 值得关注
-- **Hubble** — 开源笔记应用，给你和你的Agent一起用（118pts）
-- **LearnVector** — Andrew Ng的1对1 AI学习体验（192pts）
-- **Una GPS手表** — 可维修、USB-C充电、开发者友好（223pts）
-- **ReFrame EPaper相机** — 电子纸相机（138pts）
-- **Codex Security** — OpenAI开源安全工具（506pts）
-
----
-
-## 💡 洞察（≤3句）
-
-1. **闲鱼AI服务是当下最确定的变现入口**：981万笔订单+157%增长，但市面上几乎没有专业的闲鱼AI工具链——做一套「闲鱼卖家AI工具箱」（自动描述+智能定价+AI客服+图片优化），7天可上线，30天内收费。
-
-2. **「隐私本地化」是2026下半年的支付密码**：Meetily(27k⭐)、bitchat(33k⭐)、RuView(87k⭐)三连爆说明企业和个人都在为「数据不出本地」付费——把任何一个成熟的海外本地化开源项目做成中国企业的私有部署方案，就是钱。
-
-3. **Agent基础设施太卷，Agent落地应用太少**：OmniRoute/pi/orca/herdr都是Agent工具链，但真正让Agent直接赚钱的应用（如瓴羊的「四名AI员工」）才刚开始——与其造铲子，不如用铲子挖金矿。
+- **字节AI整合**: 飞书+豆包火山团队合并，AI应用层加速
+- **微软数据中心**: 新增租约超1300亿美元，AI基建军备竞赛
+- **煤电占比首低50%**: 能源转型信号
+- **奈飞2亿美元买女足世界杯**: 体育流媒体版权争夺
 
 ---
 
-*夜巡完成 | 下次：2026-07-30 18:00*
+## 💡 洞察
+
+1. **"给AI Agent做工具"是当前最大红利赛道** — OfficeCLI、ego-lite、OmniRoute、orca 全部是为AI Agent服务的工具/平台，Agent生态的"卖铲子"机会正在爆发，比直接做Agent应用更稳。
+
+2. **开源替代品的SaaS化是已验证路径** — open-seo(替代Semrush)、OpenCut(替代剪映)、Instatic(替代Webflow)都在快速涨星，开源获客+托管收费的模式越来越成熟。
+
+3. **AI安全方向出现供需错配** — strix(渗透测试)、LLM蜜罐、Agent入侵事件频发，需求在涨但供给少，是蓝海切口。
+
+---
+
+*生成时间: 2026-07-30 10:22 CST | 夜巡脚本 v2.0*
