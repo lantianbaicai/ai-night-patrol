@@ -1,105 +1,102 @@
-# 🌙 AI赚钱夜巡 · 2026-07-30 10:22
+# 🌙 AI赚钱夜巡 · 2026-07-30 18:22
 
-> 数据源：GitHub Trending(周+月) + HN首页 + 36kr快讯 | PH不可达
-
----
-
-## 🎯 选题雷达（5指标≥3项 = ⭐重点）
-
-| 项目 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 评分 |
-|------|:--:|:--:|:--:|:--:|:--:|:--:|
-| **open-seo** (开源SEMrush替代) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐5/5 |
-| **OfficeCLI** (AI读Office文档) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐5/5 |
-| **meetily** (本地AI会议纪要) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐5/5 |
-| **OpenCut** (开源剪映替代) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐5/5 |
-| **strix** (开源AI渗透测试) | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐5/5 |
-| **Instatic** (开源建站CMS) | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⭐4/5 |
-| **ego-lite** (Agent浏览器) | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ⭐4/5 |
-| **Vibe-Trading** (AI交易Agent) | ✅ | ✅ | ⚠️ | ✅ | ❌ | ⭐3/5 |
-| **OmniRoute** (AI网关) | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | 3/5 |
-| **orca** (Agent舰队IDE) | ❌ | ⚠️ | ⚠️ | ⚠️ | ✅ | 2/5 |
-| **RuView** (WiFi空间感知) | ⚠️ | ❌ | ⚠️ | ⚠️ | ✅ | 2/5 |
-
-### 🔥 TOP 3 重点选题
-
-**1. open-seo · 开源SEO工具**
-- 对标 Semrush/Ahrefs（市值数十亿美元）
-- 月增 5,534★，需求真实
-- 可做：中国版SEO工具（百度/微信搜索适配）+ SaaS收费
-- 数据积累 = 壁垒越做越厚
-
-**2. OfficeCLI · AI读写Office**
-- AI Agent 读Word/Excel/PPT是刚需，市场空白
-- 月增 15,004★，23K total，增长迅猛
-- 可做：Office文档AI处理API服务，按量计费
-- C#单一二进制，零依赖，技术方案优秀
-
-**3. meetily · 本地AI会议纪要**
-- 4x Parakeet/Whisper，100%本地处理，隐私为王
-- 月增 14,636★，27K total
-- 可做：中文特化版（适配飞书/钉钉/企微），企业私有部署
-- 隐私合规 + 企业付费意愿强
+> 模型: deepseek-v4-pro | PH: 不可用(Cloudflare) | 数据源: 36kr + HN + GitHub Trending
 
 ---
 
-## 📊 原始速览
+## 🎯 选题雷达（≥3项=重点 🔥）
 
-### GitHub 本周热门
+### 🔥 重点追踪
 
-| 项目 | Stars(周) | 方向 | 一句话 |
-|------|-----------|------|--------|
-| block/buzz | 13,317 | 通信平台 | Rust写的蜂巢思维通讯平台 |
-| OmniRoute | 9,420 | AI网关 | 290+模型统一API，自动fallback |
-| bojieli/ai-agent-book | 8,998 | 教程 | 李博杰《AI Agent设计原理》开源 |
-| koala73/worldmonitor | 8,681 | 情报仪表盘 | AI驱动全球实时情报监控 |
-| i-have-adhd | 5,544 | Agent技能 | 让AI agent别藏着答案的ADHD技能 |
-| ego-lite | 4,863 | Agent浏览器 | 零配置，共享登录态给AI agent |
-| alibaba/open-code-review | 4,875 | 代码审查 | 阿里开源混合架构Code Review |
-| RuView | 4,504 | WiFi感知 | 用WiFi信号做空间智能和生命体征 |
+| 项目 | ★月/周 | 客户明确 | 7天Demo | 30天收费 | 复用资产 | 长期壁垒 | 得分 |
+|------|--------|----------|---------|----------|----------|----------|------|
+| **OfficeCLI** - AI Agent的Office套件 | 15K/月 | ✅ | ✅ | ✅ | ✅ | ✅ (格式深度) | **5/5** |
+| **Strix** - 开源AI渗透测试 | 18.8K/月 | ✅ | ✅ | ✅ | ✅ | ✅ (安全领域) | **5/5** |
+| **Meetily** - 隐私优先AI会议纪要 | 14.6K/月 | ✅ | ✅ | ✅ | ✅ | ✅ (本地处理) | **5/5** |
+| **OmniRoute** - 290+模型免费AI网关 | 26.3K/月 | ✅ | ✅ | ✅ | ✅ | ⚠️ (开源难收费) | **4/5** |
+| **Orca** - 并行Agent舰队ADE | 23.8K/月 | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
+| **ego-lite** - Agent浏览器自动化 | 4.9K/周 | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
+| **Vibe-Trading** - 个人AI交易Agent | 13.9K/月 | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
+| **open-seo** - Semrush开源替代 | 5.5K/月 | ✅ | ⚠️ | ✅ | ✅ | ✅ (SEO数据) | **4/5** |
+| **Kronos** - 金融市场基础模型 | 2.5K/周 | ✅ | ⚠️ | ✅ | ✅ | ✅ (模型+数据) | **4/5** |
+| **Tokenless** (YC S26) - 自动模型切换省钱 | HN 62pts | ✅ | ✅ | ✅ | ✅ | ⚠️ | **4/5** |
+| **OpenCut** - 剪映开源替代 | 19.6K/月 | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | **3/5** |
+| **Instatic** - Webflow开源替代 | 2.9K/周 | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | **3/5** |
 
-### GitHub 本月热门
+### 观察区
 
-| 项目 | Stars(月) | 方向 |
-|------|-----------|------|
-| OmniRoute | 26,276 | AI网关 |
-| orca | 23,777 | Agent IDE |
-| OpenCut | 19,614 | 开源剪映 |
-| strix | 18,792 | AI渗透测试 |
-| emilkowalski/skills | 18,756 | 设计工程师Skills |
-| hallmark | 16,235 | 反AI排版Skill |
-| worldmonitor | 15,849 | 情报仪表盘 |
-| OfficeCLI | 15,004 | AI读Office |
-| system_prompts_leaks | 14,634 | 各AI系统提示词泄露 |
-| meetily | 14,636 | 本地AI会议 |
-| Vibe-Trading | 13,918 | AI交易Agent |
-| exercises-dataset | 13,494 | 健身数据集 |
-| claude-video | 9,872 | Claude看视频 |
-
-### HN 热门信号
-
-- **Tokenless (YC S26)**: 自动切换模型省钱，YC孵化的AI infra公司
-- **Gemma 4 26B in 2GB RAM**: 本地推理门槛持续降低
-- **AI公司狂招电工木工**: 数据中心建设潮，基础设施层火爆
-- **LLM Honeypot**: LLM蜜罐，AI安全新兴方向
-- **Agent Intrusion Timeline**: HuggingFace发布AI Agent入侵事件时间线，Agent安全成焦点
-
-### 36氪信号
-
-- **字节AI整合**: 飞书+豆包火山团队合并，AI应用层加速
-- **微软数据中心**: 新增租约超1300亿美元，AI基建军备竞赛
-- **煤电占比首低50%**: 能源转型信号
-- **奈飞2亿美元买女足世界杯**: 体育流媒体版权争夺
+| 项目 | ★ | 亮点 | 风险 |
+|------|-----|------|------|
+| **worldmonitor** - AI全球情报面板 | 15.8K/月 | 实时监控+NLP | 军事/政治敏感，用户付费意愿待验证 |
+| **Claude Video** - /watch看视频 | 9.9K/月 | Claude Code生态插件 | 依赖Claude，天花板有限 |
+| **page-agent** (阿里) - 自然语言操控网页 | 7.8K/月 | GUI Agent新范式 | 大厂开源，难差异化 |
+| **RuView** - WiFi信号做空间感知 | 4.5K/周 | 硬件创新无摄像头 | 硬件+算法双门槛，技术壁垒高但产品化难 |
+| **bitchat** - 蓝牙mesh聊天 | 7.3K/月 | 离线通信场景 | 小众场景，商业化路径不清 |
 
 ---
 
-## 💡 洞察
+## 📋 原始速览
 
-1. **"给AI Agent做工具"是当前最大红利赛道** — OfficeCLI、ego-lite、OmniRoute、orca 全部是为AI Agent服务的工具/平台，Agent生态的"卖铲子"机会正在爆发，比直接做Agent应用更稳。
+### 🔥 GitHub Trending 趋势洞察
 
-2. **开源替代品的SaaS化是已验证路径** — open-seo(替代Semrush)、OpenCut(替代剪映)、Instatic(替代Webflow)都在快速涨星，开源获客+托管收费的模式越来越成熟。
+**本周热词**: Agent基础设施、开源替代、本地AI
 
-3. **AI安全方向出现供需错配** — strix(渗透测试)、LLM蜜罐、Agent入侵事件频发，需求在涨但供给少，是蓝海切口。
+**Agent工具链全面爆发**（本周最明显信号）:
+- 浏览器: ego-lite (4.9K★) — Agent共享登录态浏览器
+- 网关: OmniRoute (9.4K★/周) — 290+ provider统一API
+- Office: OfficeCLI (15K★/月) — Agent版Word/Excel/PPT
+- 安全: Strix (18.8K★/月) — AI渗透测试
+- 编码: pi (5K★/周) — 通用AI agent toolkit
+- IDE: Orca (23.8K★/月) — 并行agent舰队管理器
+
+**开源替代类持续高热**:
+- OpenCut 19.6K★/月（剪映替代）
+- open-seo 5.5K★/月（Semrush/Ahrefs替代）
+- Instatic 2.9K★/周（Webflow/Framer/WordPress替代）
+- OpenCut一个月从零到79K总星 — 视频编辑工具开源化需求巨大
+
+**新兴方向**:
+- ADHD/脑洞型Agent技能: i-have-adhd (5.5K★/周)、ADHD skill (996★/周) — 让coding agent思考更发散
+- 本地AI: Gemma 4 26B在2GB RAM跑 (HN 808pts) — 边缘部署突破
+- WiFi感知: RuView (4.5K★/周, 87K总★) — 不用摄像头做空间智能
+
+### 📰 36氪创投信号
+
+- 欧盟114亿美元建7座AI超级工厂 → AI算力需求国家化
+- AI公司大量招聘电工和木匠(NYT) → 数据中心建设潮，蓝领AI化
+- 地平线智驾芯片份额22.82% → 国产替代加速
+- AI顶级创业公司几乎不发表研究(Science) → 商业化优先于学术
+- HuggingFace发布Agent入侵事件技术时间线 → Agent安全成焦点
+
+### 💬 HN 讨论热点
+
+- LLM Honeypot (261pts) — AI安全蜜罐
+- Tokenless YC S26 (62pts) — 自动切换模型省钱
+- CheapFoodMap (214pts) — 10美元以下美食地图
+- Kimi K3-256k (441pts) — 长上下文模型
 
 ---
 
-*生成时间: 2026-07-30 10:22 CST | 夜巡脚本 v2.0*
+## 💡 洞察（3句）
+
+1. **Agent基础设施是当前最大风口** — 浏览器、Office、网关、安全、IDE，每个Agent子赛道都有万星项目。做"给Agent用的X"比做"给人用的X"更火，因为所有AI coding tool用户都是付费群体。
+
+2. **"开源替代×付费工具"是验证过的爆款公式** — OpenCut（剪映）、open-seo（Semrush）、Instatic（Webflow），找准一个贵的SaaS工具做开源版，自然流量就能起飞。关键选品：用户量大+付费贵+痛点多。
+
+3. **本地AI部署正在成为独立赛道** — Gemma 4在2GB RAM跑26B模型、Meetily全本地会议纪要、bitchat蓝牙离线通信，所有不需要云的AI应用都在加速。"隐私优先+本地运行"可以作为差异化的核心卖点。
+
+---
+
+## 📌 本周可执行选题建议
+
+| 选题 | 难度 | 周期 | 变现路径 |
+|------|------|------|----------|
+| AI Agent浏览器插件（参考ego-lite） | ⭐⭐ | 2周 | SaaS订阅 $9-29/月 |
+| 垂直行业AI工具（会议纪要/交易/SEO） | ⭐⭐⭐ | 4周 | SaaS + 企业定制 |
+| 开源替代品（找贵的SaaS做对标） | ⭐⭐⭐ | 3周 | Freemium + 云托管 |
+| AI安全扫描工具（参考Strix） | ⭐⭐⭐⭐ | 6周 | 企业年费 $1K-10K |
+| Tokenless模式 - API调用优化层 | ⭐⭐ | 1周 | 按节省金额抽成 |
+
+---
+
+*夜巡完毕 · 下次夜巡时间：明日18:00*
