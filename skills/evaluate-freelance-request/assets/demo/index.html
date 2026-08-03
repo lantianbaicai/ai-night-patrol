@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="私活接单参谋：把客户聊天整理成需求、风险、工期报价与可发送回复。" />
+    <title>接单雷达 | 私活接单参谋</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <div class="brand-mark" aria-hidden="true">
+            <span></span>
+            <b></b>
+          </div>
+          <div>
+            <div class="brand-line">
+              <strong>接单雷达</strong>
+              <span>JOB INTAKE</span>
+            </div>
+            <p>把模糊需求，变成可验证、可报价的边界</p>
+          </div>
+        </div>
+
+        <div class="topbar-actions">
+          <div class="demo-state"><span></span>脱敏演示数据</div>
+          <button class="button button-ghost" id="exportButton" type="button">
+            <i data-lucide="download" aria-hidden="true"></i>
+            <span>导出评估</span>
+          </button>
+          <button class="button button-primary" id="newRequestButton" type="button">
+            <i data-lucide="plus" aria-hidden="true"></i>
+            <span>分析新需求</span>
+          </button>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="source-panel" aria-label="客户需求原始信息">
+          <div class="case-switcher" id="caseSwitcher" aria-label="演示案例"></div>
+
+          <div class="source-heading">
+            <div>
+              <span class="eyebrow">SOURCE / 需求现场</span>
+              <h1 id="sourceTitle"></h1>
+            </div>
+            <span class="source-status" id="sourceStatus"></span>
+          </div>
+
+          <div class="source-meta" id="sourceMeta"></div>
+          <div class="chat-stream" id="chatStream" aria-live="polite"></div>
+
+          <div class="attachment-strip" id="attachmentStrip"></div>
+          <div class="source-note">
+            <i data-lucide="shield-check" aria-hidden="true"></i>
+            <span>姓名、账号、店铺与链接参数已隐藏</span>
+          </div>
+        </aside>
+
+        <section class="analysis-panel" aria-label="需求评估结果">
+          <section class="decision-band" id="decisionBand">
+            <div class="decision-copy">
+              <span class="eyebrow eyebrow-light">DECISION / 接单建议</span>
+              <div class="decision-title-row">
+                <h2 id="decisionTitle"></h2>
+                <span class="risk-pill" id="riskPill"></span>
+              </div>
+              <p id="decisionReason"></p>
+              <div class="pipeline" id="pipeline" aria-label="项目处理流程"></div>
+            </div>
+
+            <div class="score-cluster">
+              <div class="score-ring" id="scoreRing" aria-label="综合把握分">
+                <div class="score-ring-inner">
+                  <strong id="overallScore">0</strong>
+                  <span>/ 100</span>
+                </div>
+              </div>
+              <div>
+                <b>当前把握</b>
+                <small>资料变化后会重新计算</small>
+              </div>
+            </div>
+          </section>
+
+          <section class="metric-strip" id="metricStrip" aria-label="评估维度"></section>
+
+          <nav class="analysis-tabs" id="analysisTabs" aria-label="分析详情"></nav>
+
+          <section class="view-stage" id="viewStage" aria-live="polite"></section>
+
+          <footer class="analysis-footer">
+            <div>
+              <i data-lucide="info" aria-hidden="true"></i>
+              <span>金额和工期是当前资料下的沟通基线，不代表行业统一价。</span>
+            </div>
+            <span id="caseUpdated"></span>
+          </footer>
+        </section>
+      </main>
+    </div>
+
+    <div class="modal-backdrop" id="requestModal" hidden>
+      <section class="request-modal" role="dialog" aria-modal="true" aria-labelledby="requestModalTitle">
+        <header>
+          <div>
+            <span class="eyebrow">NEW REQUEST</span>
+            <h2 id="requestModalTitle">粘贴一段客户原话</h2>
+          </div>
+          <button class="icon-button" id="closeModalButton" type="button" aria-label="关闭">
+            <i data-lucide="x" aria-hidden="true"></i>
+          </button>
+        </header>
+
+        <form id="requestForm">
+          <label for="requestName">项目简称</label>
+          <input id="requestName" name="requestName" value="新客户需求" maxlength="30" />
+
+          <label for="requestText">客户聊天或需求</label>
+          <textarea id="requestText" name="requestText" rows="9" placeholder="例如：需要读取 Excel 后自动登录后台上传商品，支持多个账号，并生成结果报表……" required></textarea>
+
+          <div class="local-analysis-note">
+            <i data-lucide="cpu" aria-hidden="true"></i>
+            <p><strong>本地初筛</strong><br />演示版用规则识别平台、账号、数据和验收风险，不上传内容。</p>
+          </div>
+
+          <div class="modal-actions">
+            <button class="button button-ghost" id="useExampleButton" type="button">填入示例</button>
+            <button class="button button-primary" type="submit">
+              <i data-lucide="scan-search" aria-hidden="true"></i>
+              <span>开始评估</span>
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

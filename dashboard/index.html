@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="AI 夜巡：带来源、可信度、历史重复信号和求职证据的机会情报仪表盘。"
+    />
+    <title>AI 夜巡 · 可信机会情报</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23111820'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='31' font-family='Arial' fill='%2374ddc2'%3E巡%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./vendor/lucide.min.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">巡</div>
+          <div>
+            <p class="eyebrow">Opportunity Intelligence</p>
+            <h1>AI 夜巡</h1>
+          </div>
+        </div>
+
+        <nav class="view-nav" aria-label="主视图">
+          <button class="view-button is-active" type="button" data-view="overview">
+            <i data-lucide="radar"></i>
+            <span>机会情报</span>
+          </button>
+          <button class="view-button" type="button" data-view="career">
+            <i data-lucide="briefcase-business"></i>
+            <span>求职证据</span>
+          </button>
+          <button class="view-button" type="button" data-view="evaluation">
+            <i data-lucide="clipboard-check"></i>
+            <span>决策复盘</span>
+          </button>
+          <button class="view-button" type="button" data-view="health">
+            <i data-lucide="activity"></i>
+            <span>运行健康</span>
+          </button>
+        </nav>
+
+        <section class="sidebar-section" aria-labelledby="sourceLabel">
+          <p id="sourceLabel" class="panel-label">本轮数据源</p>
+          <div id="sourceList" class="source-list">
+            <div class="source-row"><span>读取中</span><strong>...</strong></div>
+          </div>
+        </section>
+
+        <section class="sidebar-section system-summary" aria-labelledby="archiveLabel">
+          <p id="archiveLabel" class="panel-label">长期记忆</p>
+          <dl>
+            <div>
+              <dt>本地分析</dt>
+              <dd id="sideLocalRuns">--</dd>
+            </div>
+            <div>
+              <dt>公开归档</dt>
+              <dd id="sidePublicRuns">--</dd>
+            </div>
+            <div>
+              <dt>时间跨度</dt>
+              <dd id="sideWindow">--</dd>
+            </div>
+          </dl>
+        </section>
+
+        <a
+          class="repo-link"
+          href="https://github.com/lantianbaicai/ai-night-patrol"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i data-lucide="git-branch"></i>
+          <span>查看历史仓库</span>
+          <i data-lucide="external-link"></i>
+        </a>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Verified Opportunity Paper</p>
+            <h2 id="pageTitle">可信机会情报与作品证据</h2>
+          </div>
+          <div class="topbar-actions">
+            <a id="latestReportLink" class="icon-button" href="../reports/latest.md" title="查看原始报告">
+              <i data-lucide="file-text"></i>
+            </a>
+            <button id="exportBrief" class="icon-button" type="button" title="导出当前简报">
+              <i data-lucide="download"></i>
+            </button>
+            <div class="date-chip">
+              <i data-lucide="calendar-clock"></i>
+              <span id="reportDate">读取中</span>
+            </div>
+          </div>
+        </header>
+
+        <div id="loadingState" class="loading-state" role="status">
+          <span class="loading-line"></span>
+          <span>正在建立证据链...</span>
+        </div>
+
+        <section id="view-overview" class="view" data-view-panel="overview">
+          <section class="lead-story" aria-labelledby="headlineTitle">
+            <div class="lead-copy">
+              <div class="lead-kicker">
+                <span id="issueNumber">第 --- 期</span>
+                <span id="modelName">模型未记录</span>
+              </div>
+              <p class="section-label">本轮优先信号</p>
+              <h3 id="headlineTitle">等待夜巡数据</h3>
+              <p id="headlineSummary" class="lead-summary"></p>
+              <div class="lead-meta">
+                <span id="headlineConfidence" class="status-badge">可信度待定</span>
+                <span id="headlineDecision" class="decision-badge">待判断</span>
+              </div>
+            </div>
+            <dl class="lead-stats">
+              <div>
+                <dt>本地分析</dt>
+                <dd id="statLocalRuns">0</dd>
+              </div>
+              <div>
+                <dt>公开归档</dt>
+                <dd id="statPublicRuns">0</dd>
+              </div>
+              <div>
+                <dt>证据来源</dt>
+                <dd id="statEvidence">0</dd>
+              </div>
+              <div>
+                <dt>本轮可审计性</dt>
+                <dd id="statQuality">0</dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="opportunity-workspace">
+            <div class="workspace-main">
+              <div class="section-header">
+                <div>
+                  <p class="eyebrow">Evidence-backed Signals</p>
+                  <h3>本轮机会</h3>
+                </div>
+                <div class="filters">
+                  <label class="search-control">
+                    <i data-lucide="search"></i>
+                    <input id="searchInput" type="search" placeholder="搜索机会或行动" />
+                  </label>
+                  <select id="decisionFilter" aria-label="按决策筛选">
+                    <option value="all">全部决策</option>
+                    <option value="build">进入构建</option>
+                    <option value="validate">继续验证</option>
+                    <option value="hold">暂缓</option>
+                    <option value="reject">否决</option>
+                    <option value="research">待研究</option>
+                  </select>
+                  <select id="confidenceFilter" aria-label="按可信度筛选">
+                    <option value="all">全部可信度</option>
+                    <option value="high">高可信</option>
+                    <option value="medium">中可信</option>
+                    <option value="low">低可信</option>
+                  </select>
+                </div>
+              </div>
+              <div class="opportunity-head" aria-hidden="true">
+                <span>机会</span>
+                <span>原评分</span>
+                <span>可信度</span>
+                <span>重复信号</span>
+                <span>当前决策</span>
+              </div>
+              <div id="opportunityList" class="opportunity-list"></div>
+            </div>
+
+            <aside class="detail-panel" aria-label="机会证据详情">
+              <p class="eyebrow">Evidence Review</p>
+              <h3 id="detailTitle">选择一个机会</h3>
+              <p id="detailSignal" class="detail-summary"></p>
+
+              <div class="detail-facts">
+                <div>
+                  <span>付费证据</span>
+                  <strong id="detailPaid">--</strong>
+                </div>
+                <div>
+                  <span>历史重复</span>
+                  <strong id="detailRecurrence">--</strong>
+                </div>
+              </div>
+
+              <section class="detail-block">
+                <div class="minor-heading">
+                  <h4>岗位关联</h4>
+                  <span>规则映射</span>
+                </div>
+                <div id="roleFitList" class="role-fit-list"></div>
+              </section>
+
+              <section class="detail-block">
+                <div class="minor-heading">
+                  <h4>来源与边界</h4>
+                  <span id="evidenceCount">0 个来源</span>
+                </div>
+                <div id="evidenceList" class="evidence-list"></div>
+              </section>
+
+              <section class="detail-block action-block">
+                <div class="minor-heading"><h4>下一步</h4></div>
+                <p id="detailAction"></p>
+                <div class="risk-note">
+                  <i data-lucide="triangle-alert"></i>
+                  <span id="detailRisk"></span>
+                </div>
+              </section>
+            </aside>
+          </section>
+
+          <section class="analysis-grid">
+            <section class="analysis-panel">
+              <div class="section-header compact">
+                <div>
+                  <p class="eyebrow">30-report Recurrence</p>
+                  <h3>重复信号</h3>
+                </div>
+                <span class="helper-text">按报告出现次数，不按词频</span>
+              </div>
+              <div id="trendList" class="trend-list"></div>
+            </section>
+
+            <section class="analysis-panel">
+              <div class="section-header compact">
+                <div>
+                  <p class="eyebrow">Evidence Matrix</p>
+                  <h3>证据与岗位贴合</h3>
+                </div>
+                <span class="helper-text">编号对应下方图例</span>
+              </div>
+              <div id="evidenceMatrix" class="evidence-matrix" aria-label="证据与岗位贴合矩阵"></div>
+              <div id="matrixLegend" class="matrix-legend"></div>
+            </section>
+          </section>
+
+          <section class="history-section">
+            <div class="section-header">
+              <div>
+                <p class="eyebrow">Audit Trail</p>
+                <h3>历史归档</h3>
+              </div>
+              <span id="historyWindow" class="helper-chip">读取中</span>
+            </div>
+            <div class="history-head" aria-hidden="true">
+              <span>时间</span>
+              <span>头号信号</span>
+              <span>机会数</span>
+              <span>来源链接</span>
+              <span>可审计性</span>
+            </div>
+            <div id="historyList" class="history-list"></div>
+          </section>
+        </section>
+
+        <section id="view-career" class="view" data-view-panel="career" hidden>
+          <section class="view-intro">
+            <div>
+              <p class="section-label">CAREER EVIDENCE</p>
+              <h3>三条岗位线，逐项看证据</h3>
+              <p>这里的完成度来自作品证据清单，不是模型根据关键词猜出来的“匹配率”。</p>
+            </div>
+            <div class="intro-note">
+              <i data-lucide="target"></i>
+              <span>目标：把每个“部分具备”和“缺口”变成可展示的运行证据。</span>
+            </div>
+          </section>
+          <div id="careerRoleGrid" class="career-role-grid"></div>
+
+          <section class="portfolio-section">
+            <div class="section-header">
+              <div>
+                <p class="eyebrow">Portfolio Map</p>
+                <h3>作品集闭环</h3>
+              </div>
+            </div>
+            <div id="portfolioList" class="portfolio-list"></div>
+          </section>
+        </section>
+
+        <section id="view-evaluation" class="view" data-view-panel="evaluation" hidden>
+          <section class="view-intro">
+            <div>
+              <p class="section-label">PERSONAL DECISION LOOP</p>
+              <h3>先判断适不适合你，再用结果推翻自己</h3>
+              <p>个人匹配分与热点分分开计算。每条判断都进入 7 天、30 天复核，不用事后叙事替代验证。</p>
+            </div>
+            <div class="intro-note">
+              <i data-lucide="history"></i>
+              <span id="evaluationNextReview">读取下一次复核日期...</span>
+            </div>
+          </section>
+
+          <section class="profile-band" aria-labelledby="profileName">
+            <div class="profile-identity">
+              <p class="eyebrow">Opportunity Profile</p>
+              <h3 id="profileName">读取个人机会画像...</h3>
+              <strong id="profileRole">--</strong>
+            </div>
+            <div class="profile-goal">
+              <span>当前唯一目标</span>
+              <p id="profileGoal">--</p>
+              <div id="profileConstraints" class="profile-constraints"></div>
+            </div>
+            <div class="profile-assets">
+              <span>可复用资产</span>
+              <div id="profileAssets" class="profile-asset-list"></div>
+            </div>
+          </section>
+
+          <div class="decision-workspace">
+            <section class="fit-section">
+              <div class="section-header">
+                <div>
+                  <p class="eyebrow">Personal Fit</p>
+                  <h3>本轮机会，与你的距离</h3>
+                </div>
+                <p class="helper-text">总分由资产、能力、渠道、证据四项加权，计算过程可展开核对。</p>
+              </div>
+              <div id="personalFitList" class="personal-fit-list"></div>
+            </section>
+
+            <section class="review-section">
+              <div class="section-header">
+                <div>
+                  <p class="eyebrow">7 / 30 Day Review</p>
+                  <h3>判断复核队列</h3>
+                </div>
+                <p id="reviewHonestyNote" class="helper-text">尚未记录真实结果。</p>
+              </div>
+              <div id="reviewSummary" class="review-summary"></div>
+              <div id="reviewQueue" class="review-queue"></div>
+            </section>
+          </div>
+
+          <section class="evaluation-summary" aria-label="决策账本摘要">
+            <div>
+              <span>总判断</span>
+              <strong id="evaluationTotal">--</strong>
+            </div>
+            <div>
+              <span>验证中</span>
+              <strong id="evaluationActive">--</strong>
+            </div>
+            <div>
+              <span>已证实</span>
+              <strong id="evaluationValidated">--</strong>
+            </div>
+            <div>
+              <span>已否决</span>
+              <strong id="evaluationRejected">--</strong>
+            </div>
+            <div>
+              <span>外部证据</span>
+              <strong id="evaluationExternal">--</strong>
+            </div>
+          </section>
+
+          <div class="ledger-layout">
+            <section class="ledger-section">
+              <div class="section-header">
+                <div>
+                  <p class="eyebrow">Open Hypotheses</p>
+                  <h3>从信号到结果</h3>
+                </div>
+                <p class="helper-text">进度表示检查点完成度，不代表商业成功率。</p>
+              </div>
+              <div id="ledgerList" class="ledger-list"></div>
+            </section>
+
+            <aside class="ledger-rules" aria-labelledby="ledgerRulesTitle">
+              <p class="eyebrow">Evaluation Rules</p>
+              <h3 id="ledgerRulesTitle">验证纪律</h3>
+              <ol id="ledgerRuleList"></ol>
+              <p class="ledger-boundary">
+                <i data-lucide="shield-check"></i>
+                <span>外部用户、收入和准确率均需单独证据，不能由运行次数推导。</span>
+              </p>
+            </aside>
+          </div>
+        </section>
+
+        <section id="view-health" class="view" data-view-panel="health" hidden>
+          <section class="view-intro">
+            <div>
+              <p class="section-label">RUN HEALTH</p>
+              <h3>不是“生成成功”，而是可验证地完成</h3>
+              <p>发布、来源、解析、历史和凭据状态都要有明确证据。</p>
+            </div>
+          </section>
+
+          <div class="health-grid">
+            <section class="health-panel">
+              <div class="section-header compact">
+                <div>
+                  <p class="eyebrow">Latest Report</p>
+                  <h3>本轮质量门</h3>
+                </div>
+                <strong id="healthQualityScore" class="large-score">--</strong>
+              </div>
+              <div id="qualityChecks" class="check-list"></div>
+            </section>
+
+            <section class="health-panel">
+              <div class="section-header compact">
+                <div>
+                  <p class="eyebrow">Publish Safety</p>
+                  <h3>发布与凭据</h3>
+                </div>
+                <span id="securityStatus" class="status-badge">读取中</span>
+              </div>
+              <dl id="securityFacts" class="health-facts"></dl>
+            </section>
+
+            <section class="health-panel">
+              <div class="section-header compact">
+                <div>
+                  <p class="eyebrow">Source Coverage</p>
+                  <h3>来源状态</h3>
+                </div>
+              </div>
+              <div id="healthSources" class="check-list"></div>
+            </section>
+
+            <section class="health-panel methodology-panel">
+              <div class="section-header compact">
+                <div>
+                  <p class="eyebrow">Methodology</p>
+                  <h3>可信度怎么读</h3>
+                </div>
+              </div>
+              <p id="methodologyNote"></p>
+              <dl id="confidenceGuide" class="confidence-guide"></dl>
+            </section>
+          </div>
+        </section>
+
+        <div id="errorState" class="error-state" hidden>
+          <i data-lucide="circle-alert"></i>
+          <div>
+            <strong>数据读取失败</strong>
+            <p id="errorMessage">请通过本地 HTTP 服务或 GitHub Pages 打开仪表盘。</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

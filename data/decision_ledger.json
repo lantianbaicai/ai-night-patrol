@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-31",
+  "rules": [
+    "先写判断和成功标准，再开始开发。",
+    "GitHub 热度、平台订单量和本地运行次数不能替代外部用户证据。",
+    "到复核日期必须记录继续、调整或停止，不能只保留成功案例。"
+  ],
+  "records": [
+    {
+      "id": "officecli-engineering-docs",
+      "title": "OfficeCLI 能提高工程文档预审的可审计性",
+      "origin_signal": "Office Document AI",
+      "opened_at": "2026-07-31",
+      "review_due": "2026-08-07",
+      "status": "validating",
+      "decision": "build",
+      "hypothesis": "把确定性的 Office 结构与版式校验作为第二层能力，可以增加工程文档助手的证据密度，同时在校验器失败时不阻断基础解析。",
+      "baseline": "工程文档助手已能抽取文档事实和风险线索，但缺少独立的 Office 结构与版式检查结果。",
+      "current_result": "可选适配器、失败回退、结构问题列表和首屏预览已经完成；当前只有本地样本与自动测试，尚未证明外部客户价值或准确率。",
+      "success_criteria": [
+        "至少 10 份脱敏样本完成基础解析与二次校验。",
+        "人工记录命中、误报和漏报，不用“未发现错误”代替准确率。",
+        "关闭或破坏 OfficeCLI 时，基础解析仍能返回可用结果。",
+        "获得至少 1 位外部使用者对结果可读性的反馈。"
+      ],
+      "checkpoints": [
+        {
+          "label": "OfficeCLI 可选适配器",
+          "status": "complete",
+          "evidence": "已实现自动发现、JSON 校验、问题读取和可选首屏渲染。"
+        },
+        {
+          "label": "失败回退",
+          "status": "complete",
+          "evidence": "二次校验失败不会阻断基础解析，并有自动测试覆盖。"
+        },
+        {
+          "label": "本地样本验证",
+          "status": "partial",
+          "evidence": "已跑通 3 份工程样本与 1 份公开合成样本，尚未达到 10 份。"
+        },
+        {
+          "label": "人工标注与外部反馈",
+          "status": "pending",
+          "evidence": "尚未建立误报/漏报表，也没有外部使用者反馈。"
+        }
+      ],
+      "external_evidence": false,
+      "stop_condition": "若 10 份样本中二次校验信息无法帮助人工复核，停止继续扩展 OfficeCLI 能力，只保留基础解析。"
+    },
+    {
+      "id": "night-patrol-career-proof",
+      "title": "夜巡 V3 可以成为 FDE / Agent Harness 的可信作品",
+      "origin_signal": "AI Agent Harness",
+      "opened_at": "2026-07-31",
+      "review_due": "2026-08-14",
+      "status": "validating",
+      "decision": "build",
+      "hypothesis": "把来源、重复信号、边界、失败状态和岗位证据放进同一仪表盘，比单纯展示自动生成日报更能证明长程 Agent 工作流能力。",
+      "baseline": "公开仓库只展示旧版 Markdown 报告，缺少证据模型、运行健康和判断结果回看。",
+      "current_result": "统一作品集已通过 Sites 版本 4 发布，全部 111 份去重报告已公开，vinext 生产构建、版本专属平台截图和本地桌面/移动端验收均通过。V3.3 手动回归已正确区分当前 4 份样本与目标 10 份，并保持外部用户、外部反馈和人工误报/漏报统计为 0 或未建立。外部招聘或用户反馈仍为 0。",
+      "success_criteria": [
+        "公开页面能够从原始报告追溯到机会证据和边界。",
+        "每周保存 3 个预先判断，并在 7 天后记录结果。",
+        "三份定向简历引用同一组可核验数字与作品链接。",
+        "获得至少 1 次面试、招聘方追问或外部评审反馈。"
+      ],
+      "checkpoints": [
+        {
+          "label": "V3 本地仪表盘",
+          "status": "complete",
+          "evidence": "机会、求职证据和运行健康三类视图已完成桌面与移动端验收。"
+        },
+        {
+          "label": "统一证据口径",
+          "status": "complete",
+          "evidence": "340 份本地摘要与全部 111 份公开去重报告已经分开标注，待发布为 0。"
+        },
+        {
+          "label": "判断结果回看",
+          "status": "partial",
+          "evidence": "决策账本已建立，但尚未到首个复核日期。"
+        },
+        {
+          "label": "公开部署与招聘反馈",
+          "status": "partial",
+          "evidence": "统一作品页已通过 Sites 版本 4 发布到公开地址；版本专属生产截图确认 340/111 新口径。当前自动化出口 IP 被 Cloudflare 403 拦截，外部访客和招聘反馈仍为 0。"
+        }
+      ],
+      "external_evidence": false,
+      "stop_condition": "若公开后连续 20 次定向投递没有引发任何作品追问，调整叙事和演示方式，不再增加仪表盘功能。"
+    },
+    {
+      "id": "engineering-review-skill",
+      "title": "垂直工程文档 Skill 比通用 Skill 更值得发布",
+      "origin_signal": "Agent Skills",
+      "opened_at": "2026-07-31",
+      "review_due": "2026-08-14",
+      "status": "planned",
+      "decision": "validate",
+      "hypothesis": "包含样本、边界、失败回退和结构化输出的工程文档预审 Skill，能够比天气、摘要、表情包等通用包装提供更强的差异化和复现价值。",
+      "baseline": "已有多个通用 Skill 包装，但缺少安装量、跨环境任务成功率和真实付费证据。",
+      "current_result": "工程文档工作流已经存在，但尚未形成一个可由第二个 Agent 环境独立安装和复现的发布包。",
+      "success_criteria": [
+        "一个全新 Agent 环境能够按照说明完成安装。",
+        "至少 3 份公开或脱敏文档产生结构化结果。",
+        "保存安装失败、运行失败和修复记录。",
+        "至少 1 位外部使用者完成一次任务。"
+      ],
+      "checkpoints": [
+        {
+          "label": "垂直工作流",
+          "status": "complete",
+          "evidence": "工程文档助手已具备稳定的基础任务流程。"
+        },
+        {
+          "label": "可安装发布包",
+          "status": "pending",
+          "evidence": "尚未完成独立安装与依赖检查。"
+        },
+        {
+          "label": "跨环境复现",
+          "status": "pending",
+          "evidence": "尚未在第二个 Agent 环境运行。"
+        },
+        {
+          "label": "外部任务证据",
+          "status": "pending",
+          "evidence": "外部使用者数量为 0。"
+        }
+      ],
+      "external_evidence": false,
+      "stop_condition": "若第二环境安装成本过高或任务结果无法稳定复现，不将其包装为独立产品，只保留为内部工作流。"
+    },
+    {
+      "id": "xianyu-toolbox-thesis",
+      "title": "“闲鱼 AI 工具箱是最快变现产品”证据不足",
+      "origin_signal": "Xianyu AI Services",
+      "opened_at": "2026-07-29",
+      "review_due": null,
+      "status": "rejected",
+      "decision": "channel",
+      "hypothesis": "平台 AI 服务订单快速增长，意味着应优先开发面向闲鱼卖家的独立 AI 工具箱。",
+      "baseline": "夜巡日报根据平台订单增速把它评为 5/5，并建议 3 至 7 天启动 MVP。",
+      "current_result": "平台增长能够证明低价 AI 服务交易存在，但不能证明独立工具订阅需求；当前更合理的用途是测试工程预审或 AI Demo 服务获客。",
+      "success_criteria": [
+        "找到至少 5 位明确愿意试用工具的卖家。",
+        "确认卖家重复使用频率和可接受价格。",
+        "不依赖高风险平台自动化或批量私信。"
+      ],
+      "checkpoints": [
+        {
+          "label": "市场信号核验",
+          "status": "complete",
+          "evidence": "平台订单增长为直接市场信号，但收入结构和工具订阅意愿未知。"
+        },
+        {
+          "label": "工具需求访谈",
+          "status": "pending",
+          "evidence": "尚无 5 位卖家访谈或付费意向。"
+        }
+      ],
+      "external_evidence": false,
+      "stop_condition": "在没有 5 位明确试用者前不开发独立工具箱；只把闲鱼作为服务发布渠道。"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "updated_at": "2026-08-01",
+  "owner": {
+    "name": "杨恒",
+    "role": "独立 AI 解决方案开发者",
+    "goal": "优先寻找 7 天内能验证、可复用现有资产，并能带来真实客户反馈或求职证据的机会。"
+  },
+  "constraints": {
+    "weekly_hours": 20,
+    "budget_cny": 1000,
+    "max_parallel_builds": 1,
+    "validation_days": 7,
+    "review_windows_days": [
+      7,
+      30
+    ]
+  },
+  "weights": {
+    "asset_reuse": 35,
+    "capability_fit": 25,
+    "channel_access": 15,
+    "evidence_readiness": 25
+  },
+  "decision_thresholds": {
+    "build": 75,
+    "validate": 55
+  },
+  "assets": [
+    {
+      "id": "engineering-doc-assistant",
+      "label": "工程资料预审台",
+      "topic_ids": [
+        "office-document-ai",
+        "local-private-ai"
+      ],
+      "maturity": 5,
+      "evidence": "已有可运行工具、真实工程样本和自动化测试，但尚无外部用户。"
+    },
+    {
+      "id": "ai-night-patrol",
+      "label": "AI 夜巡",
+      "topic_ids": [
+        "agent-skills",
+        "agent-infrastructure",
+        "open-source-saas"
+      ],
+      "maturity": 4,
+      "evidence": "已有持续运行、公开仓库和 12 个 GitHub Star，尚未证明付费需求。"
+    },
+    {
+      "id": "video-analyzer",
+      "label": "视频分析器",
+      "topic_ids": [
+        "ai-media-tools"
+      ],
+      "maturity": 3,
+      "evidence": "已有本地分析流程，链接直达和稳定获客仍待验证。"
+    },
+    {
+      "id": "yunxi-desktop",
+      "label": "云曦桌面伴侣",
+      "topic_ids": [
+        "ai-media-tools",
+        "agent-skills"
+      ],
+      "maturity": 3,
+      "evidence": "已有桌面产品和角色资产，尚未形成明确商业闭环。"
+    },
+    {
+      "id": "skill-pack",
+      "label": "中文 Agent Skills 包",
+      "topic_ids": [
+        "agent-skills"
+      ],
+      "maturity": 2,
+      "evidence": "已有发布包，安装、复现和外部任务成功率尚未形成证据。"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "rapid-ai-prototyping",
+      "label": "AI 应用快速原型",
+      "topic_ids": [
+        "agent-skills",
+        "agent-infrastructure",
+        "office-document-ai",
+        "local-private-ai",
+        "open-source-saas",
+        "ai-media-tools"
+      ],
+      "level": 4
+    },
+    {
+      "id": "engineering-document-workflow",
+      "label": "工程文档与现场流程",
+      "topic_ids": [
+        "office-document-ai",
+        "local-private-ai"
+      ],
+      "level": 5
+    },
+    {
+      "id": "agent-workflow-evidence",
+      "label": "Agent 工作流与证据工程",
+      "topic_ids": [
+        "agent-skills",
+        "agent-infrastructure",
+        "open-source-saas"
+      ],
+      "level": 4
+    },
+    {
+      "id": "browser-automation",
+      "label": "浏览器与后台自动化",
+      "topic_ids": [
+        "xianyu-ai-services",
+        "office-document-ai"
+      ],
+      "level": 3
+    },
+    {
+      "id": "ai-media-pipeline",
+      "label": "AI 视频与视觉工作流",
+      "topic_ids": [
+        "ai-media-tools"
+      ],
+      "level": 3
+    }
+  ],
+  "channels": [
+    {
+      "id": "github-portfolio",
+      "label": "GitHub 公开作品",
+      "topic_ids": [
+        "agent-skills",
+        "agent-infrastructure",
+        "open-source-saas",
+        "office-document-ai",
+        "local-private-ai"
+      ],
+      "access": 3,
+      "evidence": "夜巡已有 12 个 Star，但还没有转化为面试或付费。"
+    },
+    {
+      "id": "engineering-intermediaries",
+      "label": "工程兼职中间渠道",
+      "topic_ids": [
+        "office-document-ai",
+        "local-private-ai"
+      ],
+      "access": 3,
+      "evidence": "有过真实工程方案交付，渠道不稳定且客单价偏低。"
+    },
+    {
+      "id": "wechat-freelance-groups",
+      "label": "微信开发兼职群",
+      "topic_ids": [
+        "office-document-ai",
+        "local-private-ai",
+        "xianyu-ai-services",
+        "ai-media-tools"
+      ],
+      "access": 2,
+      "evidence": "能看到需求，但近期项目减少，且多为中间商转包。"
+    },
+    {
+      "id": "xiaohongshu-account",
+      "label": "小红书内容账号",
+      "topic_ids": [
+        "agent-skills",
+        "ai-media-tools",
+        "xianyu-ai-services"
+      ],
+      "access": 2,
+      "evidence": "已有账号和历史内容，尚未形成稳定更新和客户线索。"
+    }
+  ],
+  "excluded_topic_ids": [
+    "ai-security"
+  ]
+}

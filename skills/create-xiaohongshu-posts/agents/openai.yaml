@@ -1,0 +1,7 @@
+interface:
+  display_name: "真实项目小红书笔记"
+  short_description: "把项目截图、实测过程和踩坑记录整理成自然的小红书笔记"
+  default_prompt: "Use $create-xiaohongshu-posts to turn these real project materials into a complete Xiaohongshu post package without inventing facts."
+
+policy:
+  allow_implicit_invocation: true

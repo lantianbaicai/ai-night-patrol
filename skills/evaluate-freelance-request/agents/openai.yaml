@@ -1,0 +1,7 @@
+interface:
+  display_name: "私活接单参谋"
+  short_description: "把客户聊天整理成需求、风险、工期报价与可发送回复"
+  default_prompt: "Use $evaluate-freelance-request to assess this freelance request, identify missing information and risks, estimate scope, and draft a natural Chinese client reply."
+
+policy:
+  allow_implicit_invocation: true

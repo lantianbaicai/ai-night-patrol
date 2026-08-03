@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>AI 项目发帖助手</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23ff2442'/%3E%3Cpath d='M18 19h28v5H18zm0 10h28v5H18zm0 10h18v5H18z' fill='white'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="project-sidebar" aria-label="项目素材">
+        <header class="brand-block">
+          <span class="brand-icon"><span class="icon-fallback">稿</span><i data-lucide="notebook-pen"></i></span>
+          <div>
+            <strong>项目笔记工坊</strong>
+            <span>给真实项目写小红书</span>
+          </div>
+        </header>
+
+        <section class="sidebar-section">
+          <div class="section-label">
+            <span>选择真实项目</span>
+            <small>3 个待发布</small>
+          </div>
+          <div class="project-list">
+            <button class="project-item is-active" data-project="night" type="button">
+              <img src="./night-patrol.png" alt="AI 夜巡报刊界面" />
+              <span><strong>AI 夜巡报刊</strong><small>独立开发 · 待首发</small></span>
+              <i data-lucide="chevron-right"></i>
+            </button>
+            <button class="project-item" data-project="robo" type="button">
+              <img src="./robo-overview.png" alt="园区机器人三维演示" />
+              <span><strong>园区机器人 Demo</strong><small>客户案例 · 可复盘</small></span>
+              <i data-lucide="chevron-right"></i>
+            </button>
+            <button class="project-item" data-project="yunxi" type="button">
+              <img src="./yunxi-fixed.png" alt="云曦桌面伴侣" />
+              <span><strong>云曦桌宠开发</strong><small>开发踩坑 · 有对比</small></span>
+              <i data-lucide="chevron-right"></i>
+            </button>
+          </div>
+        </section>
+
+        <section class="sidebar-section editor-section">
+          <div class="section-label">
+            <span>项目事实</span>
+            <small>只写真实发生的</small>
+          </div>
+          <label class="field">
+            <span>项目名称</span>
+            <input id="projectName" type="text" />
+          </label>
+          <label class="field">
+            <span>这次做了什么</span>
+            <textarea id="projectAction" rows="3"></textarea>
+          </label>
+          <label class="field">
+            <span>最难或最意外的一点</span>
+            <textarea id="projectProblem" rows="3"></textarea>
+          </label>
+          <label class="field">
+            <span>最后结果</span>
+            <textarea id="projectResult" rows="2"></textarea>
+          </label>
+        </section>
+
+        <button id="generateButton" class="generate-button" type="button">
+          <i data-lucide="sparkles"></i>
+          <span>重新整理成笔记</span>
+        </button>
+        <div class="generation-status" aria-live="polite">
+          <span id="statusDot"></span>
+          <span id="statusText">已读取 3 份真实项目素材</span>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="workspace-header">
+          <div>
+            <span class="eyebrow">REAL PROJECT TO REDNOTE</span>
+            <h1 id="workspaceTitle">AI 夜巡报刊</h1>
+            <p id="workspaceSubtitle">不是教别人做 AI，而是把自己做过的东西讲清楚。</p>
+          </div>
+          <div class="header-actions">
+            <button id="copyAllButton" class="icon-button" type="button" title="复制整篇笔记" aria-label="复制整篇笔记">
+              <span class="icon-fallback">⧉</span>
+              <i data-lucide="copy"></i>
+            </button>
+            <button id="exportButton" class="icon-button" type="button" title="导出 Markdown" aria-label="导出 Markdown">
+              <span class="icon-fallback">↓</span>
+              <i data-lucide="download"></i>
+            </button>
+          </div>
+        </header>
+
+        <section class="account-signal" aria-label="账号内容信号">
+          <div class="signal-intro">
+            <span>账号历史告诉我们</span>
+            <strong>真实实测，比通用教程更适合你</strong>
+          </div>
+          <div class="signal-metric">
+            <strong>1479</strong>
+            <span>本地 AI 实测浏览</span>
+          </div>
+          <div class="signal-metric">
+            <strong>922</strong>
+            <span>参数对比浏览</span>
+          </div>
+          <div class="signal-metric">
+            <strong>16</strong>
+            <span>开发过程最高评论</span>
+          </div>
+          <div class="fit-badge">
+            <span>本篇匹配度</span>
+            <strong id="fitScore">91</strong>
+          </div>
+        </section>
+
+        <section class="workbench">
+          <div class="preview-pane">
+            <div class="pane-heading">
+              <div>
+                <span>发布预览</span>
+                <small id="imageCounter">1 / 1</small>
+              </div>
+              <div class="preview-controls">
+                <button id="previousImage" class="mini-button" type="button" aria-label="上一张图"><span class="icon-fallback">‹</span><i data-lucide="chevron-left"></i></button>
+                <button id="nextImage" class="mini-button" type="button" aria-label="下一张图"><span class="icon-fallback">›</span><i data-lucide="chevron-right"></i></button>
+              </div>
+            </div>
+
+            <article class="rednote-preview">
+              <div class="note-media">
+                <img id="previewImage" src="./night-patrol.png" alt="笔记配图预览" />
+                <span id="mediaTag" class="media-tag">成品界面</span>
+                <div id="mediaDots" class="media-dots"></div>
+              </div>
+              <div class="note-content">
+                <div class="author-row">
+                  <span class="author-avatar">云</span>
+                  <div><strong>云曦ai助理</strong><small>刚刚</small></div>
+                  <button type="button">关注</button>
+                </div>
+                <h2 id="previewTitle"></h2>
+                <p id="previewBody"></p>
+                <div id="previewTags" class="tag-row"></div>
+                <span class="publish-meta">编辑于 重庆 · 本内容来自真实项目记录</span>
+              </div>
+              <footer class="note-actions">
+                <span><i data-lucide="heart"></i>赞</span>
+                <span><i data-lucide="message-circle"></i>评论</span>
+                <span><i data-lucide="star"></i>收藏</span>
+              </footer>
+            </article>
+          </div>
+
+          <div class="editor-pane">
+            <div class="content-type-row">
+              <span>这篇怎么讲</span>
+              <div class="segmented-control">
+                <button class="type-button is-active" data-type="showcase" type="button">成品展示</button>
+                <button class="type-button" data-type="process" type="button">过程复盘</button>
+                <button class="type-button" data-type="problem" type="button">踩坑对比</button>
+              </div>
+            </div>
+
+            <div class="editor-tabs" role="tablist">
+              <button class="editor-tab is-active" data-tab="titles" type="button" role="tab">标题</button>
+              <button class="editor-tab" data-tab="copy" type="button" role="tab">正文</button>
+              <button class="editor-tab" data-tab="sequence" type="button" role="tab">配图顺序</button>
+            </div>
+
+            <section class="tab-panel is-active" data-panel="titles">
+              <div class="panel-title">
+                <div><span>标题候选</span><small>点击即可换到预览里</small></div>
+                <button class="text-action" data-copy="title" type="button">复制当前标题</button>
+              </div>
+              <div id="titleOptions" class="title-options"></div>
+              <div class="angle-note">
+                <i data-lucide="scan-search"></i>
+                <div>
+                  <strong id="angleTitle">为什么推荐这个角度</strong>
+                  <p id="angleReason"></p>
+                </div>
+              </div>
+            </section>
+
+            <section class="tab-panel" data-panel="copy">
+              <div class="panel-title">
+                <div><span>发布正文</span><small id="bodyCount">0 字</small></div>
+                <button class="text-action" data-copy="body" type="button">复制正文</button>
+              </div>
+              <textarea id="bodyEditor" class="body-editor" rows="12"></textarea>
+              <div id="editorTags" class="tag-row editor-tags"></div>
+              <div class="pinned-comment">
+                <span>建议置顶评论</span>
+                <p id="pinnedComment"></p>
+              </div>
+            </section>
+
+            <section class="tab-panel" data-panel="sequence">
+              <div class="panel-title">
+                <div><span>真实素材顺序</span><small>成品先露出来，再讲过程</small></div>
+              </div>
+              <div id="assetSequence" class="asset-sequence"></div>
+              <div class="missing-material">
+                <i data-lucide="camera"></i>
+                <div><strong>还差一张会更完整</strong><p id="missingMaterial"></p></div>
+              </div>
+            </section>
+
+            <section class="quality-check">
+              <div class="quality-heading">
+                <div><span>发布前检查</span><strong id="qualityScore">94</strong></div>
+                <span id="qualityLabel">可以发</span>
+              </div>
+              <div id="qualityItems" class="quality-items"></div>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite">已复制</div>
+  </body>
+</html>

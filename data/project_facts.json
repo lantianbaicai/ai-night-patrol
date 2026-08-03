@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-08-03T10:25:14+08:00",
+  "engineering_document_assistant": {
+    "real_samples": 3,
+    "synthetic_public_samples": 1,
+    "current_sample_total": 4,
+    "target_sample_total": 10,
+    "automated_tests": 7,
+    "manually_labeled_samples": 0,
+    "has_false_positive_false_negative_metrics": false,
+    "external_user_count": 0,
+    "cross_environment_skill_reproduced": false
+  },
+  "night_patrol": {
+    "local_summary_count": 346,
+    "local_report_archive_count": 116,
+    "public_archive_count": 111,
+    "unpublished_report_count": 5,
+    "public_portfolio_deployed": true,
+    "public_portfolio_url": "https://yang-heng-ai-portfolio.yh13980046506.chatgpt.site",
+    "sites_version": 4,
+    "external_feedback_count": 0,
+    "verification_note": "Sites 版本 4 已成功部署，版本专属生产截图确认首页为 340 份本地摘要、111 份公开报告；当前自动化出口 IP 访问 chatgpt.site 仍被 Cloudflare 403 拦截，外部访客与招聘反馈保持为 0。"
+  },
+  "rules": [
+    "目标值不是当前完成值。",
+    "状态文件未明确记录的客户、收入、准确率、样本或外部反馈一律写未知或 0，不得推断。",
+    "任何报告若与本文件冲突，以本文件为准并在报告中标注冲突。"
+  ]
+}

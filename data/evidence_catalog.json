@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "verified_at": "2026-07-31",
+  "topics": [
+    {
+      "id": "agent-skills",
+      "label": "Agent Skills",
+      "aliases": [
+        "agent skills",
+        "agent skill",
+        "skills 生态",
+        "skill生态",
+        "skill 分发",
+        "技能经济",
+        "book-to-skill",
+        "hallmark",
+        "i-have-adhd"
+      ],
+      "channel": "agent",
+      "tags": ["Agent", "Skills", "Harness"],
+      "decision": "validate",
+      "recommendation": "把现有 Skill 做成可复现、可跨代理测试的工作流资产，先验证任务成功率，不把 GitHub 热度当作付费证据。",
+      "risk": "热门开源 Skill 证明了传播需求，但多数免费；分发热度不能直接证明用户愿意购买 Skill 文件。",
+      "paid_evidence": "none",
+      "career_fit": {
+        "fde": 78,
+        "industrial": 55,
+        "harness": 94
+      },
+      "evidence": [
+        {
+          "title": "ayghri/i-have-adhd",
+          "url": "https://github.com/ayghri/i-have-adhd",
+          "type": "primary",
+          "supports": "Agent Skill 能以清晰单点价值获得开发者关注。",
+          "does_not_support": "不能证明 Skill 文件存在稳定付费需求。"
+        },
+        {
+          "title": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "type": "primary",
+          "supports": "复杂设计规范可以被包装为可安装、可审计的 Skill。",
+          "does_not_support": "不能证明通用 Skill 商店已经形成成熟收入模型。"
+        },
+        {
+          "title": "virgiliojr94/book-to-skill",
+          "url": "https://github.com/virgiliojr94/book-to-skill",
+          "type": "primary",
+          "supports": "知识到可执行 Skill 的转换正在形成独立工具类别。",
+          "does_not_support": "不能证明简单内容转换具有长期壁垒。"
+        }
+      ]
+    },
+    {
+      "id": "office-document-ai",
+      "label": "Office Document AI",
+      "aliases": [
+        "officecli",
+        "office cli",
+        "office for agents",
+        "ai合同审查",
+        "工程文档",
+        "文档 agent"
+      ],
+      "channel": "service",
+      "tags": ["Office", "Document AI", "MCP"],
+      "decision": "build",
+      "recommendation": "在工程资料预审台中增加 OfficeCLI 可选验证后端，跑通读取、校验、渲染和人工复核闭环。",
+      "risk": "技术能力明确，但企业付费仍需通过真实交付和节省时间数据验证。",
+      "paid_evidence": "indirect",
+      "career_fit": {
+        "fde": 93,
+        "industrial": 96,
+        "harness": 86
+      },
+      "evidence": [
+        {
+          "title": "iOfficeAI/OfficeCLI",
+          "url": "https://github.com/iOfficeAI/OfficeCLI",
+          "type": "primary",
+          "supports": "项目公开提供 Office 结构化读写、渲染、校验、JSON 输出和 MCP 接口。",
+          "does_not_support": "不能单独证明中国企业合同审查或工程资料场景的付费规模。"
+        }
+      ]
+    },
+    {
+      "id": "local-private-ai",
+      "label": "Local-first AI",
+      "aliases": [
+        "本地部署",
+        "隐私优先",
+        "私有部署",
+        "数据不出",
+        "meetily",
+        "本地会议"
+      ],
+      "channel": "service",
+      "tags": ["Local-first", "Privacy", "Enterprise"],
+      "decision": "validate",
+      "recommendation": "把本地处理作为工程文档助手的企业卖点，并记录数据边界、部署方式和人工确认点。",
+      "risk": "隐私诉求真实，但私有部署会增加安装、模型、硬件和售后成本。",
+      "paid_evidence": "indirect",
+      "career_fit": {
+        "fde": 88,
+        "industrial": 92,
+        "harness": 72
+      },
+      "evidence": [
+        {
+          "title": "Zackriya-Solutions/meetily",
+          "url": "https://github.com/Zackriya-Solutions/meetily",
+          "type": "primary",
+          "supports": "本地转录、说话人识别和本地总结可以形成完整产品体验。",
+          "does_not_support": "不能证明直接复制会议助手就能在国内获得企业订单。"
+        }
+      ]
+    },
+    {
+      "id": "open-source-saas",
+      "label": "Open-source SaaS",
+      "aliases": [
+        "open-source saas",
+        "open source saas",
+        "开源替代",
+        "hosted化",
+        "hosted 版",
+        "open-seo",
+        "opencut",
+        "open cut",
+        "instatic"
+      ],
+      "channel": "agent",
+      "tags": ["Open Source", "SaaS", "Hosted"],
+      "decision": "hold",
+      "recommendation": "保留为商业模式观察，不启动中文套壳；先验证数据源、客户渠道和持续维护成本。",
+      "risk": "开源代码降低开发成本，但不会自动解决数据采购、中文平台反爬、获客和差异化。",
+      "paid_evidence": "indirect",
+      "career_fit": {
+        "fde": 65,
+        "industrial": 38,
+        "harness": 58
+      },
+      "evidence": [
+        {
+          "title": "every-app/open-seo",
+          "url": "https://github.com/every-app/open-seo",
+          "type": "primary",
+          "supports": "OpenSEO 已公开 Hosted 与自托管路径，并使用 DataForSEO 提供 SEO 数据。",
+          "does_not_support": "不能证明其数据层可直接覆盖百度、小红书或抖音。"
+        },
+        {
+          "title": "OpenCut-app/OpenCut",
+          "url": "https://github.com/OpenCut-app/OpenCut",
+          "type": "primary",
+          "supports": "开源剪辑工具可以获得大规模开发者关注。",
+          "does_not_support": "不能证明个人开发者能低成本维护完整剪辑产品。"
+        }
+      ]
+    },
+    {
+      "id": "agent-infrastructure",
+      "label": "Agent Infrastructure",
+      "aliases": [
+        "agent基础设施",
+        "agent 基础设施",
+        "agent工具链",
+        "agent 工具链",
+        "omniroute",
+        "orca",
+        "mcp server",
+        "ai网关"
+      ],
+      "channel": "agent",
+      "tags": ["Agent", "Infrastructure", "MCP"],
+      "decision": "hold",
+      "recommendation": "不另造通用网关；把工具调用、恢复、可观测性和评测能力沉淀到夜巡与工程文档两个真实工作流。",
+      "risk": "开发者工具竞争密集，缺少独有分发、数据或企业客户时很难建立壁垒。",
+      "paid_evidence": "none",
+      "career_fit": {
+        "fde": 74,
+        "industrial": 42,
+        "harness": 91
+      },
+      "evidence": []
+    },
+    {
+      "id": "ai-media-tools",
+      "label": "AI Media Tools",
+      "aliases": [
+        "ai + 媒体",
+        "ai媒体",
+        "ai视频",
+        "视频工具",
+        "claude-video",
+        "speech-to-speech"
+      ],
+      "channel": "consumer",
+      "tags": ["Video", "Creator", "Pipeline"],
+      "decision": "hold",
+      "recommendation": "保留视频分析器作为作品，不开启完整剪辑器；优先把分析结果转成可复用的内容生产输入。",
+      "risk": "视频链路涉及下载、转码、多模态推理、版权与平台风控，稳定交付成本高。",
+      "paid_evidence": "none",
+      "career_fit": {
+        "fde": 68,
+        "industrial": 28,
+        "harness": 72
+      },
+      "evidence": []
+    },
+    {
+      "id": "xianyu-ai-services",
+      "label": "Xianyu AI Services",
+      "aliases": [
+        "闲鱼ai",
+        "闲鱼 ai",
+        "闲鱼服务",
+        "闲鱼工具箱"
+      ],
+      "channel": "service",
+      "tags": ["Marketplace", "Service", "Acquisition"],
+      "decision": "channel",
+      "recommendation": "把闲鱼当成低成本服务获客渠道，测试工程资料预审或 AI Demo 服务，不开发独立闲鱼工具箱。",
+      "risk": "平台订单增长不等于工具订阅需求；卖家月均成交额较低，容易陷入低客单价竞争。",
+      "paid_evidence": "direct-market",
+      "career_fit": {
+        "fde": 56,
+        "industrial": 48,
+        "harness": 30
+      },
+      "evidence": [
+        {
+          "title": "闲鱼上半年 AI 服务交易数据",
+          "url": "https://36kr.com/newsflashes/3916534710005126",
+          "type": "reported-platform-data",
+          "supports": "平台披露 AI 服务订单和购买人数增长，说明低价 AI 服务交易真实存在。",
+          "does_not_support": "不能证明独立 AI 工具箱有订阅需求，也不能代表卖家能获得高收入。"
+        }
+      ]
+    },
+    {
+      "id": "ai-security",
+      "label": "AI Security",
+      "aliases": [
+        "ai安全",
+        "agent安全",
+        "安全审计",
+        "strix",
+        "sentinelmcp"
+      ],
+      "channel": "security",
+      "tags": ["Security", "Audit", "Enterprise"],
+      "decision": "observe",
+      "recommendation": "只吸收安全边界、权限和审计做法，不启动渗透测试产品。",
+      "risk": "需要专业安全能力、授权边界和持续漏洞知识，错误交付的责任较高。",
+      "paid_evidence": "indirect",
+      "career_fit": {
+        "fde": 58,
+        "industrial": 44,
+        "harness": 76
+      },
+      "evidence": []
+    }
+  ]
+}
+

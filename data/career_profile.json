@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "candidate": "杨恒",
+  "updated_at": "2026-07-31",
+  "roles": [
+    {
+      "id": "fde",
+      "label": "AI 解决方案 / FDE",
+      "resume_file": "杨恒_AI解决方案_FDE_2026-07.pdf",
+      "target_titles": ["Forward Deployed Engineer", "AI 解决方案工程师", "AI 应用交付", "售前解决方案"],
+      "criteria": [
+        {
+          "label": "模糊需求澄清与方案拆解",
+          "status": "proved",
+          "evidence": "多个真实兼职需求已形成需求确认、风险边界、Demo 和报价方案。"
+        },
+        {
+          "label": "短周期 PoC 交付",
+          "status": "proved",
+          "evidence": "机器人运营大屏、工程资料预审台、夜巡仪表盘均有可运行原型。"
+        },
+        {
+          "label": "工具与数据源集成",
+          "status": "proved",
+          "evidence": "夜巡整合 GitHub、36氪、HN、浏览器与 GitHub API。"
+        },
+        {
+          "label": "评测与人工确认机制",
+          "status": "partial",
+          "evidence": "工程文档助手已有真实样本测试，夜巡证据评分仍在升级。"
+        },
+        {
+          "label": "生产环境部署与客户指标",
+          "status": "gap",
+          "evidence": "缺少正式企业上线、SLA、使用人数或节省工时的量化记录。"
+        }
+      ]
+    },
+    {
+      "id": "industrial",
+      "label": "工业数智化解决方案",
+      "resume_file": "杨恒_工业数智化解决方案_2026-07.pdf",
+      "target_titles": ["工业数字化解决方案", "工程数字化产品", "机器人解决方案", "项目型售前"],
+      "criteria": [
+        {
+          "label": "工程现场与项目协作经验",
+          "status": "proved",
+          "evidence": "具备机场、市政和工程项目一线经历。"
+        },
+        {
+          "label": "工程资料结构化能力",
+          "status": "proved",
+          "evidence": "工程资料预审台已通过三份真实文档样本测试。"
+        },
+        {
+          "label": "工业场景可视化 PoC",
+          "status": "proved",
+          "evidence": "机器人园区运营大屏具备 3D 场景和巡逻演示。"
+        },
+        {
+          "label": "本地化与数据边界说明",
+          "status": "partial",
+          "evidence": "工程文档助手本地运行，但尚缺标准部署包和运维说明。"
+        },
+        {
+          "label": "企业接口与正式交付",
+          "status": "gap",
+          "evidence": "尚未形成与 OA、档案、BIM 或设备平台的正式接口案例。"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "label": "Agent Harness 产品 / 评测",
+      "resume_file": "杨恒_Agent_Harness产品_2026-07.pdf",
+      "target_titles": ["Agent Harness 产品经理", "AI Agent 产品", "Agent 评测", "AI 产品运营"],
+      "criteria": [
+        {
+          "label": "长程 Agent 工作流",
+          "status": "proved",
+          "evidence": "夜巡已持续产出数百轮摘要并自动归档。"
+        },
+        {
+          "label": "工具边界与人工复核",
+          "status": "proved",
+          "evidence": "工程文档助手明确只输出证据线索，不替代法规结论。"
+        },
+        {
+          "label": "失败恢复与可观测性",
+          "status": "partial",
+          "evidence": "已处理 GitHub 发布故障，但运行健康指标和告警尚未完整。"
+        },
+        {
+          "label": "任务级评测集",
+          "status": "partial",
+          "evidence": "工程文档已有真实样本测试，夜巡仍缺预测命中率与人工复核集。"
+        },
+        {
+          "label": "用户实验与产品数据",
+          "status": "gap",
+          "evidence": "缺少外部用户留存、任务成功率变化和 A/B 实验。"
+        }
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "night-patrol",
+      "label": "AI 夜巡",
+      "status": "active",
+      "roles": ["fde", "harness"],
+      "next_proof": "公开 V3 仪表盘、来源证据、运行健康与行动结果台账。"
+    },
+    {
+      "id": "engineering-doc-assistant",
+      "label": "工程资料预审台",
+      "status": "tested",
+      "roles": ["fde", "industrial", "harness"],
+      "next_proof": "增加 OfficeCLI 可选校验后端并记录处理时间与人工修正量。"
+    },
+    {
+      "id": "robot-operations-demo",
+      "label": "机器人园区运营 Demo",
+      "status": "demo",
+      "roles": ["fde", "industrial"],
+      "next_proof": "补充架构图、交互录屏和需求到交付的案例说明。"
+    }
+  ]
+}
+

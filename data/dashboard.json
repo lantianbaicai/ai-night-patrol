@@ -1,0 +1,2061 @@
+{
+  "schema_version": 5,
+  "generated_at": "2026-08-03T02:31:38+00:00",
+  "system": {
+    "title": "AI 夜巡",
+    "subtitle": "可验证的机会情报与求职证据雷达",
+    "local_summary_count": 346,
+    "raw_run_count": 113,
+    "daily_report_count": 46,
+    "report_archive_count": 116,
+    "public_archive_count": 111,
+    "unpublished_report_count": 5,
+    "publication": {
+      "updated_at": "2026-08-01T13:44:04+08:00",
+      "last_public_report": "summary_2026-08-01_13-01.md",
+      "status": "published",
+      "message": "统一作品集已通过 Sites 版本 4 发布；全部 111 份夜巡审计报告均已公开，V3.2 负向样本与 V3.3 修复回归可在线追溯。"
+    },
+    "history_window": {
+      "from": "2026-06-18 12:00",
+      "to": "2026-08-03 10:18"
+    },
+    "security": {
+      "status": "pass",
+      "checked_files": 5,
+      "hardcoded_credentials_detected": 0,
+      "credential_source": "运行时或短期凭据（未写入仓库）",
+      "publish_mode": "提交 SHA 固定 + 保存版本 + 发布后校验"
+    }
+  },
+  "latest": {
+    "id": "latest",
+    "title": "AI 夜巡 · 2026-08-03 10:18",
+    "date": "2026-08-03 10:18",
+    "model": "deepseek-v4-pro",
+    "sources": [
+      {
+        "name": "GitHub",
+        "status": "已采集"
+      },
+      {
+        "name": "36氪",
+        "status": "已采集"
+      },
+      {
+        "name": "HN",
+        "status": "已采集"
+      },
+      {
+        "name": "ProductHunt",
+        "status": "受限"
+      }
+    ],
+    "quality": {
+      "score": 100,
+      "checks": {
+        "has_timestamp": true,
+        "has_model": true,
+        "has_source_links": true,
+        "has_structured_opportunities": true,
+        "has_actions": true,
+        "matches_project_facts": true
+      },
+      "fact_conflicts": [],
+      "linked_sources": 5,
+      "label": "可审计性"
+    },
+    "headline": {
+      "title": "Meshdiff — 3D 模型在线差分工具",
+      "summary": "HN 180pts，浏览器端、纯客户端对比两份 STL/3MF/OBJ 文件的版本差异。无需上传到服务器，无登录要求。Mesmerizing Tech 出品，定位为「3D 模型版本对比」。",
+      "confidence": "low"
+    },
+    "opportunities": [
+      {
+        "id": "meshdiff-3d-模型在线差分工具",
+        "title": "Meshdiff — 3D 模型在线差分工具",
+        "score": 0.0,
+        "signal": "HN 180pts，浏览器端、纯客户端对比两份 STL/3MF/OBJ 文件的版本差异。无需上传到服务器，无登录要求。Mesmerizing Tech 出品，定位为「3D 模型版本对比」。",
+        "action": "否决 — 不进入候选池。仅作为「纯客户端专用工具」的技术观察。",
+        "metrics": {
+          "customer": "no",
+          "demo": "no",
+          "revenue": "no",
+          "reusable": "no",
+          "moat": "no"
+        },
+        "topic_id": null,
+        "channel": "service",
+        "tags": [
+          "待分类"
+        ],
+        "decision": "reject",
+        "recommendation": "否决 — 不进入候选池。仅作为「纯客户端专用工具」的技术观察。",
+        "risk": "当前报告缺少独立证据，需要人工复核。",
+        "paid_evidence": "未评估",
+        "evidence": [],
+        "recurrence": {
+          "reports": 0,
+          "window": 30,
+          "ratio": 0,
+          "first_seen": null,
+          "last_seen": null
+        },
+        "confidence": "low",
+        "role_fit": {},
+        "best_role": null,
+        "personal_fit": {
+          "score": 0,
+          "decision": "hold",
+          "dimensions": {
+            "asset_reuse": 0,
+            "capability_fit": 0,
+            "channel_access": 0,
+            "evidence_readiness": 0
+          },
+          "matched_assets": [],
+          "matched_capabilities": [],
+          "matched_channels": [],
+          "gaps": [
+            "尚未建立个人画像映射，需要先分类再判断。"
+          ],
+          "rationale": "当前信号没有匹配到已定义赛道，因此不进入构建队列。"
+        }
+      }
+    ],
+    "evidence_source_count": 0,
+    "path": "reports/latest.md"
+  },
+  "trends": [
+    {
+      "id": "agent-infrastructure",
+      "label": "Agent Infrastructure",
+      "reports": 26,
+      "window": 30,
+      "ratio": 0.867,
+      "first_seen": "2026-07-21 17:10",
+      "last_seen": "2026-08-03 10:18",
+      "decision": "hold"
+    },
+    {
+      "id": "agent-skills",
+      "label": "Agent Skills",
+      "reports": 25,
+      "window": 30,
+      "ratio": 0.833,
+      "first_seen": "2026-07-21 17:10",
+      "last_seen": "2026-08-03 10:18",
+      "decision": "validate"
+    },
+    {
+      "id": "ai-security",
+      "label": "AI Security",
+      "reports": 25,
+      "window": 30,
+      "ratio": 0.833,
+      "first_seen": "2026-07-21 17:10",
+      "last_seen": "2026-08-03 10:18",
+      "decision": "observe"
+    },
+    {
+      "id": "open-source-saas",
+      "label": "Open-source SaaS",
+      "reports": 24,
+      "window": 30,
+      "ratio": 0.8,
+      "first_seen": "2026-07-21 17:10",
+      "last_seen": "2026-08-03 10:18",
+      "decision": "hold"
+    },
+    {
+      "id": "office-document-ai",
+      "label": "Office Document AI",
+      "reports": 23,
+      "window": 30,
+      "ratio": 0.767,
+      "first_seen": "2026-07-21 17:10",
+      "last_seen": "2026-08-03 10:18",
+      "decision": "build"
+    },
+    {
+      "id": "local-private-ai",
+      "label": "Local-first AI",
+      "reports": 23,
+      "window": 30,
+      "ratio": 0.767,
+      "first_seen": "2026-07-21 17:10",
+      "last_seen": "2026-08-03 10:18",
+      "decision": "validate"
+    },
+    {
+      "id": "ai-media-tools",
+      "label": "AI Media Tools",
+      "reports": 19,
+      "window": 30,
+      "ratio": 0.633,
+      "first_seen": "2026-07-21 17:10",
+      "last_seen": "2026-08-03 10:18",
+      "decision": "hold"
+    },
+    {
+      "id": "xianyu-ai-services",
+      "label": "Xianyu AI Services",
+      "reports": 1,
+      "window": 30,
+      "ratio": 0.033,
+      "first_seen": "2026-07-29 18:39",
+      "last_seen": "2026-07-29 18:39",
+      "decision": "channel"
+    }
+  ],
+  "history": [
+    {
+      "id": "summary_2026-08-03_10-18",
+      "date": "2026-08-03 10:18",
+      "headline": "Meshdiff — 3D 模型在线差分工具",
+      "top_score": 0.0,
+      "opportunity_count": 1,
+      "linked_sources": 5,
+      "quality": 100,
+      "path": "reports/archive/summary_2026-08-03_10-18.md"
+    },
+    {
+      "id": "summary_2026-08-03_01-41",
+      "date": "2026-08-03 01:41",
+      "headline": "AI 求职自动化框架",
+      "top_score": 1.0,
+      "opportunity_count": 3,
+      "linked_sources": 6,
+      "quality": 100,
+      "path": "reports/archive/summary_2026-08-03_01-41.md"
+    },
+    {
+      "id": "summary_2026-08-02_17-41",
+      "date": "2026-08-02 17:41",
+      "headline": "工程领域 CAD/CAE Agent Skills — 预审台增强方向",
+      "top_score": 1.0,
+      "opportunity_count": 4,
+      "linked_sources": 8,
+      "quality": 100,
+      "path": "reports/archive/summary_2026-08-02_17-41.md"
+    },
+    {
+      "id": "summary_2026-08-02_09-41",
+      "date": "2026-08-02 09:41",
+      "headline": "AI 夜巡 · 2026-08-02 09:41",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 3,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-08-02_09-41.md"
+    },
+    {
+      "id": "summary_2026-08-01_20-00",
+      "date": "2026-08-01 20:00",
+      "headline": "中国大模型出海竞争力验证",
+      "top_score": 1.0,
+      "opportunity_count": 1,
+      "linked_sources": 4,
+      "quality": 100,
+      "path": "reports/archive/summary_2026-08-01_20-00.md"
+    },
+    {
+      "id": "summary_2026-08-01_13-01",
+      "date": "2026-08-01 13:01",
+      "headline": "Agent Skills 分发经济 — 趋势持续，付费面未验证",
+      "top_score": 2.0,
+      "opportunity_count": 3,
+      "linked_sources": 14,
+      "quality": 100,
+      "path": "reports/archive/summary_2026-08-01_13-01.md"
+    },
+    {
+      "id": "summary_2026-08-01_12-00",
+      "date": "2026-08-01 12:00",
+      "headline": "Agent Skills 分发经济持续验证",
+      "top_score": 2.0,
+      "opportunity_count": 2,
+      "linked_sources": 21,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-08-01_12-00.md"
+    },
+    {
+      "id": "summary_2026-07-31_15-10",
+      "date": "2026-07-31 15:10",
+      "headline": "模型代际窗口：GPT-5.6 + DeepSeek V4 Pro 同日预告",
+      "top_score": 2.0,
+      "opportunity_count": 1,
+      "linked_sources": 19,
+      "quality": 100,
+      "path": "reports/archive/summary_2026-07-31_15-10.md"
+    },
+    {
+      "id": "summary_2026-07-31_15-01",
+      "date": "2026-07-31 15:01",
+      "headline": "候选 1：alibaba/open-code-review — 代码审查即服务",
+      "top_score": 4.0,
+      "opportunity_count": 4,
+      "linked_sources": 20,
+      "quality": 100,
+      "path": "reports/archive/summary_2026-07-31_15-01.md"
+    },
+    {
+      "id": "summary_2026-07-31_10-12",
+      "date": "2026-07-31 10:12",
+      "headline": "Agent Skills 生态",
+      "top_score": 4.0,
+      "opportunity_count": 5,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-07-31_10-12.md"
+    },
+    {
+      "id": "summary_2026-07-30_18-22",
+      "date": "2026-07-30 18:22",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-30 18:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-30_18-22.md"
+    },
+    {
+      "id": "summary_2026-07-30_10-22",
+      "date": "2026-07-30 10:22",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-30 10:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-30_10-22.md"
+    },
+    {
+      "id": "summary_2026-07-29_18-39",
+      "date": "2026-07-29 18:39",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-29 周三",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-29_18-39.md"
+    },
+    {
+      "id": "summary_2026-07-29_10-39",
+      "date": "2026-07-29 10:39",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-29 10:39",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-29_10-39.md"
+    },
+    {
+      "id": "summary_2026-07-28_20-52",
+      "date": "2026-07-28 20:52",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-28 20:52",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-28_20-52.md"
+    },
+    {
+      "id": "summary_2026-07-28_12-52",
+      "date": "2026-07-28 12:52",
+      "headline": "📡 AI赚钱夜巡 · 2026-07-28 12:52",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-28_12-52.md"
+    },
+    {
+      "id": "summary_2026-07-27_19-13",
+      "date": "2026-07-27 19:13",
+      "headline": "Scriptc by Vercel — TypeScript→Native编译器",
+      "top_score": 1.0,
+      "opportunity_count": 5,
+      "linked_sources": 0,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-07-27_19-13.md"
+    },
+    {
+      "id": "summary_2026-07-27_11-13",
+      "date": "2026-07-27 11:13",
+      "headline": "🌙 AI赚钱夜巡 · 综合速览",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-27_11-13.md"
+    },
+    {
+      "id": "summary_2026-07-26_18-46",
+      "date": "2026-07-26 18:46",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-26 18:46",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 7,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-07-26_18-46.md"
+    },
+    {
+      "id": "summary_2026-07-26_10-46",
+      "date": "2026-07-26 10:46",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-26 10:46",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-26_10-46.md"
+    },
+    {
+      "id": "summary_2026-07-25_19-55",
+      "date": "2026-07-25 19:55",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-25 19:55",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-25_19-55.md"
+    },
+    {
+      "id": "summary_2026-07-25_11-55",
+      "date": "2026-07-25 11:55",
+      "headline": "🎯 AI赚钱夜巡 · 2026-07-25 11:55",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-25_11-55.md"
+    },
+    {
+      "id": "summary_2026-07-24_18-23",
+      "date": "2026-07-24 18:23",
+      "headline": "🔭 AI赚钱夜巡 · 2026-07-24 18:23",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-24_18-23.md"
+    },
+    {
+      "id": "summary_2026-07-24_10-23",
+      "date": "2026-07-24 10:23",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-24 10:23",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-24_10-23.md"
+    },
+    {
+      "id": "summary_2026-07-23_19-37",
+      "date": "2026-07-23 19:37",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-23 19:37",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-23_19-37.md"
+    },
+    {
+      "id": "summary_2026-07-23_11-37",
+      "date": "2026-07-23 11:37",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-23 11:37",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-23_11-37.md"
+    },
+    {
+      "id": "summary_2026-07-22_18-39",
+      "date": "2026-07-22 18:39",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-22 18:39",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-22_18-39.md"
+    },
+    {
+      "id": "summary_2026-07-22_10-39",
+      "date": "2026-07-22 10:39",
+      "headline": "1. 闲鱼自动化 SaaS — ⭐⭐⭐⭐⭐",
+      "top_score": 5.0,
+      "opportunity_count": 3,
+      "linked_sources": 3,
+      "quality": 100,
+      "path": "reports/archive/summary_2026-07-22_10-39.md"
+    },
+    {
+      "id": "summary_2026-07-22_01-09",
+      "date": "2026-07-22 01:09",
+      "headline": "重点（≥3项达标）",
+      "top_score": 3.0,
+      "opportunity_count": 2,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-07-22_01-09.md"
+    },
+    {
+      "id": "summary_2026-07-21_17-10",
+      "date": "2026-07-21 17:10",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-21 17:10",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-21_17-10.md"
+    },
+    {
+      "id": "summary_2026-07-21_09-11",
+      "date": "2026-07-21 09:11",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-21 09:11",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-21_09-11.md"
+    },
+    {
+      "id": "summary_2026-07-20_19-19",
+      "date": "2026-07-20 19:19",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-20 19:19",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-20_19-19.md"
+    },
+    {
+      "id": "summary_2026-07-20_11-19",
+      "date": "2026-07-20 11:19",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-20 11:19",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-20_11-19.md"
+    },
+    {
+      "id": "summary_2026-07-19_21-26",
+      "date": "2026-07-19 21:26",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-19 21:26",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-19_21-26.md"
+    },
+    {
+      "id": "summary_2026-07-19_13-26",
+      "date": "2026-07-19 13:26",
+      "headline": "🔭 AI赚钱夜巡 · 2026-07-19 13:26",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-19_13-26.md"
+    },
+    {
+      "id": "summary_2026-07-19_05-26",
+      "date": "2026-07-19 05:26",
+      "headline": "🔴 OpenCut — 开源版剪映 (★★★★★)",
+      "top_score": 5.0,
+      "opportunity_count": 10,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-07-19_05-26.md"
+    },
+    {
+      "id": "summary_2026-07-18_21-26",
+      "date": "2026-07-18 21:26",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-18 21:26",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-18_21-26.md"
+    },
+    {
+      "id": "summary_2026-07-18_13-26",
+      "date": "2026-07-18 13:26",
+      "headline": "cangjie-skill · 内容蒸馏 → Agent Skill",
+      "top_score": 5.0,
+      "opportunity_count": 11,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-07-18_13-26.md"
+    },
+    {
+      "id": "summary_2026-07-17_18-58",
+      "date": "2026-07-17 18:58",
+      "headline": "stablyai/orca — Agent舰队IDE",
+      "top_score": 5.0,
+      "opportunity_count": 6,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-07-17_18-58.md"
+    },
+    {
+      "id": "summary_2026-07-17_10-58",
+      "date": "2026-07-17 10:58",
+      "headline": "🦞 AI赚钱夜巡 · 2026-07-17 10:58",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-17_10-58.md"
+    },
+    {
+      "id": "summary_2026-07-16_21-15",
+      "date": "2026-07-16 21:15",
+      "headline": "本地AI推理优化套件",
+      "top_score": 5.0,
+      "opportunity_count": 5,
+      "linked_sources": 0,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-07-16_21-15.md"
+    },
+    {
+      "id": "summary_2026-07-16_13-15",
+      "date": "2026-07-16 13:15",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-16 13:15",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-16_13-15.md"
+    },
+    {
+      "id": "summary_2026-07-15_18-51",
+      "date": "2026-07-15 18:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-15 18:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-15_18-51.md"
+    },
+    {
+      "id": "summary_2026-07-15_10-51",
+      "date": "2026-07-15 10:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-15 10:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-15_10-51.md"
+    },
+    {
+      "id": "summary_2026-07-15_02-51",
+      "date": "2026-07-15 02:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-15 02:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 22,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-07-15_02-51.md"
+    },
+    {
+      "id": "summary_2026-07-14_18-51",
+      "date": "2026-07-14 18:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-14 18:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 10,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-14_18-51.md"
+    },
+    {
+      "id": "summary_2026-07-14_10-51",
+      "date": "2026-07-14 10:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-14 10:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-14_10-51.md"
+    },
+    {
+      "id": "summary_2026-07-14_02-51",
+      "date": "2026-07-14 02:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-14 02:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-14_02-51.md"
+    },
+    {
+      "id": "summary_2026-07-13_18-51",
+      "date": "2026-07-13 18:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-13 18:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-13_18-51.md"
+    },
+    {
+      "id": "summary_2026-07-13_10-51",
+      "date": "2026-07-13 10:51",
+      "headline": "🎯 AI赚钱夜巡 · 2026-07-13 10:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-13_10-51.md"
+    },
+    {
+      "id": "summary_2026-07-13_02-51",
+      "date": "2026-07-13 02:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-13 02:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-13_02-51.md"
+    },
+    {
+      "id": "summary_2026-07-12_18-51",
+      "date": "2026-07-12 18:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-12 (周日)",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-12_18-51.md"
+    },
+    {
+      "id": "summary_2026-07-12_10-51",
+      "date": "2026-07-12 10:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-12 10:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-12_10-51.md"
+    },
+    {
+      "id": "summary_2026-07-12_02-51",
+      "date": "2026-07-12 02:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-12 02:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-12_02-51.md"
+    },
+    {
+      "id": "summary_2026-07-11_18-51",
+      "date": "2026-07-11 18:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-11 18:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-11_18-51.md"
+    },
+    {
+      "id": "summary_2026-07-11_10-51",
+      "date": "2026-07-11 10:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-11 10:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-11_10-51.md"
+    },
+    {
+      "id": "summary_2026-07-11_02-51",
+      "date": "2026-07-11 02:51",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-11 02:51",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-11_02-51.md"
+    },
+    {
+      "id": "summary_2026-07-10_17-48",
+      "date": "2026-07-10 17:48",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-10 17:48",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-10_17-48.md"
+    },
+    {
+      "id": "summary_2026-07-10_09-48",
+      "date": "2026-07-10 09:48",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-10 09:48",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 7,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-10_09-48.md"
+    },
+    {
+      "id": "summary_2026-07-10_01-48",
+      "date": "2026-07-10 01:48",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-10 01:48",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-10_01-48.md"
+    },
+    {
+      "id": "summary_2026-07-09_17-48",
+      "date": "2026-07-09 17:48",
+      "headline": "高优先级 (≥指标)",
+      "top_score": 3.0,
+      "opportunity_count": 1,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-07-09_17-48.md"
+    },
+    {
+      "id": "summary_2026-07-09_09-48",
+      "date": "2026-07-09 09:48",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-09 09:48",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-09_09-48.md"
+    },
+    {
+      "id": "summary_2026-07-09_01-48",
+      "date": "2026-07-09 01:48",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-09 01:48",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-09_01-48.md"
+    },
+    {
+      "id": "summary_2026-07-08_17-48",
+      "date": "2026-07-08 17:48",
+      "headline": "重点追踪",
+      "top_score": 4.0,
+      "opportunity_count": 2,
+      "linked_sources": 0,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-07-08_17-48.md"
+    },
+    {
+      "id": "summary_2026-07-08_09-48",
+      "date": "2026-07-08 09:48",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-08 09:48",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 9,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-07-08_09-48.md"
+    },
+    {
+      "id": "summary_2026-07-08_01-48",
+      "date": "2026-07-08 01:48",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-08 01:48",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-08_01-48.md"
+    },
+    {
+      "id": "summary_2026-07-07_17-48",
+      "date": "2026-07-07 17:48",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-07 17:48",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-07_17-48.md"
+    },
+    {
+      "id": "summary_2026-07-07_09-48",
+      "date": "2026-07-07 09:48",
+      "headline": "📊 跟踪观察",
+      "top_score": 2.0,
+      "opportunity_count": 1,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-07-07_09-48.md"
+    },
+    {
+      "id": "summary_2026-07-07_01-48",
+      "date": "2026-07-07 01:48",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-07 01:48",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-07_01-48.md"
+    },
+    {
+      "id": "summary_2026-07-06_17-47",
+      "date": "2026-07-06 17:47",
+      "headline": "· 立即行动级",
+      "top_score": 5.0,
+      "opportunity_count": 3,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-07-06_17-47.md"
+    },
+    {
+      "id": "summary_2026-07-06_09-48",
+      "date": "2026-07-06 09:48",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-06 09:48",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 5,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-06_09-48.md"
+    },
+    {
+      "id": "summary_2026-07-06_01-47",
+      "date": "2026-07-06 01:47",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-06 01:47",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-07-06_01-47.md"
+    },
+    {
+      "id": "summary_2026-07-05_17-48",
+      "date": "2026-07-05 17:48",
+      "headline": "🌙 AI赚钱夜巡日报 · 2026-07-05 17:48",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 23,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-05_17-48.md"
+    },
+    {
+      "id": "summary_2026-07-04_16-03",
+      "date": "2026-07-04 16:03",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-04 周六 16:03",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-04_16-03.md"
+    },
+    {
+      "id": "summary_2026-07-04_08-03",
+      "date": "2026-07-04 08:03",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-04 周六",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-04_08-03.md"
+    },
+    {
+      "id": "summary_2026-07-03_17-22",
+      "date": "2026-07-03 17:22",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-03 17:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-03_17-22.md"
+    },
+    {
+      "id": "summary_2026-07-03_09-22",
+      "date": "2026-07-03 09:22",
+      "headline": "OpenMontage",
+      "top_score": 5.0,
+      "opportunity_count": 8,
+      "linked_sources": 0,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-07-03_09-22.md"
+    },
+    {
+      "id": "summary_2026-07-02_18-22",
+      "date": "2026-07-02 18:22",
+      "headline": "Cloudflare Monetization Gateway (x402) — 重点追踪",
+      "top_score": 5.0,
+      "opportunity_count": 4,
+      "linked_sources": 3,
+      "quality": 100,
+      "path": "reports/archive/summary_2026-07-02_18-22.md"
+    },
+    {
+      "id": "summary_2026-07-01_18-22",
+      "date": "2026-07-01 18:22",
+      "headline": "🌙 AI赚钱夜巡 · 2026-07-01 18:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-07-01_18-22.md"
+    },
+    {
+      "id": "summary_2026-07-01_02-22",
+      "date": "2026-07-01 02:22",
+      "headline": "顶级选题",
+      "top_score": 5.0,
+      "opportunity_count": 3,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-07-01_02-22.md"
+    },
+    {
+      "id": "summary_2026-06-30_18-22",
+      "date": "2026-06-30 18:22",
+      "headline": "Agent安全审计工具",
+      "top_score": 5.0,
+      "opportunity_count": 6,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-06-30_18-22.md"
+    },
+    {
+      "id": "summary_2026-06-30_10-22",
+      "date": "2026-06-30 10:22",
+      "headline": "SSH图形化管理工具",
+      "top_score": 5.0,
+      "opportunity_count": 4,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-06-30_10-22.md"
+    },
+    {
+      "id": "summary_2026-06-30_02-22",
+      "date": "2026-06-30 02:22",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-30 02:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-06-30_02-22.md"
+    },
+    {
+      "id": "summary_2026-06-29_18-22",
+      "date": "2026-06-29 18:22",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-29 18:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-06-29_18-22.md"
+    },
+    {
+      "id": "summary_2026-06-29_10-22",
+      "date": "2026-06-29 10:22",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-29 10:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 3,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-06-29_10-22.md"
+    },
+    {
+      "id": "summary_2026-06-29_02-22",
+      "date": "2026-06-29 02:22",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-29 02:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-06-29_02-22.md"
+    },
+    {
+      "id": "summary_2026-06-28_18-22",
+      "date": "2026-06-28 18:22",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-28 18:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-06-28_18-22.md"
+    },
+    {
+      "id": "summary_2026-06-28_10-22",
+      "date": "2026-06-28 10:22",
+      "headline": "🥇 多平台舆情监控面板（评分 ）",
+      "top_score": 5.0,
+      "opportunity_count": 3,
+      "linked_sources": 4,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-06-28_10-22.md"
+    },
+    {
+      "id": "summary_2026-06-28_02-22",
+      "date": "2026-06-28 02:22",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-28 02:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-06-28_02-22.md"
+    },
+    {
+      "id": "summary_2026-06-27_18-22",
+      "date": "2026-06-27 18:22",
+      "headline": "🔭 AI赚钱夜巡 · 2026-06-27 18:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 10,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-06-27_18-22.md"
+    },
+    {
+      "id": "summary_2026-06-27_10-22",
+      "date": "2026-06-27 10:22",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-27 10:22",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-06-27_10-22.md"
+    },
+    {
+      "id": "summary_2026-06-26_19-24",
+      "date": "2026-06-26 19:24",
+      "headline": "一级重点",
+      "top_score": 5.0,
+      "opportunity_count": 3,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-06-26_19-24.md"
+    },
+    {
+      "id": "summary_2026-06-26_11-24",
+      "date": "2026-06-26 11:24",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-26 11:24",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-06-26_11-24.md"
+    },
+    {
+      "id": "summary_2026-06-26_03-24",
+      "date": "2026-06-26 03:24",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-26 03:24",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-06-26_03-24.md"
+    },
+    {
+      "id": "summary_2026-06-25_19-24",
+      "date": "2026-06-25 19:24",
+      "headline": "Krea 2 — 开源12B图像模型，搭建付费工作流",
+      "top_score": 4.0,
+      "opportunity_count": 4,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-06-25_19-24.md"
+    },
+    {
+      "id": "summary_2026-06-25_11-24",
+      "date": "2026-06-25 11:24",
+      "headline": "Krea 2 开源图片模型变现",
+      "top_score": 5.0,
+      "opportunity_count": 5,
+      "linked_sources": 0,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-06-25_11-24.md"
+    },
+    {
+      "id": "summary_2026-06-25_03-24",
+      "date": "2026-06-25 03:24",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-25 03:24",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-06-25_03-24.md"
+    },
+    {
+      "id": "summary_2026-06-24_19-24",
+      "date": "2026-06-24 19:24",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-24 19:24",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-06-24_19-24.md"
+    },
+    {
+      "id": "summary_2026-06-24_11-24",
+      "date": "2026-06-24 11:24",
+      "headline": "🎯 AI赚钱夜巡 · 2026-06-24 11:24",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-06-24_11-24.md"
+    },
+    {
+      "id": "summary_2026-06-24_03-24",
+      "date": "2026-06-24 03:24",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-24 03:24",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-06-24_03-24.md"
+    },
+    {
+      "id": "summary_2026-06-23_19-24",
+      "date": "2026-06-23 19:24",
+      "headline": "Agent Skills 市场 & MCP 服务（4项）",
+      "top_score": 4.0,
+      "opportunity_count": 5,
+      "linked_sources": 0,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-06-23_19-24.md"
+    },
+    {
+      "id": "summary_2026-06-23_11-24",
+      "date": "2026-06-23 11:24",
+      "headline": "🎯 AI赚钱夜巡 · 2026-06-23 11:24",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-06-23_11-24.md"
+    },
+    {
+      "id": "summary_2026-06-23_11-09",
+      "date": "2026-06-23 11:09",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-23 11:09",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-06-23_11-09.md"
+    },
+    {
+      "id": "summary_2026-06-23_03-24",
+      "date": "2026-06-23 03:24",
+      "headline": "1. ⭐⭐⭐⭐⭐ Agent安全审计赛道（今日最大新信号！）",
+      "top_score": 5.0,
+      "opportunity_count": 4,
+      "linked_sources": 0,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-06-23_03-24.md"
+    },
+    {
+      "id": "summary_2026-06-22_19-24",
+      "date": "2026-06-22 19:24",
+      "headline": "1. ⭐⭐⭐⭐⭐ SamurAIGPT 开源AI-SaaS全家桶",
+      "top_score": 5.0,
+      "opportunity_count": 6,
+      "linked_sources": 0,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-06-22_19-24.md"
+    },
+    {
+      "id": "summary_2026-06-22_11-24",
+      "date": "2026-06-22 11:24",
+      "headline": "1. 跨境电商AI自动化 — 本周有中国人实锤项目 ⭐⭐⭐⭐",
+      "top_score": 4.0,
+      "opportunity_count": 4,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-06-22_11-24.md"
+    },
+    {
+      "id": "summary_2026-06-21_18-46",
+      "date": "2026-06-21 18:46",
+      "headline": "1. agent-skills — AI技能集市，日增64K星 ⭐⭐⭐⭐⭐",
+      "top_score": 5.0,
+      "opportunity_count": 2,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-06-21_18-46.md"
+    },
+    {
+      "id": "summary_2026-06-21_10-46",
+      "date": "2026-06-21 10:46",
+      "headline": "1. Agent-Reach — AI的眼睛，零API费 ⭐⭐⭐⭐⭐",
+      "top_score": 5.0,
+      "opportunity_count": 4,
+      "linked_sources": 0,
+      "quality": 83,
+      "path": "reports/archive/summary_2026-06-21_10-46.md"
+    },
+    {
+      "id": "summary_2026-06-21_02-46",
+      "date": "2026-06-21 02:46",
+      "headline": "方向A：Agent Skill 安全审计 [] — 🆕",
+      "top_score": 5.0,
+      "opportunity_count": 5,
+      "linked_sources": 0,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-06-21_02-46.md"
+    },
+    {
+      "id": "summary_2026-06-20_18-46",
+      "date": "2026-06-20 18:46",
+      "headline": "方向A：AI Agent 支付中间件 [] — 新信号",
+      "top_score": 3.0,
+      "opportunity_count": 3,
+      "linked_sources": 0,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-06-20_18-46.md"
+    },
+    {
+      "id": "summary_2026-06-20_10-46",
+      "date": "2026-06-20 10:46",
+      "headline": "方向A：跨境电商AI自动化工具包 []",
+      "top_score": 5.0,
+      "opportunity_count": 4,
+      "linked_sources": 0,
+      "quality": 67,
+      "path": "reports/archive/summary_2026-06-20_10-46.md"
+    },
+    {
+      "id": "summary_2026-06-19_20-05",
+      "date": "2026-06-19 20:05",
+      "headline": "🌙 AI赚钱夜巡 · 2026-06-19 20:05",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-06-19_20-05.md"
+    },
+    {
+      "id": "summary_2026-06-19_12-00",
+      "date": "2026-06-19 12:00",
+      "headline": "🤖 AI赚钱夜巡 · 2026-06-19 12:00",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 33,
+      "path": "reports/archive/summary_2026-06-19_12-00.md"
+    },
+    {
+      "id": "summary_2026-06-19_04-00",
+      "date": "2026-06-19 04:00",
+      "headline": "🔭 AI赚钱夜巡 · 2026-06-19 04:00",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 6,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-06-19_04-00.md"
+    },
+    {
+      "id": "summary_2026-06-18_20-08",
+      "date": "2026-06-18 20:08",
+      "headline": "🔭 AI赚钱夜巡 · 2026-06-18 20:05",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 6,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-06-18_20-08.md"
+    },
+    {
+      "id": "summary_2026-06-18_12-00",
+      "date": "2026-06-18 12:00",
+      "headline": "🔭 AI赚钱夜巡 · 2026-06-18 12:00",
+      "top_score": 0,
+      "opportunity_count": 0,
+      "linked_sources": 0,
+      "quality": 50,
+      "path": "reports/archive/summary_2026-06-18_12-00.md"
+    }
+  ],
+  "career": {
+    "candidate": "杨恒",
+    "updated_at": "2026-07-31",
+    "roles": [
+      {
+        "id": "fde",
+        "label": "AI 解决方案 / FDE",
+        "resume_file": "杨恒_AI解决方案_FDE_2026-07.pdf",
+        "target_titles": [
+          "Forward Deployed Engineer",
+          "AI 解决方案工程师",
+          "AI 应用交付",
+          "售前解决方案"
+        ],
+        "criteria": [
+          {
+            "label": "模糊需求澄清与方案拆解",
+            "status": "proved",
+            "evidence": "多个真实兼职需求已形成需求确认、风险边界、Demo 和报价方案。"
+          },
+          {
+            "label": "短周期 PoC 交付",
+            "status": "proved",
+            "evidence": "机器人运营大屏、工程资料预审台、夜巡仪表盘均有可运行原型。"
+          },
+          {
+            "label": "工具与数据源集成",
+            "status": "proved",
+            "evidence": "夜巡整合 GitHub、36氪、HN、浏览器与 GitHub API。"
+          },
+          {
+            "label": "评测与人工确认机制",
+            "status": "partial",
+            "evidence": "工程文档助手已有真实样本测试，夜巡证据评分仍在升级。"
+          },
+          {
+            "label": "生产环境部署与客户指标",
+            "status": "gap",
+            "evidence": "缺少正式企业上线、SLA、使用人数或节省工时的量化记录。"
+          }
+        ],
+        "proved": 3,
+        "partial": 1,
+        "gaps": 1,
+        "readiness": 70,
+        "score_basis": "逐项作品证据，不是模型主观匹配。"
+      },
+      {
+        "id": "industrial",
+        "label": "工业数智化解决方案",
+        "resume_file": "杨恒_工业数智化解决方案_2026-07.pdf",
+        "target_titles": [
+          "工业数字化解决方案",
+          "工程数字化产品",
+          "机器人解决方案",
+          "项目型售前"
+        ],
+        "criteria": [
+          {
+            "label": "工程现场与项目协作经验",
+            "status": "proved",
+            "evidence": "具备机场、市政和工程项目一线经历。"
+          },
+          {
+            "label": "工程资料结构化能力",
+            "status": "proved",
+            "evidence": "工程资料预审台已通过三份真实文档样本测试。"
+          },
+          {
+            "label": "工业场景可视化 PoC",
+            "status": "proved",
+            "evidence": "机器人园区运营大屏具备 3D 场景和巡逻演示。"
+          },
+          {
+            "label": "本地化与数据边界说明",
+            "status": "partial",
+            "evidence": "工程文档助手本地运行，但尚缺标准部署包和运维说明。"
+          },
+          {
+            "label": "企业接口与正式交付",
+            "status": "gap",
+            "evidence": "尚未形成与 OA、档案、BIM 或设备平台的正式接口案例。"
+          }
+        ],
+        "proved": 3,
+        "partial": 1,
+        "gaps": 1,
+        "readiness": 70,
+        "score_basis": "逐项作品证据，不是模型主观匹配。"
+      },
+      {
+        "id": "harness",
+        "label": "Agent Harness 产品 / 评测",
+        "resume_file": "杨恒_Agent_Harness产品_2026-07.pdf",
+        "target_titles": [
+          "Agent Harness 产品经理",
+          "AI Agent 产品",
+          "Agent 评测",
+          "AI 产品运营"
+        ],
+        "criteria": [
+          {
+            "label": "长程 Agent 工作流",
+            "status": "proved",
+            "evidence": "夜巡已持续产出数百轮摘要并自动归档。"
+          },
+          {
+            "label": "工具边界与人工复核",
+            "status": "proved",
+            "evidence": "工程文档助手明确只输出证据线索，不替代法规结论。"
+          },
+          {
+            "label": "失败恢复与可观测性",
+            "status": "partial",
+            "evidence": "已处理 GitHub 发布故障，但运行健康指标和告警尚未完整。"
+          },
+          {
+            "label": "任务级评测集",
+            "status": "partial",
+            "evidence": "工程文档已有真实样本测试，夜巡仍缺预测命中率与人工复核集。"
+          },
+          {
+            "label": "用户实验与产品数据",
+            "status": "gap",
+            "evidence": "缺少外部用户留存、任务成功率变化和 A/B 实验。"
+          }
+        ],
+        "proved": 2,
+        "partial": 2,
+        "gaps": 1,
+        "readiness": 60,
+        "score_basis": "逐项作品证据，不是模型主观匹配。"
+      }
+    ],
+    "portfolio": [
+      {
+        "id": "night-patrol",
+        "label": "AI 夜巡",
+        "status": "active",
+        "roles": [
+          "fde",
+          "harness"
+        ],
+        "next_proof": "公开 V3 仪表盘、来源证据、运行健康与行动结果台账。"
+      },
+      {
+        "id": "engineering-doc-assistant",
+        "label": "工程资料预审台",
+        "status": "tested",
+        "roles": [
+          "fde",
+          "industrial",
+          "harness"
+        ],
+        "next_proof": "增加 OfficeCLI 可选校验后端并记录处理时间与人工修正量。"
+      },
+      {
+        "id": "robot-operations-demo",
+        "label": "机器人园区运营 Demo",
+        "status": "demo",
+        "roles": [
+          "fde",
+          "industrial"
+        ],
+        "next_proof": "补充架构图、交互录屏和需求到交付的案例说明。"
+      }
+    ]
+  },
+  "opportunity_profile": {
+    "version": 1,
+    "updated_at": "2026-08-01",
+    "owner": {
+      "name": "杨恒",
+      "role": "独立 AI 解决方案开发者",
+      "goal": "优先寻找 7 天内能验证、可复用现有资产，并能带来真实客户反馈或求职证据的机会。"
+    },
+    "constraints": {
+      "weekly_hours": 20,
+      "budget_cny": 1000,
+      "max_parallel_builds": 1,
+      "validation_days": 7,
+      "review_windows_days": [
+        7,
+        30
+      ]
+    },
+    "weights": {
+      "asset_reuse": 35,
+      "capability_fit": 25,
+      "channel_access": 15,
+      "evidence_readiness": 25
+    },
+    "decision_thresholds": {
+      "build": 75,
+      "validate": 55
+    },
+    "assets": [
+      {
+        "id": "engineering-doc-assistant",
+        "label": "工程资料预审台",
+        "topic_ids": [
+          "office-document-ai",
+          "local-private-ai"
+        ],
+        "maturity": 5,
+        "evidence": "已有可运行工具、真实工程样本和自动化测试，但尚无外部用户。"
+      },
+      {
+        "id": "ai-night-patrol",
+        "label": "AI 夜巡",
+        "topic_ids": [
+          "agent-skills",
+          "agent-infrastructure",
+          "open-source-saas"
+        ],
+        "maturity": 4,
+        "evidence": "已有持续运行、公开仓库和 12 个 GitHub Star，尚未证明付费需求。"
+      },
+      {
+        "id": "video-analyzer",
+        "label": "视频分析器",
+        "topic_ids": [
+          "ai-media-tools"
+        ],
+        "maturity": 3,
+        "evidence": "已有本地分析流程，链接直达和稳定获客仍待验证。"
+      },
+      {
+        "id": "yunxi-desktop",
+        "label": "云曦桌面伴侣",
+        "topic_ids": [
+          "ai-media-tools",
+          "agent-skills"
+        ],
+        "maturity": 3,
+        "evidence": "已有桌面产品和角色资产，尚未形成明确商业闭环。"
+      },
+      {
+        "id": "skill-pack",
+        "label": "中文 Agent Skills 包",
+        "topic_ids": [
+          "agent-skills"
+        ],
+        "maturity": 2,
+        "evidence": "已有发布包，安装、复现和外部任务成功率尚未形成证据。"
+      }
+    ],
+    "capabilities": [
+      {
+        "id": "rapid-ai-prototyping",
+        "label": "AI 应用快速原型",
+        "topic_ids": [
+          "agent-skills",
+          "agent-infrastructure",
+          "office-document-ai",
+          "local-private-ai",
+          "open-source-saas",
+          "ai-media-tools"
+        ],
+        "level": 4
+      },
+      {
+        "id": "engineering-document-workflow",
+        "label": "工程文档与现场流程",
+        "topic_ids": [
+          "office-document-ai",
+          "local-private-ai"
+        ],
+        "level": 5
+      },
+      {
+        "id": "agent-workflow-evidence",
+        "label": "Agent 工作流与证据工程",
+        "topic_ids": [
+          "agent-skills",
+          "agent-infrastructure",
+          "open-source-saas"
+        ],
+        "level": 4
+      },
+      {
+        "id": "browser-automation",
+        "label": "浏览器与后台自动化",
+        "topic_ids": [
+          "xianyu-ai-services",
+          "office-document-ai"
+        ],
+        "level": 3
+      },
+      {
+        "id": "ai-media-pipeline",
+        "label": "AI 视频与视觉工作流",
+        "topic_ids": [
+          "ai-media-tools"
+        ],
+        "level": 3
+      }
+    ],
+    "channels": [
+      {
+        "id": "github-portfolio",
+        "label": "GitHub 公开作品",
+        "topic_ids": [
+          "agent-skills",
+          "agent-infrastructure",
+          "open-source-saas",
+          "office-document-ai",
+          "local-private-ai"
+        ],
+        "access": 3,
+        "evidence": "夜巡已有 12 个 Star，但还没有转化为面试或付费。"
+      },
+      {
+        "id": "engineering-intermediaries",
+        "label": "工程兼职中间渠道",
+        "topic_ids": [
+          "office-document-ai",
+          "local-private-ai"
+        ],
+        "access": 3,
+        "evidence": "有过真实工程方案交付，渠道不稳定且客单价偏低。"
+      },
+      {
+        "id": "wechat-freelance-groups",
+        "label": "微信开发兼职群",
+        "topic_ids": [
+          "office-document-ai",
+          "local-private-ai",
+          "xianyu-ai-services",
+          "ai-media-tools"
+        ],
+        "access": 2,
+        "evidence": "能看到需求，但近期项目减少，且多为中间商转包。"
+      },
+      {
+        "id": "xiaohongshu-account",
+        "label": "小红书内容账号",
+        "topic_ids": [
+          "agent-skills",
+          "ai-media-tools",
+          "xianyu-ai-services"
+        ],
+        "access": 2,
+        "evidence": "已有账号和历史内容，尚未形成稳定更新和客户线索。"
+      }
+    ],
+    "excluded_topic_ids": [
+      "ai-security"
+    ]
+  },
+  "evaluation": {
+    "updated_at": "2026-07-31",
+    "outcomes_updated_at": "2026-08-01",
+    "rules": [
+      "先写判断和成功标准，再开始开发。",
+      "GitHub 热度、平台订单量和本地运行次数不能替代外部用户证据。",
+      "到复核日期必须记录继续、调整或停止，不能只保留成功案例。"
+    ],
+    "summary": {
+      "total": 4,
+      "active": 3,
+      "validated": 0,
+      "rejected": 1,
+      "external_evidence": 0,
+      "next_review": "2026-08-05",
+      "review_total": 8,
+      "review_completed": 0,
+      "review_overdue": 0,
+      "review_due_soon": 4
+    },
+    "review_windows_days": [
+      7,
+      30
+    ],
+    "review_queue": [
+      {
+        "id": "xianyu-toolbox-thesis:7",
+        "decision_id": "xianyu-toolbox-thesis",
+        "title": "“闲鱼 AI 工具箱是最快变现产品”证据不足",
+        "window_days": 7,
+        "due_date": "2026-08-05",
+        "days_remaining": 2,
+        "status": "due-soon",
+        "decision": "channel",
+        "original_status": "rejected",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      },
+      {
+        "id": "officecli-engineering-docs:7",
+        "decision_id": "officecli-engineering-docs",
+        "title": "OfficeCLI 能提高工程文档预审的可审计性",
+        "window_days": 7,
+        "due_date": "2026-08-07",
+        "days_remaining": 4,
+        "status": "due-soon",
+        "decision": "build",
+        "original_status": "validating",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      },
+      {
+        "id": "engineering-review-skill:7",
+        "decision_id": "engineering-review-skill",
+        "title": "垂直工程文档 Skill 比通用 Skill 更值得发布",
+        "window_days": 7,
+        "due_date": "2026-08-07",
+        "days_remaining": 4,
+        "status": "due-soon",
+        "decision": "validate",
+        "original_status": "planned",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      },
+      {
+        "id": "night-patrol-career-proof:7",
+        "decision_id": "night-patrol-career-proof",
+        "title": "夜巡 V3 可以成为 FDE / Agent Harness 的可信作品",
+        "window_days": 7,
+        "due_date": "2026-08-07",
+        "days_remaining": 4,
+        "status": "due-soon",
+        "decision": "build",
+        "original_status": "validating",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      },
+      {
+        "id": "xianyu-toolbox-thesis:30",
+        "decision_id": "xianyu-toolbox-thesis",
+        "title": "“闲鱼 AI 工具箱是最快变现产品”证据不足",
+        "window_days": 30,
+        "due_date": "2026-08-28",
+        "days_remaining": 25,
+        "status": "scheduled",
+        "decision": "channel",
+        "original_status": "rejected",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      },
+      {
+        "id": "officecli-engineering-docs:30",
+        "decision_id": "officecli-engineering-docs",
+        "title": "OfficeCLI 能提高工程文档预审的可审计性",
+        "window_days": 30,
+        "due_date": "2026-08-30",
+        "days_remaining": 27,
+        "status": "scheduled",
+        "decision": "build",
+        "original_status": "validating",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      },
+      {
+        "id": "engineering-review-skill:30",
+        "decision_id": "engineering-review-skill",
+        "title": "垂直工程文档 Skill 比通用 Skill 更值得发布",
+        "window_days": 30,
+        "due_date": "2026-08-30",
+        "days_remaining": 27,
+        "status": "scheduled",
+        "decision": "validate",
+        "original_status": "planned",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      },
+      {
+        "id": "night-patrol-career-proof:30",
+        "decision_id": "night-patrol-career-proof",
+        "title": "夜巡 V3 可以成为 FDE / Agent Harness 的可信作品",
+        "window_days": 30,
+        "due_date": "2026-08-30",
+        "days_remaining": 27,
+        "status": "scheduled",
+        "decision": "build",
+        "original_status": "validating",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      }
+    ],
+    "records": [
+      {
+        "id": "officecli-engineering-docs",
+        "title": "OfficeCLI 能提高工程文档预审的可审计性",
+        "origin_signal": "Office Document AI",
+        "opened_at": "2026-07-31",
+        "review_due": "2026-08-07",
+        "status": "validating",
+        "decision": "build",
+        "hypothesis": "把确定性的 Office 结构与版式校验作为第二层能力，可以增加工程文档助手的证据密度，同时在校验器失败时不阻断基础解析。",
+        "baseline": "工程文档助手已能抽取文档事实和风险线索，但缺少独立的 Office 结构与版式检查结果。",
+        "current_result": "可选适配器、失败回退、结构问题列表和首屏预览已经完成；当前只有本地样本与自动测试，尚未证明外部客户价值或准确率。",
+        "success_criteria": [
+          "至少 10 份脱敏样本完成基础解析与二次校验。",
+          "人工记录命中、误报和漏报，不用“未发现错误”代替准确率。",
+          "关闭或破坏 OfficeCLI 时，基础解析仍能返回可用结果。",
+          "获得至少 1 位外部使用者对结果可读性的反馈。"
+        ],
+        "checkpoints": [
+          {
+            "label": "OfficeCLI 可选适配器",
+            "status": "complete",
+            "evidence": "已实现自动发现、JSON 校验、问题读取和可选首屏渲染。"
+          },
+          {
+            "label": "失败回退",
+            "status": "complete",
+            "evidence": "二次校验失败不会阻断基础解析，并有自动测试覆盖。"
+          },
+          {
+            "label": "本地样本验证",
+            "status": "partial",
+            "evidence": "已跑通 3 份工程样本与 1 份公开合成样本，尚未达到 10 份。"
+          },
+          {
+            "label": "人工标注与外部反馈",
+            "status": "pending",
+            "evidence": "尚未建立误报/漏报表，也没有外部使用者反馈。"
+          }
+        ],
+        "external_evidence": false,
+        "stop_condition": "若 10 份样本中二次校验信息无法帮助人工复核，停止继续扩展 OfficeCLI 能力，只保留基础解析。",
+        "progress": 62,
+        "completed_checkpoints": 2,
+        "checkpoint_count": 4,
+        "days_remaining": 4,
+        "due_state": "due-soon",
+        "evidence_boundary": "仅本地或间接证据"
+      },
+      {
+        "id": "night-patrol-career-proof",
+        "title": "夜巡 V3 可以成为 FDE / Agent Harness 的可信作品",
+        "origin_signal": "AI Agent Harness",
+        "opened_at": "2026-07-31",
+        "review_due": "2026-08-14",
+        "status": "validating",
+        "decision": "build",
+        "hypothesis": "把来源、重复信号、边界、失败状态和岗位证据放进同一仪表盘，比单纯展示自动生成日报更能证明长程 Agent 工作流能力。",
+        "baseline": "公开仓库只展示旧版 Markdown 报告，缺少证据模型、运行健康和判断结果回看。",
+        "current_result": "统一作品集已通过 Sites 版本 4 发布，全部 111 份去重报告已公开，vinext 生产构建、版本专属平台截图和本地桌面/移动端验收均通过。V3.3 手动回归已正确区分当前 4 份样本与目标 10 份，并保持外部用户、外部反馈和人工误报/漏报统计为 0 或未建立。外部招聘或用户反馈仍为 0。",
+        "success_criteria": [
+          "公开页面能够从原始报告追溯到机会证据和边界。",
+          "每周保存 3 个预先判断，并在 7 天后记录结果。",
+          "三份定向简历引用同一组可核验数字与作品链接。",
+          "获得至少 1 次面试、招聘方追问或外部评审反馈。"
+        ],
+        "checkpoints": [
+          {
+            "label": "V3 本地仪表盘",
+            "status": "complete",
+            "evidence": "机会、求职证据和运行健康三类视图已完成桌面与移动端验收。"
+          },
+          {
+            "label": "统一证据口径",
+            "status": "complete",
+            "evidence": "340 份本地摘要与全部 111 份公开去重报告已经分开标注，待发布为 0。"
+          },
+          {
+            "label": "判断结果回看",
+            "status": "partial",
+            "evidence": "决策账本已建立，但尚未到首个复核日期。"
+          },
+          {
+            "label": "公开部署与招聘反馈",
+            "status": "partial",
+            "evidence": "统一作品页已通过 Sites 版本 4 发布到公开地址；版本专属生产截图确认 340/111 新口径。当前自动化出口 IP 被 Cloudflare 403 拦截，外部访客和招聘反馈仍为 0。"
+          }
+        ],
+        "external_evidence": false,
+        "stop_condition": "若公开后连续 20 次定向投递没有引发任何作品追问，调整叙事和演示方式，不再增加仪表盘功能。",
+        "progress": 75,
+        "completed_checkpoints": 2,
+        "checkpoint_count": 4,
+        "days_remaining": 11,
+        "due_state": "scheduled",
+        "evidence_boundary": "仅本地或间接证据"
+      },
+      {
+        "id": "engineering-review-skill",
+        "title": "垂直工程文档 Skill 比通用 Skill 更值得发布",
+        "origin_signal": "Agent Skills",
+        "opened_at": "2026-07-31",
+        "review_due": "2026-08-14",
+        "status": "planned",
+        "decision": "validate",
+        "hypothesis": "包含样本、边界、失败回退和结构化输出的工程文档预审 Skill，能够比天气、摘要、表情包等通用包装提供更强的差异化和复现价值。",
+        "baseline": "已有多个通用 Skill 包装，但缺少安装量、跨环境任务成功率和真实付费证据。",
+        "current_result": "工程文档工作流已经存在，但尚未形成一个可由第二个 Agent 环境独立安装和复现的发布包。",
+        "success_criteria": [
+          "一个全新 Agent 环境能够按照说明完成安装。",
+          "至少 3 份公开或脱敏文档产生结构化结果。",
+          "保存安装失败、运行失败和修复记录。",
+          "至少 1 位外部使用者完成一次任务。"
+        ],
+        "checkpoints": [
+          {
+            "label": "垂直工作流",
+            "status": "complete",
+            "evidence": "工程文档助手已具备稳定的基础任务流程。"
+          },
+          {
+            "label": "可安装发布包",
+            "status": "pending",
+            "evidence": "尚未完成独立安装与依赖检查。"
+          },
+          {
+            "label": "跨环境复现",
+            "status": "pending",
+            "evidence": "尚未在第二个 Agent 环境运行。"
+          },
+          {
+            "label": "外部任务证据",
+            "status": "pending",
+            "evidence": "外部使用者数量为 0。"
+          }
+        ],
+        "external_evidence": false,
+        "stop_condition": "若第二环境安装成本过高或任务结果无法稳定复现，不将其包装为独立产品，只保留为内部工作流。",
+        "progress": 25,
+        "completed_checkpoints": 1,
+        "checkpoint_count": 4,
+        "days_remaining": 11,
+        "due_state": "scheduled",
+        "evidence_boundary": "仅本地或间接证据"
+      },
+      {
+        "id": "xianyu-toolbox-thesis",
+        "title": "“闲鱼 AI 工具箱是最快变现产品”证据不足",
+        "origin_signal": "Xianyu AI Services",
+        "opened_at": "2026-07-29",
+        "review_due": null,
+        "status": "rejected",
+        "decision": "channel",
+        "hypothesis": "平台 AI 服务订单快速增长，意味着应优先开发面向闲鱼卖家的独立 AI 工具箱。",
+        "baseline": "夜巡日报根据平台订单增速把它评为 5/5，并建议 3 至 7 天启动 MVP。",
+        "current_result": "平台增长能够证明低价 AI 服务交易存在，但不能证明独立工具订阅需求；当前更合理的用途是测试工程预审或 AI Demo 服务获客。",
+        "success_criteria": [
+          "找到至少 5 位明确愿意试用工具的卖家。",
+          "确认卖家重复使用频率和可接受价格。",
+          "不依赖高风险平台自动化或批量私信。"
+        ],
+        "checkpoints": [
+          {
+            "label": "市场信号核验",
+            "status": "complete",
+            "evidence": "平台订单增长为直接市场信号，但收入结构和工具订阅意愿未知。"
+          },
+          {
+            "label": "工具需求访谈",
+            "status": "pending",
+            "evidence": "尚无 5 位卖家访谈或付费意向。"
+          }
+        ],
+        "external_evidence": false,
+        "stop_condition": "在没有 5 位明确试用者前不开发独立工具箱；只把闲鱼作为服务发布渠道。",
+        "progress": 50,
+        "completed_checkpoints": 1,
+        "checkpoint_count": 2,
+        "days_remaining": null,
+        "due_state": "none",
+        "evidence_boundary": "仅本地或间接证据"
+      }
+    ]
+  },
+  "methodology": {
+    "note": "热度、证据和岗位匹配分开呈现。机会分数沿用原报告，可信度由来源与重复信号决定。",
+    "confidence_levels": {
+      "high": "存在直接市场证据，且在多个独立报告窗口重复出现。",
+      "medium": "存在一手技术来源并重复出现，但付费证据不足。",
+      "low": "缺少来源、仅单次出现，或结论超出证据支持范围。"
+    }
+  }
+}
