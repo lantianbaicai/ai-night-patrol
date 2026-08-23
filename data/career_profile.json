@@ -121,9 +121,9 @@
     {
       "id": "video-deconstructor",
       "label": "视频解构器",
-      "status": "demo",
+      "status": "tested",
       "roles": ["fde", "harness"],
-      "next_proof": "拆分单文件 MVP，补测试、示例报告和可复现的公开安装流程。"
+      "next_proof": "用自有真实视频完成一次公开案例，并获得至少一位外部使用者反馈。"
     },
     {
       "id": "engineering-doc-assistant",
