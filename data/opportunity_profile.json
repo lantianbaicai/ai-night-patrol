@@ -52,8 +52,8 @@
       "topic_ids": [
         "ai-media-tools"
       ],
-      "maturity": 3,
-      "evidence": "本地 MVP 已支持视频链接、时间轴、转写和 HTML 报告；公开版、测试和稳定获取层仍待整理。"
+      "maturity": 4,
+      "evidence": "公开版已包含视频链接、时间轴、转写、HTML 报告、标准安装入口、9 项测试、CI 和无版权演示；外部使用证据仍待建立。"
     },
     {
       "id": "comfy-batch",

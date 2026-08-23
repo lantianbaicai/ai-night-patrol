@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-23T04:38:46+00:00",
+  "generated_at": "2026-08-23T05:29:24+00:00",
   "system": {
     "title": "AI 夜巡",
     "subtitle": "可验证的机会情报与求职证据雷达",
@@ -1528,12 +1528,12 @@
       {
         "id": "video-deconstructor",
         "label": "视频解构器",
-        "status": "demo",
+        "status": "tested",
         "roles": [
           "fde",
           "harness"
         ],
-        "next_proof": "拆分单文件 MVP，补测试、示例报告和可复现的公开安装流程。"
+        "next_proof": "用自有真实视频完成一次公开案例，并获得至少一位外部使用者反馈。"
       },
       {
         "id": "engineering-doc-assistant",
@@ -1612,8 +1612,8 @@
         "topic_ids": [
           "ai-media-tools"
         ],
-        "maturity": 3,
-        "evidence": "本地 MVP 已支持视频链接、时间轴、转写和 HTML 报告；公开版、测试和稳定获取层仍待整理。"
+        "maturity": 4,
+        "evidence": "公开版已包含视频链接、时间轴、转写、HTML 报告、标准安装入口、9 项测试、CI 和无版权演示；外部使用证据仍待建立。"
       },
       {
         "id": "comfy-batch",
@@ -2151,7 +2151,7 @@
         "decision": "build",
         "hypothesis": "脱敏夜巡、启用 CI 和 Pages、建立个人主页，并只展示少量代表项目，能让外部访客更快理解当前能力。",
         "baseline": "GitHub 只有 5 个公开仓库；夜巡有 12 个 Star，但描述仍偏营销、主页地址为空、个人主页仓库不存在，其他项目明显落后于本地版本。",
-        "current_result": "独立 worktree 已完成公开画像脱敏、双主线更新、手机号扫描、CI 门禁和个人主页 README 草案，等待提交、Pages 启用和外部观察。",
+        "current_result": "夜巡脱敏与 CI 已合并，GitHub Pages 和个人主页已上线；旧视频仓库已重命名并重建为 Video Deconstructor v0.1，9 项测试和主分支 CI 通过。外部作品反馈仍为 0。",
         "success_criteria": [
           "公开仓库不包含手机号、私人预算或工时信息。",
           "测试与公开发布校验在 GitHub Actions 中通过。",
@@ -2176,13 +2176,13 @@
           },
           {
             "label": "在线发布与外部反馈",
-            "status": "pending",
-            "evidence": "尚未推送 GitHub，也未启用 Pages 或获得更新后的外部反馈。"
+            "status": "partial",
+            "evidence": "夜巡 Pages、个人主页和 Video Deconstructor 已公开；更新后的外部反馈仍为 0。"
           }
         ],
         "external_evidence": false,
         "stop_condition": "若完成 20 次定向展示仍无人追问作品实现，先重写首屏叙事和演示素材，不继续增加仓库数量。",
-        "progress": 75,
+        "progress": 88,
         "completed_checkpoints": 3,
         "checkpoint_count": 4,
         "days_remaining": 7,

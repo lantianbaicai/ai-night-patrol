@@ -185,7 +185,7 @@
       "decision": "build",
       "hypothesis": "脱敏夜巡、启用 CI 和 Pages、建立个人主页，并只展示少量代表项目，能让外部访客更快理解当前能力。",
       "baseline": "GitHub 只有 5 个公开仓库；夜巡有 12 个 Star，但描述仍偏营销、主页地址为空、个人主页仓库不存在，其他项目明显落后于本地版本。",
-      "current_result": "独立 worktree 已完成公开画像脱敏、双主线更新、手机号扫描、CI 门禁和个人主页 README 草案，等待提交、Pages 启用和外部观察。",
+      "current_result": "夜巡脱敏与 CI 已合并，GitHub Pages 和个人主页已上线；旧视频仓库已重命名并重建为 Video Deconstructor v0.1，9 项测试和主分支 CI 通过。外部作品反馈仍为 0。",
       "success_criteria": [
         "公开仓库不包含手机号、私人预算或工时信息。",
         "测试与公开发布校验在 GitHub Actions 中通过。",
@@ -210,8 +210,8 @@
         },
         {
           "label": "在线发布与外部反馈",
-          "status": "pending",
-          "evidence": "尚未推送 GitHub，也未启用 Pages 或获得更新后的外部反馈。"
+          "status": "partial",
+          "evidence": "夜巡 Pages、个人主页和 Video Deconstructor 已公开；更新后的外部反馈仍为 0。"
         }
       ],
       "external_evidence": false,
