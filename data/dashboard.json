@@ -1,12 +1,12 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-03T02:31:38+00:00",
+  "generated_at": "2026-08-23T04:38:46+00:00",
   "system": {
     "title": "AI 夜巡",
     "subtitle": "可验证的机会情报与求职证据雷达",
     "local_summary_count": 346,
-    "raw_run_count": 113,
-    "daily_report_count": 46,
+    "raw_run_count": 0,
+    "daily_report_count": 0,
     "report_archive_count": 116,
     "public_archive_count": 111,
     "unpublished_report_count": 5,
@@ -22,7 +22,7 @@
     },
     "security": {
       "status": "pass",
-      "checked_files": 5,
+      "checked_files": 1,
       "hardcoded_credentials_detected": 0,
       "credential_source": "运行时或短期凭据（未写入仓库）",
       "publish_mode": "提交 SHA 固定 + 保存版本 + 发布后校验"
@@ -1371,13 +1371,13 @@
     }
   ],
   "career": {
-    "candidate": "杨恒",
-    "updated_at": "2026-07-31",
+    "candidate": "lantianbaicai",
+    "updated_at": "2026-08-23",
     "roles": [
       {
         "id": "fde",
         "label": "AI 解决方案 / FDE",
-        "resume_file": "杨恒_AI解决方案_FDE_2026-07.pdf",
+        "resume_file": "AI_Solutions_FDE.pdf",
         "target_titles": [
           "Forward Deployed Engineer",
           "AI 解决方案工程师",
@@ -1393,7 +1393,7 @@
           {
             "label": "短周期 PoC 交付",
             "status": "proved",
-            "evidence": "机器人运营大屏、工程资料预审台、夜巡仪表盘均有可运行原型。"
+            "evidence": "机器人运营大屏、工程资料预审台、夜巡仪表盘和 Y3 游戏版本均有可运行或可验收原型。"
           },
           {
             "label": "工具与数据源集成",
@@ -1420,7 +1420,7 @@
       {
         "id": "industrial",
         "label": "工业数智化解决方案",
-        "resume_file": "杨恒_工业数智化解决方案_2026-07.pdf",
+        "resume_file": "Industrial_AI_Solutions.pdf",
         "target_titles": [
           "工业数字化解决方案",
           "工程数字化产品",
@@ -1463,7 +1463,7 @@
       {
         "id": "harness",
         "label": "Agent Harness 产品 / 评测",
-        "resume_file": "杨恒_Agent_Harness产品_2026-07.pdf",
+        "resume_file": "Agent_Harness_Product.pdf",
         "target_titles": [
           "Agent Harness 产品经理",
           "AI Agent 产品",
@@ -1506,6 +1506,16 @@
     ],
     "portfolio": [
       {
+        "id": "zhushen-huaxia",
+        "label": "《诸神大战·华夏篇》",
+        "status": "active",
+        "roles": [
+          "fde",
+          "harness"
+        ],
+        "next_proof": "完成正式 Y3 UI 接入、可玩版本、外部试玩记录和公开案例页。"
+      },
+      {
         "id": "night-patrol",
         "label": "AI 夜巡",
         "status": "active",
@@ -1513,18 +1523,28 @@
           "fde",
           "harness"
         ],
-        "next_proof": "公开 V3 仪表盘、来源证据、运行健康与行动结果台账。"
+        "next_proof": "公开脱敏画像、CI、Pages 在线演示与至少一次外部作品反馈。"
+      },
+      {
+        "id": "video-deconstructor",
+        "label": "视频解构器",
+        "status": "demo",
+        "roles": [
+          "fde",
+          "harness"
+        ],
+        "next_proof": "拆分单文件 MVP，补测试、示例报告和可复现的公开安装流程。"
       },
       {
         "id": "engineering-doc-assistant",
         "label": "工程资料预审台",
-        "status": "tested",
+        "status": "paused",
         "roles": [
           "fde",
           "industrial",
           "harness"
         ],
-        "next_proof": "增加 OfficeCLI 可选校验后端并记录处理时间与人工修正量。"
+        "next_proof": "保留现有样本与测试证据；没有外部需求前不继续扩建。"
       },
       {
         "id": "robot-operations-demo",
@@ -1539,17 +1559,15 @@
     ]
   },
   "opportunity_profile": {
-    "version": 1,
-    "updated_at": "2026-08-01",
+    "version": 2,
+    "updated_at": "2026-08-23",
     "owner": {
-      "name": "杨恒",
-      "role": "独立 AI 解决方案开发者",
-      "goal": "优先寻找 7 天内能验证、可复用现有资产，并能带来真实客户反馈或求职证据的机会。"
+      "name": "lantianbaicai",
+      "role": "独立 AI 产品开发者",
+      "goal": "优先完成《诸神大战·华夏篇》和 GitHub 作品体系；夜巡只推荐能在 7 天内增强现有产品、公开证据或外部反馈的机会。"
     },
     "constraints": {
-      "weekly_hours": 20,
-      "budget_cny": 1000,
-      "max_parallel_builds": 1,
+      "max_parallel_builds": 2,
       "validation_days": 7,
       "review_windows_days": [
         7,
@@ -1568,14 +1586,14 @@
     },
     "assets": [
       {
-        "id": "engineering-doc-assistant",
-        "label": "工程资料预审台",
+        "id": "zhushen-huaxia",
+        "label": "《诸神大战·华夏篇》",
         "topic_ids": [
-          "office-document-ai",
-          "local-private-ai"
+          "ai-media-tools",
+          "open-source-saas"
         ],
-        "maturity": 5,
-        "evidence": "已有可运行工具、真实工程样本和自动化测试，但尚无外部用户。"
+        "maturity": 4,
+        "evidence": "已有持续迭代的 Y3 工程、版本化规格、运行时测试和 UI 产品验收流程；外部试玩反馈仍待建立。"
       },
       {
         "id": "ai-night-patrol",
@@ -1586,41 +1604,42 @@
           "open-source-saas"
         ],
         "maturity": 4,
-        "evidence": "已有持续运行、公开仓库和 12 个 GitHub Star，尚未证明付费需求。"
+        "evidence": "已有长期运行记录、公开仓库和 12 个 GitHub Star；尚未转化为外部使用或招聘反馈。"
       },
       {
-        "id": "video-analyzer",
-        "label": "视频分析器",
+        "id": "video-deconstructor",
+        "label": "视频解构器",
         "topic_ids": [
           "ai-media-tools"
         ],
         "maturity": 3,
-        "evidence": "已有本地分析流程，链接直达和稳定获客仍待验证。"
+        "evidence": "本地 MVP 已支持视频链接、时间轴、转写和 HTML 报告；公开版、测试和稳定获取层仍待整理。"
       },
       {
-        "id": "yunxi-desktop",
-        "label": "云曦桌面伴侣",
+        "id": "comfy-batch",
+        "label": "Comfy Batch",
         "topic_ids": [
           "ai-media-tools",
-          "agent-skills"
-        ],
-        "maturity": 3,
-        "evidence": "已有桌面产品和角色资产，尚未形成明确商业闭环。"
-      },
-      {
-        "id": "skill-pack",
-        "label": "中文 Agent Skills 包",
-        "topic_ids": [
-          "agent-skills"
+          "local-private-ai"
         ],
         "maturity": 2,
-        "evidence": "已有发布包，安装、复现和外部任务成功率尚未形成证据。"
+        "evidence": "已有公开仓库和本地 ComfyUI 调用能力，但 CLI、跨平台路径和测试尚未补齐。"
+      },
+      {
+        "id": "engineering-doc-assistant",
+        "label": "工程资料预审台",
+        "topic_ids": [
+          "office-document-ai",
+          "local-private-ai"
+        ],
+        "maturity": 3,
+        "evidence": "已有可运行工具、真实工程样本和自动化测试；当前暂停扩建，保留为历史交付证据。"
       }
     ],
     "capabilities": [
       {
-        "id": "rapid-ai-prototyping",
-        "label": "AI 应用快速原型",
+        "id": "rapid-ai-product-delivery",
+        "label": "AI 产品快速交付",
         "topic_ids": [
           "agent-skills",
           "agent-infrastructure",
@@ -1632,13 +1651,13 @@
         "level": 4
       },
       {
-        "id": "engineering-document-workflow",
-        "label": "工程文档与现场流程",
+        "id": "game-and-media-pipeline",
+        "label": "游戏与多模态内容管线",
         "topic_ids": [
-          "office-document-ai",
-          "local-private-ai"
+          "ai-media-tools",
+          "open-source-saas"
         ],
-        "level": 5
+        "level": 4
       },
       {
         "id": "agent-workflow-evidence",
@@ -1654,18 +1673,19 @@
         "id": "browser-automation",
         "label": "浏览器与后台自动化",
         "topic_ids": [
-          "xianyu-ai-services",
+          "ai-media-tools",
           "office-document-ai"
         ],
         "level": 3
       },
       {
-        "id": "ai-media-pipeline",
-        "label": "AI 视频与视觉工作流",
+        "id": "engineering-document-workflow",
+        "label": "工程文档与现场流程",
         "topic_ids": [
-          "ai-media-tools"
+          "office-document-ai",
+          "local-private-ai"
         ],
-        "level": 3
+        "level": 4
       }
     ],
     "channels": [
@@ -1676,69 +1696,71 @@
           "agent-skills",
           "agent-infrastructure",
           "open-source-saas",
-          "office-document-ai",
-          "local-private-ai"
+          "ai-media-tools"
         ],
         "access": 3,
-        "evidence": "夜巡已有 12 个 Star，但还没有转化为面试或付费。"
+        "evidence": "夜巡已有自然 Star，但作品页仍需统一定位、在线演示和案例证据。"
       },
       {
-        "id": "engineering-intermediaries",
-        "label": "工程兼职中间渠道",
+        "id": "content-channels",
+        "label": "小红书与公众号内容渠道",
         "topic_ids": [
-          "office-document-ai",
-          "local-private-ai"
-        ],
-        "access": 3,
-        "evidence": "有过真实工程方案交付，渠道不稳定且客单价偏低。"
-      },
-      {
-        "id": "wechat-freelance-groups",
-        "label": "微信开发兼职群",
-        "topic_ids": [
-          "office-document-ai",
-          "local-private-ai",
-          "xianyu-ai-services",
+          "agent-skills",
+          "open-source-saas",
           "ai-media-tools"
         ],
         "access": 2,
-        "evidence": "能看到需求，但近期项目减少，且多为中间商转包。"
+        "evidence": "已有账号和历史内容，尚未形成稳定更新与可归因的项目线索。"
       },
       {
-        "id": "xiaohongshu-account",
-        "label": "小红书内容账号",
+        "id": "external-playtest",
+        "label": "外部试玩与产品反馈",
+        "topic_ids": [
+          "ai-media-tools",
+          "open-source-saas"
+        ],
+        "access": 1,
+        "evidence": "主游戏已进入产品验收阶段，但尚未形成固定试玩组和结构化反馈。"
+      },
+      {
+        "id": "job-portfolio",
+        "label": "求职作品与定向投递",
         "topic_ids": [
           "agent-skills",
-          "ai-media-tools",
-          "xianyu-ai-services"
+          "agent-infrastructure",
+          "open-source-saas",
+          "ai-media-tools"
         ],
         "access": 2,
-        "evidence": "已有账号和历史内容，尚未形成稳定更新和客户线索。"
+        "evidence": "已有简历和公开项目，尚缺稳定的作品追问、面试或外部评审记录。"
       }
     ],
     "excluded_topic_ids": [
-      "ai-security"
+      "ai-security",
+      "xianyu-ai-services",
+      "office-document-ai",
+      "local-private-ai"
     ]
   },
   "evaluation": {
-    "updated_at": "2026-07-31",
-    "outcomes_updated_at": "2026-08-01",
+    "updated_at": "2026-08-23",
+    "outcomes_updated_at": "2026-08-23",
     "rules": [
       "先写判断和成功标准，再开始开发。",
       "GitHub 热度、平台订单量和本地运行次数不能替代外部用户证据。",
       "到复核日期必须记录继续、调整或停止，不能只保留成功案例。"
     ],
     "summary": {
-      "total": 4,
+      "total": 6,
       "active": 3,
       "validated": 0,
       "rejected": 1,
       "external_evidence": 0,
-      "next_review": "2026-08-05",
-      "review_total": 8,
-      "review_completed": 0,
+      "next_review": "2026-08-28",
+      "review_total": 12,
+      "review_completed": 4,
       "review_overdue": 0,
-      "review_due_soon": 4
+      "review_due_soon": 6
     },
     "review_windows_days": [
       7,
@@ -1746,73 +1768,13 @@
     ],
     "review_queue": [
       {
-        "id": "xianyu-toolbox-thesis:7",
-        "decision_id": "xianyu-toolbox-thesis",
-        "title": "“闲鱼 AI 工具箱是最快变现产品”证据不足",
-        "window_days": 7,
-        "due_date": "2026-08-05",
-        "days_remaining": 2,
-        "status": "due-soon",
-        "decision": "channel",
-        "original_status": "rejected",
-        "result": null,
-        "evidence": null,
-        "note": null,
-        "observed_at": null
-      },
-      {
-        "id": "officecli-engineering-docs:7",
-        "decision_id": "officecli-engineering-docs",
-        "title": "OfficeCLI 能提高工程文档预审的可审计性",
-        "window_days": 7,
-        "due_date": "2026-08-07",
-        "days_remaining": 4,
-        "status": "due-soon",
-        "decision": "build",
-        "original_status": "validating",
-        "result": null,
-        "evidence": null,
-        "note": null,
-        "observed_at": null
-      },
-      {
-        "id": "engineering-review-skill:7",
-        "decision_id": "engineering-review-skill",
-        "title": "垂直工程文档 Skill 比通用 Skill 更值得发布",
-        "window_days": 7,
-        "due_date": "2026-08-07",
-        "days_remaining": 4,
-        "status": "due-soon",
-        "decision": "validate",
-        "original_status": "planned",
-        "result": null,
-        "evidence": null,
-        "note": null,
-        "observed_at": null
-      },
-      {
-        "id": "night-patrol-career-proof:7",
-        "decision_id": "night-patrol-career-proof",
-        "title": "夜巡 V3 可以成为 FDE / Agent Harness 的可信作品",
-        "window_days": 7,
-        "due_date": "2026-08-07",
-        "days_remaining": 4,
-        "status": "due-soon",
-        "decision": "build",
-        "original_status": "validating",
-        "result": null,
-        "evidence": null,
-        "note": null,
-        "observed_at": null
-      },
-      {
         "id": "xianyu-toolbox-thesis:30",
         "decision_id": "xianyu-toolbox-thesis",
         "title": "“闲鱼 AI 工具箱是最快变现产品”证据不足",
         "window_days": 30,
         "due_date": "2026-08-28",
-        "days_remaining": 25,
-        "status": "scheduled",
+        "days_remaining": 5,
+        "status": "due-soon",
         "decision": "channel",
         "original_status": "rejected",
         "result": null,
@@ -1826,8 +1788,23 @@
         "title": "OfficeCLI 能提高工程文档预审的可审计性",
         "window_days": 30,
         "due_date": "2026-08-30",
-        "days_remaining": 27,
-        "status": "scheduled",
+        "days_remaining": 7,
+        "status": "due-soon",
+        "decision": "build",
+        "original_status": "stopped",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      },
+      {
+        "id": "zhushen-external-playtest:7",
+        "decision_id": "zhushen-external-playtest",
+        "title": "《诸神大战·华夏篇》的可玩版本能产生有效外部反馈",
+        "window_days": 7,
+        "due_date": "2026-08-30",
+        "days_remaining": 7,
+        "status": "due-soon",
         "decision": "build",
         "original_status": "validating",
         "result": null,
@@ -1841,10 +1818,10 @@
         "title": "垂直工程文档 Skill 比通用 Skill 更值得发布",
         "window_days": 30,
         "due_date": "2026-08-30",
-        "days_remaining": 27,
-        "status": "scheduled",
+        "days_remaining": 7,
+        "status": "due-soon",
         "decision": "validate",
-        "original_status": "planned",
+        "original_status": "stopped",
         "result": null,
         "evidence": null,
         "note": null,
@@ -1856,7 +1833,37 @@
         "title": "夜巡 V3 可以成为 FDE / Agent Harness 的可信作品",
         "window_days": 30,
         "due_date": "2026-08-30",
-        "days_remaining": 27,
+        "days_remaining": 7,
+        "status": "due-soon",
+        "decision": "build",
+        "original_status": "validating",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      },
+      {
+        "id": "github-public-portfolio-refresh:7",
+        "decision_id": "github-public-portfolio-refresh",
+        "title": "统一 GitHub 作品叙事能提高公开项目的可信度",
+        "window_days": 7,
+        "due_date": "2026-08-30",
+        "days_remaining": 7,
+        "status": "due-soon",
+        "decision": "build",
+        "original_status": "validating",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      },
+      {
+        "id": "zhushen-external-playtest:30",
+        "decision_id": "zhushen-external-playtest",
+        "title": "《诸神大战·华夏篇》的可玩版本能产生有效外部反馈",
+        "window_days": 30,
+        "due_date": "2026-09-22",
+        "days_remaining": 30,
         "status": "scheduled",
         "decision": "build",
         "original_status": "validating",
@@ -1864,6 +1871,81 @@
         "evidence": null,
         "note": null,
         "observed_at": null
+      },
+      {
+        "id": "github-public-portfolio-refresh:30",
+        "decision_id": "github-public-portfolio-refresh",
+        "title": "统一 GitHub 作品叙事能提高公开项目的可信度",
+        "window_days": 30,
+        "due_date": "2026-09-22",
+        "days_remaining": 30,
+        "status": "scheduled",
+        "decision": "build",
+        "original_status": "validating",
+        "result": null,
+        "evidence": null,
+        "note": null,
+        "observed_at": null
+      },
+      {
+        "id": "xianyu-toolbox-thesis:7",
+        "decision_id": "xianyu-toolbox-thesis",
+        "title": "“闲鱼 AI 工具箱是最快变现产品”证据不足",
+        "window_days": 7,
+        "due_date": "2026-08-05",
+        "days_remaining": -18,
+        "status": "completed",
+        "decision": "channel",
+        "original_status": "rejected",
+        "result": "no-signal",
+        "evidence": "截至 2026-08-23，没有 5 位卖家访谈、试用请求或独立工具付费意向记录。",
+        "note": "继续维持不开发独立闲鱼工具箱的原判断。",
+        "observed_at": "2026-08-23"
+      },
+      {
+        "id": "officecli-engineering-docs:7",
+        "decision_id": "officecli-engineering-docs",
+        "title": "OfficeCLI 能提高工程文档预审的可审计性",
+        "window_days": 7,
+        "due_date": "2026-08-07",
+        "days_remaining": -16,
+        "status": "completed",
+        "decision": "build",
+        "original_status": "stopped",
+        "result": "no-signal",
+        "evidence": "截至 2026-08-23，项目事实仍为 4 份样本、0 位外部用户，未形成误报/漏报统计。",
+        "note": "技术验证成立，但没有外部需求证据，当前停止扩建。",
+        "observed_at": "2026-08-23"
+      },
+      {
+        "id": "engineering-review-skill:7",
+        "decision_id": "engineering-review-skill",
+        "title": "垂直工程文档 Skill 比通用 Skill 更值得发布",
+        "window_days": 7,
+        "due_date": "2026-08-07",
+        "days_remaining": -16,
+        "status": "completed",
+        "decision": "validate",
+        "original_status": "stopped",
+        "result": "no-signal",
+        "evidence": "截至 2026-08-23，cross_environment_skill_reproduced 仍为 false，external_user_count 仍为 0。",
+        "note": "没有跨环境和外部任务证据，停止独立产品化。",
+        "observed_at": "2026-08-23"
+      },
+      {
+        "id": "night-patrol-career-proof:7",
+        "decision_id": "night-patrol-career-proof",
+        "title": "夜巡 V3 可以成为 FDE / Agent Harness 的可信作品",
+        "window_days": 7,
+        "due_date": "2026-08-07",
+        "days_remaining": -16,
+        "status": "completed",
+        "decision": "build",
+        "original_status": "validating",
+        "result": "mixed",
+        "evidence": "公开仓库获得 12 个 GitHub Star，但 project_facts 记录的外部反馈仍为 0，GitHub Pages 尚未启用。",
+        "note": "产生了自然关注，尚未转化为使用、招聘追问或面试。",
+        "observed_at": "2026-08-23"
       }
     ],
     "records": [
@@ -1872,12 +1954,12 @@
         "title": "OfficeCLI 能提高工程文档预审的可审计性",
         "origin_signal": "Office Document AI",
         "opened_at": "2026-07-31",
-        "review_due": "2026-08-07",
-        "status": "validating",
+        "review_due": null,
+        "status": "stopped",
         "decision": "build",
         "hypothesis": "把确定性的 Office 结构与版式校验作为第二层能力，可以增加工程文档助手的证据密度，同时在校验器失败时不阻断基础解析。",
         "baseline": "工程文档助手已能抽取文档事实和风险线索，但缺少独立的 Office 结构与版式检查结果。",
-        "current_result": "可选适配器、失败回退、结构问题列表和首屏预览已经完成；当前只有本地样本与自动测试，尚未证明外部客户价值或准确率。",
+        "current_result": "可选适配器、失败回退、结构问题列表和首屏预览已经完成；截至 2026-08-23 仍只有 4 份本地样本、0 位外部用户，当前暂停扩建并保留为历史交付证据。",
         "success_criteria": [
           "至少 10 份脱敏样本完成基础解析与二次校验。",
           "人工记录命中、误报和漏报，不用“未发现错误”代替准确率。",
@@ -1911,8 +1993,8 @@
         "progress": 62,
         "completed_checkpoints": 2,
         "checkpoint_count": 4,
-        "days_remaining": 4,
-        "due_state": "due-soon",
+        "days_remaining": null,
+        "due_state": "none",
         "evidence_boundary": "仅本地或间接证据"
       },
       {
@@ -1920,12 +2002,12 @@
         "title": "夜巡 V3 可以成为 FDE / Agent Harness 的可信作品",
         "origin_signal": "AI Agent Harness",
         "opened_at": "2026-07-31",
-        "review_due": "2026-08-14",
+        "review_due": "2026-08-30",
         "status": "validating",
         "decision": "build",
         "hypothesis": "把来源、重复信号、边界、失败状态和岗位证据放进同一仪表盘，比单纯展示自动生成日报更能证明长程 Agent 工作流能力。",
         "baseline": "公开仓库只展示旧版 Markdown 报告，缺少证据模型、运行健康和判断结果回看。",
-        "current_result": "统一作品集已通过 Sites 版本 4 发布，全部 111 份去重报告已公开，vinext 生产构建、版本专属平台截图和本地桌面/移动端验收均通过。V3.3 手动回归已正确区分当前 4 份样本与目标 10 份，并保持外部用户、外部反馈和人工误报/漏报统计为 0 或未建立。外部招聘或用户反馈仍为 0。",
+        "current_result": "公开仓库获得 12 个 GitHub Star，说明标题和项目产生了自然关注；但公开画像曾包含私人经营信息，Pages 未启用，外部使用、招聘追问和明确反馈仍为 0。当前先完成脱敏、CI、Pages 和个人主页，再复核作品反馈。",
         "success_criteria": [
           "公开页面能够从原始报告追溯到机会证据和边界。",
           "每周保存 3 个预先判断，并在 7 天后记录结果。",
@@ -1959,8 +2041,8 @@
         "progress": 75,
         "completed_checkpoints": 2,
         "checkpoint_count": 4,
-        "days_remaining": 11,
-        "due_state": "scheduled",
+        "days_remaining": 7,
+        "due_state": "due-soon",
         "evidence_boundary": "仅本地或间接证据"
       },
       {
@@ -1968,12 +2050,12 @@
         "title": "垂直工程文档 Skill 比通用 Skill 更值得发布",
         "origin_signal": "Agent Skills",
         "opened_at": "2026-07-31",
-        "review_due": "2026-08-14",
-        "status": "planned",
+        "review_due": null,
+        "status": "stopped",
         "decision": "validate",
         "hypothesis": "包含样本、边界、失败回退和结构化输出的工程文档预审 Skill，能够比天气、摘要、表情包等通用包装提供更强的差异化和复现价值。",
         "baseline": "已有多个通用 Skill 包装，但缺少安装量、跨环境任务成功率和真实付费证据。",
-        "current_result": "工程文档工作流已经存在，但尚未形成一个可由第二个 Agent 环境独立安装和复现的发布包。",
+        "current_result": "工程文档工作流仍未形成第二环境复现或外部任务证据；当前主产品已经切换，停止把它包装成独立 Skill。",
         "success_criteria": [
           "一个全新 Agent 环境能够按照说明完成安装。",
           "至少 3 份公开或脱敏文档产生结构化结果。",
@@ -2007,8 +2089,104 @@
         "progress": 25,
         "completed_checkpoints": 1,
         "checkpoint_count": 4,
-        "days_remaining": 11,
-        "due_state": "scheduled",
+        "days_remaining": null,
+        "due_state": "none",
+        "evidence_boundary": "仅本地或间接证据"
+      },
+      {
+        "id": "zhushen-external-playtest",
+        "title": "《诸神大战·华夏篇》的可玩版本能产生有效外部反馈",
+        "origin_signal": "Current Flagship Product",
+        "opened_at": "2026-08-23",
+        "review_due": "2026-08-30",
+        "status": "validating",
+        "decision": "build",
+        "hypothesis": "先完成一条可玩的核心循环并让外部玩家实际体验，比继续增加系统和内容更能暴露产品问题并形成可信作品证据。",
+        "baseline": "项目已有版本化策划、Lua 逻辑、UI 预览、运行时截图和测试报告，但外部试玩人数与反馈记录为 0。",
+        "current_result": "V0.06.8 正在完成底部指令台与神卡构筑的产品预览验收，尚未转换为正式 Y3 UI，也未进入外部试玩。",
+        "success_criteria": [
+          "完成一个可从开始玩到结算的稳定版本。",
+          "至少 3 位外部玩家完成一次试玩。",
+          "记录完成率、最难理解环节、最有正反馈环节和是否愿意再玩。",
+          "根据反馈关闭至少 1 个关键体验问题。"
+        ],
+        "checkpoints": [
+          {
+            "label": "V0.06.8 产品预览",
+            "status": "partial",
+            "evidence": "HTML、信息架构、节点映射和双分辨率 QA 正在执行，等待制作人明确验收。"
+          },
+          {
+            "label": "正式 Y3 UI 接入",
+            "status": "pending",
+            "evidence": "预览验收前禁止修改正式 UI、Lua 和玩法数据。"
+          },
+          {
+            "label": "稳定可玩版本",
+            "status": "pending",
+            "evidence": "尚未形成面向外部玩家的发布包。"
+          },
+          {
+            "label": "外部试玩证据",
+            "status": "pending",
+            "evidence": "外部试玩与结构化反馈均为 0。"
+          }
+        ],
+        "external_evidence": false,
+        "stop_condition": "若核心循环无法在限定版本内稳定完成，停止增加新系统，先修复阻断试玩的问题。",
+        "progress": 12,
+        "completed_checkpoints": 0,
+        "checkpoint_count": 4,
+        "days_remaining": 7,
+        "due_state": "due-soon",
+        "evidence_boundary": "仅本地或间接证据"
+      },
+      {
+        "id": "github-public-portfolio-refresh",
+        "title": "统一 GitHub 作品叙事能提高公开项目的可信度",
+        "origin_signal": "Portfolio Gap Audit",
+        "opened_at": "2026-08-23",
+        "review_due": "2026-08-30",
+        "status": "validating",
+        "decision": "build",
+        "hypothesis": "脱敏夜巡、启用 CI 和 Pages、建立个人主页，并只展示少量代表项目，能让外部访客更快理解当前能力。",
+        "baseline": "GitHub 只有 5 个公开仓库；夜巡有 12 个 Star，但描述仍偏营销、主页地址为空、个人主页仓库不存在，其他项目明显落后于本地版本。",
+        "current_result": "独立 worktree 已完成公开画像脱敏、双主线更新、手机号扫描、CI 门禁和个人主页 README 草案，等待提交、Pages 启用和外部观察。",
+        "success_criteria": [
+          "公开仓库不包含手机号、私人预算或工时信息。",
+          "测试与公开发布校验在 GitHub Actions 中通过。",
+          "GitHub 个人主页能够在首屏说明当前方向和代表作品。",
+          "获得至少 1 次 Star、Issue、作品追问、面试追问或外部评审反馈。"
+        ],
+        "checkpoints": [
+          {
+            "label": "夜巡公开数据脱敏",
+            "status": "complete",
+            "evidence": "公开画像移除实名经营信息、预算和工时，旧手机号域名从 project_facts 移除。"
+          },
+          {
+            "label": "CI 与发布门禁",
+            "status": "complete",
+            "evidence": "Pages 工作流新增单元测试、发布校验和部署依赖。"
+          },
+          {
+            "label": "个人主页 README",
+            "status": "complete",
+            "evidence": "已生成聚焦游戏、夜巡、视频解构器和 Comfy Batch 的公开 README。"
+          },
+          {
+            "label": "在线发布与外部反馈",
+            "status": "pending",
+            "evidence": "尚未推送 GitHub，也未启用 Pages 或获得更新后的外部反馈。"
+          }
+        ],
+        "external_evidence": false,
+        "stop_condition": "若完成 20 次定向展示仍无人追问作品实现，先重写首屏叙事和演示素材，不继续增加仓库数量。",
+        "progress": 75,
+        "completed_checkpoints": 3,
+        "checkpoint_count": 4,
+        "days_remaining": 7,
+        "due_state": "due-soon",
         "evidence_boundary": "仅本地或间接证据"
       },
       {

@@ -40,6 +40,9 @@ class DashboardDataTests(unittest.TestCase):
         self.assertEqual(payload["latest"]["quality"]["fact_conflicts"], [])
         self.assertEqual(payload["system"]["security"]["status"], "pass")
         self.assertEqual(payload["system"]["security"]["hardcoded_credentials_detected"], 0)
+        self.assertEqual(payload["career"]["candidate"], "lantianbaicai")
+        self.assertNotIn("weekly_hours", payload["opportunity_profile"]["constraints"])
+        self.assertNotIn("budget_cny", payload["opportunity_profile"]["constraints"])
         archive_count = len(list((ROOT / "reports" / "archive").glob("summary_*.md")))
         self.assertEqual(payload["system"]["report_archive_count"], archive_count)
         self.assertLessEqual(
@@ -53,6 +56,13 @@ class DashboardDataTests(unittest.TestCase):
         )
         publication = json.loads(
             (ROOT / "data" / "publication_state.json").read_text(encoding="utf-8")
+        )
+        project_facts = json.loads(
+            (ROOT / "data" / "project_facts.json").read_text(encoding="utf-8")
+        )
+        self.assertGreaterEqual(
+            payload["system"]["local_summary_count"],
+            project_facts["night_patrol"]["local_summary_count"],
         )
         self.assertEqual(
             payload["system"]["public_archive_count"],
@@ -97,14 +107,32 @@ class DashboardDataTests(unittest.TestCase):
                 self.assertTrue(record["review_due"])
 
     def test_personal_fit_is_explainable_and_changes_the_priority(self) -> None:
-        """守护 V4 个人机会决策逻辑：高分->build / 中分->validate / 无匹配->hold。
+        """守护 V4 决策逻辑：当前方向验证、暂停方向封顶、无匹配暂缓。
 
         不依赖最新报告恰好包含某个项目，而是直接测 personal_fit_for 纯函数。
         """
         profile = json.loads(
             (ROOT / "data" / "opportunity_profile.json").read_text(encoding="utf-8")
         )
-        # office-document-ai：有成熟资产+能力+渠道，应进入 build
+        # ai-media-tools：与当前游戏/视频资产匹配，但没有外部证据，只能继续验证。
+        media_topic = {
+            "id": "ai-media-tools",
+            "paid_evidence": "none",
+        }
+        media_fit = personal_fit_for(
+            media_topic, "high", {"reports": 6, "window": 30}, profile
+        )
+        self.assertGreaterEqual(media_fit["score"], 55)
+        self.assertLess(media_fit["score"], 75)
+        self.assertEqual(media_fit["decision"], "validate")
+        self.assertEqual(
+            set(media_fit["dimensions"]),
+            {"asset_reuse", "capability_fit", "channel_access", "evidence_readiness"},
+        )
+        self.assertTrue(media_fit["matched_assets"])
+        self.assertTrue(media_fit["rationale"])
+
+        # office-document-ai：保留历史能力，但当前明确不主动投入。
         office_topic = {
             "id": "office-document-ai",
             "paid_evidence": "indirect",
@@ -112,21 +140,15 @@ class DashboardDataTests(unittest.TestCase):
         office_fit = personal_fit_for(
             office_topic, "high", {"reports": 6, "window": 30}, profile
         )
-        self.assertGreaterEqual(office_fit["score"], 75)
-        self.assertEqual(office_fit["decision"], "build")
-        self.assertEqual(
-            set(office_fit["dimensions"]),
-            {"asset_reuse", "capability_fit", "channel_access", "evidence_readiness"},
-        )
-        self.assertTrue(office_fit["matched_assets"])
-        self.assertTrue(office_fit["rationale"])
+        self.assertLessEqual(office_fit["score"], 35)
+        self.assertEqual(office_fit["decision"], "hold")
 
         # agent-skills：有部分能力但缺资产/渠道证据，应 validate 或更低
         skills_topic = {"id": "agent-skills", "paid_evidence": "none"}
         skills_fit = personal_fit_for(
             skills_topic, "medium", {"reports": 2, "window": 30}, profile
         )
-        self.assertLessEqual(skills_fit["score"], office_fit["score"])
+        self.assertLessEqual(skills_fit["score"], media_fit["score"])
         self.assertIn(skills_fit["decision"], {"build", "validate", "hold"})
 
         # 无 topic（未分类信号）：必须 hold 且 0 分
@@ -158,9 +180,17 @@ class DashboardDataTests(unittest.TestCase):
             len(evaluation["records"]) * len(evaluation["review_windows_days"]),
         )
         self.assertEqual(set(evaluation["review_windows_days"]), {7, 30})
-        self.assertEqual(evaluation["summary"]["review_completed"], 0)
-        self.assertTrue(all(item["result"] is None for item in queue))
-        self.assertTrue(all(item["evidence"] is None for item in queue))
+        outcomes = json.loads(
+            (ROOT / "data" / "decision_outcomes.json").read_text(encoding="utf-8")
+        )["outcomes"]
+        self.assertEqual(evaluation["summary"]["review_completed"], len(outcomes))
+        for item in queue:
+            if item["status"] == "completed":
+                self.assertIsNotNone(item["result"])
+                self.assertTrue(item["evidence"])
+            else:
+                self.assertIsNone(item["result"])
+                self.assertIsNone(item["evidence"])
         for decision_id in {item["decision_id"] for item in queue}:
             windows = {
                 item["window_days"]

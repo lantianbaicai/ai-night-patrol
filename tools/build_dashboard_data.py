@@ -759,7 +759,15 @@ def build_payload(repo: Path, source_root: Path | None = None) -> dict[str, Any]
             }
         )
 
-    local_summary_count = len(list(source_root.glob("summary_*.md"))) if source_root and source_root.is_dir() else len(reports)
+    source_summary_count = (
+        len(list(source_root.glob("summary_*.md")))
+        if source_root and source_root.is_dir()
+        else 0
+    )
+    recorded_summary_count = int(
+        project_facts.get("night_patrol", {}).get("local_summary_count", 0)
+    )
+    local_summary_count = max(len(reports), source_summary_count, recorded_summary_count)
     raw_run_count = len(list(source_root.glob("night_raw_*.md"))) if source_root and source_root.is_dir() else 0
     daily_report_count = len(list(source_root.glob("夜巡日报_*.md"))) if source_root and source_root.is_dir() else 0
     report_archive_count = len(reports)

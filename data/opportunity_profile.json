@@ -1,15 +1,13 @@
 {
-  "version": 1,
-  "updated_at": "2026-08-01",
+  "version": 2,
+  "updated_at": "2026-08-23",
   "owner": {
-    "name": "杨恒",
-    "role": "独立 AI 解决方案开发者",
-    "goal": "优先寻找 7 天内能验证、可复用现有资产，并能带来真实客户反馈或求职证据的机会。"
+    "name": "lantianbaicai",
+    "role": "独立 AI 产品开发者",
+    "goal": "优先完成《诸神大战·华夏篇》和 GitHub 作品体系；夜巡只推荐能在 7 天内增强现有产品、公开证据或外部反馈的机会。"
   },
   "constraints": {
-    "weekly_hours": 20,
-    "budget_cny": 1000,
-    "max_parallel_builds": 1,
+    "max_parallel_builds": 2,
     "validation_days": 7,
     "review_windows_days": [
       7,
@@ -28,14 +26,14 @@
   },
   "assets": [
     {
-      "id": "engineering-doc-assistant",
-      "label": "工程资料预审台",
+      "id": "zhushen-huaxia",
+      "label": "《诸神大战·华夏篇》",
       "topic_ids": [
-        "office-document-ai",
-        "local-private-ai"
+        "ai-media-tools",
+        "open-source-saas"
       ],
-      "maturity": 5,
-      "evidence": "已有可运行工具、真实工程样本和自动化测试，但尚无外部用户。"
+      "maturity": 4,
+      "evidence": "已有持续迭代的 Y3 工程、版本化规格、运行时测试和 UI 产品验收流程；外部试玩反馈仍待建立。"
     },
     {
       "id": "ai-night-patrol",
@@ -46,41 +44,42 @@
         "open-source-saas"
       ],
       "maturity": 4,
-      "evidence": "已有持续运行、公开仓库和 12 个 GitHub Star，尚未证明付费需求。"
+      "evidence": "已有长期运行记录、公开仓库和 12 个 GitHub Star；尚未转化为外部使用或招聘反馈。"
     },
     {
-      "id": "video-analyzer",
-      "label": "视频分析器",
+      "id": "video-deconstructor",
+      "label": "视频解构器",
       "topic_ids": [
         "ai-media-tools"
       ],
       "maturity": 3,
-      "evidence": "已有本地分析流程，链接直达和稳定获客仍待验证。"
+      "evidence": "本地 MVP 已支持视频链接、时间轴、转写和 HTML 报告；公开版、测试和稳定获取层仍待整理。"
     },
     {
-      "id": "yunxi-desktop",
-      "label": "云曦桌面伴侣",
+      "id": "comfy-batch",
+      "label": "Comfy Batch",
       "topic_ids": [
         "ai-media-tools",
-        "agent-skills"
-      ],
-      "maturity": 3,
-      "evidence": "已有桌面产品和角色资产，尚未形成明确商业闭环。"
-    },
-    {
-      "id": "skill-pack",
-      "label": "中文 Agent Skills 包",
-      "topic_ids": [
-        "agent-skills"
+        "local-private-ai"
       ],
       "maturity": 2,
-      "evidence": "已有发布包，安装、复现和外部任务成功率尚未形成证据。"
+      "evidence": "已有公开仓库和本地 ComfyUI 调用能力，但 CLI、跨平台路径和测试尚未补齐。"
+    },
+    {
+      "id": "engineering-doc-assistant",
+      "label": "工程资料预审台",
+      "topic_ids": [
+        "office-document-ai",
+        "local-private-ai"
+      ],
+      "maturity": 3,
+      "evidence": "已有可运行工具、真实工程样本和自动化测试；当前暂停扩建，保留为历史交付证据。"
     }
   ],
   "capabilities": [
     {
-      "id": "rapid-ai-prototyping",
-      "label": "AI 应用快速原型",
+      "id": "rapid-ai-product-delivery",
+      "label": "AI 产品快速交付",
       "topic_ids": [
         "agent-skills",
         "agent-infrastructure",
@@ -92,13 +91,13 @@
       "level": 4
     },
     {
-      "id": "engineering-document-workflow",
-      "label": "工程文档与现场流程",
+      "id": "game-and-media-pipeline",
+      "label": "游戏与多模态内容管线",
       "topic_ids": [
-        "office-document-ai",
-        "local-private-ai"
+        "ai-media-tools",
+        "open-source-saas"
       ],
-      "level": 5
+      "level": 4
     },
     {
       "id": "agent-workflow-evidence",
@@ -114,18 +113,19 @@
       "id": "browser-automation",
       "label": "浏览器与后台自动化",
       "topic_ids": [
-        "xianyu-ai-services",
+        "ai-media-tools",
         "office-document-ai"
       ],
       "level": 3
     },
     {
-      "id": "ai-media-pipeline",
-      "label": "AI 视频与视觉工作流",
+      "id": "engineering-document-workflow",
+      "label": "工程文档与现场流程",
       "topic_ids": [
-        "ai-media-tools"
+        "office-document-ai",
+        "local-private-ai"
       ],
-      "level": 3
+      "level": 4
     }
   ],
   "channels": [
@@ -136,47 +136,49 @@
         "agent-skills",
         "agent-infrastructure",
         "open-source-saas",
-        "office-document-ai",
-        "local-private-ai"
+        "ai-media-tools"
       ],
       "access": 3,
-      "evidence": "夜巡已有 12 个 Star，但还没有转化为面试或付费。"
+      "evidence": "夜巡已有自然 Star，但作品页仍需统一定位、在线演示和案例证据。"
     },
     {
-      "id": "engineering-intermediaries",
-      "label": "工程兼职中间渠道",
+      "id": "content-channels",
+      "label": "小红书与公众号内容渠道",
       "topic_ids": [
-        "office-document-ai",
-        "local-private-ai"
-      ],
-      "access": 3,
-      "evidence": "有过真实工程方案交付，渠道不稳定且客单价偏低。"
-    },
-    {
-      "id": "wechat-freelance-groups",
-      "label": "微信开发兼职群",
-      "topic_ids": [
-        "office-document-ai",
-        "local-private-ai",
-        "xianyu-ai-services",
+        "agent-skills",
+        "open-source-saas",
         "ai-media-tools"
       ],
       "access": 2,
-      "evidence": "能看到需求，但近期项目减少，且多为中间商转包。"
+      "evidence": "已有账号和历史内容，尚未形成稳定更新与可归因的项目线索。"
     },
     {
-      "id": "xiaohongshu-account",
-      "label": "小红书内容账号",
+      "id": "external-playtest",
+      "label": "外部试玩与产品反馈",
+      "topic_ids": [
+        "ai-media-tools",
+        "open-source-saas"
+      ],
+      "access": 1,
+      "evidence": "主游戏已进入产品验收阶段，但尚未形成固定试玩组和结构化反馈。"
+    },
+    {
+      "id": "job-portfolio",
+      "label": "求职作品与定向投递",
       "topic_ids": [
         "agent-skills",
-        "ai-media-tools",
-        "xianyu-ai-services"
+        "agent-infrastructure",
+        "open-source-saas",
+        "ai-media-tools"
       ],
       "access": 2,
-      "evidence": "已有账号和历史内容，尚未形成稳定更新和客户线索。"
+      "evidence": "已有简历和公开项目，尚缺稳定的作品追问、面试或外部评审记录。"
     }
   ],
   "excluded_topic_ids": [
-    "ai-security"
+    "ai-security",
+    "xianyu-ai-services",
+    "office-document-ai",
+    "local-private-ai"
   ]
 }

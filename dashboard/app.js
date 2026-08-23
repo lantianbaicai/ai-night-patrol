@@ -459,12 +459,17 @@ function renderOpportunityProfile(profile) {
   document.getElementById("profileName").textContent = owner.name;
   document.getElementById("profileRole").textContent = owner.role;
   document.getElementById("profileGoal").textContent = owner.goal;
+  const reviewWindows = constraints.review_windows_days || [];
   document.getElementById("profileConstraints").innerHTML = [
-    `${constraints.weekly_hours} 小时 / 周`,
-    `预算上限 ¥${constraints.budget_cny}`,
-    `同时只做 ${constraints.max_parallel_builds} 个`,
-    `${constraints.validation_days} 天验证`
+    Number.isFinite(constraints.max_parallel_builds)
+      ? `同时维护 ${constraints.max_parallel_builds} 条工作线`
+      : null,
+    Number.isFinite(constraints.validation_days)
+      ? `${constraints.validation_days} 天验证`
+      : null,
+    reviewWindows.length ? `${reviewWindows.join(" / ")} 天复核` : null
   ]
+    .filter(Boolean)
     .map((item) => `<span>${escapeHtml(item)}</span>`)
     .join("");
   document.getElementById("profileAssets").innerHTML = assets
@@ -802,7 +807,8 @@ function portfolioStatus(status) {
   return {
     active: "升级中",
     tested: "已测试",
-    demo: "已有 Demo"
+    demo: "已有 Demo",
+    paused: "暂缓"
   }[status] || status;
 }
 
