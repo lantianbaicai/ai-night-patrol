@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "candidate": "杨恒",
-  "updated_at": "2026-07-31",
+  "candidate": "lantianbaicai",
+  "updated_at": "2026-08-23",
   "roles": [
     {
       "id": "fde",
       "label": "AI 解决方案 / FDE",
-      "resume_file": "杨恒_AI解决方案_FDE_2026-07.pdf",
+      "resume_file": "AI_Solutions_FDE.pdf",
       "target_titles": ["Forward Deployed Engineer", "AI 解决方案工程师", "AI 应用交付", "售前解决方案"],
       "criteria": [
         {
@@ -17,7 +17,7 @@
         {
           "label": "短周期 PoC 交付",
           "status": "proved",
-          "evidence": "机器人运营大屏、工程资料预审台、夜巡仪表盘均有可运行原型。"
+          "evidence": "机器人运营大屏、工程资料预审台、夜巡仪表盘和 Y3 游戏版本均有可运行或可验收原型。"
         },
         {
           "label": "工具与数据源集成",
@@ -39,7 +39,7 @@
     {
       "id": "industrial",
       "label": "工业数智化解决方案",
-      "resume_file": "杨恒_工业数智化解决方案_2026-07.pdf",
+      "resume_file": "Industrial_AI_Solutions.pdf",
       "target_titles": ["工业数字化解决方案", "工程数字化产品", "机器人解决方案", "项目型售前"],
       "criteria": [
         {
@@ -72,7 +72,7 @@
     {
       "id": "harness",
       "label": "Agent Harness 产品 / 评测",
-      "resume_file": "杨恒_Agent_Harness产品_2026-07.pdf",
+      "resume_file": "Agent_Harness_Product.pdf",
       "target_titles": ["Agent Harness 产品经理", "AI Agent 产品", "Agent 评测", "AI 产品运营"],
       "criteria": [
         {
@@ -105,18 +105,32 @@
   ],
   "portfolio": [
     {
+      "id": "zhushen-huaxia",
+      "label": "《诸神大战·华夏篇》",
+      "status": "active",
+      "roles": ["fde", "harness"],
+      "next_proof": "完成正式 Y3 UI 接入、可玩版本、外部试玩记录和公开案例页。"
+    },
+    {
       "id": "night-patrol",
       "label": "AI 夜巡",
       "status": "active",
       "roles": ["fde", "harness"],
-      "next_proof": "公开 V3 仪表盘、来源证据、运行健康与行动结果台账。"
+      "next_proof": "公开脱敏画像、CI、Pages 在线演示与至少一次外部作品反馈。"
+    },
+    {
+      "id": "video-deconstructor",
+      "label": "视频解构器",
+      "status": "demo",
+      "roles": ["fde", "harness"],
+      "next_proof": "拆分单文件 MVP，补测试、示例报告和可复现的公开安装流程。"
     },
     {
       "id": "engineering-doc-assistant",
       "label": "工程资料预审台",
-      "status": "tested",
+      "status": "paused",
       "roles": ["fde", "industrial", "harness"],
-      "next_proof": "增加 OfficeCLI 可选校验后端并记录处理时间与人工修正量。"
+      "next_proof": "保留现有样本与测试证据；没有外部需求前不继续扩建。"
     },
     {
       "id": "robot-operations-demo",

@@ -1,5 +1,38 @@
 {
   "version": 1,
-  "updated_at": "2026-08-01",
-  "outcomes": []
+  "updated_at": "2026-08-23",
+  "outcomes": [
+    {
+      "decision_id": "engineering-review-skill",
+      "window_days": 7,
+      "observed_at": "2026-08-23",
+      "result": "no-signal",
+      "evidence": "截至 2026-08-23，cross_environment_skill_reproduced 仍为 false，external_user_count 仍为 0。",
+      "note": "没有跨环境和外部任务证据，停止独立产品化。"
+    },
+    {
+      "decision_id": "night-patrol-career-proof",
+      "window_days": 7,
+      "observed_at": "2026-08-23",
+      "result": "mixed",
+      "evidence": "公开仓库获得 12 个 GitHub Star，但 project_facts 记录的外部反馈仍为 0，GitHub Pages 尚未启用。",
+      "note": "产生了自然关注，尚未转化为使用、招聘追问或面试。"
+    },
+    {
+      "decision_id": "officecli-engineering-docs",
+      "window_days": 7,
+      "observed_at": "2026-08-23",
+      "result": "no-signal",
+      "evidence": "截至 2026-08-23，项目事实仍为 4 份样本、0 位外部用户，未形成误报/漏报统计。",
+      "note": "技术验证成立，但没有外部需求证据，当前停止扩建。"
+    },
+    {
+      "decision_id": "xianyu-toolbox-thesis",
+      "window_days": 7,
+      "observed_at": "2026-08-23",
+      "result": "no-signal",
+      "evidence": "截至 2026-08-23，没有 5 位卖家访谈、试用请求或独立工具付费意向记录。",
+      "note": "继续维持不开发独立闲鱼工具箱的原判断。"
+    }
+  ]
 }

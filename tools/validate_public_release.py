@@ -52,6 +52,8 @@ TOKEN_PATTERNS = {
     "classic GitHub PAT": re.compile(r"ghp_[A-Za-z0-9]{20,}"),
     "fine-grained GitHub PAT": re.compile(r"github_pat_[A-Za-z0-9_]{20,}"),
 }
+PRIVATE_CONSTRAINT_KEYS = {"weekly_hours", "budget_cny"}
+MAINLAND_MOBILE_RE = re.compile(r"(?<!\d)1[3-9]\d{9}(?!\d)")
 MARKDOWN_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 
 
@@ -144,8 +146,12 @@ def validate_dashboard(errors: list[str]) -> None:
         errors.append("evaluation ledger is missing from dashboard.json")
     if evaluation.get("summary", {}).get("external_evidence") != 0:
         errors.append("external evidence count changed; review the claim before release")
-    if evaluation.get("summary", {}).get("review_completed") != 0:
-        errors.append("review outcomes changed; attach and audit the real evidence before release")
+    outcomes = json.loads(
+        (ROOT / "data" / "decision_outcomes.json").read_text(encoding="utf-8")
+    )
+    expected_completed = len(outcomes.get("outcomes", []))
+    if evaluation.get("summary", {}).get("review_completed") != expected_completed:
+        errors.append("dashboard review count must match evidence-backed outcomes")
     if not evaluation.get("review_queue"):
         errors.append("7/30 day review queue is missing from dashboard.json")
 
@@ -154,6 +160,33 @@ def validate_dashboard(errors: list[str]) -> None:
         errors.append("opportunity profile weights must sum to 100")
     if not profile.get("assets") or not profile.get("channels"):
         errors.append("opportunity profile assets or channels are missing")
+    leaked_constraints = PRIVATE_CONSTRAINT_KEYS & set(profile.get("constraints", {}))
+    if leaked_constraints:
+        errors.append(
+            "dashboard contains private opportunity constraints: "
+            + ", ".join(sorted(leaked_constraints))
+        )
+
+
+def validate_public_profiles(errors: list[str]) -> None:
+    profile = json.loads(
+        (ROOT / "data" / "opportunity_profile.json").read_text(encoding="utf-8")
+    )
+    leaked_constraints = PRIVATE_CONSTRAINT_KEYS & set(profile.get("constraints", {}))
+    if leaked_constraints:
+        errors.append(
+            "public opportunity profile contains private constraints: "
+            + ", ".join(sorted(leaked_constraints))
+        )
+    owner = profile.get("owner", {})
+    if not owner.get("name") or not owner.get("role") or not owner.get("goal"):
+        errors.append("public opportunity profile owner fields are incomplete")
+
+    career = json.loads(
+        (ROOT / "data" / "career_profile.json").read_text(encoding="utf-8")
+    )
+    if not career.get("candidate"):
+        errors.append("public career profile candidate is missing")
 
 
 def validate_project_facts(errors: list[str]) -> None:
@@ -200,6 +233,14 @@ def validate_credentials(files: list[Path], errors: list[str]) -> None:
                 errors.append(f"{label} detected in {relative}")
 
 
+def validate_phone_numbers(files: list[Path], errors: list[str]) -> None:
+    for path in files:
+        text = path.read_text(encoding="utf-8", errors="replace")
+        if MAINLAND_MOBILE_RE.search(text):
+            relative = path.relative_to(ROOT).as_posix()
+            errors.append(f"mainland mobile number detected in {relative}")
+
+
 def validate_markdown_links(files: list[Path], errors: list[str]) -> None:
     for path in files:
         if path.suffix != ".md":
@@ -239,8 +280,10 @@ def main() -> int:
     validate_required_paths(errors)
     validate_frontend_dependencies(errors)
     validate_dashboard(errors)
+    validate_public_profiles(errors)
     validate_project_facts(errors)
     validate_credentials(files, errors)
+    validate_phone_numbers(files, errors)
     validate_markdown_links(files, errors)
     validate_html_assets(files, errors)
     validate_public_wording(errors)

@@ -17,10 +17,10 @@
     "public_archive_count": 111,
     "unpublished_report_count": 5,
     "public_portfolio_deployed": true,
-    "public_portfolio_url": "https://yang-heng-ai-portfolio.yh13980046506.chatgpt.site",
+    "public_portfolio_url": null,
     "sites_version": 4,
     "external_feedback_count": 0,
-    "verification_note": "Sites 版本 4 已成功部署，版本专属生产截图确认首页为 340 份本地摘要、111 份公开报告；当前自动化出口 IP 访问 chatgpt.site 仍被 Cloudflare 403 拦截，外部访客与招聘反馈保持为 0。"
+    "verification_note": "Sites 版本 4 已成功部署并完成生产截图核对；原部署地址包含私人标识，已从公开数据移除。GitHub Pages 尚待启用，外部访客与招聘反馈保持为 0。"
   },
   "rules": [
     "目标值不是当前完成值。",

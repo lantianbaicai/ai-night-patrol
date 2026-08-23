@@ -1326,6 +1326,12 @@ a {
   border-color: #ecd69e;
 }
 
+.portfolio-status.paused {
+  color: var(--muted);
+  background: var(--surface-soft);
+  border-color: var(--line);
+}
+
 .portfolio-roles {
   display: flex;
   flex-wrap: wrap;

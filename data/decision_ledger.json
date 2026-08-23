@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-31",
+  "updated_at": "2026-08-23",
   "rules": [
     "先写判断和成功标准，再开始开发。",
     "GitHub 热度、平台订单量和本地运行次数不能替代外部用户证据。",
@@ -12,12 +12,12 @@
       "title": "OfficeCLI 能提高工程文档预审的可审计性",
       "origin_signal": "Office Document AI",
       "opened_at": "2026-07-31",
-      "review_due": "2026-08-07",
-      "status": "validating",
+      "review_due": null,
+      "status": "stopped",
       "decision": "build",
       "hypothesis": "把确定性的 Office 结构与版式校验作为第二层能力，可以增加工程文档助手的证据密度，同时在校验器失败时不阻断基础解析。",
       "baseline": "工程文档助手已能抽取文档事实和风险线索，但缺少独立的 Office 结构与版式检查结果。",
-      "current_result": "可选适配器、失败回退、结构问题列表和首屏预览已经完成；当前只有本地样本与自动测试，尚未证明外部客户价值或准确率。",
+      "current_result": "可选适配器、失败回退、结构问题列表和首屏预览已经完成；截至 2026-08-23 仍只有 4 份本地样本、0 位外部用户，当前暂停扩建并保留为历史交付证据。",
       "success_criteria": [
         "至少 10 份脱敏样本完成基础解析与二次校验。",
         "人工记录命中、误报和漏报，不用“未发现错误”代替准确率。",
@@ -54,12 +54,12 @@
       "title": "夜巡 V3 可以成为 FDE / Agent Harness 的可信作品",
       "origin_signal": "AI Agent Harness",
       "opened_at": "2026-07-31",
-      "review_due": "2026-08-14",
+      "review_due": "2026-08-30",
       "status": "validating",
       "decision": "build",
       "hypothesis": "把来源、重复信号、边界、失败状态和岗位证据放进同一仪表盘，比单纯展示自动生成日报更能证明长程 Agent 工作流能力。",
       "baseline": "公开仓库只展示旧版 Markdown 报告，缺少证据模型、运行健康和判断结果回看。",
-      "current_result": "统一作品集已通过 Sites 版本 4 发布，全部 111 份去重报告已公开，vinext 生产构建、版本专属平台截图和本地桌面/移动端验收均通过。V3.3 手动回归已正确区分当前 4 份样本与目标 10 份，并保持外部用户、外部反馈和人工误报/漏报统计为 0 或未建立。外部招聘或用户反馈仍为 0。",
+      "current_result": "公开仓库获得 12 个 GitHub Star，说明标题和项目产生了自然关注；但公开画像曾包含私人经营信息，Pages 未启用，外部使用、招聘追问和明确反馈仍为 0。当前先完成脱敏、CI、Pages 和个人主页，再复核作品反馈。",
       "success_criteria": [
         "公开页面能够从原始报告追溯到机会证据和边界。",
         "每周保存 3 个预先判断，并在 7 天后记录结果。",
@@ -96,12 +96,12 @@
       "title": "垂直工程文档 Skill 比通用 Skill 更值得发布",
       "origin_signal": "Agent Skills",
       "opened_at": "2026-07-31",
-      "review_due": "2026-08-14",
-      "status": "planned",
+      "review_due": null,
+      "status": "stopped",
       "decision": "validate",
       "hypothesis": "包含样本、边界、失败回退和结构化输出的工程文档预审 Skill，能够比天气、摘要、表情包等通用包装提供更强的差异化和复现价值。",
       "baseline": "已有多个通用 Skill 包装，但缺少安装量、跨环境任务成功率和真实付费证据。",
-      "current_result": "工程文档工作流已经存在，但尚未形成一个可由第二个 Agent 环境独立安装和复现的发布包。",
+      "current_result": "工程文档工作流仍未形成第二环境复现或外部任务证据；当前主产品已经切换，停止把它包装成独立 Skill。",
       "success_criteria": [
         "一个全新 Agent 环境能够按照说明完成安装。",
         "至少 3 份公开或脱敏文档产生结构化结果。",
@@ -132,6 +132,90 @@
       ],
       "external_evidence": false,
       "stop_condition": "若第二环境安装成本过高或任务结果无法稳定复现，不将其包装为独立产品，只保留为内部工作流。"
+    },
+    {
+      "id": "zhushen-external-playtest",
+      "title": "《诸神大战·华夏篇》的可玩版本能产生有效外部反馈",
+      "origin_signal": "Current Flagship Product",
+      "opened_at": "2026-08-23",
+      "review_due": "2026-08-30",
+      "status": "validating",
+      "decision": "build",
+      "hypothesis": "先完成一条可玩的核心循环并让外部玩家实际体验，比继续增加系统和内容更能暴露产品问题并形成可信作品证据。",
+      "baseline": "项目已有版本化策划、Lua 逻辑、UI 预览、运行时截图和测试报告，但外部试玩人数与反馈记录为 0。",
+      "current_result": "V0.06.8 正在完成底部指令台与神卡构筑的产品预览验收，尚未转换为正式 Y3 UI，也未进入外部试玩。",
+      "success_criteria": [
+        "完成一个可从开始玩到结算的稳定版本。",
+        "至少 3 位外部玩家完成一次试玩。",
+        "记录完成率、最难理解环节、最有正反馈环节和是否愿意再玩。",
+        "根据反馈关闭至少 1 个关键体验问题。"
+      ],
+      "checkpoints": [
+        {
+          "label": "V0.06.8 产品预览",
+          "status": "partial",
+          "evidence": "HTML、信息架构、节点映射和双分辨率 QA 正在执行，等待制作人明确验收。"
+        },
+        {
+          "label": "正式 Y3 UI 接入",
+          "status": "pending",
+          "evidence": "预览验收前禁止修改正式 UI、Lua 和玩法数据。"
+        },
+        {
+          "label": "稳定可玩版本",
+          "status": "pending",
+          "evidence": "尚未形成面向外部玩家的发布包。"
+        },
+        {
+          "label": "外部试玩证据",
+          "status": "pending",
+          "evidence": "外部试玩与结构化反馈均为 0。"
+        }
+      ],
+      "external_evidence": false,
+      "stop_condition": "若核心循环无法在限定版本内稳定完成，停止增加新系统，先修复阻断试玩的问题。"
+    },
+    {
+      "id": "github-public-portfolio-refresh",
+      "title": "统一 GitHub 作品叙事能提高公开项目的可信度",
+      "origin_signal": "Portfolio Gap Audit",
+      "opened_at": "2026-08-23",
+      "review_due": "2026-08-30",
+      "status": "validating",
+      "decision": "build",
+      "hypothesis": "脱敏夜巡、启用 CI 和 Pages、建立个人主页，并只展示少量代表项目，能让外部访客更快理解当前能力。",
+      "baseline": "GitHub 只有 5 个公开仓库；夜巡有 12 个 Star，但描述仍偏营销、主页地址为空、个人主页仓库不存在，其他项目明显落后于本地版本。",
+      "current_result": "独立 worktree 已完成公开画像脱敏、双主线更新、手机号扫描、CI 门禁和个人主页 README 草案，等待提交、Pages 启用和外部观察。",
+      "success_criteria": [
+        "公开仓库不包含手机号、私人预算或工时信息。",
+        "测试与公开发布校验在 GitHub Actions 中通过。",
+        "GitHub 个人主页能够在首屏说明当前方向和代表作品。",
+        "获得至少 1 次 Star、Issue、作品追问、面试追问或外部评审反馈。"
+      ],
+      "checkpoints": [
+        {
+          "label": "夜巡公开数据脱敏",
+          "status": "complete",
+          "evidence": "公开画像移除实名经营信息、预算和工时，旧手机号域名从 project_facts 移除。"
+        },
+        {
+          "label": "CI 与发布门禁",
+          "status": "complete",
+          "evidence": "Pages 工作流新增单元测试、发布校验和部署依赖。"
+        },
+        {
+          "label": "个人主页 README",
+          "status": "complete",
+          "evidence": "已生成聚焦游戏、夜巡、视频解构器和 Comfy Batch 的公开 README。"
+        },
+        {
+          "label": "在线发布与外部反馈",
+          "status": "pending",
+          "evidence": "尚未推送 GitHub，也未启用 Pages 或获得更新后的外部反馈。"
+        }
+      ],
+      "external_evidence": false,
+      "stop_condition": "若完成 20 次定向展示仍无人追问作品实现，先重写首屏叙事和演示素材，不继续增加仓库数量。"
     },
     {
       "id": "xianyu-toolbox-thesis",
